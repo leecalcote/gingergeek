@@ -1,16 +1,139 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-<title type="text">Blog Title</title>
+<title type="text">Ginger Geek</title>
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
 <link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2017-04-26T20:38:14-04:00</updated>
+<updated>2017-04-26T20:48:15-05:00</updated>
 <id>http://localhost:4000/</id>
 <author>
-  <name>Your name</name>
+  <name>Lee Calcote</name>
   <uri>http://localhost:4000/</uri>
-  <email>you@email.com</email>
+  <email>lee@calcotestudios.com</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[The Hybrid Evolution of IT]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/2017/04/the-hybrid-evolution-of-it/" />
+  <id>http://localhost:4000/2017/04/the-hybrid-evolution-of-it</id>
+  <published>2017-04-25T16:01:00-05:00</published>
+  <updated>2017-04-25T16:01:00-05:00</updated>
+  <author>
+    <name>Lee Calcote</name>
+    <uri>http://localhost:4000</uri>
+    <email>lee@calcotestudios.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;“It’s a great time to be in Information Technology.” While this is a true statement, not everyone clearly understands why (or perhaps, has the fortitude to make it so). In the face of a massive movement to public cloud—by 2020, 92% of world’s workloads will be in cloud—68% in public and 32% in private&lt;a href=&quot;http://www.cisco.com/c/dam/en/us/solutions/collateral/service-provider/global-cloud-index-gci/white-paper-c11-738085.pdf&quot;&gt;&lt;sup&gt;[1]&lt;/sup&gt;&lt;/a&gt;—many in IT feel their value in the workplace eroding along with their identity. This feeling doesn’t need to be reality. Businesses are changing the way they operate and are transforming to leverage information technology more strategically. IT has a real opportunity to &lt;em&gt;lead&lt;/em&gt; this transformation, not let the transformation &lt;em&gt;happen to them&lt;/em&gt;.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;IT has led digital transformations before and can do it again. About ten years ago, the video security surveillance industry underwent a digital transformation wherein video security systems transitioned from coaxial cable networks to IP-based Ethernet, from analog video on tape to digitally-encoded video on disk, and from physically separate networks to consolidating into IT-run data centers. IT was the digital leader here, bringing many improvements to the way in which physical security functions. At the end of the day, the physical security guard remained, and in combination with their IT partners, delivered on their charter more efficiently than before.&lt;/p&gt;
+
+&lt;p&gt;IT has an opportunity to drive digital transformation again, particularly as many businesses are changing the way they operate. Concerned with disrupting or being disrupted, many businesses are pivoting to become software companies. Yes, software is eating the world. As I arrive to the SolarWinds corporate headquarters each work day, I’m reminded of that fact by literal example—AMD, a leading chip designer, has shrunk its operations to share it campus with SolarWinds, a global software company. As businesses shift, CIOs are poised to help IT switch from a cost center to a source of differentiated value in terms of how a business might differentiate from other players in their industry. CIOs are positioned to be in a highly strategic, visible, and collaborative position within the company. A recent Harvard Business Review study&lt;a href=&quot;https://hbr.org/resources/pdfs/comm/RedHat/RedHatReportMay2015.pdf&quot;&gt;&lt;sup&gt;[2]&lt;/sup&gt;&lt;/a&gt; shows that while nearly half of lines-of-business leader respondents said they would like to learn more about digital trends from their CIO, unfortunately, close to two-fifths said their CIO does not seek to educate and empower line-of-business leaders when it comes to all things digital. Over a third of the organizations polled said IT does not provide useful knowledge about technology or understand which digital knowledge is important to specific business functions. Expectations of CIOs are changing and it behooves IT to rise to the challenge.&lt;/p&gt;
+
+&lt;p&gt;The white knuckles of IT needs to relax their grip and embrace internal customers as their lifeline, not shun those running shadow IT—be an accelerator, not an inhibitor. Understand that &lt;em&gt;convenience&lt;/em&gt; drives retail consumer purchasing behavior more so than price does. Considering those same individuals bring their consumer behaviors (convenience = &lt;em&gt;agility&lt;/em&gt;) to the workplace, it’s no wonder shadow IT is prevalent and always lurking. IT needs to develop holistic strategies in alignment with the business mission. IT organizations that are digital leaders don’t just let hybrid &lt;em&gt;happen to them&lt;/em&gt;. Digital leaders are three times more likely than to have a comprehensive, enterprise-wide strategy for hybrid cloud&lt;a href=&quot;http://www-01.ibm.com/common/ssi/cgi-bin/ssialias?htmlfid=GMW14087USEN&quot;&gt;&lt;sup&gt;[3]&lt;/sup&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Hybrid IT strategies may include outsourcing commodity functions. IT can be the provider &lt;em&gt;and&lt;/em&gt; the trusted broker by enabling lines of business with application support, cloud design, not necessarily equipment. A foremost focus on empowerment of the business mission—whether sourcing or providing—is how businesses will leverage IT to renovate I&amp;amp;O and innovate. In some cases, that strategy may involve factions of IT reporting into different LOBs (e.g. marketing and finance). Strategies of hybrid IT organizations embracing public and private cloud are evolving from infrastructure-centric thinking to application-centric thinking, recognizing that operations automation is friend, not foe.&lt;/p&gt;
+
+&lt;p&gt;Implementing a strategy is not without challenge. Less than a third of the IT organizations polled in a recent SolarWinds&lt;a href=&quot;http://it-trends.solarwinds.com&quot;&gt;&lt;sup&gt;[4]&lt;/sup&gt;&lt;/a&gt; study consider that they have adequate resources to manage hybrid IT environments. &lt;img class=&quot;aligncenter wp-image-1805 size-full&quot; src=&quot;https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2017/04/solarwinds-study.png?resize=703%2C282&quot; alt=&quot;&quot; data-id=&quot;1805&quot; srcset=&quot;https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2017/04/solarwinds-study.png?w=703 703w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2017/04/solarwinds-study.png?resize=300%2C120 300w&quot; sizes=&quot;(max-width: 703px) 100vw, 703px&quot; data-recalc-dims=&quot;1&quot; /&gt;Fortunately, any business can excel at digital leadership and management, regardless of its size or budget. Strategies may consider aggressively retiring legacy technology where the application and business case allow. Often it’s not technology impeding implementation of strategy, but people and process. CIOs can mitigate inhibitors from evolving into a hybrid IT organization by helping their people to set aside fear, insecurity, and politics. CIOs need to help individuals within their organization to understand their changing jobs, migrate to new roles, and how to be champions of change in their organizations while continuing to ensure security and continuity.&lt;/p&gt;
+
+&lt;p&gt;The digital transformation of today is a hybrid evolution of IT. The broad-sweeping influence technology has on how businesses operate continues to accelerate and leaves no industry untouched. Organizations are learning how to become software companies. Established businesses are being turned upside-down and inside-out as new players have a software-centric view of the world. Current market dynamics are fundamentally changing the relationship businesses have with their IT organization and IT must evolve as business leaders need IT more than ever. It’s an exciting future ahead and &lt;em&gt;a great time to be in information technology&lt;/em&gt;!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.cisco.com/c/dam/en/us/solutions/collateral/service-provider/global-cloud-index-gci/white-paper-c11-738085.pdf&quot;&gt;&lt;sup&gt;[1]&lt;/sup&gt;&lt;/a&gt;_Cisco Global Cloud Index: Forecast and Methodology, 2015–2020&lt;/p&gt;
+
+&lt;p&gt;_ &lt;a href=&quot;https://hbr.org/resources/pdfs/comm/RedHat/RedHatReportMay2015.pdf&quot;&gt;&lt;sup&gt;[2]&lt;/sup&gt;&lt;/a&gt;_Driving Digital Transformation: New Skills for Leaders, New role for the CIO&lt;/p&gt;
+
+&lt;p&gt;_ &lt;a href=&quot;&amp;gt;http://www-01.ibm.com/common/ssi/cgi-bin/ssialias?htmlfid=GMW14087USEN&quot; name=&quot;_ftn3&quot;&gt;&lt;sup&gt;[3]&lt;/sup&gt;&lt;/a&gt;_Growing up hybrid: Accelerating digital transformation&lt;/p&gt;
+
+&lt;p&gt;_ &lt;a href=&quot;http://opennetworkingusergroup.com/the-hybrid-evolution-of-it/#_ftnref4&quot; name=&quot;_ftn4&quot;&gt;&lt;sup&gt;[4]&lt;/sup&gt;&lt;/a&gt;&lt;em&gt;IT Trends Report 2016: The Hybrid IT Evolution&lt;/em&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2017/04/the-hybrid-evolution-of-it/&quot;&gt;The Hybrid Evolution of IT&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on April 25, 2017.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Understanding and Extending Prometheus AlertManager]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/2017/04/understanding-and-extending-prometheus-alertmanager/" />
+  <id>http://localhost:4000/2017/04/understanding-and-extending-prometheus-alertmanager</id>
+  <published>2017-04-25T15:34:08-05:00</published>
+  <updated>2017-04-25T15:34:08-05:00</updated>
+  <author>
+    <name>Lee Calcote</name>
+    <uri>http://localhost:4000</uri>
+    <email>lee@calcotestudios.com</email>
+  </author>
+  <content type="html">
+    &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//youtu.be/jpb6fLQOgn4&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Presented at &lt;a href=&quot;https://cloudnativeeu2017.sched.com/event/9Td7?iframe=no&quot;&gt;CloudNativeCon + KubeCon EU 2017&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Tutorial – &lt;a href=&quot;https://thenewstack.io/contributing-prometheus-history-alertmanager/&quot;&gt;Contributing to Prometheus: An Open Source Tutorial&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Sample code – &lt;a href=&quot;https://github.com/leecalcote/alertmanager/&quot;&gt;leecalcote/alertmanager&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Slide &lt;a href=&quot;http://calcotestudios.com/kubecon-alertmanager&quot;&gt;deck&lt;/a&gt;{.deck}&lt;/li&gt;
+  &lt;li&gt;Talk &lt;a href=&quot;https://youtu.be/jpb6fLQOgn4&quot;&gt;video&lt;/a&gt;{.deck}&lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2017/04/understanding-and-extending-prometheus-alertmanager/&quot;&gt;Understanding and Extending Prometheus AlertManager&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on April 25, 2017.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Create Great CNCF User-Base from Lessons Learned from Other Open Source Communities]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/2017/03/create-great-cncf-user-base-from-lessons-learned-from-other-open-source-communities/" />
+  <id>http://localhost:4000/2017/03/create-great-cncf-user-base-from-lessons-learned-from-other-open-source-communities</id>
+  <published>2017-03-30T23:55:15-05:00</published>
+  <updated>2017-03-30T23:55:15-05:00</updated>
+  <author>
+    <name>Lee Calcote</name>
+    <uri>http://localhost:4000</uri>
+    <email>lee@calcotestudios.com</email>
+  </author>
+  <content type="html">
+    &lt;p style=&quot;text-align: center;&quot;&gt;
+  &lt;br /&gt; Presented at &lt;a href=&quot;https://cloudnativeeu2017.sched.com/event/9Tc3?iframe=no&quot;&gt;CloudNativeCon + KubeCon EU 2017&lt;/a&gt;.
+&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2017/03/create-great-cncf-user-base-from-lessons-learned-from-other-open-source-communities/&quot;&gt;Create Great CNCF User-Base from Lessons Learned from Other Open Source Communities&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on March 30, 2017.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Developer-defined application delivery]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/2017/03/developer-defined-application-delivery/" />
+  <id>http://localhost:4000/2017/03/developer-defined-application-delivery</id>
+  <published>2017-03-11T05:17:09-06:00</published>
+  <updated>2017-03-11T05:17:09-06:00</updated>
+  <author>
+    <name>Lee Calcote</name>
+    <uri>http://localhost:4000</uri>
+    <email>lee@calcotestudios.com</email>
+  </author>
+  <content type="html">
+    &lt;div id=&quot;attachment_1741&quot; style=&quot;width: 310px&quot; class=&quot;wp-caption alignleft&quot;&gt;
+  &lt;a href=&quot;https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2017/03/ship-84139.jpg&quot;&gt;&lt;img class=&quot;wp-image-1741 size-medium&quot; src=&quot;https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2017/03/ship-84139.jpg?resize=300%2C225&quot; alt=&quot;&quot; data-id=&quot;1741&quot; srcset=&quot;https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2017/03/ship-84139.jpg?resize=300%2C225 300w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2017/03/ship-84139.jpg?resize=768%2C576 768w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2017/03/ship-84139.jpg?resize=1024%2C768 1024w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2017/03/ship-84139.jpg?w=2000 2000w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2017/03/ship-84139.jpg?w=3000 3000w&quot; sizes=&quot;(max-width: 300px) 100vw, 300px&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&quot;wp-caption-text&quot;&gt;
+    Ship with tug (source: &lt;a href=&quot;https://pixabay.com/en/ship-containers-products-shipping-84139/&quot;&gt;tpsdave via Pixabay&lt;/a&gt;).
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Cloud-native applications are designed to draw upon the performance, scalability, and reliability benefits of distributed systems. Unfortunately, distributed systems often come at the cost of added complexity. As individual components of your application are distributed across networks, and those networks have communication gaps or experience degraded performance, your distributed application components need to continue to function independently.&lt;/p&gt;
+
+&lt;p&gt;To avoid inconsistencies in application state, distributed systems should be designed with an understanding that components will fail. Nowhere is this more prominent than in the network. Consequently, at their core, distributed systems rely heavily on load balancing—the distribution of requests across two or more systems—in order to be resilient in the face of network disruption and horizontally scale as system load fluctuates.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;As distributed systems become more and more prevalent in the design and delivery of cloud-native applications, load balancers saturate infrastructure design at every level of modern application architecture. In their most commonly thought-of configuration, load balancers are deployed in front of the application, handling requests from the outside world. However, the emergence of microservices means that load balancers play a critical role behind the scenes: i.e. managing the flow between services.&lt;/p&gt;
+
+&lt;p&gt;Therefore, when you work with cloud-native applications and distributed systems, your load balancer takes on other role(s):&lt;/p&gt;
+
+&lt;p&gt;Read the full article on &lt;a href=&quot;https://www.oreilly.com/learning/developer-defined-application-delivery&quot;&gt;O’Reilly&lt;/a&gt;.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2017/03/developer-defined-application-delivery/&quot;&gt;Developer-defined application delivery&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on March 11, 2017.&lt;/p&gt;
+  </content>
+</entry>
 
 
 <entry>
@@ -18,12 +141,12 @@
  <link rel="alternate" type="text/html" href="http://localhost:4000/intro/sample-post/" />
   <id>http://localhost:4000/intro/sample-post</id>
   <updated>2016-12-02T00:00:00-00:00</updated>
-  <published>2016-12-02T00:00:00-05:00</published>
+  <published>2016-12-02T00:00:00-06:00</published>
   
   <author>
-    <name>Your name</name>
+    <name>Lee Calcote</name>
     <uri>http://localhost:4000</uri>
-    <email>you@email.com</email>
+    <email>lee@calcotestudios.com</email>
   </author>
   <content type="html">
     &lt;p&gt;Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.&lt;/p&gt;
@@ -165,7 +288,7 @@
 
 &lt;p&gt;The image must be in the &lt;code class=&quot;highlighter-rouge&quot;&gt;/images&lt;/code&gt; folder.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/intro/sample-post/&quot;&gt;Sample Post&lt;/a&gt; was originally published by Your name at &lt;a href=&quot;http://localhost:4000&quot;&gt;Blog Title&lt;/a&gt; on December 02, 2016.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/intro/sample-post/&quot;&gt;Sample Post&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on December 02, 2016.&lt;/p&gt;
   </content>
 </entry>
 
@@ -175,12 +298,12 @@
  <link rel="alternate" type="text/html" href="http://localhost:4000/intro/code-highlighting-post/" />
   <id>http://localhost:4000/intro/code-highlighting-post</id>
   <updated>2016-12-01T00:00:00-00:00</updated>
-  <published>2016-12-01T00:00:00-05:00</published>
+  <published>2016-12-01T00:00:00-06:00</published>
   
   <author>
-    <name>Your name</name>
+    <name>Lee Calcote</name>
     <uri>http://localhost:4000</uri>
-    <email>you@email.com</email>
+    <email>lee@calcotestudios.com</email>
   </author>
   <content type="html">
     &lt;p&gt;Syntax highlighting is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. Highlighting does not affect the meaning of the text itself; it is intended only for human readers.&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
@@ -243,7 +366,7 @@
   &lt;/ol&gt;
 &lt;/div&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/intro/code-highlighting-post/&quot;&gt;Syntax Highlighting Post&lt;/a&gt; was originally published by Your name at &lt;a href=&quot;http://localhost:4000&quot;&gt;Blog Title&lt;/a&gt; on December 01, 2016.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/intro/code-highlighting-post/&quot;&gt;Syntax Highlighting Post&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on December 01, 2016.&lt;/p&gt;
   </content>
 </entry>
 
@@ -252,12 +375,12 @@
   <title type="html"><![CDATA[Dark Post]]></title>
  <link rel="alternate" type="text/html" href="http://localhost:4000/dark-post/" />
   <id>http://localhost:4000/dark-post</id>
-  <published>2016-11-30T00:00:00-05:00</published>
-  <updated>2016-11-30T00:00:00-05:00</updated>
+  <published>2016-11-30T00:00:00-06:00</published>
+  <updated>2016-11-30T00:00:00-06:00</updated>
   <author>
-    <name>Your name</name>
+    <name>Lee Calcote</name>
     <uri>http://localhost:4000</uri>
-    <email>you@email.com</email>
+    <email>lee@calcotestudios.com</email>
   </author>
   <content type="html">
     &lt;p&gt;This is a sample post to show the dark post theme. To use this dark theme, just add:&lt;/p&gt;
@@ -266,7 +389,7 @@
 
 &lt;p&gt;on your post. This theme adds a dark background with a white panel to show your content.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/dark-post/&quot;&gt;Dark Post&lt;/a&gt; was originally published by Your name at &lt;a href=&quot;http://localhost:4000&quot;&gt;Blog Title&lt;/a&gt; on November 30, 2016.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/dark-post/&quot;&gt;Dark Post&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on November 30, 2016.&lt;/p&gt;
   </content>
 </entry>
 
@@ -275,12 +398,12 @@
   <title type="html"><![CDATA[Post with a Background Image]]></title>
  <link rel="alternate" type="text/html" href="http://localhost:4000/image/background-image/" />
   <id>http://localhost:4000/image/background-image</id>
-  <published>2016-11-29T00:00:00-05:00</published>
-  <updated>2016-11-29T00:00:00-05:00</updated>
+  <published>2016-11-29T00:00:00-06:00</published>
+  <updated>2016-11-29T00:00:00-06:00</updated>
   <author>
-    <name>Your name</name>
+    <name>Lee Calcote</name>
     <uri>http://localhost:4000</uri>
-    <email>you@email.com</email>
+    <email>lee@calcotestudios.com</email>
   </author>
   <content type="html">
     &lt;p&gt;Here be a sample post with a custom background image. To utilize this “feature” just add the following YAML to a post’s front matter.&lt;/p&gt;
@@ -294,7 +417,7 @@
 
 &lt;div xmlns:cc=&quot;http://creativecommons.org/ns#&quot; xmlns:dct=&quot;http://purl.org/dc/terms/&quot; about=&quot;http://subtlepatterns.com&quot; class=&quot;notice&quot;&gt;Background images from &lt;span property=&quot;dct:title&quot;&gt;Subtle Patterns&lt;/span&gt; (&lt;a rel=&quot;cc:attributionURL&quot; property=&quot;cc:attributionName&quot; href=&quot;http://subtlepatterns.com&quot;&gt;Subtle Patterns&lt;/a&gt;) / &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/3.0/&quot;&gt;CC BY-SA 3.0&lt;/a&gt;&lt;/div&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/image/background-image/&quot;&gt;Post with a Background Image&lt;/a&gt; was originally published by Your name at &lt;a href=&quot;http://localhost:4000&quot;&gt;Blog Title&lt;/a&gt; on November 29, 2016.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/image/background-image/&quot;&gt;Post with a Background Image&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on November 29, 2016.&lt;/p&gt;
   </content>
 </entry>
 
@@ -303,17 +426,17 @@
   <title type="html"><![CDATA[Sample Link Post]]></title>
  <link rel="alternate" type="text/html" href="http://aronbordin.com" />
   <id>http://localhost:4000/intro/sample-link-post</id>
-  <published>2016-11-28T00:00:00-05:00</published>
-  <updated>2016-11-28T00:00:00-05:00</updated>
+  <published>2016-11-28T00:00:00-06:00</published>
+  <updated>2016-11-28T00:00:00-06:00</updated>
   <author>
-    <name>Your name</name>
+    <name>Lee Calcote</name>
     <uri>http://localhost:4000</uri>
-    <email>you@email.com</email>
+    <email>lee@calcotestudios.com</email>
   </author>
   <content type="html">
     &lt;p&gt;This theme supports &lt;strong&gt;link posts&lt;/strong&gt;, made famous by John Gruber. To use, just add &lt;code class=&quot;highlighter-rouge&quot;&gt;link: http://url-you-want-linked&lt;/code&gt; to the post’s YAML front matter and you’re done.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/intro/sample-link-post/&quot;&gt;Sample Link Post&lt;/a&gt; was originally published by Your name at &lt;a href=&quot;http://localhost:4000&quot;&gt;Blog Title&lt;/a&gt; on November 28, 2016.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/intro/sample-link-post/&quot;&gt;Sample Link Post&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on November 28, 2016.&lt;/p&gt;
   </content>
 </entry>
 
@@ -322,12 +445,12 @@
   <title type="html"><![CDATA[A Post with a Video]]></title>
  <link rel="alternate" type="text/html" href="http://localhost:4000/intro/video-post/" />
   <id>http://localhost:4000/intro/video-post</id>
-  <published>2016-11-27T00:00:00-05:00</published>
-  <updated>2016-11-27T00:00:00-05:00</updated>
+  <published>2016-11-27T00:00:00-06:00</published>
+  <updated>2016-11-27T00:00:00-06:00</updated>
   <author>
-    <name>Your name</name>
+    <name>Lee Calcote</name>
     <uri>http://localhost:4000</uri>
-    <email>you@email.com</email>
+    <email>lee@calcotestudios.com</email>
   </author>
   <content type="html">
     &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/SU3kYxJmWuQ&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
@@ -341,7 +464,7 @@
 {:/nomarkdown}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/intro/video-post/&quot;&gt;A Post with a Video&lt;/a&gt; was originally published by Your name at &lt;a href=&quot;http://localhost:4000&quot;&gt;Blog Title&lt;/a&gt; on November 27, 2016.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/intro/video-post/&quot;&gt;A Post with a Video&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on November 27, 2016.&lt;/p&gt;
   </content>
 </entry>
 
@@ -350,12 +473,12 @@
   <title type="html"><![CDATA[A Post with Images]]></title>
  <link rel="alternate" type="text/html" href="http://localhost:4000/sample/intro/sample-post-images/" />
   <id>http://localhost:4000/sample/intro/sample-post-images</id>
-  <published>2016-11-26T00:00:00-05:00</published>
-  <updated>2016-11-26T00:00:00-05:00</updated>
+  <published>2016-11-26T00:00:00-06:00</published>
+  <updated>2016-11-26T00:00:00-06:00</updated>
   <author>
-    <name>Your name</name>
+    <name>Lee Calcote</name>
     <uri>http://localhost:4000</uri>
-    <email>you@email.com</email>
+    <email>lee@calcotestudios.com</email>
   </author>
   <content type="html">
     &lt;p&gt;Here are some examples of what a post with images might look like. If you want to display two or three images next to each other responsively use &lt;code class=&quot;highlighter-rouge&quot;&gt;figure&lt;/code&gt; with the appropriate &lt;code class=&quot;highlighter-rouge&quot;&gt;class&lt;/code&gt;. Each instance of &lt;code class=&quot;highlighter-rouge&quot;&gt;figure&lt;/code&gt; is auto-numbered and displayed in the caption.&lt;/p&gt;
@@ -456,7 +579,478 @@ Available values: [1..3].&lt;/li&gt;
 &lt;/figure&gt;
 
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/sample/intro/sample-post-images/&quot;&gt;A Post with Images&lt;/a&gt; was originally published by Your name at &lt;a href=&quot;http://localhost:4000&quot;&gt;Blog Title&lt;/a&gt; on November 26, 2016.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/sample/intro/sample-post-images/&quot;&gt;A Post with Images&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on November 26, 2016.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Growing a Community &#8211; Leveraging Meetups to Educate, Grow and Facilitate]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/2016/11/growing-a-community-leveraging-meetups-to-educate-grow-and-facilitate/" />
+  <id>http://localhost:4000/2016/11/growing-a-community-leveraging-meetups-to-educate-grow-and-facilitate</id>
+  <published>2016-11-10T02:10:58-06:00</published>
+  <updated>2016-11-10T02:10:58-06:00</updated>
+  <author>
+    <name>Lee Calcote</name>
+    <uri>http://localhost:4000</uri>
+    <email>lee@calcotestudios.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;&lt;span class=&quot;embed-youtube&quot; style=&quot;text-align:center; display: block;&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Presented at KubeCon + CloudNativeCon 2016 on Nov. 9th, 2016 –&amp;gt; &lt;a href=&quot;http://calcotestudios.com/talks/slides-kubecon-growing-a-community-leveraging-meetups-to-educate-grow-and-facilitate.html&quot;&gt;Slides&lt;/a&gt;&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+&lt;/div&gt;
+
+&lt;p style=&quot;text-align: center;&quot;&gt;
+  &lt;p&gt;
+    See also &lt;a href=&quot;http://blog.gingergeek.com/2016/09/cloud-native-ambassadors-and-docker-captains-navigate-users-through-the-container-ecosystem/&quot;&gt;Cloud Native Ambassadors and Docker Captains navigate users through the container ecosystem&lt;/a&gt;.
+  &lt;/p&gt;
+&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2016/11/growing-a-community-leveraging-meetups-to-educate-grow-and-facilitate/&quot;&gt;Growing a Community &amp;#8211; Leveraging Meetups to Educate, Grow and Facilitate&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on November 10, 2016.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[From Engines to Orchestrators]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/2016/10/from-engines-to-orchestrators/" />
+  <id>http://localhost:4000/2016/10/from-engines-to-orchestrators</id>
+  <published>2016-10-04T16:34:05-05:00</published>
+  <updated>2016-10-04T16:34:05-05:00</updated>
+  <author>
+    <name>Lee Calcote</name>
+    <uri>http://localhost:4000</uri>
+    <email>lee@calcotestudios.com</email>
+  </author>
+  <content type="html">
+    &lt;div align=&quot;center&quot;&gt;
+&lt;/div&gt;
+
+&lt;p style=&quot;text-align: center;&quot;&gt;
+  Presented at ContainerizeThis 2016 on Sept. 30th, 2016.
+&lt;/p&gt;
+
+&lt;p&gt;An introduction to container runtimes (engines) and an understanding of when container orchestrators enter and what role they play. We’ll look at what makes them alike, yet unique.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2016/10/from-engines-to-orchestrators/&quot;&gt;From Engines to Orchestrators&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on October 04, 2016.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Powering Microservices &#038; Sockets with Nginx and Kubernetes]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/2016/09/powering-microservices-sockets-with-nginx-and-kubernetes/" />
+  <id>http://localhost:4000/2016/09/powering-microservices-sockets-with-nginx-and-kubernetes</id>
+  <published>2016-09-17T02:05:45-05:00</published>
+  <updated>2016-09-17T02:05:45-05:00</updated>
+  <author>
+    <name>Lee Calcote</name>
+    <uri>http://localhost:4000</uri>
+    <email>lee@calcotestudios.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;Microservices present challenges of coordination, SSL termination and socket connection among others. Looking to different cloud providers to assist with their load-balancers leaves you wanting as features socket connection support, SSL termination and geo-distributed load-balancing are often absent.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;embed-youtube&quot; style=&quot;text-align:center; display: block;&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+&lt;/div&gt;
+
+&lt;p style=&quot;text-align: center;&quot;&gt;
+  Presented at Nginx Conference 2016 on Sept. 8th, 2016.
+&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2016/09/powering-microservices-sockets-with-nginx-and-kubernetes/&quot;&gt;Powering Microservices &amp;#038; Sockets with Nginx and Kubernetes&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on September 17, 2016.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[The Container Networking Landscape: CNI from CoreOS and CNM from Docker]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/2016/09/the-container-networking-landscape-cni-from-coreos-and-cnm-from-docker/" />
+  <id>http://localhost:4000/2016/09/the-container-networking-landscape-cni-from-coreos-and-cnm-from-docker</id>
+  <published>2016-09-16T07:48:03-05:00</published>
+  <updated>2016-09-16T07:48:03-05:00</updated>
+  <author>
+    <name>Lee Calcote</name>
+    <uri>http://localhost:4000</uri>
+    <email>lee@calcotestudios.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;&lt;a href=&quot;https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2016/10/glen-canyon.jpg&quot;&gt;&lt;img data-id=&quot;1582&quot; src=&quot;https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2016/10/glen-canyon.jpg?resize=300%2C224&quot; alt=&quot;glen-canyon&quot; class=&quot;alignleft size-medium wp-image-1582&quot; srcset=&quot;https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2016/10/glen-canyon.jpg?resize=300%2C224 300w, https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2016/10/glen-canyon.jpg?resize=768%2C574 768w, https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2016/10/glen-canyon.jpg?w=960 960w&quot; sizes=&quot;(max-width: 300px) 100vw, 300px&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align: right;&quot;&gt;
+  &lt;em&gt;Originally published on &lt;a href=&quot;http://thenewstack.io/container-networking-landscape-cni-coreos-cnm-docker/&quot;&gt;The New Stack&lt;/a&gt; on Sept. 4th, 2016.&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;p&gt;There are two proposed standards for configuring network interfaces for Linux containers: the container network model (CNM) and the container network interface (CNI). Networking is complex, and there are many ways to deliver functionality. Arguments can be made as to which one is easier to adopt than the next, or which one is less tethered to their benefactor’s technology.&lt;/p&gt;
+
+&lt;p&gt;When evaluating any technology, some important considerations are community adoption and support. Some perspectives have been formed on which model has a lower barrier to entry. Finding the right metrics to determine the velocity of a project is tricky. Plugin vendors also need to consider the relative ease by which plugins may be written for either of these two models.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;container-network-model&quot;&gt;Container Network Model&lt;/h2&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://github.com/docker/libnetwork/blob/master/docs/design.md&quot;&gt;Container Network Model&lt;/a&gt; (CNM) is a specification proposed by Docker, adopted by projects such as &lt;a href=&quot;https://github.com/docker/libnetwork/blob/master/docs/design.md&quot;&gt;libnetwork&lt;/a&gt;, with integrations from projects and companies such as &lt;a href=&quot;http://contiv.github.io/&quot;&gt;Cisco Contiv&lt;/a&gt;, &lt;a href=&quot;https://wiki.openstack.org/wiki/Kuryr&quot;&gt;Kuryr&lt;/a&gt;, Open Virtual Networking (OVN), &lt;a href=&quot;https://www.projectcalico.org&quot;&gt;Project Calico&lt;/a&gt;, &lt;a href=&quot;https://github.com/vmware/docker-volume-vsphere&quot;&gt;VMware&lt;/a&gt; and &lt;a href=&quot;https://github.com/weaveworks/weave&quot;&gt;Weave&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div id=&quot;attachment_1587&quot; style=&quot;width: 310px&quot; class=&quot;wp-caption aligncenter&quot;&gt;
+  &lt;a href=&quot;https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2016/09/Chart_Container-Network-Model-Drivers.png&quot;&gt;&lt;img data-id=&quot;1587&quot; src=&quot;https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2016/09/Chart_Container-Network-Model-Drivers.png?resize=300%2C200&quot; alt=&quot; Figure 1: Libnetwork provides an interface between the Docker daemon and network drivers.&quot; class=&quot;size-medium wp-image-1587&quot; srcset=&quot;https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2016/09/Chart_Container-Network-Model-Drivers.png?resize=300%2C200 300w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2016/09/Chart_Container-Network-Model-Drivers.png?resize=768%2C512 768w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2016/09/Chart_Container-Network-Model-Drivers.png?resize=1024%2C683 1024w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2016/09/Chart_Container-Network-Model-Drivers.png?w=1600 1600w&quot; sizes=&quot;(max-width: 300px) 100vw, 300px&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&quot;wp-caption-text&quot;&gt;
+    Figure 1: Libnetwork provides an interface between the Docker daemon and network drivers.
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Libnetwork is the canonical implementation of the CNM specification. Libnetwork provides an interface between the Docker daemon and network drivers. The network controller is responsible for pairing a driver to a network. Each driver is responsible for managing the network it owns, including services provided to that network like IPAM. With one driver per network, multiple drivers can be used concurrently with containers connected to multiple networks. Drivers are defined as being either native (built-in to libnetwork or Docker supported) or remote (third party plugins). The native drivers are none, bridge, overlay and MACvlan. Remote drivers may bring any number of capabilities. Drivers are also defined as having a local scope (single host) or global scope (multi-host).&lt;/p&gt;
+
+&lt;div id=&quot;attachment_1586&quot; style=&quot;width: 310px&quot; class=&quot;wp-caption aligncenter&quot;&gt;
+  &lt;a href=&quot;https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2016/09/Chart_Container-Network-Model-Interfacing.png&quot;&gt;&lt;img data-id=&quot;1586&quot; src=&quot;https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2016/09/Chart_Container-Network-Model-Interfacing.png?resize=300%2C200&quot; alt=&quot;Figure 2: Containers being connected through a series of network endpoints.&quot; class=&quot;size-medium wp-image-1586&quot; srcset=&quot;https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2016/09/Chart_Container-Network-Model-Interfacing.png?resize=300%2C200 300w, https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2016/09/Chart_Container-Network-Model-Interfacing.png?resize=768%2C512 768w, https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2016/09/Chart_Container-Network-Model-Interfacing.png?resize=1024%2C683 1024w, https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2016/09/Chart_Container-Network-Model-Interfacing.png?w=1600 1600w&quot; sizes=&quot;(max-width: 300px) 100vw, 300px&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&quot;wp-caption-text&quot;&gt;
+    Figure 2: Containers being connected through a series of network endpoints.
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Network Sandbox:&lt;/strong&gt; Essentially the networking stack within a container, it is an isolated environment to contain a container’s network configuration.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Endpoint:&lt;/strong&gt; A network interface that typically comes in pairs. One end of the pair sits in the network sandbox, while the other sits in a designated network. Endpoints join exactly one network, and multiple endpoints can exist within a single network sandbox.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Network&lt;/strong&gt;: A group of endpoints. A network is a uniquely identifiable group of endpoints that can communicate with each other.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A final, flexible set of CNM constructs are &lt;strong&gt;options&lt;/strong&gt; and &lt;strong&gt;labels&lt;/strong&gt; (key-value pairs of metadata). CNM supports the notion of user-defined &lt;strong&gt;labels&lt;/strong&gt; (defined using the — label flag), which are passed as metadata between libnetwork and drivers. Labels are powerful in that the runtime may inform driver behavior.&lt;/p&gt;
+
+&lt;h2 id=&quot;container-network-interface&quot;&gt;Container Network Interface&lt;/h2&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://github.com/containernetworking/cni&quot;&gt;Container Network Interface&lt;/a&gt; (CNI) is a container networking specification proposed by CoreOS and adopted by projects such as &lt;a href=&quot;https://github.com/apache/mesos/blob/master/docs/cni.md&quot;&gt;Apache Mesos&lt;/a&gt;, &lt;a href=&quot;https://github.com/cloudfoundry-incubator/guardian-cni-adapter&quot;&gt;Cloud Foundry&lt;/a&gt;, &lt;a href=&quot;http://kubernetes.io/docs/admin/network-plugins/&quot;&gt;Kubernetes&lt;/a&gt;&lt;a href=&quot;https://github.com/cloudfoundry-incubator/guardian-cni-adapter&quot;&gt;,&lt;/a&gt; &lt;a href=&quot;http://kurma.io/&quot;&gt;Kurma&lt;/a&gt; and &lt;a href=&quot;https://coreos.com/blog/rkt-cni-networking.html&quot;&gt;rkt&lt;/a&gt;. There are also plugins created by projects such as &lt;a href=&quot;https://github.com/contiv/netplugin&quot;&gt;Contiv Networking&lt;/a&gt;, &lt;a href=&quot;https://github.com/projectcalico/calico-cni&quot;&gt;Project Calico&lt;/a&gt; &lt;a href=&quot;https://github.com/contiv/netplugin&quot;&gt;and&lt;/a&gt; &lt;a href=&quot;https://github.com/weaveworks/weave&quot;&gt;Weave&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div id=&quot;attachment_1589&quot; style=&quot;width: 310px&quot; class=&quot;wp-caption aligncenter&quot;&gt;
+  &lt;a href=&quot;https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2016/09/Chart_Container-Network-Interface-Drivers.png&quot;&gt;&lt;img data-id=&quot;1589&quot; src=&quot;https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2016/09/Chart_Container-Network-Interface-Drivers.png?resize=300%2C200&quot; alt=&quot;Figure 3: CNI is a minimal specification for adding and removing containers to networks.&quot; class=&quot;size-medium wp-image-1589&quot; srcset=&quot;https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2016/09/Chart_Container-Network-Interface-Drivers.png?resize=300%2C200 300w, https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2016/09/Chart_Container-Network-Interface-Drivers.png?resize=768%2C512 768w, https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2016/09/Chart_Container-Network-Interface-Drivers.png?resize=1024%2C683 1024w, https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2016/09/Chart_Container-Network-Interface-Drivers.png?w=1600 1600w&quot; sizes=&quot;(max-width: 300px) 100vw, 300px&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&quot;wp-caption-text&quot;&gt;
+    Figure 3: CNI is a minimal specification for adding and removing containers to networks.
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;CNI was created as a minimal specification, built alongside a number of network vendor engineers to be a simple contract between the container runtime and network plugins. A JSON schema defines the expected input and output from CNI network plugins.&lt;/p&gt;
+
+&lt;p&gt;Multiple plugins may be run at one time with a container joining networks driven by different plugins. Networks are described in configuration files, in JSON format, and instantiated as new namespaces when CNI plugins are invoked. CNI plugins support two commands to add and remove container network interfaces to and from networks. Add gets invoked by the container runtime when it creates a container. Delete gets invoked by the container runtime when it tears down a container instance.&lt;/p&gt;
+
+&lt;h3 id=&quot;cni-flow&quot;&gt;CNI Flow&lt;/h3&gt;
+
+&lt;p&gt;The container runtime needs to first allocate a network namespace to the container and assign it a container ID, then pass along a number of parameters (CNI config) to the network driver. The network driver then attaches the container to a network and reports the assigned IP address back to the container runtime via JSON.&lt;/p&gt;
+
+&lt;p&gt;Mesos is the latest project to add CNI support, and there is a Cloud Foundry implementation in progress. The current state of Mesos networking uses host networking, wherein the container shares the same IP address as the host. Mesos is looking to provide each container with its own network namespace, and consequently, its own IP address. The project is moving to an IP-per-container model and, in doing so, seeks to democratize networking such that operators have freedom to choose the style of networking that best suits their purpose.&lt;/p&gt;
+
+&lt;p&gt;Currently, CNI primitives handle concerns with IPAM, L2 and L3, and expect the container runtime to handle port-mapping (L4). From a Mesos perspective, this minimalist approach comes with a couple of caveats, one of these being that the CNI specification does not specify any port-mapping rules to be used for a container; this capability may be handled by the container runtime. A second caveat is the fact that while operators should be allowed to change the CNI configuration, the behavior of container operation when CNI configuration is modified is not accounted for in the specification. Mesos is addressing this ambiguity by ensuring that, upon restart of the CNI agent, they will checkpoint the CNI config when it is associated with the particular instance of the container.&lt;/p&gt;
+
+&lt;h2 id=&quot;cni-and-cnm&quot;&gt;CNI and CNM&lt;/h2&gt;
+
+&lt;p&gt;In many respects, these two container networking specifications democratize the selection of which type of container networking may be used, in that both are driver-based models, or plugin-based, for creating and managing network stacks for containers. Each allows multiple network drivers to be active and used concurrently, in that each provides a one-to-one mapping of the network to that network’s driver. Both models allow containers to join one or more networks. And each allows the container runtime to launch the network in its own namespace, segregating the application/business logic of connecting the container to the network to the network driver.&lt;/p&gt;
+
+&lt;p&gt;This modular driver approach is arguably more attractive to network operators than to application developers, in that operators are afforded the flexibility to select one or more drivers that deliver on their specific needs and fit into their existing mode of operation. Operators bear responsibility for ensuring service-level agreements (SLAs) are met, and security policies are enforced.&lt;/p&gt;
+
+&lt;p&gt;Both models provide separate extension points, aka plugin interfaces, for network drivers — to create, configure and connect networks — and IPAM — to configure, discover, and manage IP addresses. One extension point per function encourages composability.&lt;/p&gt;
+
+&lt;p&gt;CNM does not provide network drivers access to the container’s network namespace. The benefit here is that libnetwork acts as a broker for conflict resolution. An example conflict being when two independent network drivers provide the same static route, using the same route prefix, but point to different next-hop IP addresses. CNI does provide drivers with access to the container network namespace. CNI is considering how it might &lt;a href=&quot;https://github.com/containernetworking/cni/issues/147&quot;&gt;approach arbitration&lt;/a&gt; in such conflict resolution scenarios.&lt;/p&gt;
+
+&lt;p&gt;CNI supports integration with third-party IPAM and can be used with any container runtime. CNM is designed to support the Docker runtime engine only. With CNI’s simplistic approach, it’s been argued that it’s comparatively easier to create a CNI plugin than a CNM plugin.&lt;/p&gt;
+
+&lt;p&gt;These models promote modularity, composability and choice by fostering an ecosystem of innovation by third-party vendors who deliver advanced networking capabilities. The orchestration of network micro-segmentation can become simple API calls to attach, detach and swap networks. Interface containers can belong to multiple networks, and each container can publish different services in different networks. The idea of different network constructs as first-class citizens is reflected in the ability to detach a network service from an old container and attach it to a new container.&lt;/p&gt;
+
+&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
+
+&lt;p&gt;As vendors and projects continue to evolve, the networking landscape continues to shift. Some offerings have consolidated or combined, such as Docker’s acquisition of SocketPlane, and the transition of Flannel to &lt;a href=&quot;http://thenewstack.io/project-calico-flannel-join-forces-policy-secured-networking/&quot;&gt;Tigera&lt;/a&gt; — a new startup that has &lt;a href=&quot;http://thenewstack.io/project-calico-flannel-join-forces-policy-secured-networking/&quot;&gt;formed around Canal&lt;/a&gt;. Canal is a portmanteau of Calico and Flannel and a combination of those two projects. CoreOS will provide ongoing support for Flannel as an individual project, and will be integrating Canal with Tectonic, their enterprise solution for Kubernetes. Other changes come in the form of new project releases. Docker 1.12’s release of networking features, including underlay and load-balancing support, is no small step forward for the project.&lt;/p&gt;
+
+&lt;p&gt;While there’s a large number of container networking technologies and distinctly unique ways of approaching them, we’re fortunate in that much of the container ecosystem seems to have converged and built support around only two networking models, at least for now. Developers would like to eliminate manual network provisioning in containerized environments, and barring those who have misconceptions of their job insecurity, network engineers are ready for the same.&lt;/p&gt;
+
+&lt;p&gt;Like other resources, an intermediary step to automated provisioning is pre-provisioning, meaning network engineers would preallocate networks with assigned characteristics and services, such as, IP address space, IPAM, routing, QoS, etc., and developers or deployment engineers would identify and select from a pool of available networks in which to deploy their applications. Pre-provisioning needs to become a thing of the past, as we’re all ready to move on to automated provisioning.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2016/09/the-container-networking-landscape-cni-from-coreos-and-cnm-from-docker/&quot;&gt;The Container Networking Landscape: CNI from CoreOS and CNM from Docker&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on September 16, 2016.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Container Networking: A Breakdown, Explanation and Analysis]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/2016/09/container-networking-a-breakdown-explanation-and-analysis/" />
+  <id>http://localhost:4000/2016/09/container-networking-a-breakdown-explanation-and-analysis</id>
+  <published>2016-09-14T07:36:24-05:00</published>
+  <updated>2016-09-14T07:36:24-05:00</updated>
+  <author>
+    <name>Lee Calcote</name>
+    <uri>http://localhost:4000</uri>
+    <email>lee@calcotestudios.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;&lt;a href=&quot;https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2016/09/container-rope.jpg&quot;&gt;&lt;img data-id=&quot;1577&quot; src=&quot;https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2016/09/container-rope.jpg?resize=300%2C169&quot; alt=&quot;container-rope&quot; class=&quot;alignleft size-medium wp-image-1577&quot; srcset=&quot;https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2016/09/container-rope.jpg?resize=300%2C169 300w, https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2016/09/container-rope.jpg?resize=768%2C432 768w, https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2016/09/container-rope.jpg?w=960 960w&quot; sizes=&quot;(max-width: 300px) 100vw, 300px&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p style=&quot;text-align: right;&quot;&gt;
+  &lt;em&gt;Originally published on &lt;a href=&quot;http://thenewstack.io/container-networking-breakdown-explanation-analysis/&quot;&gt;The New Stack&lt;/a&gt; on Sept. 4th, 2016.&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;p&gt;While many gravitate toward network overlays as a popular approach to addressing container networking across hosts, the functions and types of container networking vary greatly and are worth better understanding as you consider the right type for your environment. Some types are container engine-agnostic, and others are locked into a specific vendor or engine. Some focus on simplicity, while others on breadth of functionality or on being IPv6-friendly and multicast-capable. Which one is right for you depends on your application needs, performance requirements, workload placement (private or public cloud), etc. Let’s review the more commonly available types of container networking.&lt;/p&gt;
+
+&lt;p&gt;There are various ways in which container-to-container and container-to-host connectivity are provided. This article focuses primarily on a breakdown of current container networking types, including:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;None&lt;/li&gt;
+  &lt;li&gt;Bridge&lt;/li&gt;
+  &lt;li&gt;Overlay&lt;/li&gt;
+  &lt;li&gt;Underlay&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;antiquated-types-of-container-networking&quot;&gt;Antiquated Types of Container Networking&lt;/h2&gt;
+
+&lt;p&gt;The approach to networking has evolved as container technology advances. Two modes of networking have come and all but disappeared already.&lt;/p&gt;
+
+&lt;h3 id=&quot;links-and-ambassadors&quot;&gt;Links and Ambassadors&lt;/h3&gt;
+
+&lt;p&gt;Prior to having multi-host networking support and orchestration with Swarm, Docker began with single-host networking, facilitating network connectivity via links as a mechanism for allowing containers to discover each other via environment variables or /etc/hosts file entries, and transfer information between containers. The links capability was commonly combined with the &lt;a href=&quot;https://docs.docker.com/engine/admin/ambassador_pattern_linking/&quot;&gt;ambassador pattern&lt;/a&gt; to facilitate linking containers across hosts and reduce the brittleness of hard-coded links. The biggest issue with this approach was that it was too static. Once a container was created and the environment variables defined, if the related containers or services moved to new IP addresses, then it was impossible to change the values of those variables.&lt;/p&gt;
+
+&lt;h3 id=&quot;container-mapped-networking&quot;&gt;Container-Mapped Networking&lt;/h3&gt;
+
+&lt;p&gt;In this mode of networking, one container reuses (maps to) the networking namespace of another container. This mode of networking may only be invoked when running a Docker container like this: –net:container:&lt;em&gt;some_container_name_or_id&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;This run command flag tells Docker to put this container’s processes inside of the network stack that has already been created inside of another container. While sharing the same IP and MAC address and port numbers as the first container, the new container’s processes are still confined to its own filesystem, process list and resource limits. Processes on the two containers will be able to connect to each other over the loopback interface.&lt;/p&gt;
+
+&lt;p&gt;This style of networking is useful for performing diagnostics on a running container and the container is missing the necessary diagnostic tools (e.g., curl or dig). A temporary container with the necessary diagnostics tools may be created and attached to the first container’s network.&lt;/p&gt;
+
+&lt;p&gt;Container-mapped networking may be used to emulate pod-style networking, in which multiple containers share the same network namespace. Benefits, such as sharing localhost communication and sharing the same IP address, are inherent to the notion that containers run in the same pod, which is the behavior of rkt containers.&lt;/p&gt;
+
+&lt;h2 id=&quot;current-types-of-container-networking&quot;&gt;Current Types of Container Networking&lt;/h2&gt;
+
+&lt;p&gt;Lines of delineation of networking revolve around IP-per-container versus IP-per-pod models and the requirement of network address translation (NAT) versus no translation needed.&lt;/p&gt;
+
+&lt;h3 id=&quot;none&quot;&gt;None&lt;/h3&gt;
+
+&lt;p&gt;None is straightforward in that the container receives a network stack, but lacks an external network interface. It does, however, receive a loopback interface. Both the rkt and Docker container projects provide similar behavior when none or null networking is used. This mode of container networking has a number of uses including testing containers, staging a container for a later network connection, and being assigned to containers with no need for external communication.&lt;/p&gt;
+
+&lt;h3 id=&quot;bridge&quot;&gt;Bridge&lt;/h3&gt;
+
+&lt;p&gt;A Linux bridge provides a host internal network in which containers on the same host may communicate, but the IP addresses assigned to each container are not accessible from outside the host. Bridge networking leverages iptables for NAT and port-mapping, which provide single-host networking. Bridge networking is the default Docker network type (i.e., docker0), where one end of a virtual network interface pair is connected between the bridge and the container.&lt;/p&gt;
+
+&lt;p&gt;Here’s an example of the creation flow:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;A bridge is provisioned on the host.&lt;/li&gt;
+  &lt;li&gt;A namespace for each container is provisioned inside that bridge.&lt;/li&gt;
+  &lt;li&gt;Containers’ ethX are mapped to private bridge interfaces.&lt;/li&gt;
+  &lt;li&gt;iptables with NAT are used to map between each private container and the host’s public interface.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;NAT is used to provide communication beyond the host. While bridged networks solve port-conflict problems and provide network isolation to containers running on one host, there’s a performance cost related to using NAT.&lt;/p&gt;
+
+&lt;h3 id=&quot;host&quot;&gt;Host&lt;/h3&gt;
+
+&lt;p&gt;In this approach, a newly created container shares its network namespace with the host, providing higher performance — near metal speed — and eliminating the need for NAT; however, it does suffer port conflicts. While the container has access to all of the host’s network interfaces, unless deployed in privilege mode, the container may not reconfigure the host’s network stack.&lt;/p&gt;
+
+&lt;p&gt;Host networking is the default type used within Mesos. In other words, if the framework does not specify a network type, a new network namespace will not be associated with the container, but with the host network. Sometimes referred to as native networking, host networking is conceptually simple, making it easier to understand, troubleshoot and use.&lt;/p&gt;
+
+&lt;h3 id=&quot;overlay&quot;&gt;Overlay&lt;/h3&gt;
+
+&lt;p&gt;Overlays use networking tunnels to deliver communication across hosts. This allows containers to behave as if they are on the same machine by tunneling network subnets from one host to the next; in essence, spanning one network across multiple hosts. Many tunneling technologies exist, such as virtual extensible local area network (VXLAN).&lt;/p&gt;
+
+&lt;p&gt;VXLAN has been the tunneling technology of choice for Docker libnetwork, whose multi-host networking entered as a native capability in the 1.9 release. With the introduction of this capability, Docker chose to leverage HashiCorp’s Serf as the gossip protocol, selected for its efficiency in neighbor table exchange and convergence times.&lt;/p&gt;
+
+&lt;p&gt;For those needing support for other tunneling technologies, Flannel may be the way to go. It supports udp, vxlan, host-gw, aws-vpc or gce. Each of the cloud provider tunnel types creates routes in the provider’s routing tables, just for your account or virtual private cloud (VPC). The support for public clouds is particularly key for overlay drivers given that among others, overlays best address hybrid cloud use cases and provide scaling and redundancy without having to open public ports.&lt;/p&gt;
+
+&lt;p&gt;Multi-host networking requires additional parameters when launching the Docker daemon, as well as a key-value store. Some overlays rely on a distributed key-value store. If you’re doing container orchestration, you’ll already have a distributed key-value store lying around.&lt;/p&gt;
+
+&lt;p&gt;Overlays focus on the cross-host communication challenge. Containers on the same host that are connected to two different overlay networks are not able to communicate with each other via the local bridge — they are segmented from one another.&lt;/p&gt;
+
+&lt;h3 id=&quot;underlays&quot;&gt;Underlays&lt;/h3&gt;
+
+&lt;p&gt;Underlay network drivers expose host interfaces (i.e., the physical network interface at eth0) directly to containers or VMs running on the host. Two such underlay drivers are media access control virtual local area network (MACvlan) and internet protocol VLAN (IPvlan). The operation of and the behavior of MACvlan and IPvlan drivers are very familiar to network engineers. Both network drivers are conceptually simpler than bridge networking, remove the need for port-mapping and are more efficient. Moreover, IPvlan has an L3 mode that resonates well with many network engineers. Given the restrictions — or lack of capabilities — in most public clouds, underlays are particularly useful when you have on-premises workloads, security concerns, traffic priorities or compliance to deal with, making them ideal for brownfield use. Instead of needing one bridge per VLAN, underlay networking allows for one VLAN per subinterface.&lt;/p&gt;
+
+&lt;h4 id=&quot;macvlan&quot;&gt;MACvlan&lt;/h4&gt;
+
+&lt;p&gt;MACvlan allows the creation of multiple virtual network interfaces behind the host’s single physical interface. Each virtual interface has unique MAC and IP addresses assigned, with a restriction: the IP addresses need to be in the same broadcast domain as the physical interface. While many network engineers may be more familiar with the term subinterface (not to be confused with a secondary interface), the parlance used to describe MACvlan virtual interfaces is typically upper or lower interface. MACvlan networking is a way of eliminating the need for the Linux bridge, NAT and port-mapping, allowing you to connect directly to the physical interface.&lt;/p&gt;
+
+&lt;p&gt;MACvlan uses a unique MAC address per container, and this may cause an issue with network switches that have security policies in place to prevent MAC spoofing, by allowing only one MAC address per physical switch interface.&lt;/p&gt;
+
+&lt;p&gt;Container traffic is filtered from being able to speak to the underlying host, which completely isolates the host from the containers it runs. The host cannot reach the containers. The container is isolated from the host. This is useful for service providers or multitenant scenarios and has more isolation than the bridge model.&lt;/p&gt;
+
+&lt;p&gt;Promiscuous mode is required for MACvlan; MACvlan has four modes of operation, with only the bridge mode supported in Docker 1.12. MACvlan bridge mode and IPvlan L2 mode are just about functionally equivalent. Both modes allow broadcast and multicast traffic ingress. These underlay protocols were designed with on-premises use cases in mind. Your public cloud mileage will vary as most do not support promiscuous mode on their VM interfaces.&lt;/p&gt;
+
+&lt;p&gt;A word of caution: MACvlan bridge mode assigning a unique MAC address per container can be a blessing in terms of tracing network traffic and end-to-end visibility; however, with a typical network interface card (NIC), e.g., Broadcom, having a ceiling of 512 unique MAC addresses, this upper limit should be considered.&lt;/p&gt;
+
+&lt;h4 id=&quot;ipvlan&quot;&gt;IPvlan&lt;/h4&gt;
+
+&lt;p&gt;IPvlan is similar to MACvlan in that it creates new virtual network interfaces and assigns each a unique IP address. The difference is that the same MAC address is used for all pods and containers on a host — the same MAC address of the physical interface. The need for this behavior is primarily driven by the fact that a commonly configured security posture of many switches is to shut down switch ports with traffic sourced from more than one MAC address.&lt;/p&gt;
+
+&lt;p&gt;Best run on kernels 4.2 or newer, IPvlan may operate in either L2 or L3 modes. Like MACvlan, IPvlan L2 mode requires that IP addresses assigned to subinterfaces be in the same subnet as the physical interface. IPvlan L3 mode, however, requires that container networks and IP addresses be on a different subnet than the parent physical interface.&lt;/p&gt;
+
+&lt;p&gt;802.1q configuration on Linux hosts, when created using IP Link, is ephemeral, so most operators use network startup scripts to persist configuration. With container engines running underlay drivers and exposing APIs for programmatic configuration of VLANs, automation stands to improve. For example, when new VLANs are created on a top of rack switch, these VLANs may be pushed into Linux hosts via the exposed container engine API.ico&lt;/p&gt;
+
+&lt;h4 id=&quot;macvlan-and-ipvlan&quot;&gt;MACvlan and IPvlan&lt;/h4&gt;
+
+&lt;p&gt;When choosing between these two underlay types, consider whether or not you need the network to be able to see the MAC address of the individual container.&lt;/p&gt;
+
+&lt;p&gt;With respect to the address resolution protocol (ARP) and broadcast traffic, the L2 modes of both underlay drivers operate just as a server connected to a switch does, by flooding and learning using 802.1d packets. In IPvlan L3 mode, however, the networking stack is handled within the container. No multicast or broadcast traffic is allowed in. In this sense, IPvlan L3 mode operates as you would expect an L3 router to behave.&lt;/p&gt;
+
+&lt;p&gt;Note that upstream L3 routers need to be made aware of networks created using IPvlan. Network advertisement and redistribution into the network still needs to be done. Today, Docker is experimenting with Border Gateway Protocol (BGP). While static routes can be created on top of the rack switch, projects like &lt;a href=&quot;http://osrg.github.io/gobgp/&quot;&gt;goBGP&lt;/a&gt; have sprouted up as a container ecosystem-friendly way to provide neighbor peering and route exchange functionality.&lt;/p&gt;
+
+&lt;p&gt;Although multiple modes of networking are supported on a given host, MACvlan and IPvlan can’t be used on the same physical interface concurrently. In short, if you’re used to running trunks down to hosts, L2 mode is for you. If scale is a primary concern, L3 has the potential for massive scale.&lt;/p&gt;
+
+&lt;h4 id=&quot;direct-routing&quot;&gt;Direct Routing&lt;/h4&gt;
+
+&lt;p&gt;For the same reasons that IPvlan L3 mode resonates with network engineers, they may choose to push past L2 challenges and focus on addressing network complexity in Layer 3 instead. This approach benefits from the leveraging of existing network infrastructure to manage the container networking. The container networking solutions focused at L3 use routing protocols to provide connectivity, which is arguably easier to interoperate with existing data center infrastructure, connecting containers, VMs and bare metal servers. Moreover, L3 networking scales and affords granular control, in terms of filtering and isolating network traffic.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.projectcalico.org&quot;&gt;Calico&lt;/a&gt; is one such project and uses BGP to distribute routes for every network —  specifically to that workload using a /32 — which allows it to seamlessly integrate with existing data center infrastructure without the need for overlays. Without the overhead of overlays or encapsulation, the result is networking with exceptional performance and scale. Routable IP addresses for containers expose the IP address to the rest of the world; hence, ports are inherently exposed to the outside world. Network engineers trained and accustomed to deploying, diagnosing and operating networks using routing protocols may find direct routing easier to digest. However, it’s worth noting that Calico doesn’t support overlapping IP addresses.&lt;/p&gt;
+
+&lt;h4 id=&quot;fan-networking&quot;&gt;Fan Networking&lt;/h4&gt;
+
+&lt;p&gt;Fan networking is a way of gaining access to many more IP addresses, expanding from one assigned IP address to 250 IP addresses. This is a performant way of getting more IPs without the need for overlay networks. This style of networking is particularly useful when running containers in a public cloud, where a single IP address is assigned to a host and spinning up additional networks is prohibitive, or running another load-balancer instance is costly.&lt;/p&gt;
+
+&lt;h4 id=&quot;point-to-point&quot;&gt;Point-to-Point&lt;/h4&gt;
+
+&lt;p&gt;Point-to-point is perhaps the simplest type of networking and the default networking used by CoreOS rkt. Using NAT, or IP Masquerade (IPMASQ), by default, it creates a virtual ethernet pair, placing one on the host and the other in the container pod. Point-to-point networking leverages iptables to provide port-forwarding not only for inbound traffic to the pod but also for internal communication between other containers in the pod over the loopback interface.&lt;/p&gt;
+
+&lt;h2 id=&quot;capabilities&quot;&gt;Capabilities&lt;/h2&gt;
+
+&lt;p&gt;Outside of pure connectivity, support for other networking capabilities and network services needs to be considered. Many modes of container networking either leverage NAT and port-forwarding or intentionally avoid their use. IP address management (IPAM), multicast, broadcast, IPv6, load-balancing, service discovery, policy, quality of service, advanced filtering and performance are all additional considerations when selecting networking.&lt;/p&gt;
+
+&lt;p&gt;The question is whether these capabilities are supported and how developers and operators are empowered by them. Even if a container networking capability is supported by your runtime, orchestrator or plugin of choice, it may not be supported by your infrastructure. While some tier 2 public cloud providers offer support for IPv6, the lack of support for IPv6 in top public clouds reinforces the need for other networking types, such as overlays and fan networking.&lt;/p&gt;
+
+&lt;p&gt;In terms of IPAM, to promote ease of use, most container runtime engines default to host-local for assigning addresses to containers, as they are connected to networks. Host-local IPAM involves defining a fixed block of IP addresses to be selected. Dynamic Host Configuration Protocol (DHCP) is universally supported across container networking projects. Container Network Model (CNM) and Container Network Interface (CNI) both have IPAM built-in and plugin frameworks for integration with IPAM systems — a key capability to adoption in many existing environments.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2016/09/container-networking-a-breakdown-explanation-and-analysis/&quot;&gt;Container Networking: A Breakdown, Explanation and Analysis&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on September 14, 2016.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Cloud Native Ambassadors and Docker Captains navigate users through the container ecosystem]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/2016/09/cloud-native-ambassadors-and-docker-captains-navigate-users-through-the-container-ecosystem/" />
+  <id>http://localhost:4000/2016/09/cloud-native-ambassadors-and-docker-captains-navigate-users-through-the-container-ecosystem</id>
+  <published>2016-09-02T08:20:47-05:00</published>
+  <updated>2016-09-02T08:20:47-05:00</updated>
+  <author>
+    <name>Lee Calcote</name>
+    <uri>http://localhost:4000</uri>
+    <email>lee@calcotestudios.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;&lt;a href=&quot;https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2016/09/US_Navy_100804-N-5483N-026_Capt._Karl_Thomas_commanding_officer_of_the_amphibious_command_ship_USS_Mount_Whitney_LCC-JCC_20_greets_U.S._ambassador_to_Portugal_Allan_J._Katz.jpg&quot;&gt;&lt;img class=&quot;size-medium wp-image-1507 alignleft&quot; src=&quot;https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2016/09/US_Navy_100804-N-5483N-026_Capt._Karl_Thomas_commanding_officer_of_the_amphibious_command_ship_USS_Mount_Whitney_LCC-JCC_20_greets_U.S._ambassador_to_Portugal_Allan_J._Katz.jpg?resize=300%2C214&quot; alt=&quot;100804-N-5483N-026 LIBSON, Portugal (Aug. 4, 2010) Capt. Karl Thomas, commanding officer of the amphibious command ship USS Mount Whitney (LCC/JCC 20) greets U.S. ambassador to Portugal Allan J. Katz before a reception highlighting the partnership between Portugal and the United States. (U.S. Navy photo by Mass Communication Specialist 2nd Class Sylvia Nealy/Released)&quot; data-id=&quot;1507&quot; srcset=&quot;https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2016/09/US_Navy_100804-N-5483N-026_Capt._Karl_Thomas_commanding_officer_of_the_amphibious_command_ship_USS_Mount_Whitney_LCC-JCC_20_greets_U.S._ambassador_to_Portugal_Allan_J._Katz.jpg?resize=300%2C214 300w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2016/09/US_Navy_100804-N-5483N-026_Capt._Karl_Thomas_commanding_officer_of_the_amphibious_command_ship_USS_Mount_Whitney_LCC-JCC_20_greets_U.S._ambassador_to_Portugal_Allan_J._Katz.jpg?resize=768%2C549 768w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2016/09/US_Navy_100804-N-5483N-026_Capt._Karl_Thomas_commanding_officer_of_the_amphibious_command_ship_USS_Mount_Whitney_LCC-JCC_20_greets_U.S._ambassador_to_Portugal_Allan_J._Katz.jpg?resize=1024%2C731 1024w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2016/09/US_Navy_100804-N-5483N-026_Capt._Karl_Thomas_commanding_officer_of_the_amphibious_command_ship_USS_Mount_Whitney_LCC-JCC_20_greets_U.S._ambassador_to_Portugal_Allan_J._Katz.jpg?w=2000 2000w&quot; sizes=&quot;(max-width: 300px) 100vw, 300px&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Originally posted on &lt;a href=&quot;http://www.networkworld.com/article/3114747/open-source-tools/cloud-native-ambassadors-and-docker-captains-navigate-users-through-the-container-ecosystem.html&quot; target=&quot;_blank&quot;&gt;Network World&lt;/a&gt; on Sept. 6th, 2016.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Navigating the container ecosystem can be confusing. Deciding where to dip your toes is challenging for those stepping into container and microservices waters. Even those who have already ventured knee-deep still wade through many questions as they progress in their cloud native journey. To help them guide them through the ecosystem, the &lt;a href=&quot;http://cncf.io/&quot;&gt;Cloud Native Computing Foundation&lt;/a&gt; (CNCF) recently launched a Cloud Native Ambassadors &lt;a href=&quot;https://cncf.io/news/blogs/2016/08/ambassador-program-meetup-program-community-store-available-growing-cloud-native&quot;&gt;program&lt;/a&gt; at its inaugural &lt;a href=&quot;http://events.linuxfoundation.org/events/cloudnativeday&quot;&gt;CloudNativeDay&lt;/a&gt; in Toronto.&lt;/p&gt;
+
+&lt;p&gt;Recognized for their expertise, &lt;a href=&quot;https://cncf.io/about/ambassadors&quot;&gt;Cloud Native Ambassadors&lt;/a&gt; are individuals who belong to a CNCF member organization and are selected based on their passion for cloud native technology and willingness to help others learn. Most ambassadors also organize or are involved in community meetups oriented toward technologies and projects governed by the CNCF. Forty-one meetups worldwide have joined the program to date (&lt;em&gt;disclaimer: I’m a CNCF Ambassador  and an organizer of the &lt;a href=&quot;https://www.meetup.com/Microservices-and-Containers-Austin/&quot;&gt;Microservices and Containers Austin&lt;/a&gt; meetup in Austin, TX.&lt;/em&gt;).&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;Under a similar &lt;a href=&quot;https://blog.docker.com/2016/04/docker-captains/&quot;&gt;program&lt;/a&gt;, Docker Inc. provides central community outreach and resources for 228 meetups around the world. The Docker community does not have Ambassadors, rather it has Captains. &lt;a href=&quot;https://www.docker.com/community/docker-captains&quot;&gt;Docker Captains&lt;/a&gt; are community leaders, who demonstrate a commitment to sharing their knowledge of Docker open source or commercial offerings with others (&lt;em&gt;disclaimer: I’m an organizer of the &lt;a href=&quot;http://www.meetup.com/Docker-Austin/&quot;&gt;Docker Austin&lt;/a&gt; meetup in Austin, TX.&lt;/em&gt;).&lt;/p&gt;
+
+&lt;p&gt;As you would expect, the two programs are alike in many ways. Both are purposeful in how they approach tech communities – each with an emphasis on engineers focused on containers, microservices, cloud native, distributed systems, mode 2, continuously delivering, etc. Both tend to be open source-oriented and developer and operator-friendly. Both provide project swag (t-shirts, stickers, annotated mugs, etc.) to their respective community organizers (Captains and Ambassadors). In that vein, the &lt;a href=&quot;https://store.cncf.io/&quot;&gt;CNCF Store&lt;/a&gt; was also launched last week and each Ambassador and their user groups seeded with an initial dose of gear.&lt;/p&gt;
+
+&lt;p&gt;Cloud Native Ambassadors and Docker Captains advocate and educate on behalf of their respective and highly-related technologies. Docker Captains promulgate the many varied uses of &lt;a href=&quot;https://www.docker.com/technologies/overview#/docker_projects&quot;&gt;Docker’s projects&lt;/a&gt;: Engine, Machine, Compose, Swarm Registry, Kitematic and all of the plumbing projects around these. So do Cloud Native Ambassadors disseminate and advocate use of the two current projects managed by the CNCF: &lt;a href=&quot;http://kubernetes.io/&quot;&gt;Kubernetes&lt;/a&gt; (system for automating deployment, scaling, and management of containerized applications) and &lt;a href=&quot;https://prometheus.io/&quot;&gt;Prometheus&lt;/a&gt; (systems monitoring and alerting tool). There are additional proposed projects in the pipeline to be considered for first incubation and next adoption, including &lt;a href=&quot;https://github.com/nats-io/nats&quot;&gt;NATS&lt;/a&gt; (pubsub), &lt;a href=&quot;http://www.fluentd.org/&quot;&gt;Fluentd&lt;/a&gt; (logging), &lt;a href=&quot;https://github.com/twitter/heron&quot;&gt;Heron&lt;/a&gt; (real time stream processing), &lt;a href=&quot;https://www.minio.io/&quot;&gt;Minio&lt;/a&gt; (storage), &lt;a href=&quot;http://opentracing.io/&quot;&gt;OpenTracing&lt;/a&gt; (distributed tracing), &lt;a href=&quot;https://github.com/miekg/coredns&quot;&gt;CoreDNS&lt;/a&gt; (distributed systems-friendly DNS), &lt;a href=&quot;https://github.com/cockroachdb/cockroach&quot;&gt;CockroachDB&lt;/a&gt; (distributed SQL DB) and more.&lt;/p&gt;
+
+&lt;p&gt;Having spent a couple years participating in and organizing technology meetups, I liken them to functioning as an underground conference circuit, where quality of speakers and content varies similarly to that of the quality of speakers and content in larger industry conferences. In general, technology meetups are surprisingly refreshing in their candidness, content, and convenience – three C’s that deliver value to me as an organizer and to regular attendees.&lt;/p&gt;
+
+&lt;p&gt;While individual tech meetups don’t typically fall into the trap of being a low-cost marketing pulpit for large companies and small startups to get the message out about their commercial offerings, this occasionally happens. Most meetups screen speakers and their talks. Some are more at luxury than others in being able to turn away blatant sales pitches. Those that have this luxury tend to be located in cities with technology hubs. Irrespective, meetups provide an alternative forum for direct feedback, cross-technology pollination and practitioner-to-practitioner interaction.&lt;/p&gt;
+
+&lt;p&gt;One of the goals of the Cloud Native Ambassador and Docker Captain programs (whether via meetups or other forums) is to woo the developer. Developer advocacy in this sense goes by many names (e.g. evangelism, technical marketing, community organizing, etc.) and is an emergent, purposeful practice that has been established within many vendor organizations. Developer advocacy becomes critical in that if you understand that as developers write new software, they are defining the infrastructure of tomorrow. It follows then that if as an industry, we’ve come to identify the application as king (and infrastructure lesser important in the face of software defined everything), so might we identify the developer as queen. Even queens don’t define infrastructure in a vacuum or without collaboration from their Ops/Sec/IT partners, however.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2016/09/cloud-native-ambassadors-and-docker-captains-navigate-users-through-the-container-ecosystem/&quot;&gt;Cloud Native Ambassadors and Docker Captains navigate users through the container ecosystem&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on September 02, 2016.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Contrasting Swarmkit, Kubernetes, Mesos+Marathon]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/2016/09/contrasting-swarmkit-kubernetes-mesosmarathon/" />
+  <id>http://localhost:4000/2016/09/contrasting-swarmkit-kubernetes-mesosmarathon</id>
+  <published>2016-09-01T08:20:05-05:00</published>
+  <updated>2016-09-01T08:20:05-05:00</updated>
+  <author>
+    <name>Lee Calcote</name>
+    <uri>http://localhost:4000</uri>
+    <email>lee@calcotestudios.com</email>
+  </author>
+  <content type="html">
+    &lt;p style=&quot;text-align: center;&quot;&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align: center;&quot;&gt;
+  &lt;a href=&quot;https://lcccna2016.sched.org/speaker/leecalcote?iframe=yes&amp;amp;w=&amp;amp;sidebar=yes&amp;amp;bg=no&quot;&gt;Presented&lt;/a&gt; at &lt;a href=&quot;http://events.linuxfoundation.org/events/linuxcon-north-america&quot;&gt;LinuxCon+ContainerCon&lt;/a&gt;, August 2016. Includes Swarm 1.12, Kubernetes, Mesos+Marathon.
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align: center;&quot;&gt;
+  (&lt;a href=&quot;http://calcotestudios.com/ccka&quot;&gt;slides&lt;/a&gt;)
+&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2016/09/contrasting-swarmkit-kubernetes-mesosmarathon/&quot;&gt;Contrasting Swarmkit, Kubernetes, Mesos+Marathon&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on September 01, 2016.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Renewing my energy at SolarWinds]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/2016/07/renewing-my-energy-at-solarwinds/" />
+  <id>http://localhost:4000/2016/07/renewing-my-energy-at-solarwinds</id>
+  <published>2016-07-31T16:51:39-05:00</published>
+  <updated>2016-07-31T16:51:39-05:00</updated>
+  <author>
+    <name>Lee Calcote</name>
+    <uri>http://localhost:4000</uri>
+    <email>lee@calcotestudios.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;&lt;img class=&quot;alignleft&quot; src=&quot;https://i2.wp.com/lh3.googleusercontent.com/-SV1-YUgXozE/AAAAAAAAAAI/AAAAAAAABFE/LVzp7vgXZbs/photo.jpg?resize=205%2C205&amp;#038;ssl=1&quot; data-recalc-dims=&quot;1&quot; /&gt;Headquartered in what has become my hometown, &lt;a href=&quot;http://www.solarwinds.com&quot;&gt;SolarWinds&lt;/a&gt; shares a campus with AMD in the southwestern corner of Austin. The majority of the existing, product suite is comprised of componentized, enterprise-architected, Windows-oriented network, systems, security, database management software. Many (not all) of these offerings were from one of ~18 acquisitions, with the latest (&lt;a href=&quot;https://www.logicnow.com&quot;&gt;LogicNow&lt;/a&gt;) in early June of this year. These acquisitions include three SaaS offerings, &lt;a href=&quot;http://Librato&quot;&gt;Librato&lt;/a&gt;, &lt;a href=&quot;https://papertrailapp.com&quot;&gt;Papertrail&lt;/a&gt; and &lt;a href=&quot;https://www.pingdom.com&quot;&gt;Pingdom&lt;/a&gt;, giving SolarWinds continuous-delivery known-how and a splash of DevOps culture.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;SolarWinds is bimodal both in how offerings are built and delivered, but also in terms of customer environments its software manages. With Mode 1 offerings in hand, SolarWinds is well-poised and funded for new product initiatives and acquisitions moving toward Mode 2 offerings. With this in mind, I join forces at SolarWinds. I’ll highlight a few attractions to coming aboard:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;company recently privatized, freeing itself from external (Street) pressure&lt;/li&gt;
+  &lt;li&gt;recently refreshed set of well-experienced leadership&lt;/li&gt;
+  &lt;li&gt;headquartered in Austin – a refreshing change for me from having led high profile initiatives from branch campuses&lt;/li&gt;
+  &lt;li&gt;a forward-looking mindset toward new offerings; SaaS know-how embedded with the acquisitions of Librato, Papertrail and Pingdom&lt;/li&gt;
+  &lt;li&gt;alignment with my long-standing love of empowering engineers to work smarter with great software&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I anticipate a smooth acclimation to the company (given its culture) and role given that developer platforms, management and automation software have been, not the only, but a consistent theme throughout my career:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;An extranet at &lt;a href=&quot;https://www.global.weir&quot;&gt;Weir Minerals&lt;/a&gt; integrating their ERP system with supply chain vendors for real-time information on materials and orders, automation of document management.&lt;/li&gt;
+  &lt;li&gt;Moving to &lt;a href=&quot;https://www.pelco.com&quot;&gt;Pelco&lt;/a&gt; to lead Engineering IT, I empowered engineering groups to self-service and innovate autonomously by deploying network environments while maintaining supportable, dynamically-documented systems/networks with transparency to each environment’s configuration and service status; Designed first SNMP MIB and OID structure and introduced SNMP as a new capability across product portfolio; having created the Pelco Management Station, I moved to Cisco.&lt;/li&gt;
+  &lt;li&gt;Focus on management software and efficient service delivery continued within &lt;a href=&quot;http://www.cisco.com/web/services/portfolio/operations-management/managed-service/index.html&quot;&gt;Cisco Remote Management Services&lt;/a&gt; group, where I spent much time pushing the envelope of ScienceLogic’s EM7 (e.g. &lt;a href=&quot;http://mspmentor.net/managed-services/sciencelogic-it-platform-includes-video-management-enterprise-msps&quot;&gt;video mgmt&lt;/a&gt;, &lt;a href=&quot;http://blogs.cisco.com/ciscoit/configuration_management_whats_your_approach&quot;&gt;network configuration management&lt;/a&gt;) capabilities; brought in a data center automation engine to automate service delivery producing over 70 man-months of savings in its first year running.&lt;/li&gt;
+  &lt;li&gt;Transitioning into &lt;a href=&quot;http://www.cisco.com/c/en/us/solutions/data-center-virtualization/index.html&quot;&gt;Cisco Cloud and Virtualization Group&lt;/a&gt;, where I built &lt;a href=&quot;http://www.cisco.com/c/en/us/support/cloud-systems-management/intelligent-automation-cloud/tsd-products-support-series-home.html&quot;&gt;Cisco Intelligent Automation for Cloud&lt;/a&gt;, (and teams of excellent engineers); delivered the initial Cisco &lt;a href=&quot;https://en.wikipedia.org/wiki/Intercloud&quot;&gt;Intercloud&lt;/a&gt; release; founded the &lt;a href=&quot;https://drive.google.com/file/d/0BwKKA_Ml1VXuQ05WUkJIWXlWc2s/view?usp=sharing&quot;&gt;Docker@Cisco&lt;/a&gt; community.&lt;/li&gt;
+  &lt;li&gt;Joining Seagate, to focus on hyper-converged infrastructure and SDS, I pushed forward &lt;a href=&quot;http://dmtf.org/standards/redfish&quot;&gt;DMTF Redfish&lt;/a&gt; (&lt;a href=&quot;http://dmtf.org/sites/default/files/standards/documents/DSP0266_1.0.0.pdf&quot;&gt;1.0&lt;/a&gt;), a next-generation of IPMI, and delivered the company’s &lt;a href=&quot;http://blog.seagate.com/intelligent/redfish-slipstreams-ipmi-with-1-0-release/&quot;&gt;first implementation&lt;/a&gt;; Directed a suite of management software, spanning systems monitoring to drive analytics with failure prediction algorithms to the deployment of Seagate Call Home on container PaaS, Red Hat OpenShift (and joining the &lt;a href=&quot;http://commons.openshift.org/&quot;&gt;OpenShift Commons&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In the office of the CTO and chartered with technology strategy for the existing product lines and forward-looking ventures, I look forward to new challenges and relationships, and in doing so, reuniting and partnering with a former cohort from Cisco and Seagate. It seems acquisitions truly are SolarWinds’ forte – team acquisition in this case.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2016/07/renewing-my-energy-at-solarwinds/&quot;&gt;Renewing my energy at SolarWinds&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on July 31, 2016.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Contributing to Prometheus: An Open Source Tutorial]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/2016/06/contributing-to-prometheus-an-open-source-tutorial/" />
+  <id>http://localhost:4000/2016/06/contributing-to-prometheus-an-open-source-tutorial</id>
+  <published>2016-06-12T07:30:35-05:00</published>
+  <updated>2016-06-12T07:30:35-05:00</updated>
+  <author>
+    <name>Lee Calcote</name>
+    <uri>http://localhost:4000</uri>
+    <email>lee@calcotestudios.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;&lt;a href=&quot;https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2016/06/photo-1460804198264-011ca89eaa43.jpg&quot;&gt;&lt;img class=&quot;alignleft wp-image-1236 size-medium&quot; src=&quot;https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2016/06/photo-1460804198264-011ca89eaa43.jpg?resize=300%2C209&quot; alt=&quot;photo-1460804198264-011ca89eaa43&quot; data-id=&quot;1236&quot; srcset=&quot;https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2016/06/photo-1460804198264-011ca89eaa43.jpg?resize=300%2C209 300w, https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2016/06/photo-1460804198264-011ca89eaa43.jpg?w=640 640w&quot; sizes=&quot;(max-width: 300px) 100vw, 300px&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;Recently &lt;a href=&quot;http://thenewstack.io/cloud-native-computing-foundation-prometheus-second-hosted-project/&quot;&gt;adopted&lt;/a&gt;{.local-link} by the Cloud Native Computing Foundation, &lt;a class=&quot;ext-link&quot; href=&quot;http://www.prometheus.io/&quot; rel=&quot;external nofollow&quot;&gt;Prometheus&lt;/a&gt; is an open-source systems monitoring and alerting toolkit, focused on supporting the operation of microservices and containers. Like any open source project, it can be augmented with additional capabilities.&lt;/p&gt;
+
+&lt;p&gt;Contributing to Prometheus is no different than most other open source endeavors, which, like many projects, welcomes &lt;a class=&quot;ext-link&quot; href=&quot;https://prometheus.io/community/&quot; rel=&quot;external nofollow&quot;&gt;community contributions&lt;/a&gt;. Let’s gain better familiarity with the process by augmenting Prometheus’ &lt;a class=&quot;ext-link&quot; href=&quot;https://github.com/prometheus/alertmanager&quot; rel=&quot;external nofollow&quot;&gt;Alert Manager&lt;/a&gt; with a new “history” view. The first step, naturally, is to check out the contributing guidelines for the specific repository (in this case, &lt;a class=&quot;ext-link&quot; href=&quot;https://github.com/prometheus/alertmanager/blob/master/CONTRIBUTING.md&quot; rel=&quot;external nofollow&quot;&gt;Alert Manager&lt;/a&gt;‘s).&lt;/p&gt;
+
+&lt;p&gt;When electing to contribute to any open source project, you’ll want to ensure that you are capable of wielding the technologies used with the project — in this case, those are Go, AngularJS, SQL, etc. &lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;The AlertManager component handles alerts sent by client applications such as the Prometheus server, carefully de-duplicating, correlating, and routing their notifications to their appropriate receiver (e.g. email, webhook, etc.). Current behavior of this component is only to display actively firing alerts.&lt;/p&gt;
+
+&lt;p&gt;Read more on &lt;a href=&quot;http://thenewstack.io/contributing-prometheus-history-alertmanager/&quot;&gt;The New Stack&lt;/a&gt;…&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2016/06/contributing-to-prometheus-an-open-source-tutorial/&quot;&gt;Contributing to Prometheus: An Open Source Tutorial&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on June 12, 2016.&lt;/p&gt;
   </content>
 </entry>
 
