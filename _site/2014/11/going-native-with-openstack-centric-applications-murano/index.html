@@ -1,0 +1,727 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Going Native with OpenStack Centric Applications: Murano &#8211; Ginger Geek</title>
+<meta name="description" content="Gabbing gegariously on geekery">
+<meta name="keywords" content="docker, glance, heat, mistral, murano, openstack, solum">
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@lcalcote">
+<meta name="twitter:creator" content="@lcalcote">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Going Native with OpenStack Centric Applications: Murano">
+<meta property="og:description" content="Gabbing gegariously on geekery">
+<meta property="og:url" content="http://localhost:4000/2014/11/going-native-with-openstack-centric-applications-murano/">
+<meta property="og:site_name" content="Ginger Geek">
+<meta property="og:image" content="http://localhost:4000/images/images/logo.png">
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/2014/11/going-native-with-openstack-centric-applications-murano/">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Ginger Geek Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+<link rel="stylesheet" href="http://localhost:4000/assets/css/jquery.mmenu.all.css">
+<link rel="stylesheet" href="http://localhost:4000/assets/css/jquery.floating-social-share.min.css">
+<!-- Webfonts -->
+<link href="//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- Load Modernizr -->
+<script type="text/javascript" src="http://localhost:4000/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/images/apple-touch-icon-144x144-precomposed.png">
+
+
+
+
+</head>
+
+<body id="post" >
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+
+
+
+<div class="header-menu header-menu-top">
+    <ul class="header-item-container">
+      <li class="header-item-title header-toggle "><a href="#menu"><h2><i class="fa fa-bars"></i></h2></a></li>
+      <li class="header-item-title">
+        <a href="http://localhost:4000/">
+          
+            <img class="logo" src="http://localhost:4000/images/logo.png" alt="Ginger Geek">
+          
+          <a href="http://localhost:4000/" class="title"> Ginger Geek</a>
+        </a>
+      </li>
+      
+        
+        
+
+        
+          <li class="header-item "><a href="http://localhost:4000#"><h3>Index</h3></a>
+            <ul class="header-submenu">
+              
+                <li class="sub-item"><a href="http://localhost:4000/tags">Tags</a></li>
+              
+                <li class="sub-item"><a href="http://localhost:4000/categories">Categories</a></li>
+              
+            </ul>
+          </li>
+        
+      
+        
+        
+
+        
+          <li class="header-item "><a href="http://localhost:4000/podcasts"><h3>Podcasts</h3></a>
+            <ul class="header-submenu">
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#automator">automator</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#cncf">cncf</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#community">community</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#containers">containers</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#entourage">entourage</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#how-to articles">how-to articles</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#image">image</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#intro">intro</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#mac">mac</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#microservices">microservices</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#netconf">netconf</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#network management">network management</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#openstack">openstack</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#prometheus">prometheus</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#redfish">redfish</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#sample">sample</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#systems management">systems management</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#wsma">wsma</a></li>
+              
+            </ul>
+          </li>
+        
+      
+        
+        
+
+        
+            
+                <li class="header-item "><a href="http://localhost:4000/speaking"><h3>Speaking</h3></a></li>
+            
+        
+      
+        
+        
+
+        
+            
+                <li class="header-item "><a href="http://localhost:4000/articles"><h3>Articles</h3></a></li>
+            
+        
+      
+        
+        
+
+        
+            
+                <li class="header-item "><a href="http://localhost:4000/about"><h3>About</h3></a></li>
+            
+        
+      
+        
+        
+
+        
+            
+                <li class="header-item "><a href="http://localhost:4000/"><h3>Blog</h3></a></li>
+            
+        
+      
+      <li class="header-item"><a href="http://localhost:4000/search"><h3><i class="fa fa-search"></i></h3></a></li>
+    </ul>
+  </div>
+<div class="entry-header">
+  <div class="header-title">
+    <div class="header-title-wrap">
+      <h1>Going Native with OpenStack Centric Applications: Murano</h1>
+      
+        <h2><span class="entry-date date published updated"><time datetime="2014-11-18T17:44:39-06:00">November 18, 2014</time></span></h2>
+      
+
+      
+        <p class="entry-reading-time">
+          <i class="fa fa-clock-o"></i>
+          
+          Reading time ~7 minutes
+        </p><!-- /.entry-reading-time -->
+      
+    </div><!-- /.header-title-wrap -->
+  </div><!-- /.header-title -->
+</div><!-- /.entry-header -->
+
+
+<nav id="menu" style="display: none">
+  <ul>
+    
+      
+        <li><a href="http://localhost:4000/"><h3>Blog</h3></a></li>
+      
+    
+      
+        <li><a href="http://localhost:4000/about"><h3>About</h3></a></li>
+      
+    
+      
+        <li><a href="http://localhost:4000/articles"><h3>Articles</h3></a></li>
+      
+    
+      
+        <li><a href="http://localhost:4000/speaking"><h3>Speaking</h3></a></li>
+      
+    
+      
+        <li><a href="http://localhost:4000/podcasts"><h3>Podcasts</h3></a>
+          <ul>
+            
+              
+                <li><a href="http://localhost:4000/categories/#automator">automator</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#cncf">cncf</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#community">community</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#containers">containers</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#entourage">entourage</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#how-to articles">how-to articles</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#image">image</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#intro">intro</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#mac">mac</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#microservices">microservices</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#netconf">netconf</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#network management">network management</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#openstack">openstack</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#prometheus">prometheus</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#redfish">redfish</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#sample">sample</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#systems management">systems management</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#wsma">wsma</a></li>
+            
+          </ul>
+        </li>
+      
+    
+      
+        <li><a href="http://localhost:4000#"><h3>Index</h3></a>
+          <ul>
+            
+              <li><a href="http://localhost:4000/tags">Tags</a></li>
+            
+              <li><a href="http://localhost:4000/categories">Categories</a></li>
+            
+          </ul>
+        </li>
+      
+    
+  </ul>
+</nav>
+
+
+  <a href="https://twitter.com/lcalcote" class="btn btn-info button-twitter" data-show-count="false" data-size="large"><i class="fa fa-twitter"></i> <span> | Follow @lcalcote</span></a>
+
+
+
+<div id="main" role="main">
+  <article class="hentry">
+    <div class="entry-content">
+        
+      <h1 class="post-title entry-title">Going Native with OpenStack Centric Applications: Murano</h1>
+      <p>Following on our previous discussion <a href="http://blog.gingergeek.com/2014/11/going-native-with-openstack-centric-applications-overview/">surveying the projects supporting applications within OpenStack</a>, let’s continue our review with an in-depth look at the OpenStack-native Application Catalog: Murano, currently an incubation status project, having seen its functionality and core services integration advanced over the past few OpenStack releases.</p>
+
+<p><a href="https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano.png"><img class="alignleft" src="https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano.png?w=150" alt="OpenStack Centric Applications - Murano" data-recalc-dims="1" /></a></p>
+
+<h3 id="what-is-it">What is it?</h3>
+
+<p>An application catalog developed by Mirantis, HP and others (now including Cisco), that allows application developers and cloud administrators to publish applications in a categorized catalog to be perused and deployed by application consumers. The selection of applications available within the catalog is intended to be that of released versions (ready-state) of applications (cloud-native or enterprise-architected), not application versions that are mid-development. Ideally, these are applications ready to be consumed and run by application users.<!--more--></p>
+
+<h3 id="functionality-highlights">Functionality Highlights</h3>
+
+<ul>
+  <li>
+    <div id="attachment_883" style="width: 310px" class="wp-caption alignright">
+  <a href="https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Catalog-UI.png"><img class="wp-image-883 size-medium" src="https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Catalog-UI.png?resize=300%2C207" alt="OpenStack Centric Applications - Murano Application Catalog UI" srcset="https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Catalog-UI.png?resize=300%2C207 300w, https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Catalog-UI.png?resize=1024%2C708 1024w, https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Catalog-UI.png?w=1196 1196w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a>
+      
+  <p class="wp-caption-text">
+    Murano Application Catalog UI
+  </p>
+</div>
+    <p>Supports Windows and Linux applications</p>
+  </li>
+  <li>Leverages HOT templates for application definition</li>
+  <li>Controls Heat stack creation and updates processes</li>
+  <li>Track application properties and dependencies</li>
+  <li>Defines provisioning workflow definitions and executes them</li>
+  <li>Introduces “Application” and “Environment” constructs</li>
+  <li>Provides UI for application topology visualization</li>
+  <li>Control lifecycle of a deployed application</li>
+  <li>Allows simple management of access to an application</li>
+  <li>Compose an environment from multiple application components</li>
+  <li>Out of the Box Cataloged Applications
+    <ul>
+      <li>16 sample applications available now</li>
+      <li>6 production-grade applications on Mirantis OpenStack Express**</li>
+    </ul>
+  </li>
+  <li>Multiple application formats supported:
+    <ul>
+      <li>HOT Templates</li>
+      <li>MuranoPL</li>
+    </ul>
+  </li>
+  <li>Vision to support
+    <ul>
+      <li>Other application model formats:
+        <ul>
+          <li>Parallels APS format</li>
+          <li>TOSCA format</li>
+        </ul>
+      </li>
+      <li>Pricing; billing system integration</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="user-personas--capabilities">User Personas &amp; Capabilities</h3>
+
+<p>As an application catalog, Murano, primarily focuses on three user personas, the <em>Cloud Administrator</em>, <em>Application Consumer</em> and <em>Application Publisher</em> receiving the most emphasis upfront in the development of this project.</p>
+
+<h4 id="application-consumer">Application Consumer</h4>
+
+<p><a href="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-User-Persona.png"><img class="alignleft size-thumbnail wp-image-889" src="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-User-Persona.png?resize=150%2C150" alt="OpenStack Centric Applications - User Persona" srcset="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-User-Persona.png?resize=150%2C150 150w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-User-Persona.png?resize=300%2C300 300w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-User-Persona.png?w=677 677w" sizes="(max-width: 150px) 100vw, 150px" data-recalc-dims="1" /></a>The <em>Application Consumer</em> selects and deploys instances of applications into environments they define. The <em>Application Consumer</em> also…</p>
+
+<ul>
+  <li>…browses catalog (search, category, tags, etc)</li>
+  <li>…creates new environments</li>
+  <li>…deploys applications in environments</li>
+  <li>…monitors application statistics</li>
+</ul>
+
+<h4 id="application-publisher">Application Publisher</h4>
+
+<p>The <em>Application Publisher</em> creates application definitions (packages) that are imported as entries into the application catalog for perusal by <em>Application Consumers</em>. The <em>Application Publisher</em> also…</p>
+
+<ul>
+  <li>…defines application metadata (author, help message, version, etc)</li>
+  <li>…identifies cloud resource allocation (HOT templates)</li>
+  <li>…creates application deployment specifications (HOT templates)</li>
+  <li>…defines a template for dynamic visualization of application topology (Horizon)</li>
+  <li>…identifies metrics collection (Ceilometer)</li>
+  <li>…establishes actions &amp; events (Murano &amp; Mistral)</li>
+  <li>…imports and publishes application definition to catalog</li>
+</ul>
+
+<h4 id="cloud-administrator">Cloud Administrator</h4>
+
+<p>The <em>Cloud Administrator</em> is responsible for running the application catalog and providing stable infrastructure upon which to deploy and run applications. The <em>Cloud Administrator</em> also…</p>
+
+<ul>
+  <li>…curates application catalog (certification and signing of packages)</li>
+  <li>…configures access to applications</li>
+  <li>…defines billing rules*</li>
+</ul>
+
+<h3 id="application-packaging-process">Application Packaging Process</h3>
+
+<p>Currently, Murano applications may be packaged using two different formats to describe the application – the</p>
+
+<div id="attachment_884" style="width: 310px" class="wp-caption alignleft">
+  <a href="https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Packaging.png"><img class="wp-image-884 size-medium" src="https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Packaging.png?resize=300%2C155" alt="OpenStack Centric Applications - Murano Application Packaging" srcset="https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Packaging.png?resize=300%2C155 300w, https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Packaging.png?resize=1024%2C529 1024w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a>
+  
+  <p class="wp-caption-text">
+    Murano Application Packaging Process
+  </p>
+</div>
+<p>MuranoPL or a HOT template. There’s roadmap to support addition application description formats. While these two methodologies vary in terms of how the orchestration is performed during provisioning of an instance of the app, their are common attributes (catalog metadata) like an application display name, logo, description, author, tags. For those familiar with other domain-specific languages of other popular configuration management frameworks, the MuranoPL is of little challenge to pick up (you may lean into  use Bash or Powershell if more comfortable) or you may opt to use SoftwareConfig and SoftwareDeploy of HOT.</p>
+
+<h3 id="architectural-overview-core-services-integration">Architectural Overview &amp; Core Services Integration</h3>
+
+<p>See the “Murano Architectural Overview” diagram for a visual representation of how Murano is tightly integrated with core OpenStack services. It’s relationship to existing core services breaks down as follows:</p>
+
+<div id="attachment_885" style="width: 310px" class="wp-caption alignright">
+  <a href="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Architectural-Overview.png"><img class="wp-image-885 size-medium" src="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Architectural-Overview.png?resize=300%2C140" alt="OpenStack Centric Applications - Murano Architectural Overview" srcset="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Architectural-Overview.png?resize=300%2C140 300w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Architectural-Overview.png?resize=1024%2C479 1024w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Architectural-Overview.png?w=2000 2000w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a>
+  
+  <p class="wp-caption-text">
+    Murano Architectural Overview
+  </p>
+</div>
+
+<div style="margin-left: .25in;">
+  <h4>
+    Glance
+  </h4>
+  
+  <p>
+    Originally designed as an image repository, Murano will use Glance to store &amp; query application definitions. Glance is used as an artifact repository to store application definitions, query &amp; search them and store images required by applications. Images used by Murano are marked with specific metadata, which is used by Murano to derive appropriate selections within the UI during application deployment time.
+  </p>
+  
+  <h4>
+    Heat
+  </h4>
+  
+  <ul>
+    <li>
+      Cloud resource allocation specific to the application <ul>
+        <li>
+          Resources required by application is allocated using Heat
+        </li>
+      </ul>
+    </li>
+    
+    <li>
+      Application provisioning / deployment via Heat Software Configuration
+    </li>
+    <li>
+      Life-cycle callbacks*
+    </li>
+  </ul>
+  
+  <h4>
+    Horizon
+  </h4>
+  
+  <p>
+    Horizon is used to provide the Application Catalog user interface wherein <em>Application Publishers </em>may browse and deploy applications. Horizon is also u<span style="line-height: 1.5em;">sed to both build applications and visualize the topology provisioned applications. The need for this type of dynamic user interface (application topology canvas) has been p</span><span style="line-height: 1.5em;">roposed as separate project to provide common support to other Application-oriented projects – Heat, Solum, Mistral and Murano. This application blueprint designer project is codename – </span><a style="font-style: italic;" href="https://wiki.openstack.org/wiki/Merlin" target="_blank">Merlin</a>.
+  </p>
+  
+  <h4>
+    Docker
+  </h4>
+  
+  <p>
+    Murano supports existing Nova and Heat plugins. See the “Murano and Containers” section below.
+  </p>
+  
+  <h4>
+    Ceilometer
+  </h4>
+  
+  <p>
+    Murano uses Ceilometer for application metric collection &amp; processing. Additionally, Ceilometer events may be subscribed to and trigger specific actions (see below) for autoscaling, HA, DR and other.
+  </p>
+  
+  <h4>
+    Mistral
+  </h4>
+  
+  <ul>
+    <li>
+      Workflows are used when complex workflow outside of Heat is needed.
+    </li>
+    <li>
+      Actions (also available w/o Mistral) <ul>
+        <li>
+          Application level ad-hoc actions (e.g. create backup, enable/disable some feature, or create user for an application) will also be defined in Mistral.
+        </li>
+        <li>
+          Events (e.g. when X occurs then do Y)
+        </li>
+        <li>
+          Events mapping to actions
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+<div id="attachment_882" style="width: 310px" class="wp-caption alignleft">
+  <a href="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Actions.png"><img class="wp-image-882 size-medium" src="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Actions.png?resize=300%2C202" alt="OpenStack Centric Applications - Murano Actions" srcset="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Actions.png?resize=300%2C202 300w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Actions.png?w=995 995w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a>
+  
+  <p class="wp-caption-text">
+    Murano Actions – application-specific scaling
+  </p>
+</div>
+
+<h3 id="actions--events">Actions &amp; Events</h3>
+
+<div>
+  Classic runbook automation applies here – Murano allows the <em>Application Publisher</em> to define various custom actions to be taken upon trigger by an interesting event. What constitutes and interesting event is up to the <em>Application Publisher</em>, who may define any action in the application definition and associate the action to a specific workflow. By exposing a webhook to trigger the action (and workflow), they may be triggered by Ceilometer alarms or any 3rd party tool.
+</div>
+
+<div>
+</div>
+
+<div>
+  Common use cases are auto-scaling, HA and DR. The “Murano Actions” diagram shows an example of an autoscaling scenario in which an application might require additional database instance based web server load.
+</div>
+
+<h3 id="murano-and-containers">Murano and Containers</h3>
+
+<p>Murano inherently supports Docker containers by relying upon existing OpenStack components for container integration and orchestration. This means that there are no considerations to be accounted for within the MuranoPL to describe the application package to support containers. Similarly, when using Heat templates at the core of the application package, only reference to Docker resources and images is needed to support container orchestration by Heat. There are different ways of using Docker in OpenStack via Murano:</p>
+
+<p style="padding-left: 15px;">
+  1) Heat template can use Heat::Docker
+</p>
+
+<ul style="margin-left: 15px;">
+  <li style="padding-left: 15px;">
+    <span style="line-height: 1em;">Heat::Docker driver leverages Heat engine directly to instantiate containers</span>
+  </li>
+  <li style="padding-left: 15px;">
+    <span style="line-height: 1em;">Use Heat when Nova does not support Docker</span>
+  </li>
+</ul>
+
+<p style="margin-left: 15px;">
+  2) Heat template can use Nova::Docker
+</p>
+
+<ul style="margin-left: 15px;">
+  <li style="padding-left: 15px;">
+    <span style="line-height: 1em;">Use when you have a bare metal Docker installation</span>
+  </li>
+  <li style="padding-left: 15px;">
+    <span style="line-height: 1em;">Through Nova API, create a container without a VM being created to host</span>
+  </li>
+  <li style="padding-left: 15px;">
+    <span style="line-height: 1em;">Nova can go to bare metale to create Docker container</span>
+  </li>
+  <li style="padding-left: 15px;">
+    <span style="line-height: 1em;">User provides Heat template, workflow (Murano DSL) and image</span>
+  </li>
+</ul>
+
+<p style="padding-left: 15px;">
+  3) Not recommended – Use Heat resource to create a VM with Docker inside and boot an image file to the VM with <code>docker run</code>.
+</p>
+
+<p>The Murano team is looking to add autoscaling for Docker services, facilitate Docker application placement and integration with monitoring and network services.</p>
+
+<h3 id="murano-as-a-southbound-catalog">Murano as a Southbound Catalog</h3>
+
+<p><a href="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-tall.png"><img class="alignleft wp-image-930" src="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-tall.png?resize=165%2C200" alt="OpenStack Centric Applications - Murano" srcset="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-tall.png?resize=246%2C300 246w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-tall.png?w=445 445w" sizes="(max-width: 165px) 100vw, 165px" data-recalc-dims="1" /></a>Murano has two different northbound APIs to expose access to applications in the catalog – REST and AMQP (Services Broker). Within the Juno release, the Services Broker has only been prototyped. It’s scheduled to be fully-implemented in Kilo. While other use cases may exist, the primary use case for these northbound API revolves around allowing northbound catalogs to access and expose OpenStack-native applications.</p>
+
+<p>The <em>Services Broker</em> supports CRUD and binds service with your application. A proof of concept has been completed to integrate Cloud Foundry with Murano via the Service Broker. When CloudFoundry is integrated to Murano, CloudFoundry users see and order Murano applications in CloudFoundry.</p>
+
+<p>Using the <em>REST API</em>, Murano may be integrated as a southbound application catalog to expose OpenStack-native applications as SaaS application profiles available for users of a northbound catalog. Users benefit from existing services offered on top of OpenStack. This enables application components to be split across infrastructure (having application components deployed into different infrastructures).</p>
+
+<h3 id="kilo-roadmap">Kilo Roadmap</h3>
+
+<p>While subject to change, based on Kilo design summit discussions this week, the project team aims to bite off the following capabilities before the next release in May.</p>
+
+<ul>
+  <li>Implementing CloudFoundry ServiceBroker API</li>
+  <li>Use of Glance as an artifact repository</li>
+  <li>Support pluggable package definitions formats:
+    <ul>
+      <li>TOSCA (Topology and Orchestration Specification for Cloud Applications)</li>
+      <li>APS (Parallels Application Standard)</li>
+    </ul>
+  </li>
+  <li>Multiple Heat Stacks and OpenStack Cloud support
+    <ul>
+      <li>Availability Zones (for DR)</li>
+      <li>Multiple OpenStack clouds</li>
+    </ul>
+  </li>
+  <li>Pluggable Architecture
+    <ul>
+      <li>Integration with 3rd party API (F5, Brocade etc.)</li>
+      <li>Package format plugins</li>
+    </ul>
+  </li>
+</ul>
+
+<p>We’ll continue our review of support for applications within OpenStack in the next post of this series by diving into application lifecycle management with Solum.</p>
+
+<p><small>—<br /> *Future capability<br /> **To be released in November 2014 on Mirantis OpenStack Express<br /> Murano logo and screenshots reprinted with permission from Mirantis Inc.</small></p>
+
+      <footer class="entry-meta">
+        <span class="entry-tags"><a href="http://localhost:4000/tags#docker" title="Pages tagged docker" class="tag"><span class="term">docker</span></a><a href="http://localhost:4000/tags#glance" title="Pages tagged glance" class="tag"><span class="term">glance</span></a><a href="http://localhost:4000/tags#heat" title="Pages tagged heat" class="tag"><span class="term">heat</span></a><a href="http://localhost:4000/tags#mistral" title="Pages tagged mistral" class="tag"><span class="term">mistral</span></a><a href="http://localhost:4000/tags#murano" title="Pages tagged murano" class="tag"><span class="term">murano</span></a><a href="http://localhost:4000/tags#openstack" title="Pages tagged openstack" class="tag"><span class="term">openstack</span></a><a href="http://localhost:4000/tags#solum" title="Pages tagged solum" class="tag"><span class="term">solum</span></a></span>
+        
+        <span class="author vcard"><span class="fn">Lee Calcote</span></span>
+        <div class="social-share">
+  <ul class="socialcount socialcount-small inline-list">
+    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/2014/11/going-native-with-openstack-centric-applications-murano/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
+    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://localhost:4000/2014/11/going-native-with-openstack-centric-applications-murano/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
+    <li class="googleplus"><a href="https://plus.google.com/share?url=http://localhost:4000/2014/11/going-native-with-openstack-centric-applications-murano/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
+  </ul>
+</div><!-- /.social-share -->
+
+      </footer>
+    </div><!-- /.entry-content -->
+    <div class="read-more">
+  <div class="read-more-header">
+    <a href="http://gingergeek.com" class="read-more-btn">About the Author</a>
+  </div><!-- /.read-more-header -->
+  <div class="read-more-content author-info">
+    <h3>Lee Calcote</h3>
+    <div class="author-container">
+      <img class="author-img" src="http://localhost:4000/images/avatar.jpg" alt="Lee Calcote" />
+      <div class="author-bio">Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice.</div>
+    </div>
+    <div class="author-share">
+      <ul class="list-inline social-buttons">
+        
+          <li><a href="https://github.com/leecalcote" target="_blank"><i class="fa fa-github fa-fw"></i></a></li>
+        
+          <li><a href="https://linkedin.com/in/leecalcote" target="_blank"><i class="fa fa-linkedin fa-fw"></i></a></li>
+        
+          <li><a href="https://www.youtube.com/playlist?list=PLYjO73_1efChX9NuRaU7WocTbgrfvCoPE" target="_blank"><i class="fa fa-youtube fa-fw"></i></a></li>
+        
+      </ul>
+      
+        <a aria-label="Follow @leecalcote on GitHub" data-style="mega" href="https://github.com/leecalcote" class="github-button">Follow @leecalcote</a>
+      
+      <br>
+      
+        <a href="https://twitter.com/lcalcote" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @lcalcote</a>
+      
+    </div>
+  </div>
+</div>
+
+    
+    <div class="read-more">
+  
+    <div class="read-more-header">
+      <a href="http://localhost:4000/2014/11/going-native-with-openstack-centric-applications-overview/" class="read-more-btn">Read More</a>
+    </div><!-- /.read-more-header -->
+    <div class="read-more-content">
+      <h3><a href="http://localhost:4000/2017/04/the-hybrid-evolution-of-it/" title="The Hybrid Evolution of IT">The Hybrid Evolution of IT</a></h3>
+      <p>“It’s a great time to be in Information Technology.” While this is a true statement, not everyone clearly understands why (or perhaps, ha...&hellip; <a href="http://localhost:4000/2017/04/the-hybrid-evolution-of-it/">Continue reading</a></p>
+    </div><!-- /.read-more-content -->
+  
+  <div class="read-more-list">
+    
+      <div class="list-item">
+        <h4><a href="http://localhost:4000/2017/04/understanding-and-extending-prometheus-alertmanager/" title="Understanding and Extending Prometheus AlertManager">Understanding and Extending Prometheus AlertManager</a></h4>
+        <span>Published on April 25, 2017</span>
+      </div><!-- /.list-item -->
+    
+      <div class="list-item">
+        <h4><a href="http://localhost:4000/2017/03/create-great-cncf-user-base-from-lessons-learned-from-other-open-source-communities/" title="Create Great CNCF User-Base from Lessons Learned from Other Open Source Communities">Create Great CNCF User-Base from Lessons Learned from Other Open Source Communities</a></h4>
+        <span>Published on March 30, 2017</span>
+      </div><!-- /.list-item -->
+    
+  </div><!-- /.read-more-list -->
+</div><!-- /.read-more -->
+  </article>
+</div><!-- /#main -->
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript">window.jQuery || document.write('<script type="text/javascript" src="http://localhost:4000/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script type="text/javascript" src="http://localhost:4000/assets/js/scripts.min.js"></script>
+<script type="text/javascript" async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+<script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+
+
+
+
+
+
+
+
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <span>&copy; 2017 Lee Calcote.</span>
+
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+</body>
+</html>

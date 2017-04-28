@@ -1,0 +1,516 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Redfish slipstreams IPMI with 1.0 release &#8211; Ginger Geek</title>
+<meta name="description" content="Gabbing gegariously on geekery">
+<meta name="keywords" content="redfish">
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@lcalcote">
+<meta name="twitter:creator" content="@lcalcote">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Redfish slipstreams IPMI with 1.0 release">
+<meta property="og:description" content="Gabbing gegariously on geekery">
+<meta property="og:url" content="http://localhost:4000/2015/08/redfish-slipstreams-ipmi-with-1-0-release/">
+<meta property="og:site_name" content="Ginger Geek">
+<meta property="og:image" content="http://localhost:4000/images/images/logo.png">
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/2015/08/redfish-slipstreams-ipmi-with-1-0-release/">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Ginger Geek Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+<link rel="stylesheet" href="http://localhost:4000/assets/css/jquery.mmenu.all.css">
+<link rel="stylesheet" href="http://localhost:4000/assets/css/jquery.floating-social-share.min.css">
+<!-- Webfonts -->
+<link href="//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- Load Modernizr -->
+<script type="text/javascript" src="http://localhost:4000/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/images/apple-touch-icon-144x144-precomposed.png">
+
+
+
+
+</head>
+
+<body id="post" >
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+
+
+
+<div class="header-menu header-menu-top">
+    <ul class="header-item-container">
+      <li class="header-item-title header-toggle "><a href="#menu"><h2><i class="fa fa-bars"></i></h2></a></li>
+      <li class="header-item-title">
+        <a href="http://localhost:4000/">
+          
+            <img class="logo" src="http://localhost:4000/images/logo.png" alt="Ginger Geek">
+          
+          <a href="http://localhost:4000/" class="title"> Ginger Geek</a>
+        </a>
+      </li>
+      
+        
+        
+
+        
+          <li class="header-item "><a href="http://localhost:4000#"><h3>Index</h3></a>
+            <ul class="header-submenu">
+              
+                <li class="sub-item"><a href="http://localhost:4000/tags">Tags</a></li>
+              
+                <li class="sub-item"><a href="http://localhost:4000/categories">Categories</a></li>
+              
+            </ul>
+          </li>
+        
+      
+        
+        
+
+        
+          <li class="header-item "><a href="http://localhost:4000/podcasts"><h3>Podcasts</h3></a>
+            <ul class="header-submenu">
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#automator">automator</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#cncf">cncf</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#community">community</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#containers">containers</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#entourage">entourage</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#how-to articles">how-to articles</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#image">image</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#intro">intro</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#mac">mac</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#microservices">microservices</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#netconf">netconf</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#network management">network management</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#openstack">openstack</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#prometheus">prometheus</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#redfish">redfish</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#sample">sample</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#systems management">systems management</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#wsma">wsma</a></li>
+              
+            </ul>
+          </li>
+        
+      
+        
+        
+
+        
+            
+                <li class="header-item "><a href="http://localhost:4000/speaking"><h3>Speaking</h3></a></li>
+            
+        
+      
+        
+        
+
+        
+            
+                <li class="header-item "><a href="http://localhost:4000/articles"><h3>Articles</h3></a></li>
+            
+        
+      
+        
+        
+
+        
+            
+                <li class="header-item "><a href="http://localhost:4000/about"><h3>About</h3></a></li>
+            
+        
+      
+        
+        
+
+        
+            
+                <li class="header-item "><a href="http://localhost:4000/"><h3>Blog</h3></a></li>
+            
+        
+      
+      <li class="header-item"><a href="http://localhost:4000/search"><h3><i class="fa fa-search"></i></h3></a></li>
+    </ul>
+  </div>
+<div class="entry-header">
+  <div class="header-title">
+    <div class="header-title-wrap">
+      <h1>Redfish slipstreams IPMI with 1.0 release</h1>
+      
+        <h2><span class="entry-date date published updated"><time datetime="2015-08-12T17:55:34-05:00">August 12, 2015</time></span></h2>
+      
+
+      
+        <p class="entry-reading-time">
+          <i class="fa fa-clock-o"></i>
+          
+          Reading time ~2 minutes
+        </p><!-- /.entry-reading-time -->
+      
+    </div><!-- /.header-title-wrap -->
+  </div><!-- /.header-title -->
+</div><!-- /.entry-header -->
+
+
+<nav id="menu" style="display: none">
+  <ul>
+    
+      
+        <li><a href="http://localhost:4000/"><h3>Blog</h3></a></li>
+      
+    
+      
+        <li><a href="http://localhost:4000/about"><h3>About</h3></a></li>
+      
+    
+      
+        <li><a href="http://localhost:4000/articles"><h3>Articles</h3></a></li>
+      
+    
+      
+        <li><a href="http://localhost:4000/speaking"><h3>Speaking</h3></a></li>
+      
+    
+      
+        <li><a href="http://localhost:4000/podcasts"><h3>Podcasts</h3></a>
+          <ul>
+            
+              
+                <li><a href="http://localhost:4000/categories/#automator">automator</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#cncf">cncf</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#community">community</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#containers">containers</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#entourage">entourage</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#how-to articles">how-to articles</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#image">image</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#intro">intro</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#mac">mac</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#microservices">microservices</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#netconf">netconf</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#network management">network management</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#openstack">openstack</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#prometheus">prometheus</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#redfish">redfish</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#sample">sample</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#systems management">systems management</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#wsma">wsma</a></li>
+            
+          </ul>
+        </li>
+      
+    
+      
+        <li><a href="http://localhost:4000#"><h3>Index</h3></a>
+          <ul>
+            
+              <li><a href="http://localhost:4000/tags">Tags</a></li>
+            
+              <li><a href="http://localhost:4000/categories">Categories</a></li>
+            
+          </ul>
+        </li>
+      
+    
+  </ul>
+</nav>
+
+
+  <a href="https://twitter.com/lcalcote" class="btn btn-info button-twitter" data-show-count="false" data-size="large"><i class="fa fa-twitter"></i> <span> | Follow @lcalcote</span></a>
+
+
+
+<div id="main" role="main">
+  <article class="hentry">
+    <div class="entry-content">
+        
+      <h1 class="post-title entry-title">Redfish slipstreams IPMI with 1.0 release</h1>
+      <p> </p>
+
+<p><a href="https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2015/08/DMTF-Redfish-Logo.jpg"><img class="alignleft size-medium wp-image-969" src="https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2015/08/DMTF-Redfish-Logo.jpg?resize=300%2C211" alt="DMTF Redfish Logo" srcset="https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2015/08/DMTF-Redfish-Logo.jpg?resize=300%2C211 300w, https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2015/08/DMTF-Redfish-Logo.jpg?w=375 375w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a>Last week, I was delighted to join in heralding the <a href="http://www.dmtf.org/news/pr/2015/8/dmtf-helps-enable-multi-vendor-data-center-management-new-redfish-10-standard">announcement the release</a> of the Redfish 1.0 specification and highlight Seagate’s support of this emerging systems management API standard.</p>
+
+<p>For those unfamiliar with this newly minted, <a href="http://dmtf.org/standards/redfish">industry API specification</a>, understand that Redfish is a standard for data center and systems management that delivers improved performance, functionality, scalability and security. Designed to meet the expectations of end users for simple and interoperable management of modern scalable platform hardware, Redfish takes advantage of widely-used technologies to speed implementation and help system administrators be more effective.<!--more--></p>
+
+<p>With Redfish being a REST-based interface utilizing JSON and OData for systems management aims to replace Intelligent Platform Management Interface (IPMI), a widely used out-of-band specification developed in the late ‘90s. Like most systems manufacturers, Seagate supports IPMI and will continue to support it as a critical standard in the data center in lieu of broad adoption of Redfish. Where IPMI strains to meet the requirements of today’s massive multiscale environments, Redfish addresses IPMI inadequacies of interoperability, security, simplicity and scalability.</p>
+
+<p>Redfish is developed by the DMTF’s <a href="http://www.dmtf.org/standards/spmf">Scalable Platforms Management Forum</a> (SPMF). As a supporting member, Seagate, works alongside other leading systems manufacturers to create and publish this open industry standard specification and schema. This forum is led by Broadcom, Dell, Emerson, HP, Intel, Lenovo, Microsoft, Supermicro and VMware with additional support from AMI, Oracle, Fujitsu, Huawei, Mellanox and Seagate.</p>
+
+<p>Redfish 1.0 feature set summary:</p>
+
+<p><strong>Retrieve “IPMI class” data</strong></p>
+
+<li style="font-weight: 400;">
+  <span style="font-weight: 400;">Basic server identification and asset info</span>
+</li>
+<li style="font-weight: 400;">
+  <span style="font-weight: 400;">Health state</span>
+</li>
+<li style="font-weight: 400;">
+  <span style="font-weight: 400;">Temperature sensors and fans</span>
+</li>
+<li style="font-weight: 400;">
+  <span style="font-weight: 400;">Power supply, power consumption and thresholds</span>
+</li>
+
+<p><strong>Discovery</strong></p>
+
+<li style="font-weight: 400;">
+  <span style="font-weight: 400;">Service endpoint (network-based discovery)</span>
+</li>
+<li style="font-weight: 400;">
+  <span style="font-weight: 400;">System topology (rack/chassis/server/node)</span>
+</li>
+
+<p><strong>Basic I/O infrastructure data</strong></p>
+
+<li style="font-weight: 400;">
+  <span style="font-weight: 400;">Host NIC MAC address(es) for LOM devices</span>
+</li>
+<li style="font-weight: 400;">
+  <span style="font-weight: 400;">Drive status / fault reporting</span>
+</li>
+
+<p><strong>Security</strong></p>
+
+<li style="font-weight: 400;">
+  <span style="font-weight: 400;">Session-based and leverages HTTPS</span>
+</li>
+
+<p><strong>Perform Common Actions</strong></p>
+
+<li style="font-weight: 400;">
+  <span style="font-weight: 400;">Reboot / power cycle server</span>
+</li>
+<li style="font-weight: 400;">
+  <span style="font-weight: 400;">Change boot order / device</span>
+</li>
+<li style="font-weight: 400;">
+  <span style="font-weight: 400;">Set power thresholds</span>
+</li>
+
+<p><strong>Access and Notification</strong></p>
+
+<li style="font-weight: 400;">
+  <span style="font-weight: 400;">Serial console access via SSH</span>
+</li>
+<li style="font-weight: 400;">
+  <span style="font-weight: 400;">Alert / event notification method(s)</span>
+</li>
+<li style="font-weight: 400;">
+  <span style="font-weight: 400;">Event Log access method(s)</span>
+</li>
+
+<p><strong>BMC infrastructure</strong></p>
+
+<li style="font-weight: 400;">
+  <span style="font-weight: 400;">View / configure BMC network settings</span>
+</li>
+<li style="font-weight: 400;">
+  <span style="font-weight: 400;">Manage local BMC user accounts</span>
+</li>
+
+<p>Redfish 1.0 is only the beginning. Seagate and other industry leaders are already engaging within the DMTF Scalable Platform Management Forum on enhancements beyond Redfish 1.0 standard. You’re invited to <a href="http://www.dmtf.org/join/spmf">join</a> the discussion or provide feedback through the DMTF submission portal. Comments and requirements from Redfish consumers are openly solicited and crucial to helping the SPMF prioritize capabilities in the upcoming next versions.</p>
+
+<p>What does Redfish mean for Seagate partners and customers? It means a new level of control, management and monitoring for the data center, using a modern, secure RESTful API that is commonly understood and will be widely supported. We’ll further discuss Redfish’s concepts and constructs in this blog series, so stay tuned as we begin to showcase our adoption of Redfish initially within our suite of systems management software.</p>
+
+      <footer class="entry-meta">
+        <span class="entry-tags"><a href="http://localhost:4000/tags#redfish" title="Pages tagged redfish" class="tag"><span class="term">redfish</span></a></span>
+        
+        <span class="author vcard"><span class="fn">Lee Calcote</span></span>
+        <div class="social-share">
+  <ul class="socialcount socialcount-small inline-list">
+    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/2015/08/redfish-slipstreams-ipmi-with-1-0-release/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
+    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://localhost:4000/2015/08/redfish-slipstreams-ipmi-with-1-0-release/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
+    <li class="googleplus"><a href="https://plus.google.com/share?url=http://localhost:4000/2015/08/redfish-slipstreams-ipmi-with-1-0-release/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
+  </ul>
+</div><!-- /.social-share -->
+
+      </footer>
+    </div><!-- /.entry-content -->
+    <div class="read-more">
+  <div class="read-more-header">
+    <a href="http://gingergeek.com" class="read-more-btn">About the Author</a>
+  </div><!-- /.read-more-header -->
+  <div class="read-more-content author-info">
+    <h3>Lee Calcote</h3>
+    <div class="author-container">
+      <img class="author-img" src="http://localhost:4000/images/avatar.jpg" alt="Lee Calcote" />
+      <div class="author-bio">Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice.</div>
+    </div>
+    <div class="author-share">
+      <ul class="list-inline social-buttons">
+        
+          <li><a href="https://github.com/leecalcote" target="_blank"><i class="fa fa-github fa-fw"></i></a></li>
+        
+          <li><a href="https://linkedin.com/in/leecalcote" target="_blank"><i class="fa fa-linkedin fa-fw"></i></a></li>
+        
+          <li><a href="https://www.youtube.com/playlist?list=PLYjO73_1efChX9NuRaU7WocTbgrfvCoPE" target="_blank"><i class="fa fa-youtube fa-fw"></i></a></li>
+        
+      </ul>
+      
+        <a aria-label="Follow @leecalcote on GitHub" data-style="mega" href="https://github.com/leecalcote" class="github-button">Follow @leecalcote</a>
+      
+      <br>
+      
+        <a href="https://twitter.com/lcalcote" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @lcalcote</a>
+      
+    </div>
+  </div>
+</div>
+
+    
+    <div class="read-more">
+  
+    <div class="read-more-header">
+      <a href="http://localhost:4000/2014/11/going-native-with-openstack-centric-applications-murano/" class="read-more-btn">Read More</a>
+    </div><!-- /.read-more-header -->
+    <div class="read-more-content">
+      <h3><a href="http://localhost:4000/2017/04/the-hybrid-evolution-of-it/" title="The Hybrid Evolution of IT">The Hybrid Evolution of IT</a></h3>
+      <p>“It’s a great time to be in Information Technology.” While this is a true statement, not everyone clearly understands why (or perhaps, ha...&hellip; <a href="http://localhost:4000/2017/04/the-hybrid-evolution-of-it/">Continue reading</a></p>
+    </div><!-- /.read-more-content -->
+  
+  <div class="read-more-list">
+    
+      <div class="list-item">
+        <h4><a href="http://localhost:4000/2017/04/understanding-and-extending-prometheus-alertmanager/" title="Understanding and Extending Prometheus AlertManager">Understanding and Extending Prometheus AlertManager</a></h4>
+        <span>Published on April 25, 2017</span>
+      </div><!-- /.list-item -->
+    
+      <div class="list-item">
+        <h4><a href="http://localhost:4000/2017/03/create-great-cncf-user-base-from-lessons-learned-from-other-open-source-communities/" title="Create Great CNCF User-Base from Lessons Learned from Other Open Source Communities">Create Great CNCF User-Base from Lessons Learned from Other Open Source Communities</a></h4>
+        <span>Published on March 30, 2017</span>
+      </div><!-- /.list-item -->
+    
+  </div><!-- /.read-more-list -->
+</div><!-- /.read-more -->
+  </article>
+</div><!-- /#main -->
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript">window.jQuery || document.write('<script type="text/javascript" src="http://localhost:4000/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script type="text/javascript" src="http://localhost:4000/assets/js/scripts.min.js"></script>
+<script type="text/javascript" async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+<script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+
+
+
+
+
+
+
+
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <span>&copy; 2017 Lee Calcote.</span>
+
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+</body>
+</html>

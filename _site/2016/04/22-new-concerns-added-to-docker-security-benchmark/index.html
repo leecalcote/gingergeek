@@ -1,0 +1,512 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>22 new concerns added to Docker security benchmark &#8211; Ginger Geek</title>
+<meta name="description" content="Gabbing gegariously on geekery">
+<meta name="keywords" content="containers, docker, security">
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@lcalcote">
+<meta name="twitter:creator" content="@lcalcote">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="22 new concerns added to Docker security benchmark">
+<meta property="og:description" content="Gabbing gegariously on geekery">
+<meta property="og:url" content="http://localhost:4000/2016/04/22-new-concerns-added-to-docker-security-benchmark/">
+<meta property="og:site_name" content="Ginger Geek">
+<meta property="og:image" content="http://localhost:4000/images/images/logo.png">
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/2016/04/22-new-concerns-added-to-docker-security-benchmark/">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Ginger Geek Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+<link rel="stylesheet" href="http://localhost:4000/assets/css/jquery.mmenu.all.css">
+<link rel="stylesheet" href="http://localhost:4000/assets/css/jquery.floating-social-share.min.css">
+<!-- Webfonts -->
+<link href="//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- Load Modernizr -->
+<script type="text/javascript" src="http://localhost:4000/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/images/apple-touch-icon-144x144-precomposed.png">
+
+
+
+
+</head>
+
+<body id="post" >
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+
+
+
+<div class="header-menu header-menu-top">
+    <ul class="header-item-container">
+      <li class="header-item-title header-toggle "><a href="#menu"><h2><i class="fa fa-bars"></i></h2></a></li>
+      <li class="header-item-title">
+        <a href="http://localhost:4000/">
+          
+            <img class="logo" src="http://localhost:4000/images/logo.png" alt="Ginger Geek">
+          
+          <a href="http://localhost:4000/" class="title"> Ginger Geek</a>
+        </a>
+      </li>
+      
+        
+        
+
+        
+          <li class="header-item "><a href="http://localhost:4000#"><h3>Index</h3></a>
+            <ul class="header-submenu">
+              
+                <li class="sub-item"><a href="http://localhost:4000/tags">Tags</a></li>
+              
+                <li class="sub-item"><a href="http://localhost:4000/categories">Categories</a></li>
+              
+            </ul>
+          </li>
+        
+      
+        
+        
+
+        
+          <li class="header-item "><a href="http://localhost:4000/podcasts"><h3>Podcasts</h3></a>
+            <ul class="header-submenu">
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#automator">automator</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#cncf">cncf</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#community">community</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#containers">containers</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#entourage">entourage</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#how-to articles">how-to articles</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#image">image</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#intro">intro</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#mac">mac</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#microservices">microservices</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#netconf">netconf</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#network management">network management</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#openstack">openstack</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#prometheus">prometheus</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#redfish">redfish</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#sample">sample</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#systems management">systems management</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#wsma">wsma</a></li>
+              
+            </ul>
+          </li>
+        
+      
+        
+        
+
+        
+            
+                <li class="header-item "><a href="http://localhost:4000/speaking"><h3>Speaking</h3></a></li>
+            
+        
+      
+        
+        
+
+        
+            
+                <li class="header-item "><a href="http://localhost:4000/articles"><h3>Articles</h3></a></li>
+            
+        
+      
+        
+        
+
+        
+            
+                <li class="header-item "><a href="http://localhost:4000/about"><h3>About</h3></a></li>
+            
+        
+      
+        
+        
+
+        
+            
+                <li class="header-item "><a href="http://localhost:4000/"><h3>Blog</h3></a></li>
+            
+        
+      
+      <li class="header-item"><a href="http://localhost:4000/search"><h3><i class="fa fa-search"></i></h3></a></li>
+    </ul>
+  </div>
+<div class="entry-header">
+  <div class="header-title">
+    <div class="header-title-wrap">
+      <h1>22 new concerns added to Docker security benchmark</h1>
+      
+        <h2><span class="entry-date date published updated"><time datetime="2016-04-15T03:43:12-05:00">April 15, 2016</time></span></h2>
+      
+
+      
+        <p class="entry-reading-time">
+          <i class="fa fa-clock-o"></i>
+          
+          Reading time ~4 minutes
+        </p><!-- /.entry-reading-time -->
+      
+    </div><!-- /.header-title-wrap -->
+  </div><!-- /.header-title -->
+</div><!-- /.entry-header -->
+
+
+<nav id="menu" style="display: none">
+  <ul>
+    
+      
+        <li><a href="http://localhost:4000/"><h3>Blog</h3></a></li>
+      
+    
+      
+        <li><a href="http://localhost:4000/about"><h3>About</h3></a></li>
+      
+    
+      
+        <li><a href="http://localhost:4000/articles"><h3>Articles</h3></a></li>
+      
+    
+      
+        <li><a href="http://localhost:4000/speaking"><h3>Speaking</h3></a></li>
+      
+    
+      
+        <li><a href="http://localhost:4000/podcasts"><h3>Podcasts</h3></a>
+          <ul>
+            
+              
+                <li><a href="http://localhost:4000/categories/#automator">automator</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#cncf">cncf</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#community">community</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#containers">containers</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#entourage">entourage</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#how-to articles">how-to articles</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#image">image</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#intro">intro</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#mac">mac</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#microservices">microservices</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#netconf">netconf</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#network management">network management</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#openstack">openstack</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#prometheus">prometheus</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#redfish">redfish</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#sample">sample</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#systems management">systems management</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#wsma">wsma</a></li>
+            
+          </ul>
+        </li>
+      
+    
+      
+        <li><a href="http://localhost:4000#"><h3>Index</h3></a>
+          <ul>
+            
+              <li><a href="http://localhost:4000/tags">Tags</a></li>
+            
+              <li><a href="http://localhost:4000/categories">Categories</a></li>
+            
+          </ul>
+        </li>
+      
+    
+  </ul>
+</nav>
+
+
+  <a href="https://twitter.com/lcalcote" class="btn btn-info button-twitter" data-show-count="false" data-size="large"><i class="fa fa-twitter"></i> <span> | Follow @lcalcote</span></a>
+
+
+
+<div id="main" role="main">
+  <article class="hentry">
+    <div class="entry-content">
+        
+      <h1 class="post-title entry-title">22 new concerns added to Docker security benchmark</h1>
+      <p><img class="size-medium wp-image-1075 align left" src="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2016/04/CIS-Docker-Benchmark.png?resize=300%2C225" alt="CIS-Docker-Benchmark" srcset="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2016/04/CIS-Docker-Benchmark.png?resize=300%2C225 300w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2016/04/CIS-Docker-Benchmark.png?w=620 620w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /><small><em>Article originally appeared on <a href="http://www.networkworld.com/article/3056031/open-source-tools/22-new-concerns-added-to-docker-security-benchmark.html">Network World</a> on April 15th, 2016.</em></small></p>
+
+<p>Security has and continues to be an impediment to container adoption. Whether containers are less or more secure than their virtual machine counterparts is a topic of continued debate.</p>
+
+<p>Like any debate, there are merits to arguments on both sides with a bit of FUD interlaced. Many efforts have been undertaken within the container ecosystem to educate adopters and improve their comprehension of available tooling and security postures within platforms and offerings—be that in the form of static analysis (image scanning), runtime vulnerability detection, provenance (image signing), fine-grained authorization, cryptographic verification, etc.</p>
+
+<!--more-->
+
+<p>The breadth of need for improved security capabilities has provided an opportunity for emerging start-ups to focus specifically on the container security space and others to dedicate their company’s mission to securing the Internet. Having spent time with most of the vendors in this space, I’ll say that as you might expect, it’s a quickly changing landscape. One thing is evident: open source communities and vendors at every layer—from hardware through operating system, container runtime, container image, host to cluster orchestrator, PaaS to CaaS—have significantly marshalled forward security-centered improvements in the past year.</p>
+
+<p>The <a href="https://www.cisecurity.org/" target="new">Center for Internet Security</a> (CIS) is one of those organizations. CIS is dedicated to enhancing cybersecurity readiness and response between both public and private sectors. CIS produces Security Benchmarks as a way of providing defined, unbiased and consensus-based industry best practices to help organizations assess and improve their security. Thanks to a community of collaborators (<em>disclaimer: I am a member of the CIS Docker Benchmarks working group</em>), the first CIS Docker Benchmark was published last April for Docker 1.6. A year later (April 13, 2016), a revision of this benchmark was released in concert with the Docker 1.11.0 release.</p>
+
+<div class="apart ad lazyload_ad_article">
+</div>
+<aside class="nativo-promo smartphone"></aside>
+
+<p>Each CIS Docker Benchmark provides prescriptive guidance (in the form of rules) for establishing a secure configuration posture for Docker container infrastructure. The new benchmark version has been published with 22 new rules added and 23 rules removed, netting 83 rules in total.</p>
+
+<p>As Docker has evolved over the past year, several rules have been updated or simply removed, as these concerns are now addressed in later versions of Docker tooling. Other updates in the rules are simply a reflection of architectural shifts Docker has made. In the 1.11.0 release, Docker has separated the concern of supervising containers and their runtime, splitting into two daemons: <a href="https://containerd.tools/" target="new">containerd and runc</a>.</p>
+
+<p>The benchmark categorizes Docker security concerns into these groups (with number of concerns in parenthesis):</p>
+
+<ul>
+  <li>Host Configuration (15)</li>
+  <li>Docker daemon configuration (13)</li>
+  <li>Docker daemon configuration files (20)</li>
+  <li>Container Images and Build File (5)</li>
+  <li>Container Runtime (25)</li>
+  <li>Docker Security Operations (5)</li>
+</ul>
+
+<p>Each rule not only describes the security concern and how to perform an audit to ascertain your deployment’s disposition, but also suggests how you may remediate the concern. Both rules and their remediations are written from the perspective of a container host, not a cluster, so how you choose to remediate the concern will vary based on your cluster size and platform choice (bare metal, container PaaS, cloud, etc.)</p>
+
+<p>New rules introduced in the <a href="https://benchmarks.cisecurity.org/tools2/docker/CIS_Docker_1.11.0_Benchmark_v1.0.0.pdf" target="new">CIS Docker 1.11.0 Benchmark</a> (pdf):</p>
+
+<ul>
+  <li>Host Configuration
+    <ul>
+      <li>1.11 Audit Docker files and directories – docker.socket</li>
+      <li>1.13 Audit Docker files and directories – /etc/docker/daemon.json</li>
+      <li>1.14 Audit Docker files and directories – /usr/bin/docker-containerd</li>
+      <li>1.15 Audit Docker files and directories – /usr/bin/docker-runc</li>
+    </ul>
+  </li>
+  <li>Docker Daemon Configuration
+    <ul>
+      <li>2.8 Enable user namespace support</li>
+      <li>2.9 Confirm default cgroup usage</li>
+      <li>2.10 Do not change base device size until needed</li>
+      <li>2.11 Use authorization plugin</li>
+      <li>2.12 Configure centralized and remote logging</li>
+      <li>2.13 Disable operations on legacy registry (v1)</li>
+    </ul>
+  </li>
+  <li>Docker Daemon Configuration Files
+    <ul>
+      <li>3.17 Verify that daemon.json file ownership is set to root:root</li>
+      <li>3.18 Verify that daemon.json file permissions are set to 644 or more restrictive</li>
+      <li>3.19 Verify that /etc/default/docker file ownership is set to root:root</li>
+      <li>3.20 Verify that /etc/default/docker file permissions are set to 644 or more restrictive</li>
+    </ul>
+  </li>
+  <li>Container Images and Build File
+    <ul>
+      <li>4.5 Enable Content trust for Docker</li>
+    </ul>
+  </li>
+  <li>Container Runtime
+    <ul>
+      <li>5.19 Do not set mount propagation mode to shared</li>
+      <li>5.20 Do not share the host’s UTS namespace</li>
+      <li>5.21 Do not disable default seccomp profile</li>
+      <li>5.22 Do not docker exec commands with privileged option</li>
+      <li>5.23 Do not docker exec commands with user option</li>
+      <li>5.24 Confirm cgroup usage</li>
+      <li>5.25 Restrict container from acquiring additional privileges</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Some container security vendors participate in the creation of the Docker Security Benchmark, while many others incorporate detection of these issues into their offering or project. While some include policy-driven orchestration to address failed security tests, few actually fully remediate the issue (only some issues are well-suited for automated remediation).</p>
+
+<p>Security Configuration Benchmarks are distributed free of charge to propagate their worldwide use and adoption as user-originated standards. One such tool adopting the 1.11.0 benchmark concerns is the <a href="https://github.com/docker/docker-bench-security" target="new">Docker Bench for Security</a>—an open source, command-line tool used to perform checks in accordance with the CIS Docker Benchmark.</p>
+
+      <footer class="entry-meta">
+        <span class="entry-tags"><a href="http://localhost:4000/tags#containers" title="Pages tagged containers" class="tag"><span class="term">containers</span></a><a href="http://localhost:4000/tags#docker" title="Pages tagged docker" class="tag"><span class="term">docker</span></a><a href="http://localhost:4000/tags#security" title="Pages tagged security" class="tag"><span class="term">security</span></a></span>
+        
+        <span class="author vcard"><span class="fn">Lee Calcote</span></span>
+        <div class="social-share">
+  <ul class="socialcount socialcount-small inline-list">
+    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/2016/04/22-new-concerns-added-to-docker-security-benchmark/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
+    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://localhost:4000/2016/04/22-new-concerns-added-to-docker-security-benchmark/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
+    <li class="googleplus"><a href="https://plus.google.com/share?url=http://localhost:4000/2016/04/22-new-concerns-added-to-docker-security-benchmark/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
+  </ul>
+</div><!-- /.social-share -->
+
+      </footer>
+    </div><!-- /.entry-content -->
+    <div class="read-more">
+  <div class="read-more-header">
+    <a href="http://gingergeek.com" class="read-more-btn">About the Author</a>
+  </div><!-- /.read-more-header -->
+  <div class="read-more-content author-info">
+    <h3>Lee Calcote</h3>
+    <div class="author-container">
+      <img class="author-img" src="http://localhost:4000/images/avatar.jpg" alt="Lee Calcote" />
+      <div class="author-bio">Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice.</div>
+    </div>
+    <div class="author-share">
+      <ul class="list-inline social-buttons">
+        
+          <li><a href="https://github.com/leecalcote" target="_blank"><i class="fa fa-github fa-fw"></i></a></li>
+        
+          <li><a href="https://linkedin.com/in/leecalcote" target="_blank"><i class="fa fa-linkedin fa-fw"></i></a></li>
+        
+          <li><a href="https://www.youtube.com/playlist?list=PLYjO73_1efChX9NuRaU7WocTbgrfvCoPE" target="_blank"><i class="fa fa-youtube fa-fw"></i></a></li>
+        
+      </ul>
+      
+        <a aria-label="Follow @leecalcote on GitHub" data-style="mega" href="https://github.com/leecalcote" class="github-button">Follow @leecalcote</a>
+      
+      <br>
+      
+        <a href="https://twitter.com/lcalcote" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @lcalcote</a>
+      
+    </div>
+  </div>
+</div>
+
+    
+    <div class="read-more">
+  
+    <div class="read-more-header">
+      <a href="http://localhost:4000/2016/03/kubernetes-community-gathers-for-inaugural-european-edition-of-kubecon/" class="read-more-btn">Read More</a>
+    </div><!-- /.read-more-header -->
+    <div class="read-more-content">
+      <h3><a href="http://localhost:4000/2017/04/the-hybrid-evolution-of-it/" title="The Hybrid Evolution of IT">The Hybrid Evolution of IT</a></h3>
+      <p>“It’s a great time to be in Information Technology.” While this is a true statement, not everyone clearly understands why (or perhaps, ha...&hellip; <a href="http://localhost:4000/2017/04/the-hybrid-evolution-of-it/">Continue reading</a></p>
+    </div><!-- /.read-more-content -->
+  
+  <div class="read-more-list">
+    
+      <div class="list-item">
+        <h4><a href="http://localhost:4000/2017/04/understanding-and-extending-prometheus-alertmanager/" title="Understanding and Extending Prometheus AlertManager">Understanding and Extending Prometheus AlertManager</a></h4>
+        <span>Published on April 25, 2017</span>
+      </div><!-- /.list-item -->
+    
+      <div class="list-item">
+        <h4><a href="http://localhost:4000/2017/03/create-great-cncf-user-base-from-lessons-learned-from-other-open-source-communities/" title="Create Great CNCF User-Base from Lessons Learned from Other Open Source Communities">Create Great CNCF User-Base from Lessons Learned from Other Open Source Communities</a></h4>
+        <span>Published on March 30, 2017</span>
+      </div><!-- /.list-item -->
+    
+  </div><!-- /.read-more-list -->
+</div><!-- /.read-more -->
+  </article>
+</div><!-- /#main -->
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript">window.jQuery || document.write('<script type="text/javascript" src="http://localhost:4000/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script type="text/javascript" src="http://localhost:4000/assets/js/scripts.min.js"></script>
+<script type="text/javascript" async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+<script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+
+
+
+
+
+
+
+
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <span>&copy; 2017 Lee Calcote.</span>
+
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+</body>
+</html>

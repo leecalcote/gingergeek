@@ -1,0 +1,299 @@
+---
+id: 1100
+title: Speaking
+date: 2016-05-01T15:10:39+00:00
+author: Lee
+layout: page
+guid: http://blog.gingergeek.com/?page_id=1100
+---
+<p style="float: right; text-align: right; font-size: 1.25em;">
+  See <a href="/speaker-kit">Speaker Kit</a>
+</p>
+
+<div>
+  <p>
+    <span style="font-size: 1.25em;"><strong>Available for Speaking</strong></span>
+  </p>
+  
+  <p style="margin-left: 1em;">
+    If your company or event could benefit from learning about cloud native things at the intersection of clouds, containers and microservices, drop me a line. See also this <a href="http://calcotestudios.com/talks">index of talks</a>.
+  </p>
+  
+  <p>
+    <span style="font-size: 1.25em;"><strong>Upcoming Engagements</strong></span>
+  </p>
+  
+  <p style="margin-left: 1em;">
+    <strong>Date:</strong> Jun 19-22, 2017<br /> <strong>Event:</strong> <a href="https://conferences.oreilly.com/velocity/vl-ca/public/schedule/speaker/226795">Velocity 2017</a>
+  </p>
+  
+  <p style="margin-left: 1em;">
+    <strong>Date:</strong> May 9-11, 2017<br /> <strong>Event:</strong> <a href="https://conferences.oreilly.com/oscon/oscon-tx/public/schedule/speaker/226795">OSCON 2017</a>
+  </p>
+  
+  <p style="margin-left: 1em;">
+    <strong>Date:</strong> May 4-5, 2017<br /> <strong>Event:</strong> DevOpsDays Austin
+  </p>
+  
+  <p>
+    <span style="font-size: 1.25em;"><strong>Previous Engagements</strong></span>
+  </p>
+  
+  <hr width="50%" />
+  
+  <p style="margin-left: 1em;">
+    <strong>Date:</strong> Mar 28th, 2017<br /> <strong>Event:</strong> CloudNativeCon+KubeCon EU 2017
+  </p>
+  
+  <p>
+    <span class="embed-youtube" style="text-align:center; display: block;"></span>
+  </p>
+  
+  <p style="margin-left: 1em;">
+    <strong>Date:</strong> Dec 7th, 8th 2016<br /> <strong>Event:</strong> <a href="https://www.solarwindsmeetup.com/speaker/lee-calcote/">SolarWinds TechSummit 2016</a>
+  </p>
+  
+  <p align="center">
+    <img class="aligncenter size-medium wp-image-1618" src="https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2016/05/TechSummit16_870x460_v2-870x460.jpg?resize=300%2C159" alt="techsummit16_870x460_v2-870x460" data-id="1618" srcset="https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2016/05/TechSummit16_870x460_v2-870x460.jpg?resize=300%2C159 300w, https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2016/05/TechSummit16_870x460_v2-870x460.jpg?resize=768%2C406 768w, https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2016/05/TechSummit16_870x460_v2-870x460.jpg?resize=870%2C460 870w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" />
+  </p>
+  
+  <p align="center">
+    Talks: <a href="http://calcotestudios.com/techsummit-feto">(1)</a>, <a href="http://calcotestudios.com/techsummit-over-under">(2)</a>, <a href="http://calcotestudios.com/techsummit-ccka">(3)</a>
+  </p>
+  
+  <hr width="50%" />
+  
+  <p style="margin-left: 1em;">
+    <strong>Date:</strong> Feb 21-23, 2017<br /> <strong>Event:</strong> <a href="https://tmt.knect365.com/container-world/speakers/lee-calcote">Container World 2017</a>
+  </p>
+  
+  <hr width="50%" />
+  
+  <p style="margin-left: 1em;">
+    <strong>Date:</strong> Mar 3rd – 5th, 2017<br /> <strong>Event:</strong> <a href="http://www.socallinuxexpo.org/scale/15x/">SCALE 15x 2017</a>
+  </p>
+  
+  <hr width="50%" />
+  
+  <p style="margin-left: 1em;">
+    <strong>Date:</strong> Feb 9th, 2017<br /> <strong>Event:</strong> <a>O’Reilly Webcast – Load-balancers</a>
+  </p>
+  
+  <hr width="50%" />
+  
+  <p style="margin-left: 1em;">
+    <strong>Date:</strong> Feb 1st, 2017<br /> <strong>Event:</strong> <a href="http://techfieldday.com/event/tfd13/">Tech Field Day 13</a>
+  </p>
+  
+  <hr width="50%" />
+  
+  <p style="margin-left: 1em;">
+    <strong>Date:</strong> Nov 15th, 2016<br /> <strong>Event:</strong> <a href="http://www.alldaydevops.com/">All Day DevOps</a><br /> <strong>Title:</strong> Container Orchestrators
+  </p>
+  
+  <p>
+    <span class="embed-youtube" style="text-align:center; display: block;"></span>
+  </p>
+  
+  <p style="margin-left: 1em;">
+    <a href="http://www.alldaydevops.com/speakers/lee-calcote/"><img class="aligncenter size-medium wp-image-1615" src="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2016/05/Lee-Calcote.png?resize=300%2C108" alt="lee-calcote" data-id="1615" srcset="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2016/05/Lee-Calcote.png?resize=300%2C108 300w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2016/05/Lee-Calcote.png?w=600 600w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a>
+  </p>
+  
+  <hr width="50%" />
+  
+  <p>
+    <p=”margin-left:1em;”> <strong>Date:</strong> Nov 8-9th, 2016<br /> <strong>Event:</strong> <a href="http://events.linuxfoundation.org/events/cloudnativecon">CloudNativeCon</a><br /> <strong>Title:</strong> BOF: Growing a Community – Leveraging Meetups to educate, grow, and facilitate conversation.
+  </p>
+  
+  <p>
+    <span class="embed-youtube" style="text-align:center; display: block;"></span>
+  </p>
+  
+  <div align="center">
+  </div>
+  
+  <hr width="50%" />
+  
+  <p style="margin-left: 1em;">
+    <strong>Date:</strong> Oct 26-27th, 2016<br /> <strong>Event:</strong> <a href="https://allthingsopen.org/speakers/lee-calcote/">All Things Open</a><br /> <strong>Title:</strong> Characterizing and Contrasting Container Orchestrators<br /> <strong>Abstract:</strong> Running a few containers? No problem. Running hundreds or thousands? Enter the container orchestrator. Let’s take a look at the characteristics of the four most popular container orchestrators and what makes them alike, yet unique.
+  </p>
+  
+  <div align="center">
+  </div>
+  
+  <p>
+    <a href="https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2016/05/Lee-Calcote-All-Things-Open.jpg"><img class="aligncenter size-thumbnail wp-image-1656" src="https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2016/05/Lee-Calcote-All-Things-Open.jpg?resize=150%2C150" alt="lee-calcote-all-things-open" data-id="1656" srcset="https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2016/05/Lee-Calcote-All-Things-Open.jpg?resize=150%2C150 150w, https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2016/05/Lee-Calcote-All-Things-Open.jpg?zoom=2&resize=150%2C150 300w, https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2016/05/Lee-Calcote-All-Things-Open.jpg?zoom=3&resize=150%2C150 450w" sizes="(max-width: 150px) 100vw, 150px" data-recalc-dims="1" /></a>
+  </p>
+  
+  <hr width="50%" />
+  
+  <p style="margin-left: 1em;">
+    <a id="containerdaysaustin2016"></a><br /> <strong>Date:</strong> Oct 15th, 2016<br /> <strong>Event:</strong> <a href="http://www.containerdaysaustin.com/2016/">Container Days Austin</a><br /> <strong>Title:</strong> <a href="https://containerdaysaustin2016.sched.org/event/e0a54bd9e2499f7cff74ed126c643b22?iframe=no&w=i:100;&sidebar=yes&bg=no">The Container Ask Me Anything Panel</a>
+  </p>
+  
+  <div class="polaroid" align="center">
+    <p>
+      <a href="https://twitter.com/iteration1/status/787323288821243904"><img class="polaroid" src="https://i0.wp.com/pbs.twimg.com/media/Cu0iWn-VMAA80w9.jpg?ssl=1" data-recalc-dims="1" /></a>
+    </p>
+    
+    <div class="label">
+      Container Days Austin – Ask Me Anything
+    </div>
+  </div>
+  
+  <div class="polaroid" align="center">
+    <p>
+      <a href="https://twitter.com/container_days/status/787320312828309505"><img class="polaroid" src="https://i1.wp.com/pbs.twimg.com/media/Cu0fpcRVYAA-9v6.jpg?ssl=1" data-recalc-dims="1" /></a>
+    </p>
+    
+    <div class="label">
+      Container Days Austin – Ask Me Anything
+    </div>
+  </div>
+  
+  <p>
+    <span class="embed-youtube" style="text-align:center; display: block;"></span>
+  </p>
+  
+  <hr width="50%" />
+  
+  <p>
+    <strong>Date:</strong> Sept. 30th, 2016<br /> <strong>Event:</strong> <a href="http://containerizethis.com">ContainerizeThis</a><br /> <strong>Title:</strong> <a href="https://containerizethis2016a.sched.org/event/8G9N/presentation-from-engines-to-orchestrators">From Engines to Orchestrators</a><br /> <strong>Links: </strong><a href="https://twitter.com/jjlittlejohn/status/781929891327389696">1</a><br /> <strong>Abstract:</strong> An introduction to container runtimes (engines) and an understanding of when container orchestrators enter and what role they play. We’ll look at what makes them alike, yet unique.
+  </p>
+  
+  <div align="center">
+  </div>
+  
+  <hr width="50%" />
+  
+  <p style="margin-left: 1em;">
+    <strong>Date:</strong> Sept. 8th, 2016<br /> <strong>Event:</strong> <a href="https://www.nginx.com/nginxconf">Nginx Conference</a> (<a href="https://www.nginx.com/nginxconf/speakers/list/#572b5ef476280471db0000c0">1</a>)<br /> <strong>Title:</strong> Powering Microservices & Sockets with Nginx<br /> <strong>Abstract:</strong> Microservices present challenges of coordination, SSL termination and socket connection among others. Looking to different cloud providers to assist with their load-balancers leaves you wanting as features socket connection support, SSL termination and geo-distributed load-balancing are often absent.
+  </p>
+  
+  <div align="center">
+  </div>
+  
+  <p>
+    <span class="embed-youtube" style="text-align:center; display: block;"></span>
+  </p>
+  
+  <hr width="50%" />
+  
+  <p style="margin-left: 1em;">
+    <strong>Date:</strong> Aug 25th, 2016<br /> <strong>Event:</strong> <a href="http://events.linuxfoundation.org/events/linuxcon-north-america">CloudNativeDay</a> (<a href="https://cnd2016.sched.org/event/7zcc">Panel</a>, <a href="https://twitter.com/zahedab/status/768791864732360705">2</a>)<br /> <strong>Topic:</strong> Open Source Ecosystems<br /> <strong>Media:</strong> <a href="http://thenewstack.io/cloudnative-day-pancake-podcast-containers-at-scale/">Article</a>, <a href="https://www.youtube.com/watch?v=7V8Ds_Yw93M">Video</a>, <a href="https://soundcloud.com/thenewstackanalysts/cloud-native-day-toronto-pancake-breakfast">Audio</a>
+  </p>
+  
+  <div class="polaroid" align="center">
+    <p>
+      <a href="https://twitter.com/thenewstack/status/768785951086694400"><img class="polaroid" src="https://i1.wp.com/pbs.twimg.com/media/CqtGvydVYAEjNGM.jpg?ssl=1" data-recalc-dims="1" /></a>
+    </p>
+    
+    <div class="label">
+      Coffee and shop talking…
+    </div>
+  </div>
+  
+  <div class="polaroid" align="center">
+    <p>
+      <a href="https://twitter.com/lcalcote/status/773195784703455232"><img class="polaroid" src="https://i2.wp.com/pbs.twimg.com/media/Crrw7vkUIAAcmU0.jpg?ssl=1" data-recalc-dims="1" /></a>
+    </p>
+    
+    <div class="label">
+      …two of my vices – at #CloudNativeDay in Toronto.
+    </div>
+  </div>
+  
+  <hr width="50%" />
+  
+  <p style="margin-left: 1em;">
+    <strong>Date:</strong> Aug 22-24th, 2016<br /> <strong>Event:</strong> <a href="http://events.linuxfoundation.org/events/linuxcon-north-america">LinuxCon</a> (<a href="https://lcccna2016.sched.org/speaker/leecalcote?iframe=yes&w=&sidebar=yes&bg=no">1</a>)<br /> <strong>Title:</strong> <a href="http://calcotestudios.com/talks/slides-characterizing-and-contrasting-container-orchestrators.html">Characterizing and Contrasting Container Orchestrators</a><br /> <strong>Abstract:</strong> Running a few containers? No problem. Running hundreds or thousands? Enter the container orchestrator. Let’s take a look at the characteristics of the four most popular container orchestrators and what makes them alike, yet unique.
+  </p>
+  
+  <p style="text-align: center;">
+  </p>
+  
+  <hr width="50%" />
+  
+  <p style="margin-left: 1em;">
+    <strong>Date:</strong> July 27, 2016<br /> <strong>Event:</strong> Rackspace Tech Talk<br /> <strong>Title:</strong> <a href="http://calcotestudios.com/talks/overlay-underlay-betting-on-container-networking.html">Overlay/Underlay: An Over/Under Bet on Container Networking</a><br /> <strong>Abstract:</strong> An inherent to component to any distributed application, networking is one of the most complicated and expansive infrastructure technologies.
+  </p>
+  
+  <div align="center">
+  </div>
+  
+  <p>
+    Container networking needs to be developer-friendly and application-driven. With developers busily adopting container technologies, the time has come for network engineers and operators to prepare for the unique challenges brought on by cloud native applications.
+  </p>
+  
+  <hr width="50%" />
+  
+  <p style="margin-left: 1em;">
+    <a id="containersummitaustin2016"></a><br /> <strong>Date:</strong> July 19, 2016<br /> <strong>Event:</strong> <a href="http://containersummit.io/city-series/2016/austin">Container Summit Austin</a> hosted by <a href="http://www.meetup.com/Microservices-and-Containers-Austin/events/232324817/">Microservices and Containers Austin</a><br /> <strong>Links:</strong> Photo <a href="https://twitter.com/joyent/status/755589024316657665">1</a>, <a href="https://twitter.com/lcalcote/status/755428781867741184">2</a>
+  </p>
+  
+  <div align="center">
+  </div>
+  
+  <hr width="50%" />
+  
+  <p style="margin-left: 1em;">
+    <strong>Date:</strong> July 7, 2016<br /> <strong>Event:</strong> <a href="http://www.meetup.com/Docker-Austin/events/231029121/">DockerCon16 Recap</a><br /> <strong>Links:</strong> Photo <a href="https://twitter.com/everett_toews/status/751201978697547777">1</a>, <a href="https://twitter.com/iteration1/status/751197987917869056">2</a>
+  </p>
+  
+  <div align="center">
+    <p>
+    </p>
+    
+    <p>
+      <span class="embed-youtube" style="text-align:center; display: block;"></span>
+    </p>
+  </div>
+  
+  <hr width="50%" />
+  
+  <p style="margin-left: 1em;">
+    <strong>Date:</strong> May 3, 2016<br /> <strong>Event:</strong> <a href="http://devopsdaysaustin2016.sched.org/event/6lSm">DevOpsDays Austin – A Survey of Container Orchestrators</a><br /> <strong>Links:</strong> Photo <a href="https://twitter.com/alvinbrown/status/727590555836768256">1</a>, <a href="https://twitter.com/iteration1/status/727600061387935744">2</a>
+  </p>
+  
+  <p>
+    <a href="http://calcotestudios.com/talks/a-survey-of-the-container-orchestrator-landscape.html"><img class="aligncenter wp-image-1131" src="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2016/05/A-Survey-of-the-Container-Orchestrator-Landscape.png?resize=600%2C338" alt="A Survey of the Container Orchestrator Landscape" srcset="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2016/05/A-Survey-of-the-Container-Orchestrator-Landscape.png?resize=1024%2C576 1024w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2016/05/A-Survey-of-the-Container-Orchestrator-Landscape.png?resize=300%2C169 300w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2016/05/A-Survey-of-the-Container-Orchestrator-Landscape.png?resize=768%2C432 768w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2016/05/A-Survey-of-the-Container-Orchestrator-Landscape.png?w=2000 2000w" sizes="(max-width: 600px) 100vw, 600px" data-recalc-dims="1" /></a>
+  </p>
+  
+  <hr width="50%" />
+  
+  <p style="margin-left: 1em;">
+    <strong>Date:</strong> April 26, 2016<br /> <strong>Event:</strong> <a href="http://blog.rackspace.com/container-day-rackspace-cantina-openstack-summit/">OpenStack Summit Container Day – Characterizing and Contrasting Container Orchestrators</a><br /> <strong>Links:</strong> Photo <a href="https://twitter.com/everett_toews/status/725033469311479808">1</a>, <a href="https://twitter.com/jessenoller/status/725032791298052096">2</a>
+  </p>
+  
+  <div align="center">
+    <p>
+      <span class="embed-youtube" style="text-align:center; display: block;"></span><br /> <a href="http://blog.rackspace.com/relax-recharge-rackspace-cantina-openstack-summit-austin/">Relax and Recharge at the Rackspace Cantina During OpenStack Summit Austin</a><span class="embed-youtube" style="text-align:center; display: block;"></span><br /> <a href="https://getcarina.com/blog/container-day-austin-summit/">OpenStack Summit Austin: Containers Meetup!</a></div> 
+      
+      <hr width="50%" />
+      
+      <p style="margin-left: 1em;">
+        <strong>Date:</strong> April 21, 2016<br /> <strong>Event:</strong> <a href="https://www.meetup.com/Microservices-and-Containers-Austin/events/230391578/">Microservices and Containers Austin</a>
+      </p>
+      
+      <div align="center">
+        <br /> via <a href="http://usergroup.tv/videos/contrasting-container-orchestrators">UserGroup.tv</a>
+      </div>
+      
+      <hr width="50%" />
+      
+      <p style="margin-left: 1em;">
+        <strong>Date:</strong> December 3, 2015<br /> <strong>Event:</strong> <a href="http://www.slideshare.net/leecalcote/dockercon-eu-2015-recap">Docker Austin – DockerCon EU 2015 Recap</a>
+      </p>
+      
+      <div align="center">
+      </div>
+      
+      <hr width="50%" />
+      
+      <p style="margin-left: 1em;">
+        <a id="DockeratCisco"></a><br /> <strong>Date:</strong> October, 2014<br /> <strong>Event:</strong> <a href="https://drive.google.com/open?id=0BwKKA_Ml1VXuQ05WUkJIWXlWc2s">Docker@Cisco – Introduction to Docker</a>
+      </p>
+      
+      <p>
+        <a href="https://drive.google.com/open?id=0BwKKA_Ml1VXuQ05WUkJIWXlWc2s"><img class="aligncenter" src="https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2016/05/DockeratCisco-Introduction-to-Docker.png?w=620" alt="DockeratCisco - Introduction to Docker" data-recalc-dims="1" /></a>
+      </p></div>

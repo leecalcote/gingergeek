@@ -1,0 +1,514 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>The Container Networking Landscape: CNI from CoreOS and CNM from Docker &#8211; Ginger Geek</title>
+<meta name="description" content="Gabbing gegariously on geekery">
+<meta name="keywords" content="containers, docker, kubernetes, marathon, mesos, networking, swarm">
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@lcalcote">
+<meta name="twitter:creator" content="@lcalcote">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="The Container Networking Landscape: CNI from CoreOS and CNM from Docker">
+<meta property="og:description" content="Gabbing gegariously on geekery">
+<meta property="og:url" content="http://localhost:4000/2016/09/the-container-networking-landscape-cni-from-coreos-and-cnm-from-docker/">
+<meta property="og:site_name" content="Ginger Geek">
+<meta property="og:image" content="http://localhost:4000/images/images/logo.png">
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/2016/09/the-container-networking-landscape-cni-from-coreos-and-cnm-from-docker/">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Ginger Geek Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+<link rel="stylesheet" href="http://localhost:4000/assets/css/jquery.mmenu.all.css">
+<link rel="stylesheet" href="http://localhost:4000/assets/css/jquery.floating-social-share.min.css">
+<!-- Webfonts -->
+<link href="//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- Load Modernizr -->
+<script type="text/javascript" src="http://localhost:4000/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/images/apple-touch-icon-144x144-precomposed.png">
+
+
+
+
+</head>
+
+<body id="post" >
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+
+
+
+<div class="header-menu header-menu-top">
+    <ul class="header-item-container">
+      <li class="header-item-title header-toggle "><a href="#menu"><h2><i class="fa fa-bars"></i></h2></a></li>
+      <li class="header-item-title">
+        <a href="http://localhost:4000/">
+          
+            <img class="logo" src="http://localhost:4000/images/logo.png" alt="Ginger Geek">
+          
+          <a href="http://localhost:4000/" class="title"> Ginger Geek</a>
+        </a>
+      </li>
+      
+        
+        
+
+        
+          <li class="header-item "><a href="http://localhost:4000#"><h3>Index</h3></a>
+            <ul class="header-submenu">
+              
+                <li class="sub-item"><a href="http://localhost:4000/tags">Tags</a></li>
+              
+                <li class="sub-item"><a href="http://localhost:4000/categories">Categories</a></li>
+              
+            </ul>
+          </li>
+        
+      
+        
+        
+
+        
+          <li class="header-item "><a href="http://localhost:4000/podcasts"><h3>Podcasts</h3></a>
+            <ul class="header-submenu">
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#automator">automator</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#cncf">cncf</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#community">community</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#containers">containers</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#entourage">entourage</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#how-to articles">how-to articles</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#image">image</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#intro">intro</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#mac">mac</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#microservices">microservices</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#netconf">netconf</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#network management">network management</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#openstack">openstack</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#prometheus">prometheus</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#redfish">redfish</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#sample">sample</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#systems management">systems management</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#wsma">wsma</a></li>
+              
+            </ul>
+          </li>
+        
+      
+        
+        
+
+        
+            
+                <li class="header-item "><a href="http://localhost:4000/speaking"><h3>Speaking</h3></a></li>
+            
+        
+      
+        
+        
+
+        
+            
+                <li class="header-item "><a href="http://localhost:4000/articles"><h3>Articles</h3></a></li>
+            
+        
+      
+        
+        
+
+        
+            
+                <li class="header-item "><a href="http://localhost:4000/about"><h3>About</h3></a></li>
+            
+        
+      
+        
+        
+
+        
+            
+                <li class="header-item "><a href="http://localhost:4000/"><h3>Blog</h3></a></li>
+            
+        
+      
+      <li class="header-item"><a href="http://localhost:4000/search"><h3><i class="fa fa-search"></i></h3></a></li>
+    </ul>
+  </div>
+<div class="entry-header">
+  <div class="header-title">
+    <div class="header-title-wrap">
+      <h1>The Container Networking Landscape: CNI from CoreOS and CNM from Docker</h1>
+      
+        <h2><span class="entry-date date published updated"><time datetime="2016-09-16T07:48:03-05:00">September 16, 2016</time></span></h2>
+      
+
+      
+        <p class="entry-reading-time">
+          <i class="fa fa-clock-o"></i>
+          
+          Reading time ~7 minutes
+        </p><!-- /.entry-reading-time -->
+      
+    </div><!-- /.header-title-wrap -->
+  </div><!-- /.header-title -->
+</div><!-- /.entry-header -->
+
+
+<nav id="menu" style="display: none">
+  <ul>
+    
+      
+        <li><a href="http://localhost:4000/"><h3>Blog</h3></a></li>
+      
+    
+      
+        <li><a href="http://localhost:4000/about"><h3>About</h3></a></li>
+      
+    
+      
+        <li><a href="http://localhost:4000/articles"><h3>Articles</h3></a></li>
+      
+    
+      
+        <li><a href="http://localhost:4000/speaking"><h3>Speaking</h3></a></li>
+      
+    
+      
+        <li><a href="http://localhost:4000/podcasts"><h3>Podcasts</h3></a>
+          <ul>
+            
+              
+                <li><a href="http://localhost:4000/categories/#automator">automator</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#cncf">cncf</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#community">community</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#containers">containers</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#entourage">entourage</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#how-to articles">how-to articles</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#image">image</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#intro">intro</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#mac">mac</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#microservices">microservices</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#netconf">netconf</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#network management">network management</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#openstack">openstack</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#prometheus">prometheus</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#redfish">redfish</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#sample">sample</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#systems management">systems management</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#wsma">wsma</a></li>
+            
+          </ul>
+        </li>
+      
+    
+      
+        <li><a href="http://localhost:4000#"><h3>Index</h3></a>
+          <ul>
+            
+              <li><a href="http://localhost:4000/tags">Tags</a></li>
+            
+              <li><a href="http://localhost:4000/categories">Categories</a></li>
+            
+          </ul>
+        </li>
+      
+    
+  </ul>
+</nav>
+
+
+  <a href="https://twitter.com/lcalcote" class="btn btn-info button-twitter" data-show-count="false" data-size="large"><i class="fa fa-twitter"></i> <span> | Follow @lcalcote</span></a>
+
+
+
+<div id="main" role="main">
+  <article class="hentry">
+    <div class="entry-content">
+        
+      <h1 class="post-title entry-title">The Container Networking Landscape: CNI from CoreOS and CNM from Docker</h1>
+      <p><a href="https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2016/10/glen-canyon.jpg"><img data-id="1582" src="https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2016/10/glen-canyon.jpg?resize=300%2C224" alt="glen-canyon" class="alignleft size-medium wp-image-1582" srcset="https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2016/10/glen-canyon.jpg?resize=300%2C224 300w, https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2016/10/glen-canyon.jpg?resize=768%2C574 768w, https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2016/10/glen-canyon.jpg?w=960 960w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a></p>
+
+<p style="text-align: right;">
+  <em>Originally published on <a href="http://thenewstack.io/container-networking-landscape-cni-coreos-cnm-docker/">The New Stack</a> on Sept. 4th, 2016.</em>
+</p>
+
+<p>There are two proposed standards for configuring network interfaces for Linux containers: the container network model (CNM) and the container network interface (CNI). Networking is complex, and there are many ways to deliver functionality. Arguments can be made as to which one is easier to adopt than the next, or which one is less tethered to their benefactor’s technology.</p>
+
+<p>When evaluating any technology, some important considerations are community adoption and support. Some perspectives have been formed on which model has a lower barrier to entry. Finding the right metrics to determine the velocity of a project is tricky. Plugin vendors also need to consider the relative ease by which plugins may be written for either of these two models.<!--more--></p>
+
+<h2 id="container-network-model">Container Network Model</h2>
+
+<p>The <a href="https://github.com/docker/libnetwork/blob/master/docs/design.md">Container Network Model</a> (CNM) is a specification proposed by Docker, adopted by projects such as <a href="https://github.com/docker/libnetwork/blob/master/docs/design.md">libnetwork</a>, with integrations from projects and companies such as <a href="http://contiv.github.io/">Cisco Contiv</a>, <a href="https://wiki.openstack.org/wiki/Kuryr">Kuryr</a>, Open Virtual Networking (OVN), <a href="https://www.projectcalico.org">Project Calico</a>, <a href="https://github.com/vmware/docker-volume-vsphere">VMware</a> and <a href="https://github.com/weaveworks/weave">Weave</a>.</p>
+
+<div id="attachment_1587" style="width: 310px" class="wp-caption aligncenter">
+  <a href="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2016/09/Chart_Container-Network-Model-Drivers.png"><img data-id="1587" src="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2016/09/Chart_Container-Network-Model-Drivers.png?resize=300%2C200" alt=" Figure 1: Libnetwork provides an interface between the Docker daemon and network drivers." class="size-medium wp-image-1587" srcset="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2016/09/Chart_Container-Network-Model-Drivers.png?resize=300%2C200 300w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2016/09/Chart_Container-Network-Model-Drivers.png?resize=768%2C512 768w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2016/09/Chart_Container-Network-Model-Drivers.png?resize=1024%2C683 1024w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2016/09/Chart_Container-Network-Model-Drivers.png?w=1600 1600w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a>
+  
+  <p class="wp-caption-text">
+    Figure 1: Libnetwork provides an interface between the Docker daemon and network drivers.
+  </p>
+</div>
+
+<p>Libnetwork is the canonical implementation of the CNM specification. Libnetwork provides an interface between the Docker daemon and network drivers. The network controller is responsible for pairing a driver to a network. Each driver is responsible for managing the network it owns, including services provided to that network like IPAM. With one driver per network, multiple drivers can be used concurrently with containers connected to multiple networks. Drivers are defined as being either native (built-in to libnetwork or Docker supported) or remote (third party plugins). The native drivers are none, bridge, overlay and MACvlan. Remote drivers may bring any number of capabilities. Drivers are also defined as having a local scope (single host) or global scope (multi-host).</p>
+
+<div id="attachment_1586" style="width: 310px" class="wp-caption aligncenter">
+  <a href="https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2016/09/Chart_Container-Network-Model-Interfacing.png"><img data-id="1586" src="https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2016/09/Chart_Container-Network-Model-Interfacing.png?resize=300%2C200" alt="Figure 2: Containers being connected through a series of network endpoints." class="size-medium wp-image-1586" srcset="https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2016/09/Chart_Container-Network-Model-Interfacing.png?resize=300%2C200 300w, https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2016/09/Chart_Container-Network-Model-Interfacing.png?resize=768%2C512 768w, https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2016/09/Chart_Container-Network-Model-Interfacing.png?resize=1024%2C683 1024w, https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2016/09/Chart_Container-Network-Model-Interfacing.png?w=1600 1600w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a>
+  
+  <p class="wp-caption-text">
+    Figure 2: Containers being connected through a series of network endpoints.
+  </p>
+</div>
+
+<ul>
+  <li><strong>Network Sandbox:</strong> Essentially the networking stack within a container, it is an isolated environment to contain a container’s network configuration.</li>
+  <li><strong>Endpoint:</strong> A network interface that typically comes in pairs. One end of the pair sits in the network sandbox, while the other sits in a designated network. Endpoints join exactly one network, and multiple endpoints can exist within a single network sandbox.</li>
+  <li><strong>Network</strong>: A group of endpoints. A network is a uniquely identifiable group of endpoints that can communicate with each other.</li>
+</ul>
+
+<p>A final, flexible set of CNM constructs are <strong>options</strong> and <strong>labels</strong> (key-value pairs of metadata). CNM supports the notion of user-defined <strong>labels</strong> (defined using the — label flag), which are passed as metadata between libnetwork and drivers. Labels are powerful in that the runtime may inform driver behavior.</p>
+
+<h2 id="container-network-interface">Container Network Interface</h2>
+
+<p>The <a href="https://github.com/containernetworking/cni">Container Network Interface</a> (CNI) is a container networking specification proposed by CoreOS and adopted by projects such as <a href="https://github.com/apache/mesos/blob/master/docs/cni.md">Apache Mesos</a>, <a href="https://github.com/cloudfoundry-incubator/guardian-cni-adapter">Cloud Foundry</a>, <a href="http://kubernetes.io/docs/admin/network-plugins/">Kubernetes</a><a href="https://github.com/cloudfoundry-incubator/guardian-cni-adapter">,</a> <a href="http://kurma.io/">Kurma</a> and <a href="https://coreos.com/blog/rkt-cni-networking.html">rkt</a>. There are also plugins created by projects such as <a href="https://github.com/contiv/netplugin">Contiv Networking</a>, <a href="https://github.com/projectcalico/calico-cni">Project Calico</a> <a href="https://github.com/contiv/netplugin">and</a> <a href="https://github.com/weaveworks/weave">Weave</a>.</p>
+
+<div id="attachment_1589" style="width: 310px" class="wp-caption aligncenter">
+  <a href="https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2016/09/Chart_Container-Network-Interface-Drivers.png"><img data-id="1589" src="https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2016/09/Chart_Container-Network-Interface-Drivers.png?resize=300%2C200" alt="Figure 3: CNI is a minimal specification for adding and removing containers to networks." class="size-medium wp-image-1589" srcset="https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2016/09/Chart_Container-Network-Interface-Drivers.png?resize=300%2C200 300w, https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2016/09/Chart_Container-Network-Interface-Drivers.png?resize=768%2C512 768w, https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2016/09/Chart_Container-Network-Interface-Drivers.png?resize=1024%2C683 1024w, https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2016/09/Chart_Container-Network-Interface-Drivers.png?w=1600 1600w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a>
+  
+  <p class="wp-caption-text">
+    Figure 3: CNI is a minimal specification for adding and removing containers to networks.
+  </p>
+</div>
+
+<p>CNI was created as a minimal specification, built alongside a number of network vendor engineers to be a simple contract between the container runtime and network plugins. A JSON schema defines the expected input and output from CNI network plugins.</p>
+
+<p>Multiple plugins may be run at one time with a container joining networks driven by different plugins. Networks are described in configuration files, in JSON format, and instantiated as new namespaces when CNI plugins are invoked. CNI plugins support two commands to add and remove container network interfaces to and from networks. Add gets invoked by the container runtime when it creates a container. Delete gets invoked by the container runtime when it tears down a container instance.</p>
+
+<h3 id="cni-flow">CNI Flow</h3>
+
+<p>The container runtime needs to first allocate a network namespace to the container and assign it a container ID, then pass along a number of parameters (CNI config) to the network driver. The network driver then attaches the container to a network and reports the assigned IP address back to the container runtime via JSON.</p>
+
+<p>Mesos is the latest project to add CNI support, and there is a Cloud Foundry implementation in progress. The current state of Mesos networking uses host networking, wherein the container shares the same IP address as the host. Mesos is looking to provide each container with its own network namespace, and consequently, its own IP address. The project is moving to an IP-per-container model and, in doing so, seeks to democratize networking such that operators have freedom to choose the style of networking that best suits their purpose.</p>
+
+<p>Currently, CNI primitives handle concerns with IPAM, L2 and L3, and expect the container runtime to handle port-mapping (L4). From a Mesos perspective, this minimalist approach comes with a couple of caveats, one of these being that the CNI specification does not specify any port-mapping rules to be used for a container; this capability may be handled by the container runtime. A second caveat is the fact that while operators should be allowed to change the CNI configuration, the behavior of container operation when CNI configuration is modified is not accounted for in the specification. Mesos is addressing this ambiguity by ensuring that, upon restart of the CNI agent, they will checkpoint the CNI config when it is associated with the particular instance of the container.</p>
+
+<h2 id="cni-and-cnm">CNI and CNM</h2>
+
+<p>In many respects, these two container networking specifications democratize the selection of which type of container networking may be used, in that both are driver-based models, or plugin-based, for creating and managing network stacks for containers. Each allows multiple network drivers to be active and used concurrently, in that each provides a one-to-one mapping of the network to that network’s driver. Both models allow containers to join one or more networks. And each allows the container runtime to launch the network in its own namespace, segregating the application/business logic of connecting the container to the network to the network driver.</p>
+
+<p>This modular driver approach is arguably more attractive to network operators than to application developers, in that operators are afforded the flexibility to select one or more drivers that deliver on their specific needs and fit into their existing mode of operation. Operators bear responsibility for ensuring service-level agreements (SLAs) are met, and security policies are enforced.</p>
+
+<p>Both models provide separate extension points, aka plugin interfaces, for network drivers — to create, configure and connect networks — and IPAM — to configure, discover, and manage IP addresses. One extension point per function encourages composability.</p>
+
+<p>CNM does not provide network drivers access to the container’s network namespace. The benefit here is that libnetwork acts as a broker for conflict resolution. An example conflict being when two independent network drivers provide the same static route, using the same route prefix, but point to different next-hop IP addresses. CNI does provide drivers with access to the container network namespace. CNI is considering how it might <a href="https://github.com/containernetworking/cni/issues/147">approach arbitration</a> in such conflict resolution scenarios.</p>
+
+<p>CNI supports integration with third-party IPAM and can be used with any container runtime. CNM is designed to support the Docker runtime engine only. With CNI’s simplistic approach, it’s been argued that it’s comparatively easier to create a CNI plugin than a CNM plugin.</p>
+
+<p>These models promote modularity, composability and choice by fostering an ecosystem of innovation by third-party vendors who deliver advanced networking capabilities. The orchestration of network micro-segmentation can become simple API calls to attach, detach and swap networks. Interface containers can belong to multiple networks, and each container can publish different services in different networks. The idea of different network constructs as first-class citizens is reflected in the ability to detach a network service from an old container and attach it to a new container.</p>
+
+<h2 id="summary">Summary</h2>
+
+<p>As vendors and projects continue to evolve, the networking landscape continues to shift. Some offerings have consolidated or combined, such as Docker’s acquisition of SocketPlane, and the transition of Flannel to <a href="http://thenewstack.io/project-calico-flannel-join-forces-policy-secured-networking/">Tigera</a> — a new startup that has <a href="http://thenewstack.io/project-calico-flannel-join-forces-policy-secured-networking/">formed around Canal</a>. Canal is a portmanteau of Calico and Flannel and a combination of those two projects. CoreOS will provide ongoing support for Flannel as an individual project, and will be integrating Canal with Tectonic, their enterprise solution for Kubernetes. Other changes come in the form of new project releases. Docker 1.12’s release of networking features, including underlay and load-balancing support, is no small step forward for the project.</p>
+
+<p>While there’s a large number of container networking technologies and distinctly unique ways of approaching them, we’re fortunate in that much of the container ecosystem seems to have converged and built support around only two networking models, at least for now. Developers would like to eliminate manual network provisioning in containerized environments, and barring those who have misconceptions of their job insecurity, network engineers are ready for the same.</p>
+
+<p>Like other resources, an intermediary step to automated provisioning is pre-provisioning, meaning network engineers would preallocate networks with assigned characteristics and services, such as, IP address space, IPAM, routing, QoS, etc., and developers or deployment engineers would identify and select from a pool of available networks in which to deploy their applications. Pre-provisioning needs to become a thing of the past, as we’re all ready to move on to automated provisioning.</p>
+
+      <footer class="entry-meta">
+        <span class="entry-tags"><a href="http://localhost:4000/tags#containers" title="Pages tagged containers" class="tag"><span class="term">containers</span></a><a href="http://localhost:4000/tags#docker" title="Pages tagged docker" class="tag"><span class="term">docker</span></a><a href="http://localhost:4000/tags#kubernetes" title="Pages tagged kubernetes" class="tag"><span class="term">kubernetes</span></a><a href="http://localhost:4000/tags#marathon" title="Pages tagged marathon" class="tag"><span class="term">marathon</span></a><a href="http://localhost:4000/tags#mesos" title="Pages tagged mesos" class="tag"><span class="term">mesos</span></a><a href="http://localhost:4000/tags#networking" title="Pages tagged networking" class="tag"><span class="term">networking</span></a><a href="http://localhost:4000/tags#swarm" title="Pages tagged swarm" class="tag"><span class="term">swarm</span></a></span>
+        
+        <span class="author vcard"><span class="fn">Lee Calcote</span></span>
+        <div class="social-share">
+  <ul class="socialcount socialcount-small inline-list">
+    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/2016/09/the-container-networking-landscape-cni-from-coreos-and-cnm-from-docker/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
+    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://localhost:4000/2016/09/the-container-networking-landscape-cni-from-coreos-and-cnm-from-docker/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
+    <li class="googleplus"><a href="https://plus.google.com/share?url=http://localhost:4000/2016/09/the-container-networking-landscape-cni-from-coreos-and-cnm-from-docker/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
+  </ul>
+</div><!-- /.social-share -->
+
+      </footer>
+    </div><!-- /.entry-content -->
+    <div class="read-more">
+  <div class="read-more-header">
+    <a href="http://gingergeek.com" class="read-more-btn">About the Author</a>
+  </div><!-- /.read-more-header -->
+  <div class="read-more-content author-info">
+    <h3>Lee Calcote</h3>
+    <div class="author-container">
+      <img class="author-img" src="http://localhost:4000/images/avatar.jpg" alt="Lee Calcote" />
+      <div class="author-bio">Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice.</div>
+    </div>
+    <div class="author-share">
+      <ul class="list-inline social-buttons">
+        
+          <li><a href="https://github.com/leecalcote" target="_blank"><i class="fa fa-github fa-fw"></i></a></li>
+        
+          <li><a href="https://linkedin.com/in/leecalcote" target="_blank"><i class="fa fa-linkedin fa-fw"></i></a></li>
+        
+          <li><a href="https://www.youtube.com/playlist?list=PLYjO73_1efChX9NuRaU7WocTbgrfvCoPE" target="_blank"><i class="fa fa-youtube fa-fw"></i></a></li>
+        
+      </ul>
+      
+        <a aria-label="Follow @leecalcote on GitHub" data-style="mega" href="https://github.com/leecalcote" class="github-button">Follow @leecalcote</a>
+      
+      <br>
+      
+        <a href="https://twitter.com/lcalcote" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @lcalcote</a>
+      
+    </div>
+  </div>
+</div>
+
+    
+    <div class="read-more">
+  
+    <div class="read-more-header">
+      <a href="http://localhost:4000/2016/09/container-networking-a-breakdown-explanation-and-analysis/" class="read-more-btn">Read More</a>
+    </div><!-- /.read-more-header -->
+    <div class="read-more-content">
+      <h3><a href="http://localhost:4000/2017/04/the-hybrid-evolution-of-it/" title="The Hybrid Evolution of IT">The Hybrid Evolution of IT</a></h3>
+      <p>“It’s a great time to be in Information Technology.” While this is a true statement, not everyone clearly understands why (or perhaps, ha...&hellip; <a href="http://localhost:4000/2017/04/the-hybrid-evolution-of-it/">Continue reading</a></p>
+    </div><!-- /.read-more-content -->
+  
+  <div class="read-more-list">
+    
+      <div class="list-item">
+        <h4><a href="http://localhost:4000/2017/04/understanding-and-extending-prometheus-alertmanager/" title="Understanding and Extending Prometheus AlertManager">Understanding and Extending Prometheus AlertManager</a></h4>
+        <span>Published on April 25, 2017</span>
+      </div><!-- /.list-item -->
+    
+      <div class="list-item">
+        <h4><a href="http://localhost:4000/2017/03/create-great-cncf-user-base-from-lessons-learned-from-other-open-source-communities/" title="Create Great CNCF User-Base from Lessons Learned from Other Open Source Communities">Create Great CNCF User-Base from Lessons Learned from Other Open Source Communities</a></h4>
+        <span>Published on March 30, 2017</span>
+      </div><!-- /.list-item -->
+    
+  </div><!-- /.read-more-list -->
+</div><!-- /.read-more -->
+  </article>
+</div><!-- /#main -->
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript">window.jQuery || document.write('<script type="text/javascript" src="http://localhost:4000/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script type="text/javascript" src="http://localhost:4000/assets/js/scripts.min.js"></script>
+<script type="text/javascript" async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+<script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+
+
+
+
+
+
+
+
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <span>&copy; 2017 Lee Calcote.</span>
+
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+</body>
+</html>
