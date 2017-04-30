@@ -6,7 +6,7 @@ author: Lee
 layout: page
 guid: http://blog.gingergeek.com//?page_id=2
 ---
-<img class="alignright" src="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2009/02/Lee_Calcote.jpg?w=200" alt="Lee_Calcote" data-recalc-dims="1" />
+<img src="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2009/02/Lee_Calcote.jpg?w=200" alt="Lee_Calcote" data-recalc-dims="1" />
 
 I <span style="color: red; font-size: 1em;">♥</span> management software for clouds, containers, infrastructure and applications. I am an innovative thought leader, passionate about building best-in-class teams and offerings, with a solid record of leveraging advanced and emerging technologies for competitive advantage, improving processes and speed of delivery on the way to driving revenue and market share.
 
