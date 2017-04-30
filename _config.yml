@@ -29,20 +29,20 @@ menu:
   - title: 'Podcasts'
     url: '/podcasts'
     type: 'categories'
-  - title: 'Index'
-    url: '#'
-    submenu:
-      - title: 'Tags'
-        url: '/tags'
-      - title: 'Categories'
-        url: '/categories'
-        type: 'categories'
+  # - title: 'Index'
+  #   url: '#'
+  #   submenu:
+  #     - title: 'Tags'
+  #       url: '/tags'
+  #     - title: 'Categories'
+  #       url: '/categories'
+  #       type: 'categories'
 
 # Owner/author information
 owner:
   name:           Lee Calcote
   site:           http://calcotestudios.com/gingergeek
-  avatar:         images/avatar.jpg
+  avatar:         images/Lee-Calcote-large.jpg
   bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
   email:          lee@calcotestudios.com
   # Twitter nick for use in Twitter cards and follow button.
