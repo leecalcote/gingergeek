@@ -24,11 +24,12 @@ menu:
     url: '/about'
   - title: 'Articles'
     url: '/articles'
+    type: 'categories'
   - title: 'Speaking'
     url: '/speaking'
   - title: 'Podcasts'
     url: '/podcasts'
-    type: 'categories'
+
   # - title: 'Index'
   #   url: '#'
   #   submenu:
