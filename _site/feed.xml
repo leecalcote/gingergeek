@@ -4,7 +4,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
 <link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2017-04-26T20:48:15-05:00</updated>
+<updated>2017-04-30T09:41:32-05:00</updated>
 <id>http://localhost:4000/</id>
 <author>
   <name>Lee Calcote</name>
@@ -132,454 +132,6 @@
 &lt;p&gt;Read the full article on &lt;a href=&quot;https://www.oreilly.com/learning/developer-defined-application-delivery&quot;&gt;O’Reilly&lt;/a&gt;.&lt;/p&gt;
 
     &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2017/03/developer-defined-application-delivery/&quot;&gt;Developer-defined application delivery&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on March 11, 2017.&lt;/p&gt;
-  </content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Sample Post]]></title>
- <link rel="alternate" type="text/html" href="http://localhost:4000/intro/sample-post/" />
-  <id>http://localhost:4000/intro/sample-post</id>
-  <updated>2016-12-02T00:00:00-00:00</updated>
-  <published>2016-12-02T00:00:00-06:00</published>
-  
-  <author>
-    <name>Lee Calcote</name>
-    <uri>http://localhost:4000</uri>
-    <email>lee@calcotestudios.com</email>
-  </author>
-  <content type="html">
-    &lt;p&gt;Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.&lt;/p&gt;
-
-&lt;h1 id=&quot;heading-1&quot;&gt;Heading 1&lt;/h1&gt;
-
-&lt;h2 id=&quot;heading-2&quot;&gt;Heading 2&lt;/h2&gt;
-
-&lt;h3 id=&quot;heading-3&quot;&gt;Heading 3&lt;/h3&gt;
-
-&lt;h4 id=&quot;heading-4&quot;&gt;Heading 4&lt;/h4&gt;
-
-&lt;h5 id=&quot;heading-5&quot;&gt;Heading 5&lt;/h5&gt;
-
-&lt;h6 id=&quot;heading-6&quot;&gt;Heading 6&lt;/h6&gt;
-
-&lt;h3 id=&quot;body-text&quot;&gt;Body text&lt;/h3&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, test link adipiscing elit. &lt;strong&gt;This is strong&lt;/strong&gt;. Nullam dignissim convallis est. Quisque aliquam.&lt;/p&gt;
-
-&lt;p class=&quot;image-right&quot;&gt;&lt;img src=&quot;http://localhost:4000/images/3953273590_704e3899d5_m.jpg&quot; alt=&quot;Smithsonian Image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;This is emphasized&lt;/em&gt;. Donec faucibus. Nunc iaculis suscipit dui. 53 = 125. Water is H&lt;sub&gt;2&lt;/sub&gt;O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. The New York Times &lt;cite&gt;(That’s a citation)&lt;/cite&gt;. &lt;u&gt;Underline&lt;/u&gt;. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.&lt;/p&gt;
-
-&lt;p&gt;HTML and &lt;abbr title=&quot;cascading stylesheets&quot;&gt;CSS&lt;abbr&gt; are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus.&lt;/abbr&gt;&lt;/abbr&gt;&lt;/p&gt;
-
-&lt;p&gt;If you want to show just a part of your post in the come page, add the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;!-- more --&amp;gt;&lt;/code&gt; tag to your post content. Everything after this tag will be hidden from the page listing page.&lt;/p&gt;
-
-&lt;h3 id=&quot;blockquotes&quot;&gt;Blockquotes&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;list-types&quot;&gt;List Types&lt;/h2&gt;
-
-&lt;h3 id=&quot;ordered-lists&quot;&gt;Ordered Lists&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Item one
-    &lt;ol&gt;
-      &lt;li&gt;sub item one&lt;/li&gt;
-      &lt;li&gt;sub item two&lt;/li&gt;
-      &lt;li&gt;sub item three&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Item two&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;unordered-lists&quot;&gt;Unordered Lists&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Item one&lt;/li&gt;
-  &lt;li&gt;Item two&lt;/li&gt;
-  &lt;li&gt;Item three&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;tables&quot;&gt;Tables&lt;/h2&gt;
-
-&lt;table rules=&quot;groups&quot;&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Header1&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Header2&lt;/th&gt;
-      &lt;th style=&quot;text-align: right&quot;&gt;Header3&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;cell1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;cell2&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;cell3&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;cell4&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;cell5&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;cell6&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;cell1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;cell2&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;cell3&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;cell4&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;cell5&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;cell6&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-  &lt;tfoot&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Foot1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Foot2&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;Foot3&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tfoot&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&quot;code-snippets&quot;&gt;Code Snippets&lt;/h2&gt;
-
-&lt;p&gt;Syntax highlighting via Pygments&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nf&quot;&gt;#container&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;-240px&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Non Pygments code example&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;div id=&quot;awesome&quot;&amp;gt;
-    &amp;lt;p&amp;gt;This is great isn't it?&amp;lt;/p&amp;gt;
-&amp;lt;/div&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;buttons&quot;&gt;Buttons&lt;/h2&gt;
-
-&lt;p&gt;Make any link standout more when applying the &lt;code class=&quot;highlighter-rouge&quot;&gt;.btn&lt;/code&gt; class.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;#&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;btn btn-success&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Success Button&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;div&gt;&lt;a href=&quot;#&quot; class=&quot;btn&quot;&gt;Primary Button&lt;/a&gt;&lt;/div&gt;
-&lt;div&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn-success&quot;&gt;Success Button&lt;/a&gt;&lt;/div&gt;
-&lt;div&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn-warning&quot;&gt;Warning Button&lt;/a&gt;&lt;/div&gt;
-&lt;div&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn-danger&quot;&gt;Danger Button&lt;/a&gt;&lt;/div&gt;
-&lt;div&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn-info&quot;&gt;Info Button&lt;/a&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;post-featured-image&quot;&gt;Post Featured Image&lt;/h2&gt;
-
-&lt;p&gt;To show an image banner at top of your post, use add the following code:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;s&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;s&quot;&gt;feature&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;lt;name of the image&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;s&quot;&gt;credit&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;lt;source of the image - optional&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;s&quot;&gt;creditlink&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;lt;source of the image (url) - optional&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;The image must be in the &lt;code class=&quot;highlighter-rouge&quot;&gt;/images&lt;/code&gt; folder.&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/intro/sample-post/&quot;&gt;Sample Post&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on December 02, 2016.&lt;/p&gt;
-  </content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Syntax Highlighting Post]]></title>
- <link rel="alternate" type="text/html" href="http://localhost:4000/intro/code-highlighting-post/" />
-  <id>http://localhost:4000/intro/code-highlighting-post</id>
-  <updated>2016-12-01T00:00:00-00:00</updated>
-  <published>2016-12-01T00:00:00-06:00</published>
-  
-  <author>
-    <name>Lee Calcote</name>
-    <uri>http://localhost:4000</uri>
-    <email>lee@calcotestudios.com</email>
-  </author>
-  <content type="html">
-    &lt;p&gt;Syntax highlighting is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. Highlighting does not affect the meaning of the text itself; it is intended only for human readers.&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;rouge-code-blocks&quot;&gt;Rouge Code Blocks&lt;/h3&gt;
-
-&lt;p&gt;To modify styling and highlight colors edit &lt;code class=&quot;highlighter-rouge&quot;&gt;/_sass/_rouge.scss&lt;/code&gt;.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nf&quot;&gt;#container&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;-240px&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;nav&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;pagination&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;role=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;navigation&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    {% if page.previous %}
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ site.url }}{{ page.previous.url }}&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;btn&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ page.previous.title }}&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Previous article&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-    {% endif %}
-    {% if page.next %}
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ site.url }}{{ page.next.url }}&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;btn&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ page.next.title }}&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Next article&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-    {% endif %}
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/nav&amp;gt;&lt;/span&gt;&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- /.pagination --&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;module&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;Jekyll&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;TagIndex&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Page&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;initialize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;base&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-      &lt;span class=&quot;vi&quot;&gt;@site&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;
-      &lt;span class=&quot;vi&quot;&gt;@base&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;base&lt;/span&gt;
-      &lt;span class=&quot;vi&quot;&gt;@dir&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dir&lt;/span&gt;
-      &lt;span class=&quot;vi&quot;&gt;@name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'index.html'&lt;/span&gt;
-      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;process&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;read_yaml&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;File&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;base&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'_layouts'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'tag_index.html'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'tag'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;tag_title_prefix&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'tag_title_prefix'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Tagged: '&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;tag_title_suffix&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'tag_title_suffix'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'&amp;amp;#8211;'&lt;/span&gt;
-      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'title'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tag_title_prefix&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'description'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;An archive of posts tagged &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.&quot;&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h3 id=&quot;standard-code-block&quot;&gt;Standard Code Block&lt;/h3&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;nav class=&quot;pagination&quot; role=&quot;navigation&quot;&amp;gt;
-    {% if page.previous %}
-        &amp;lt;a href=&quot;{{ site.url }}{{ page.previous.url }}&quot; class=&quot;btn&quot; title=&quot;{{ page.previous.title }}&quot;&amp;gt;Previous article&amp;lt;/a&amp;gt;
-    {% endif %}
-    {% if page.next %}
-        &amp;lt;a href=&quot;{{ site.url }}{{ page.next.url }}&quot; class=&quot;btn&quot; title=&quot;{{ page.next.title }}&quot;&amp;gt;Next article&amp;lt;/a&amp;gt;
-    {% endif %}
-&amp;lt;/nav&amp;gt;&amp;lt;!-- /.pagination --&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Syntax_highlighting&quot;&gt;http://en.wikipedia.org/wiki/Syntax_highlighting&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
-
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/intro/code-highlighting-post/&quot;&gt;Syntax Highlighting Post&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on December 01, 2016.&lt;/p&gt;
-  </content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Dark Post]]></title>
- <link rel="alternate" type="text/html" href="http://localhost:4000/dark-post/" />
-  <id>http://localhost:4000/dark-post</id>
-  <published>2016-11-30T00:00:00-06:00</published>
-  <updated>2016-11-30T00:00:00-06:00</updated>
-  <author>
-    <name>Lee Calcote</name>
-    <uri>http://localhost:4000</uri>
-    <email>lee@calcotestudios.com</email>
-  </author>
-  <content type="html">
-    &lt;p&gt;This is a sample post to show the dark post theme. To use this dark theme, just add:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;    &lt;span class=&quot;s&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;dark-post&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;on your post. This theme adds a dark background with a white panel to show your content.&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/dark-post/&quot;&gt;Dark Post&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on November 30, 2016.&lt;/p&gt;
-  </content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Post with a Background Image]]></title>
- <link rel="alternate" type="text/html" href="http://localhost:4000/image/background-image/" />
-  <id>http://localhost:4000/image/background-image</id>
-  <published>2016-11-29T00:00:00-06:00</published>
-  <updated>2016-11-29T00:00:00-06:00</updated>
-  <author>
-    <name>Lee Calcote</name>
-    <uri>http://localhost:4000</uri>
-    <email>lee@calcotestudios.com</email>
-  </author>
-  <content type="html">
-    &lt;p&gt;Here be a sample post with a custom background image. To utilize this “feature” just add the following YAML to a post’s front matter.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;s&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;s&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;filename.png&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;This little bit of YAML makes the assumption that your background image asset is in the &lt;code class=&quot;highlighter-rouge&quot;&gt;/images&lt;/code&gt; folder. If you place it somewhere else or are hotlinking from the web, just include the full http(s):// URL. Either way you should have a background image that is tiled.&lt;/p&gt;
-
-&lt;p&gt;If you want to set a background image for the entire site just add &lt;code class=&quot;highlighter-rouge&quot;&gt;background: filename.png&lt;/code&gt; to your &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; and BOOM — background images on every page!&lt;/p&gt;
-
-&lt;div xmlns:cc=&quot;http://creativecommons.org/ns#&quot; xmlns:dct=&quot;http://purl.org/dc/terms/&quot; about=&quot;http://subtlepatterns.com&quot; class=&quot;notice&quot;&gt;Background images from &lt;span property=&quot;dct:title&quot;&gt;Subtle Patterns&lt;/span&gt; (&lt;a rel=&quot;cc:attributionURL&quot; property=&quot;cc:attributionName&quot; href=&quot;http://subtlepatterns.com&quot;&gt;Subtle Patterns&lt;/a&gt;) / &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/3.0/&quot;&gt;CC BY-SA 3.0&lt;/a&gt;&lt;/div&gt;
-
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/image/background-image/&quot;&gt;Post with a Background Image&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on November 29, 2016.&lt;/p&gt;
-  </content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Sample Link Post]]></title>
- <link rel="alternate" type="text/html" href="http://aronbordin.com" />
-  <id>http://localhost:4000/intro/sample-link-post</id>
-  <published>2016-11-28T00:00:00-06:00</published>
-  <updated>2016-11-28T00:00:00-06:00</updated>
-  <author>
-    <name>Lee Calcote</name>
-    <uri>http://localhost:4000</uri>
-    <email>lee@calcotestudios.com</email>
-  </author>
-  <content type="html">
-    &lt;p&gt;This theme supports &lt;strong&gt;link posts&lt;/strong&gt;, made famous by John Gruber. To use, just add &lt;code class=&quot;highlighter-rouge&quot;&gt;link: http://url-you-want-linked&lt;/code&gt; to the post’s YAML front matter and you’re done.&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/intro/sample-link-post/&quot;&gt;Sample Link Post&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on November 28, 2016.&lt;/p&gt;
-  </content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[A Post with a Video]]></title>
- <link rel="alternate" type="text/html" href="http://localhost:4000/intro/video-post/" />
-  <id>http://localhost:4000/intro/video-post</id>
-  <published>2016-11-27T00:00:00-06:00</published>
-  <updated>2016-11-27T00:00:00-06:00</updated>
-  <author>
-    <name>Lee Calcote</name>
-    <uri>http://localhost:4000</uri>
-    <email>lee@calcotestudios.com</email>
-  </author>
-  <content type="html">
-    &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/SU3kYxJmWuQ&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;Video embeds are responsive and scale with the width of the main content block with the help of &lt;a href=&quot;http://fitvidsjs.com/&quot;&gt;FitVids&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Adding YouTube video embeds causes errors when building your Jekyll site. To fix wrap the html within &lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;::nomarkdown&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt; tags. Example below:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;{::nomarkdown}
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;iframe&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;width=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;560&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;height=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;315&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;//www.youtube.com/embed/SU3kYxJmWuQ&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;frameborder=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;0&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;allowfullscreen&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/span&gt;
-{:/nomarkdown}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/intro/video-post/&quot;&gt;A Post with a Video&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on November 27, 2016.&lt;/p&gt;
-  </content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[A Post with Images]]></title>
- <link rel="alternate" type="text/html" href="http://localhost:4000/sample/intro/sample-post-images/" />
-  <id>http://localhost:4000/sample/intro/sample-post-images</id>
-  <published>2016-11-26T00:00:00-06:00</published>
-  <updated>2016-11-26T00:00:00-06:00</updated>
-  <author>
-    <name>Lee Calcote</name>
-    <uri>http://localhost:4000</uri>
-    <email>lee@calcotestudios.com</email>
-  </author>
-  <content type="html">
-    &lt;p&gt;Here are some examples of what a post with images might look like. If you want to display two or three images next to each other responsively use &lt;code class=&quot;highlighter-rouge&quot;&gt;figure&lt;/code&gt; with the appropriate &lt;code class=&quot;highlighter-rouge&quot;&gt;class&lt;/code&gt;. Each instance of &lt;code class=&quot;highlighter-rouge&quot;&gt;figure&lt;/code&gt; is auto-numbered and displayed in the caption.&lt;/p&gt;
-
-&lt;h2 id=&quot;figures-for-images-or-video&quot;&gt;Figures (for images or video)&lt;/h2&gt;
-
-&lt;h3 id=&quot;one-up&quot;&gt;One Up&lt;/h3&gt;
-
-&lt;figure&gt;
-	&lt;a href=&quot;http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_b.jpg&quot;&gt;&lt;img src=&quot;http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-	&lt;figcaption&gt;&lt;a href=&quot;http://www.flickr.com/photos/80901381@N04/7758832526/&quot; title=&quot;Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr&quot;&gt;Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr&lt;/a&gt;.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h3 id=&quot;one-center&quot;&gt;One Center&lt;/h3&gt;
-
-&lt;figure class=&quot;half center&quot;&gt;
-	&lt;a href=&quot;http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_b.jpg&quot;&gt;&lt;img src=&quot;http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-	&lt;figcaption&gt;&lt;a href=&quot;http://www.flickr.com/photos/80901381@N04/7758832526/&quot; title=&quot;Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr&quot;&gt;Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr&lt;/a&gt;.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h3 id=&quot;two-up&quot;&gt;Two Up&lt;/h3&gt;
-
-&lt;p&gt;Apply the &lt;code class=&quot;highlighter-rouge&quot;&gt;half&lt;/code&gt; class like so to display two images side by side that share the same caption.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;figure&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;half&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/images/image-filename-1.jpg&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/images/image-filename-2.jpg&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;figcaption&amp;gt;&lt;/span&gt;Caption describing these two images.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/figcaption&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/figure&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;And you’ll get something that looks like this:&lt;/p&gt;
-
-&lt;figure class=&quot;half&quot;&gt;
-	&lt;a href=&quot;http://placehold.it/1200x600.jpg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-	&lt;a href=&quot;http://placehold.it/1200x600.jpg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-	&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;&quot; /&gt;
-	&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;&quot; /&gt;
-	&lt;figcaption&gt;Two images.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h3 id=&quot;three-up&quot;&gt;Three Up&lt;/h3&gt;
-
-&lt;p&gt;Apply the &lt;code class=&quot;highlighter-rouge&quot;&gt;third&lt;/code&gt; class like so to display three images side by side that share the same caption.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;figure&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;third&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;http://placehold.it/1200x600.jpg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;http://placehold.it/600x300.jpg&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;http://placehold.it/1200x600.jpg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;http://placehold.it/600x300.jpg&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;http://placehold.it/1200x600.jpg&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;http://placehold.it/600x300.jpg&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;figcaption&amp;gt;&lt;/span&gt;Caption describing these three images.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/figcaption&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/figure&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;And you’ll get something that looks like this:&lt;/p&gt;
-
-&lt;figure class=&quot;third&quot;&gt;
-	&lt;a href=&quot;http://placehold.it/1200x600.jpg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-	&lt;a href=&quot;http://placehold.it/1200x600.jpg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-	&lt;a href=&quot;http://placehold.it/1200x600.jpg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-	&lt;a href=&quot;http://placehold.it/1200x600.jpg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-	&lt;a href=&quot;http://placehold.it/1200x600.jpg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-	&lt;a href=&quot;http://placehold.it/1200x600.jpg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-	&lt;figcaption&gt;Three images.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h3 id=&quot;alternative-way&quot;&gt;Alternative way&lt;/h3&gt;
-
-&lt;p&gt;Another way to achieve the same result is to include &lt;code class=&quot;highlighter-rouge&quot;&gt;gallery&lt;/code&gt; Liquid template. In this case you
-don’t have to write any HTML tags – just copy a small block of code, adjust the parameters (see below)
-and fill the block with any number of links to images. You can mix relative and external links.&lt;/p&gt;
-
-&lt;p&gt;Here is the block you might want to use:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-jinja&quot; data-lang=&quot;jinja&quot;&gt;&lt;span class=&quot;cp&quot;&gt;{%&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;capture&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;images&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;%}&lt;/span&gt;
-	/images/abstract-10.jpg
-	/images/abstract-11.jpg
-	http://upload.wikimedia.org/wikipedia/en/2/24/Lenna.png
-&lt;span class=&quot;cp&quot;&gt;{%&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;endcapture&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;%}&lt;/span&gt;
-&lt;span class=&quot;cp&quot;&gt;{%&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;include&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;gallery&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;images&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;images&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;caption&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Test images&quot;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;cols&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;%}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Parameters:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;caption&lt;/code&gt;: Sets the caption under the gallery (see &lt;code class=&quot;highlighter-rouge&quot;&gt;figcaption&lt;/code&gt; HTML tag above);&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cols&lt;/code&gt;: Sets the number of columns of the gallery.
-Available values: [1..3].&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;It will look something like this:&lt;/p&gt;
-
-&lt;figure class=&quot;third&quot;&gt;
-    
-    &lt;a href=&quot;/images/abstract-10.jpg&quot;&gt;&lt;img src=&quot;/images/abstract-10.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-    
-    &lt;a href=&quot;/images/abstract-11.jpg&quot;&gt;&lt;img src=&quot;/images/abstract-11.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-    
-    &lt;a href=&quot;http://upload.wikimedia.org/wikipedia/en/2/24/Lenna.png&quot;&gt;&lt;img src=&quot;http://upload.wikimedia.org/wikipedia/en/2/24/Lenna.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
-    
-    &lt;figcaption&gt;Test images&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/sample/intro/sample-post-images/&quot;&gt;A Post with Images&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on November 26, 2016.&lt;/p&gt;
   </content>
 </entry>
 
@@ -1051,6 +603,766 @@ Available values: [1..3].&lt;/li&gt;
 &lt;p&gt;Read more on &lt;a href=&quot;http://thenewstack.io/contributing-prometheus-history-alertmanager/&quot;&gt;The New Stack&lt;/a&gt;…&lt;/p&gt;
 
     &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2016/06/contributing-to-prometheus-an-open-source-tutorial/&quot;&gt;Contributing to Prometheus: An Open Source Tutorial&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on June 12, 2016.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Characterizing and Contrasting Container Orchestrators at OpenStack Summit Container Day]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/2016/04/characterizing-and-contrasting-container-orchestrators-at-openstack-summit-container-day/" />
+  <id>http://localhost:4000/2016/04/characterizing-and-contrasting-container-orchestrators-at-openstack-summit-container-day</id>
+  <published>2016-04-26T10:31:34-05:00</published>
+  <updated>2016-04-26T10:31:34-05:00</updated>
+  <author>
+    <name>Lee Calcote</name>
+    <uri>http://localhost:4000</uri>
+    <email>lee@calcotestudios.com</email>
+  </author>
+  <content type="html">
+    &lt;div align=&quot;center&quot;&gt;
+  &lt;p&gt;
+    Running a few containers? No problem. Running hundreds or thousands? Enter the container orchestrator. Let’s take a look at the characteristics of the three most popular container orchestrators and what makes them alike, yet unique.
+  &lt;/p&gt;
+  
+  &lt;p&gt;
+    &lt;span class=&quot;embed-youtube&quot; style=&quot;text-align:center; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;/p&gt;
+  
+  &lt;p&gt;
+    &lt;a href=&quot;http://blog.rackspace.com/relax-recharge-rackspace-cantina-openstack-summit-austin/&quot;&gt;Relax and Recharge at the Rackspace Cantina During OpenStack Summit Austin&lt;/a&gt;
+  &lt;/p&gt;
+  
+  &lt;p&gt;
+    Look for more detail in my upcoming book &lt;i&gt;&lt;a href=&quot;https://www.packtpub.com/virtualization-and-cloud/developer-defined-infrastructure-using-tectonic-and-kubernetes&quot;&gt;Developer Defined Infrastructure using Tectonic and Kubernetes&lt;/a&gt;&lt;/i&gt;.
+  &lt;/p&gt;
+  
+  &lt;p&gt;
+  &lt;/p&gt;
+  
+  &lt;p&gt;
+    The &lt;a href=&quot;http://www.slideshare.net/leecalcote/characterizing-and-contrasting-container-orchestrators&quot;&gt;slides&lt;/a&gt; from my talk have been posted.
+  &lt;/p&gt;
+  
+  &lt;p&gt;
+    &lt;span class=&quot;embed-youtube&quot; style=&quot;text-align:center; display: block;&quot;&gt;&lt;/span&gt;
+  &lt;/p&gt;
+  
+  &lt;p&gt;
+    &lt;a href=&quot;https://getcarina.com/blog/container-day-austin-summit/&quot;&gt;OpenStack Summit Austin: Container Day&lt;/a&gt;
+  &lt;/p&gt;
+&lt;/div&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2016/04/characterizing-and-contrasting-container-orchestrators-at-openstack-summit-container-day/&quot;&gt;Characterizing and Contrasting Container Orchestrators at OpenStack Summit Container Day&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on April 26, 2016.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[22 new concerns added to Docker security benchmark]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/2016/04/22-new-concerns-added-to-docker-security-benchmark/" />
+  <id>http://localhost:4000/2016/04/22-new-concerns-added-to-docker-security-benchmark</id>
+  <published>2016-04-15T03:43:12-05:00</published>
+  <updated>2016-04-15T03:43:12-05:00</updated>
+  <author>
+    <name>Lee Calcote</name>
+    <uri>http://localhost:4000</uri>
+    <email>lee@calcotestudios.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;&lt;img class=&quot;size-medium wp-image-1075 align left&quot; src=&quot;https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2016/04/CIS-Docker-Benchmark.png?resize=300%2C225&quot; alt=&quot;CIS-Docker-Benchmark&quot; srcset=&quot;https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2016/04/CIS-Docker-Benchmark.png?resize=300%2C225 300w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2016/04/CIS-Docker-Benchmark.png?w=620 620w&quot; sizes=&quot;(max-width: 300px) 100vw, 300px&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;small&gt;&lt;em&gt;Article originally appeared on &lt;a href=&quot;http://www.networkworld.com/article/3056031/open-source-tools/22-new-concerns-added-to-docker-security-benchmark.html&quot;&gt;Network World&lt;/a&gt; on April 15th, 2016.&lt;/em&gt;&lt;/small&gt;&lt;/p&gt;
+
+&lt;p&gt;Security has and continues to be an impediment to container adoption. Whether containers are less or more secure than their virtual machine counterparts is a topic of continued debate.&lt;/p&gt;
+
+&lt;p&gt;Like any debate, there are merits to arguments on both sides with a bit of FUD interlaced. Many efforts have been undertaken within the container ecosystem to educate adopters and improve their comprehension of available tooling and security postures within platforms and offerings—be that in the form of static analysis (image scanning), runtime vulnerability detection, provenance (image signing), fine-grained authorization, cryptographic verification, etc.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;The breadth of need for improved security capabilities has provided an opportunity for emerging start-ups to focus specifically on the container security space and others to dedicate their company’s mission to securing the Internet. Having spent time with most of the vendors in this space, I’ll say that as you might expect, it’s a quickly changing landscape. One thing is evident: open source communities and vendors at every layer—from hardware through operating system, container runtime, container image, host to cluster orchestrator, PaaS to CaaS—have significantly marshalled forward security-centered improvements in the past year.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://www.cisecurity.org/&quot; target=&quot;new&quot;&gt;Center for Internet Security&lt;/a&gt; (CIS) is one of those organizations. CIS is dedicated to enhancing cybersecurity readiness and response between both public and private sectors. CIS produces Security Benchmarks as a way of providing defined, unbiased and consensus-based industry best practices to help organizations assess and improve their security. Thanks to a community of collaborators (&lt;em&gt;disclaimer: I am a member of the CIS Docker Benchmarks working group&lt;/em&gt;), the first CIS Docker Benchmark was published last April for Docker 1.6. A year later (April 13, 2016), a revision of this benchmark was released in concert with the Docker 1.11.0 release.&lt;/p&gt;
+
+&lt;div class=&quot;apart ad lazyload_ad_article&quot;&gt;
+&lt;/div&gt;
+&lt;aside class=&quot;nativo-promo smartphone&quot;&gt;&lt;/aside&gt;
+
+&lt;p&gt;Each CIS Docker Benchmark provides prescriptive guidance (in the form of rules) for establishing a secure configuration posture for Docker container infrastructure. The new benchmark version has been published with 22 new rules added and 23 rules removed, netting 83 rules in total.&lt;/p&gt;
+
+&lt;p&gt;As Docker has evolved over the past year, several rules have been updated or simply removed, as these concerns are now addressed in later versions of Docker tooling. Other updates in the rules are simply a reflection of architectural shifts Docker has made. In the 1.11.0 release, Docker has separated the concern of supervising containers and their runtime, splitting into two daemons: &lt;a href=&quot;https://containerd.tools/&quot; target=&quot;new&quot;&gt;containerd and runc&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The benchmark categorizes Docker security concerns into these groups (with number of concerns in parenthesis):&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Host Configuration (15)&lt;/li&gt;
+  &lt;li&gt;Docker daemon configuration (13)&lt;/li&gt;
+  &lt;li&gt;Docker daemon configuration files (20)&lt;/li&gt;
+  &lt;li&gt;Container Images and Build File (5)&lt;/li&gt;
+  &lt;li&gt;Container Runtime (25)&lt;/li&gt;
+  &lt;li&gt;Docker Security Operations (5)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Each rule not only describes the security concern and how to perform an audit to ascertain your deployment’s disposition, but also suggests how you may remediate the concern. Both rules and their remediations are written from the perspective of a container host, not a cluster, so how you choose to remediate the concern will vary based on your cluster size and platform choice (bare metal, container PaaS, cloud, etc.)&lt;/p&gt;
+
+&lt;p&gt;New rules introduced in the &lt;a href=&quot;https://benchmarks.cisecurity.org/tools2/docker/CIS_Docker_1.11.0_Benchmark_v1.0.0.pdf&quot; target=&quot;new&quot;&gt;CIS Docker 1.11.0 Benchmark&lt;/a&gt; (pdf):&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Host Configuration
+    &lt;ul&gt;
+      &lt;li&gt;1.11 Audit Docker files and directories – docker.socket&lt;/li&gt;
+      &lt;li&gt;1.13 Audit Docker files and directories – /etc/docker/daemon.json&lt;/li&gt;
+      &lt;li&gt;1.14 Audit Docker files and directories – /usr/bin/docker-containerd&lt;/li&gt;
+      &lt;li&gt;1.15 Audit Docker files and directories – /usr/bin/docker-runc&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Docker Daemon Configuration
+    &lt;ul&gt;
+      &lt;li&gt;2.8 Enable user namespace support&lt;/li&gt;
+      &lt;li&gt;2.9 Confirm default cgroup usage&lt;/li&gt;
+      &lt;li&gt;2.10 Do not change base device size until needed&lt;/li&gt;
+      &lt;li&gt;2.11 Use authorization plugin&lt;/li&gt;
+      &lt;li&gt;2.12 Configure centralized and remote logging&lt;/li&gt;
+      &lt;li&gt;2.13 Disable operations on legacy registry (v1)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Docker Daemon Configuration Files
+    &lt;ul&gt;
+      &lt;li&gt;3.17 Verify that daemon.json file ownership is set to root:root&lt;/li&gt;
+      &lt;li&gt;3.18 Verify that daemon.json file permissions are set to 644 or more restrictive&lt;/li&gt;
+      &lt;li&gt;3.19 Verify that /etc/default/docker file ownership is set to root:root&lt;/li&gt;
+      &lt;li&gt;3.20 Verify that /etc/default/docker file permissions are set to 644 or more restrictive&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Container Images and Build File
+    &lt;ul&gt;
+      &lt;li&gt;4.5 Enable Content trust for Docker&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Container Runtime
+    &lt;ul&gt;
+      &lt;li&gt;5.19 Do not set mount propagation mode to shared&lt;/li&gt;
+      &lt;li&gt;5.20 Do not share the host’s UTS namespace&lt;/li&gt;
+      &lt;li&gt;5.21 Do not disable default seccomp profile&lt;/li&gt;
+      &lt;li&gt;5.22 Do not docker exec commands with privileged option&lt;/li&gt;
+      &lt;li&gt;5.23 Do not docker exec commands with user option&lt;/li&gt;
+      &lt;li&gt;5.24 Confirm cgroup usage&lt;/li&gt;
+      &lt;li&gt;5.25 Restrict container from acquiring additional privileges&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Some container security vendors participate in the creation of the Docker Security Benchmark, while many others incorporate detection of these issues into their offering or project. While some include policy-driven orchestration to address failed security tests, few actually fully remediate the issue (only some issues are well-suited for automated remediation).&lt;/p&gt;
+
+&lt;p&gt;Security Configuration Benchmarks are distributed free of charge to propagate their worldwide use and adoption as user-originated standards. One such tool adopting the 1.11.0 benchmark concerns is the &lt;a href=&quot;https://github.com/docker/docker-bench-security&quot; target=&quot;new&quot;&gt;Docker Bench for Security&lt;/a&gt;—an open source, command-line tool used to perform checks in accordance with the CIS Docker Benchmark.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2016/04/22-new-concerns-added-to-docker-security-benchmark/&quot;&gt;22 new concerns added to Docker security benchmark&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on April 15, 2016.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Kubernetes community gathers for inaugural European edition of KubeCon]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/2016/03/kubernetes-community-gathers-for-inaugural-european-edition-of-kubecon/" />
+  <id>http://localhost:4000/2016/03/kubernetes-community-gathers-for-inaugural-european-edition-of-kubecon</id>
+  <published>2016-03-24T08:57:53-05:00</published>
+  <updated>2016-03-24T08:57:53-05:00</updated>
+  <author>
+    <name>Lee Calcote</name>
+    <uri>http://localhost:4000</uri>
+    <email>lee@calcotestudios.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;&lt;img class=&quot;size-medium wp-image-1059 align left&quot; title=&quot;&quot; src=&quot;https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2016/03/DSC_0008.jpg?resize=300%2C200&quot; alt=&quot;DSC_0008&quot; style=&quot;margin-right:.10in;margin-bottom:.05in;&quot; srcset=&quot;https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2016/03/DSC_0008.jpg?resize=300%2C200 300w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2016/03/DSC_0008.jpg?resize=768%2C511 768w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2016/03/DSC_0008.jpg?w=925 925w&quot; sizes=&quot;(max-width: 300px) 100vw, 300px&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;&lt;em&gt;Originally posted on &lt;a href=&quot;http://www.networkworld.com/article/3046063/open-source-tools/kubernetes-community-gathers-for-inaugural-european-edition-of-kubecon.html&quot; target=&quot;_blank&quot;&gt;Network World&lt;/a&gt; on March 24th, 2016. &lt;/em&gt;&lt;/small&gt;&lt;/p&gt;
+
+&lt;p&gt;For the uninitiated, &lt;a title=&quot;Kubernetes&quot; href=&quot;http://kubernetes.io/docs/whatisk8s/&quot; target=&quot;new&quot;&gt;Kubernetes&lt;/a&gt; is an opinionated framework for building distributed systems or as its tagline states “an open source system for automating deployment, scaling, and operations of applications.” While a hot topic at various conferences, Kubernetes is the sole technological focus at KubeCon. KubeCon is a conference dedicated to education and community engagement of Kubernauts (Kubernetes enthusiasts).&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;Organized by KubeAcademy, KubeCon 2015 was the initial edition of this conference, launched back in November and held in San Francisco. With about 500 attendees, KubeCon EU 2016 was the inaugural European edition. The two-day community conference was held in London on March 10 and 11, 2016 with &lt;a href=&quot;https://skillsmatter.com/conferences/7884-kubecon-london#venue&quot; target=&quot;new&quot;&gt;CodeNode&lt;/a&gt; as the venue – well-suited for the number of attendees and sessions.&lt;/p&gt;
+
+&lt;p&gt;Not at all talks were strictly cluster manager focused. Some explored the intersection of traditional virtualization with virtual machines or configuration management and container-based workloads orchestrated by Kubernetes. Slides from all talks have been made &lt;a href=&quot;http://www.slideshare.net/search/slideshow?lang=en&amp;amp;page=1&amp;amp;q=kubeacademy&amp;amp;qid=0465320c-6d5b-40b1-835a-25ec924e8a88&amp;amp;searchfrom=header&amp;amp;sort=relevance&quot; target=&quot;new&quot;&gt;available&lt;/a&gt; as well as their recordings will soon be posted. Presenters and vendors at the conference confirmed the pace of innovation of this container orchestration system continues to move at an incredible clip. Users including New York Times, Met Office Informatics Lab, Pearson and others were not shy in bringing forward their stories.&lt;/p&gt;
+
+&lt;p&gt;In the week following KubeCon (on St. Patrick’s Day), Kubernetes 1.2 was released, touting 680 unique contributions to the project – the largest release yet. In coordination with this release was the relaunching of a redesigned &lt;a href=&quot;http://kubernetes.io/&quot; target=&quot;new&quot;&gt;kubernetes.io&lt;/a&gt; site launched to boot. &lt;a href=&quot;http://blog.kubernetes.io/2016/03/Kubernetes-1.2-even-more-performance-upgrades-plus-easier-application-deployment-and-management-.html&quot; target=&quot;new&quot;&gt;Highlights of the 1.2 release&lt;/a&gt; include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Scale improvements&lt;/strong&gt; – increased cluster scale by 400% to 1,000 nodes and 30,000 containers per cluster.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Dynamic Configuration (ConfigMap API)&lt;/strong&gt; enables applications to pull their configuration when they run rather than packaging it in at build time.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Turnkey Deployments&lt;/strong&gt; (Beta Deployment API) handles versioning, multiple simultaneous rollouts, aggregating status across all pods, maintaining application availability and rollback.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Automated cluster management&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Simplified application deployment and management.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Kubedash&lt;/strong&gt; – a new UI allows for getting started quickly and accessing the same functionality found in the CLI.&lt;figure class=&quot;large &quot;&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://i2.wp.com/images.techhive.com/images/article/2016/03/screen-shot-2016-03-22-at-2.28.46-pm-100651902-large.idge.png&quot;&gt;&lt;img class=&quot;align center&quot; src=&quot;https://i2.wp.com/images.techhive.com/images/article/2016/03/screen-shot-2016-03-22-at-2.28.46-pm-100651902-large.idge.png?w=90%25&quot; alt=&quot;kubedash screenshot&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;&amp;lt;/figure&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;No sooner than 1.2 is published does the 1.3 roadmap take shape and tentatively scheduled for release ~16 weeks from now with the following highlights slated:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Legacy application support&lt;/strong&gt; (Nominal Services aka &lt;a href=&quot;https://github.com/kubernetes/kubernetes/pull/18016&quot;&gt;PetSet&lt;/a&gt;) – aims to solve problems currently encountered with systems where the identities of nodes are important (primarily for different types of databases)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Cluster Federation&lt;/strong&gt; (aka &lt;a href=&quot;https://github.com/kubernetes/kubernetes/blob/8813c955182e3c9daae68a8257365e02cd871c65/release-0.19.0/docs/proposals/federation.md&quot;&gt;Ubernetes&lt;/a&gt;) – will provide a real (perhaps preliminary) solution to cross-zone clusters (typically geographically distant clusters)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Higher scale&lt;/strong&gt; – improving upon the 400% scale increase already delivered in 1.2.
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://trello.com/c/fD83kRPE/102-remove-hard-coded-caps-and-use-back-pressure-in-the-system&quot;&gt;Scale up to 250 pods per node&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Scale out to 1000 nodes at half-max-pod-density&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;In-cluster IAM&lt;/strong&gt; – Identity and Access Management will be added in the form of an &lt;a href=&quot;http://openid.net/connect/&quot;&gt;OIDC&lt;/a&gt; integration to distinguish between different types of users accessing a cluster&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Cluster auto-scaling&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Scheduled job&lt;/strong&gt; – needed for performing all time-related actions, namely backups, report generation, etc.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Public cloud dashboard&lt;/strong&gt; – with results of nightly runs across multiple cloud providers&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Storage&lt;/strong&gt; – improve dynamic provisioning of volumes
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://trello.com/c/e85W63b1/113-enable-quotas-for-total-volume-size-across-all-pvs-ops-rfe&quot;&gt;quotas for PersistentVolumes&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Among other announcements at the conference was that of the Cloud Native Computing Foundation (part of the Linux Foundation) &lt;a href=&quot;https://cncf.io/news/announcement/2016/03/cloud-native-computing-foundation-accepts-kubernetes-first-hosted-projec-0&quot;&gt;accepting Kubernetes as its first hosted project&lt;/a&gt;. Along with the acceptance of Kubernetes’ intellectual property (the entire Kubernetes code base), CNCF announced results of the election for members to the project’s Technical Oversight Committee. This list currently includes members from six different organizations, all of which either having significant doings with both advancing Kubernetes as well as their business models around the open source project.&lt;/p&gt;
+
+&lt;p&gt;Following the footsteps of Rackspace and Intel in putting together &lt;a href=&quot;http://blog.rackspace.com/openstack-tokyo-day-1-two-1000-node-clusters-now-available-for-testing/&quot;&gt;two 1,000 node clusters for the OpenStack community&lt;/a&gt; to develop and test at scale, next steps for the CNCF include establishing a 1,000 node cluster for the community to run and validate cloud native applications and infrastructure at scale.&amp;lt;aside id=&quot;&quot; class=&quot;nativo-promo tablet desktop&quot;&amp;gt;&amp;lt;/aside&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;Comments from those who attended and did not attend the conference indicators that KubeAcademy is acheiving their stated mission of fostering a community of Kubernetes developers and operators by providing education, training, and events. With some conference goers simply thrilled just to “…finally get a proper Kubernetes sticker for my laptop!!! Yaay!” and others setting “new professional goals to make it 2 the next KubeCon”, the conference was a success. Let’s hope &lt;a href=&quot;https://kubecon.io/sponsors/&quot;&gt;sponsor funding&lt;/a&gt; of the next KubeCon includes a livestream!&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2016/03/kubernetes-community-gathers-for-inaugural-european-edition-of-kubecon/&quot;&gt;Kubernetes community gathers for inaugural European edition of KubeCon&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on March 24, 2016.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Dockercon EU 2015 Recap]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/2015/12/dockercon-eu-2015-recap/" />
+  <id>http://localhost:4000/2015/12/dockercon-eu-2015-recap</id>
+  <published>2015-12-04T07:41:13-06:00</published>
+  <updated>2015-12-04T07:41:13-06:00</updated>
+  <author>
+    <name>Lee Calcote</name>
+    <uri>http://localhost:4000</uri>
+    <email>lee@calcotestudios.com</email>
+  </author>
+  <content type="html">
+    &lt;p align=&quot;center&quot;&gt;
+  A brief recap of the Docker, Docker, Docker highlights from Dockercon EU 2015.
+&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+&lt;/div&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+  Presented at Docker Austin.
+&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2015/12/dockercon-eu-2015-recap/&quot;&gt;Dockercon EU 2015 Recap&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on December 04, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Redfish slipstreams IPMI with 1.0 release]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/2015/08/redfish-slipstreams-ipmi-with-1-0-release/" />
+  <id>http://localhost:4000/2015/08/redfish-slipstreams-ipmi-with-1-0-release</id>
+  <published>2015-08-12T17:55:34-05:00</published>
+  <updated>2015-08-12T17:55:34-05:00</updated>
+  <author>
+    <name>Lee Calcote</name>
+    <uri>http://localhost:4000</uri>
+    <email>lee@calcotestudios.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2015/08/DMTF-Redfish-Logo.jpg&quot;&gt;&lt;img class=&quot;alignleft size-medium wp-image-969&quot; src=&quot;https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2015/08/DMTF-Redfish-Logo.jpg?resize=300%2C211&quot; alt=&quot;DMTF Redfish Logo&quot; srcset=&quot;https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2015/08/DMTF-Redfish-Logo.jpg?resize=300%2C211 300w, https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2015/08/DMTF-Redfish-Logo.jpg?w=375 375w&quot; sizes=&quot;(max-width: 300px) 100vw, 300px&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;Last week, I was delighted to join in heralding the &lt;a href=&quot;http://www.dmtf.org/news/pr/2015/8/dmtf-helps-enable-multi-vendor-data-center-management-new-redfish-10-standard&quot;&gt;announcement the release&lt;/a&gt; of the Redfish 1.0 specification and highlight Seagate’s support of this emerging systems management API standard.&lt;/p&gt;
+
+&lt;p&gt;For those unfamiliar with this newly minted, &lt;a href=&quot;http://dmtf.org/standards/redfish&quot;&gt;industry API specification&lt;/a&gt;, understand that Redfish is a standard for data center and systems management that delivers improved performance, functionality, scalability and security. Designed to meet the expectations of end users for simple and interoperable management of modern scalable platform hardware, Redfish takes advantage of widely-used technologies to speed implementation and help system administrators be more effective.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;With Redfish being a REST-based interface utilizing JSON and OData for systems management aims to replace Intelligent Platform Management Interface (IPMI), a widely used out-of-band specification developed in the late ‘90s. Like most systems manufacturers, Seagate supports IPMI and will continue to support it as a critical standard in the data center in lieu of broad adoption of Redfish. Where IPMI strains to meet the requirements of today’s massive multiscale environments, Redfish addresses IPMI inadequacies of interoperability, security, simplicity and scalability.&lt;/p&gt;
+
+&lt;p&gt;Redfish is developed by the DMTF’s &lt;a href=&quot;http://www.dmtf.org/standards/spmf&quot;&gt;Scalable Platforms Management Forum&lt;/a&gt; (SPMF). As a supporting member, Seagate, works alongside other leading systems manufacturers to create and publish this open industry standard specification and schema. This forum is led by Broadcom, Dell, Emerson, HP, Intel, Lenovo, Microsoft, Supermicro and VMware with additional support from AMI, Oracle, Fujitsu, Huawei, Mellanox and Seagate.&lt;/p&gt;
+
+&lt;p&gt;Redfish 1.0 feature set summary:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Retrieve “IPMI class” data&lt;/strong&gt;&lt;/p&gt;
+
+&lt;li style=&quot;font-weight: 400;&quot;&gt;
+  &lt;span style=&quot;font-weight: 400;&quot;&gt;Basic server identification and asset info&lt;/span&gt;
+&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;
+  &lt;span style=&quot;font-weight: 400;&quot;&gt;Health state&lt;/span&gt;
+&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;
+  &lt;span style=&quot;font-weight: 400;&quot;&gt;Temperature sensors and fans&lt;/span&gt;
+&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;
+  &lt;span style=&quot;font-weight: 400;&quot;&gt;Power supply, power consumption and thresholds&lt;/span&gt;
+&lt;/li&gt;
+
+&lt;p&gt;&lt;strong&gt;Discovery&lt;/strong&gt;&lt;/p&gt;
+
+&lt;li style=&quot;font-weight: 400;&quot;&gt;
+  &lt;span style=&quot;font-weight: 400;&quot;&gt;Service endpoint (network-based discovery)&lt;/span&gt;
+&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;
+  &lt;span style=&quot;font-weight: 400;&quot;&gt;System topology (rack/chassis/server/node)&lt;/span&gt;
+&lt;/li&gt;
+
+&lt;p&gt;&lt;strong&gt;Basic I/O infrastructure data&lt;/strong&gt;&lt;/p&gt;
+
+&lt;li style=&quot;font-weight: 400;&quot;&gt;
+  &lt;span style=&quot;font-weight: 400;&quot;&gt;Host NIC MAC address(es) for LOM devices&lt;/span&gt;
+&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;
+  &lt;span style=&quot;font-weight: 400;&quot;&gt;Drive status / fault reporting&lt;/span&gt;
+&lt;/li&gt;
+
+&lt;p&gt;&lt;strong&gt;Security&lt;/strong&gt;&lt;/p&gt;
+
+&lt;li style=&quot;font-weight: 400;&quot;&gt;
+  &lt;span style=&quot;font-weight: 400;&quot;&gt;Session-based and leverages HTTPS&lt;/span&gt;
+&lt;/li&gt;
+
+&lt;p&gt;&lt;strong&gt;Perform Common Actions&lt;/strong&gt;&lt;/p&gt;
+
+&lt;li style=&quot;font-weight: 400;&quot;&gt;
+  &lt;span style=&quot;font-weight: 400;&quot;&gt;Reboot / power cycle server&lt;/span&gt;
+&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;
+  &lt;span style=&quot;font-weight: 400;&quot;&gt;Change boot order / device&lt;/span&gt;
+&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;
+  &lt;span style=&quot;font-weight: 400;&quot;&gt;Set power thresholds&lt;/span&gt;
+&lt;/li&gt;
+
+&lt;p&gt;&lt;strong&gt;Access and Notification&lt;/strong&gt;&lt;/p&gt;
+
+&lt;li style=&quot;font-weight: 400;&quot;&gt;
+  &lt;span style=&quot;font-weight: 400;&quot;&gt;Serial console access via SSH&lt;/span&gt;
+&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;
+  &lt;span style=&quot;font-weight: 400;&quot;&gt;Alert / event notification method(s)&lt;/span&gt;
+&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;
+  &lt;span style=&quot;font-weight: 400;&quot;&gt;Event Log access method(s)&lt;/span&gt;
+&lt;/li&gt;
+
+&lt;p&gt;&lt;strong&gt;BMC infrastructure&lt;/strong&gt;&lt;/p&gt;
+
+&lt;li style=&quot;font-weight: 400;&quot;&gt;
+  &lt;span style=&quot;font-weight: 400;&quot;&gt;View / configure BMC network settings&lt;/span&gt;
+&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;
+  &lt;span style=&quot;font-weight: 400;&quot;&gt;Manage local BMC user accounts&lt;/span&gt;
+&lt;/li&gt;
+
+&lt;p&gt;Redfish 1.0 is only the beginning. Seagate and other industry leaders are already engaging within the DMTF Scalable Platform Management Forum on enhancements beyond Redfish 1.0 standard. You’re invited to &lt;a href=&quot;http://www.dmtf.org/join/spmf&quot;&gt;join&lt;/a&gt; the discussion or provide feedback through the DMTF submission portal. Comments and requirements from Redfish consumers are openly solicited and crucial to helping the SPMF prioritize capabilities in the upcoming next versions.&lt;/p&gt;
+
+&lt;p&gt;What does Redfish mean for Seagate partners and customers? It means a new level of control, management and monitoring for the data center, using a modern, secure RESTful API that is commonly understood and will be widely supported. We’ll further discuss Redfish’s concepts and constructs in this blog series, so stay tuned as we begin to showcase our adoption of Redfish initially within our suite of systems management software.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2015/08/redfish-slipstreams-ipmi-with-1-0-release/&quot;&gt;Redfish slipstreams IPMI with 1.0 release&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on August 12, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Going Native with OpenStack Centric Applications: Murano]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/2014/11/going-native-with-openstack-centric-applications-murano/" />
+  <id>http://localhost:4000/2014/11/going-native-with-openstack-centric-applications-murano</id>
+  <published>2014-11-18T17:44:39-06:00</published>
+  <updated>2014-11-18T17:44:39-06:00</updated>
+  <author>
+    <name>Lee Calcote</name>
+    <uri>http://localhost:4000</uri>
+    <email>lee@calcotestudios.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;Following on our previous discussion &lt;a href=&quot;http://blog.gingergeek.com/2014/11/going-native-with-openstack-centric-applications-overview/&quot;&gt;surveying the projects supporting applications within OpenStack&lt;/a&gt;, let’s continue our review with an in-depth look at the OpenStack-native Application Catalog: Murano, currently an incubation status project, having seen its functionality and core services integration advanced over the past few OpenStack releases.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano.png&quot;&gt;&lt;img class=&quot;alignleft&quot; src=&quot;https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano.png?w=150&quot; alt=&quot;OpenStack Centric Applications - Murano&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-it&quot;&gt;What is it?&lt;/h3&gt;
+
+&lt;p&gt;An application catalog developed by Mirantis, HP and others (now including Cisco), that allows application developers and cloud administrators to publish applications in a categorized catalog to be perused and deployed by application consumers. The selection of applications available within the catalog is intended to be that of released versions (ready-state) of applications (cloud-native or enterprise-architected), not application versions that are mid-development. Ideally, these are applications ready to be consumed and run by application users.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;functionality-highlights&quot;&gt;Functionality Highlights&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;div id=&quot;attachment_883&quot; style=&quot;width: 310px&quot; class=&quot;wp-caption alignright&quot;&gt;
+  &lt;a href=&quot;https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Catalog-UI.png&quot;&gt;&lt;img class=&quot;wp-image-883 size-medium&quot; src=&quot;https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Catalog-UI.png?resize=300%2C207&quot; alt=&quot;OpenStack Centric Applications - Murano Application Catalog UI&quot; srcset=&quot;https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Catalog-UI.png?resize=300%2C207 300w, https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Catalog-UI.png?resize=1024%2C708 1024w, https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Catalog-UI.png?w=1196 1196w&quot; sizes=&quot;(max-width: 300px) 100vw, 300px&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;
+      
+  &lt;p class=&quot;wp-caption-text&quot;&gt;
+    Murano Application Catalog UI
+  &lt;/p&gt;
+&lt;/div&gt;
+    &lt;p&gt;Supports Windows and Linux applications&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Leverages HOT templates for application definition&lt;/li&gt;
+  &lt;li&gt;Controls Heat stack creation and updates processes&lt;/li&gt;
+  &lt;li&gt;Track application properties and dependencies&lt;/li&gt;
+  &lt;li&gt;Defines provisioning workflow definitions and executes them&lt;/li&gt;
+  &lt;li&gt;Introduces “Application” and “Environment” constructs&lt;/li&gt;
+  &lt;li&gt;Provides UI for application topology visualization&lt;/li&gt;
+  &lt;li&gt;Control lifecycle of a deployed application&lt;/li&gt;
+  &lt;li&gt;Allows simple management of access to an application&lt;/li&gt;
+  &lt;li&gt;Compose an environment from multiple application components&lt;/li&gt;
+  &lt;li&gt;Out of the Box Cataloged Applications
+    &lt;ul&gt;
+      &lt;li&gt;16 sample applications available now&lt;/li&gt;
+      &lt;li&gt;6 production-grade applications on Mirantis OpenStack Express**&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Multiple application formats supported:
+    &lt;ul&gt;
+      &lt;li&gt;HOT Templates&lt;/li&gt;
+      &lt;li&gt;MuranoPL&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Vision to support
+    &lt;ul&gt;
+      &lt;li&gt;Other application model formats:
+        &lt;ul&gt;
+          &lt;li&gt;Parallels APS format&lt;/li&gt;
+          &lt;li&gt;TOSCA format&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Pricing; billing system integration&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;user-personas--capabilities&quot;&gt;User Personas &amp;amp; Capabilities&lt;/h3&gt;
+
+&lt;p&gt;As an application catalog, Murano, primarily focuses on three user personas, the &lt;em&gt;Cloud Administrator&lt;/em&gt;, &lt;em&gt;Application Consumer&lt;/em&gt; and &lt;em&gt;Application Publisher&lt;/em&gt; receiving the most emphasis upfront in the development of this project.&lt;/p&gt;
+
+&lt;h4 id=&quot;application-consumer&quot;&gt;Application Consumer&lt;/h4&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-User-Persona.png&quot;&gt;&lt;img class=&quot;alignleft size-thumbnail wp-image-889&quot; src=&quot;https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-User-Persona.png?resize=150%2C150&quot; alt=&quot;OpenStack Centric Applications - User Persona&quot; srcset=&quot;https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-User-Persona.png?resize=150%2C150 150w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-User-Persona.png?resize=300%2C300 300w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-User-Persona.png?w=677 677w&quot; sizes=&quot;(max-width: 150px) 100vw, 150px&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;The &lt;em&gt;Application Consumer&lt;/em&gt; selects and deploys instances of applications into environments they define. The &lt;em&gt;Application Consumer&lt;/em&gt; also…&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;…browses catalog (search, category, tags, etc)&lt;/li&gt;
+  &lt;li&gt;…creates new environments&lt;/li&gt;
+  &lt;li&gt;…deploys applications in environments&lt;/li&gt;
+  &lt;li&gt;…monitors application statistics&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;application-publisher&quot;&gt;Application Publisher&lt;/h4&gt;
+
+&lt;p&gt;The &lt;em&gt;Application Publisher&lt;/em&gt; creates application definitions (packages) that are imported as entries into the application catalog for perusal by &lt;em&gt;Application Consumers&lt;/em&gt;. The &lt;em&gt;Application Publisher&lt;/em&gt; also…&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;…defines application metadata (author, help message, version, etc)&lt;/li&gt;
+  &lt;li&gt;…identifies cloud resource allocation (HOT templates)&lt;/li&gt;
+  &lt;li&gt;…creates application deployment specifications (HOT templates)&lt;/li&gt;
+  &lt;li&gt;…defines a template for dynamic visualization of application topology (Horizon)&lt;/li&gt;
+  &lt;li&gt;…identifies metrics collection (Ceilometer)&lt;/li&gt;
+  &lt;li&gt;…establishes actions &amp;amp; events (Murano &amp;amp; Mistral)&lt;/li&gt;
+  &lt;li&gt;…imports and publishes application definition to catalog&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;cloud-administrator&quot;&gt;Cloud Administrator&lt;/h4&gt;
+
+&lt;p&gt;The &lt;em&gt;Cloud Administrator&lt;/em&gt; is responsible for running the application catalog and providing stable infrastructure upon which to deploy and run applications. The &lt;em&gt;Cloud Administrator&lt;/em&gt; also…&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;…curates application catalog (certification and signing of packages)&lt;/li&gt;
+  &lt;li&gt;…configures access to applications&lt;/li&gt;
+  &lt;li&gt;…defines billing rules*&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;application-packaging-process&quot;&gt;Application Packaging Process&lt;/h3&gt;
+
+&lt;p&gt;Currently, Murano applications may be packaged using two different formats to describe the application – the&lt;/p&gt;
+
+&lt;div id=&quot;attachment_884&quot; style=&quot;width: 310px&quot; class=&quot;wp-caption alignleft&quot;&gt;
+  &lt;a href=&quot;https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Packaging.png&quot;&gt;&lt;img class=&quot;wp-image-884 size-medium&quot; src=&quot;https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Packaging.png?resize=300%2C155&quot; alt=&quot;OpenStack Centric Applications - Murano Application Packaging&quot; srcset=&quot;https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Packaging.png?resize=300%2C155 300w, https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Packaging.png?resize=1024%2C529 1024w&quot; sizes=&quot;(max-width: 300px) 100vw, 300px&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&quot;wp-caption-text&quot;&gt;
+    Murano Application Packaging Process
+  &lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;MuranoPL or a HOT template. There’s roadmap to support addition application description formats. While these two methodologies vary in terms of how the orchestration is performed during provisioning of an instance of the app, their are common attributes (catalog metadata) like an application display name, logo, description, author, tags. For those familiar with other domain-specific languages of other popular configuration management frameworks, the MuranoPL is of little challenge to pick up (you may lean into  use Bash or Powershell if more comfortable) or you may opt to use SoftwareConfig and SoftwareDeploy of HOT.&lt;/p&gt;
+
+&lt;h3 id=&quot;architectural-overview-core-services-integration&quot;&gt;Architectural Overview &amp;amp; Core Services Integration&lt;/h3&gt;
+
+&lt;p&gt;See the “Murano Architectural Overview” diagram for a visual representation of how Murano is tightly integrated with core OpenStack services. It’s relationship to existing core services breaks down as follows:&lt;/p&gt;
+
+&lt;div id=&quot;attachment_885&quot; style=&quot;width: 310px&quot; class=&quot;wp-caption alignright&quot;&gt;
+  &lt;a href=&quot;https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Architectural-Overview.png&quot;&gt;&lt;img class=&quot;wp-image-885 size-medium&quot; src=&quot;https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Architectural-Overview.png?resize=300%2C140&quot; alt=&quot;OpenStack Centric Applications - Murano Architectural Overview&quot; srcset=&quot;https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Architectural-Overview.png?resize=300%2C140 300w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Architectural-Overview.png?resize=1024%2C479 1024w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Architectural-Overview.png?w=2000 2000w&quot; sizes=&quot;(max-width: 300px) 100vw, 300px&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&quot;wp-caption-text&quot;&gt;
+    Murano Architectural Overview
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div style=&quot;margin-left: .25in;&quot;&gt;
+  &lt;h4&gt;
+    Glance
+  &lt;/h4&gt;
+  
+  &lt;p&gt;
+    Originally designed as an image repository, Murano will use Glance to store &amp;amp; query application definitions. Glance is used as an artifact repository to store application definitions, query &amp;amp; search them and store images required by applications. Images used by Murano are marked with specific metadata, which is used by Murano to derive appropriate selections within the UI during application deployment time.
+  &lt;/p&gt;
+  
+  &lt;h4&gt;
+    Heat
+  &lt;/h4&gt;
+  
+  &lt;ul&gt;
+    &lt;li&gt;
+      Cloud resource allocation specific to the application &lt;ul&gt;
+        &lt;li&gt;
+          Resources required by application is allocated using Heat
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    
+    &lt;li&gt;
+      Application provisioning / deployment via Heat Software Configuration
+    &lt;/li&gt;
+    &lt;li&gt;
+      Life-cycle callbacks*
+    &lt;/li&gt;
+  &lt;/ul&gt;
+  
+  &lt;h4&gt;
+    Horizon
+  &lt;/h4&gt;
+  
+  &lt;p&gt;
+    Horizon is used to provide the Application Catalog user interface wherein &lt;em&gt;Application Publishers &lt;/em&gt;may browse and deploy applications. Horizon is also u&lt;span style=&quot;line-height: 1.5em;&quot;&gt;sed to both build applications and visualize the topology provisioned applications. The need for this type of dynamic user interface (application topology canvas) has been p&lt;/span&gt;&lt;span style=&quot;line-height: 1.5em;&quot;&gt;roposed as separate project to provide common support to other Application-oriented projects – Heat, Solum, Mistral and Murano. This application blueprint designer project is codename – &lt;/span&gt;&lt;a style=&quot;font-style: italic;&quot; href=&quot;https://wiki.openstack.org/wiki/Merlin&quot; target=&quot;_blank&quot;&gt;Merlin&lt;/a&gt;.
+  &lt;/p&gt;
+  
+  &lt;h4&gt;
+    Docker
+  &lt;/h4&gt;
+  
+  &lt;p&gt;
+    Murano supports existing Nova and Heat plugins. See the “Murano and Containers” section below.
+  &lt;/p&gt;
+  
+  &lt;h4&gt;
+    Ceilometer
+  &lt;/h4&gt;
+  
+  &lt;p&gt;
+    Murano uses Ceilometer for application metric collection &amp;amp; processing. Additionally, Ceilometer events may be subscribed to and trigger specific actions (see below) for autoscaling, HA, DR and other.
+  &lt;/p&gt;
+  
+  &lt;h4&gt;
+    Mistral
+  &lt;/h4&gt;
+  
+  &lt;ul&gt;
+    &lt;li&gt;
+      Workflows are used when complex workflow outside of Heat is needed.
+    &lt;/li&gt;
+    &lt;li&gt;
+      Actions (also available w/o Mistral) &lt;ul&gt;
+        &lt;li&gt;
+          Application level ad-hoc actions (e.g. create backup, enable/disable some feature, or create user for an application) will also be defined in Mistral.
+        &lt;/li&gt;
+        &lt;li&gt;
+          Events (e.g. when X occurs then do Y)
+        &lt;/li&gt;
+        &lt;li&gt;
+          Events mapping to actions
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;attachment_882&quot; style=&quot;width: 310px&quot; class=&quot;wp-caption alignleft&quot;&gt;
+  &lt;a href=&quot;https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Actions.png&quot;&gt;&lt;img class=&quot;wp-image-882 size-medium&quot; src=&quot;https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Actions.png?resize=300%2C202&quot; alt=&quot;OpenStack Centric Applications - Murano Actions&quot; srcset=&quot;https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Actions.png?resize=300%2C202 300w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Actions.png?w=995 995w&quot; sizes=&quot;(max-width: 300px) 100vw, 300px&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;
+  
+  &lt;p class=&quot;wp-caption-text&quot;&gt;
+    Murano Actions – application-specific scaling
+  &lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;actions--events&quot;&gt;Actions &amp;amp; Events&lt;/h3&gt;
+
+&lt;div&gt;
+  Classic runbook automation applies here – Murano allows the &lt;em&gt;Application Publisher&lt;/em&gt; to define various custom actions to be taken upon trigger by an interesting event. What constitutes and interesting event is up to the &lt;em&gt;Application Publisher&lt;/em&gt;, who may define any action in the application definition and associate the action to a specific workflow. By exposing a webhook to trigger the action (and workflow), they may be triggered by Ceilometer alarms or any 3rd party tool.
+&lt;/div&gt;
+
+&lt;div&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+  Common use cases are auto-scaling, HA and DR. The “Murano Actions” diagram shows an example of an autoscaling scenario in which an application might require additional database instance based web server load.
+&lt;/div&gt;
+
+&lt;h3 id=&quot;murano-and-containers&quot;&gt;Murano and Containers&lt;/h3&gt;
+
+&lt;p&gt;Murano inherently supports Docker containers by relying upon existing OpenStack components for container integration and orchestration. This means that there are no considerations to be accounted for within the MuranoPL to describe the application package to support containers. Similarly, when using Heat templates at the core of the application package, only reference to Docker resources and images is needed to support container orchestration by Heat. There are different ways of using Docker in OpenStack via Murano:&lt;/p&gt;
+
+&lt;p style=&quot;padding-left: 15px;&quot;&gt;
+  1) Heat template can use Heat::Docker
+&lt;/p&gt;
+
+&lt;ul style=&quot;margin-left: 15px;&quot;&gt;
+  &lt;li style=&quot;padding-left: 15px;&quot;&gt;
+    &lt;span style=&quot;line-height: 1em;&quot;&gt;Heat::Docker driver leverages Heat engine directly to instantiate containers&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li style=&quot;padding-left: 15px;&quot;&gt;
+    &lt;span style=&quot;line-height: 1em;&quot;&gt;Use Heat when Nova does not support Docker&lt;/span&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p style=&quot;margin-left: 15px;&quot;&gt;
+  2) Heat template can use Nova::Docker
+&lt;/p&gt;
+
+&lt;ul style=&quot;margin-left: 15px;&quot;&gt;
+  &lt;li style=&quot;padding-left: 15px;&quot;&gt;
+    &lt;span style=&quot;line-height: 1em;&quot;&gt;Use when you have a bare metal Docker installation&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li style=&quot;padding-left: 15px;&quot;&gt;
+    &lt;span style=&quot;line-height: 1em;&quot;&gt;Through Nova API, create a container without a VM being created to host&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li style=&quot;padding-left: 15px;&quot;&gt;
+    &lt;span style=&quot;line-height: 1em;&quot;&gt;Nova can go to bare metale to create Docker container&lt;/span&gt;
+  &lt;/li&gt;
+  &lt;li style=&quot;padding-left: 15px;&quot;&gt;
+    &lt;span style=&quot;line-height: 1em;&quot;&gt;User provides Heat template, workflow (Murano DSL) and image&lt;/span&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p style=&quot;padding-left: 15px;&quot;&gt;
+  3) Not recommended – Use Heat resource to create a VM with Docker inside and boot an image file to the VM with &lt;code&gt;docker run&lt;/code&gt;.
+&lt;/p&gt;
+
+&lt;p&gt;The Murano team is looking to add autoscaling for Docker services, facilitate Docker application placement and integration with monitoring and network services.&lt;/p&gt;
+
+&lt;h3 id=&quot;murano-as-a-southbound-catalog&quot;&gt;Murano as a Southbound Catalog&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-tall.png&quot;&gt;&lt;img class=&quot;alignleft wp-image-930&quot; src=&quot;https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-tall.png?resize=165%2C200&quot; alt=&quot;OpenStack Centric Applications - Murano&quot; srcset=&quot;https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-tall.png?resize=246%2C300 246w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-tall.png?w=445 445w&quot; sizes=&quot;(max-width: 165px) 100vw, 165px&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;Murano has two different northbound APIs to expose access to applications in the catalog – REST and AMQP (Services Broker). Within the Juno release, the Services Broker has only been prototyped. It’s scheduled to be fully-implemented in Kilo. While other use cases may exist, the primary use case for these northbound API revolves around allowing northbound catalogs to access and expose OpenStack-native applications.&lt;/p&gt;
+
+&lt;p&gt;The &lt;em&gt;Services Broker&lt;/em&gt; supports CRUD and binds service with your application. A proof of concept has been completed to integrate Cloud Foundry with Murano via the Service Broker. When CloudFoundry is integrated to Murano, CloudFoundry users see and order Murano applications in CloudFoundry.&lt;/p&gt;
+
+&lt;p&gt;Using the &lt;em&gt;REST API&lt;/em&gt;, Murano may be integrated as a southbound application catalog to expose OpenStack-native applications as SaaS application profiles available for users of a northbound catalog. Users benefit from existing services offered on top of OpenStack. This enables application components to be split across infrastructure (having application components deployed into different infrastructures).&lt;/p&gt;
+
+&lt;h3 id=&quot;kilo-roadmap&quot;&gt;Kilo Roadmap&lt;/h3&gt;
+
+&lt;p&gt;While subject to change, based on Kilo design summit discussions this week, the project team aims to bite off the following capabilities before the next release in May.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Implementing CloudFoundry ServiceBroker API&lt;/li&gt;
+  &lt;li&gt;Use of Glance as an artifact repository&lt;/li&gt;
+  &lt;li&gt;Support pluggable package definitions formats:
+    &lt;ul&gt;
+      &lt;li&gt;TOSCA (Topology and Orchestration Specification for Cloud Applications)&lt;/li&gt;
+      &lt;li&gt;APS (Parallels Application Standard)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Multiple Heat Stacks and OpenStack Cloud support
+    &lt;ul&gt;
+      &lt;li&gt;Availability Zones (for DR)&lt;/li&gt;
+      &lt;li&gt;Multiple OpenStack clouds&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Pluggable Architecture
+    &lt;ul&gt;
+      &lt;li&gt;Integration with 3rd party API (F5, Brocade etc.)&lt;/li&gt;
+      &lt;li&gt;Package format plugins&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We’ll continue our review of support for applications within OpenStack in the next post of this series by diving into application lifecycle management with Solum.&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;—&lt;br /&gt; *Future capability&lt;br /&gt; **To be released in November 2014 on Mirantis OpenStack Express&lt;br /&gt; Murano logo and screenshots reprinted with permission from Mirantis Inc.&lt;/small&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2014/11/going-native-with-openstack-centric-applications-murano/&quot;&gt;Going Native with OpenStack Centric Applications: Murano&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on November 18, 2014.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Going Native with OpenStack Centric Applications: Overview]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/2014/11/going-native-with-openstack-centric-applications-overview/" />
+  <id>http://localhost:4000/2014/11/going-native-with-openstack-centric-applications-overview</id>
+  <published>2014-11-16T18:39:04-06:00</published>
+  <updated>2014-11-16T18:39:04-06:00</updated>
+  <author>
+    <name>Lee Calcote</name>
+    <uri>http://localhost:4000</uri>
+    <email>lee@calcotestudios.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;Cloud infrastructure is useless without applications running atop, providing business servi&lt;a href=&quot;http://blog.gingergeek.com/2014/11/going-native-with-openstack-centric-applications-overview/openstack-applications/&quot;&gt;&lt;img class=&quot;alignleft wp-image-868 size-thumbnail&quot; src=&quot;https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Applications.png?resize=150%2C150&quot; alt=&quot;OpenStack Applications&quot; srcset=&quot;https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Applications.png?resize=150%2C150 150w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Applications.png?resize=300%2C300 300w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Applications.png?w=697 697w&quot; sizes=&quot;(max-width: 150px) 100vw, 150px&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;ces and solving customer needs. So, as applications ascend to the throne as the rightful king of cloud, focus sharpens on their support within OpenStack-based clouds. With this focus, let’s walk through a survey of components and projects supporting applications in OpenStack, understanding what a day in the life of an application in OpenStack is like. We’ll start with an overview of the application ecosystem comprised of a number of supporting projects. In the ecosystem overview below, relevant OpenStack projects are presented in context of existing, similar technologies with which you may be familiar. These similar technologies both under and overlap functionality of the respective OpenStack project, but are shown to hasten your general understanding of which bucket these projects fall into by way of tech you may already know (so, add a pinch of salt when considering relevancy of suggested affiliated technologies).&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;application-ecosystem-by-project&quot;&gt;Application Ecosystem by Project&lt;/h3&gt;
+
+&lt;p&gt;Like individual lines in a product family, projects within OpenStack engulf and extend one another for related, but distinct purposes and target use cases. OpenStack developers are cautious to apply DRY principles in their approach to project design, integrating functionality rather than reinventing the wheel as they go. The &lt;em&gt;Project Focus and Relationship&lt;/em&gt; diagram both figuratively and literally places project relationships into round bubbles, identifying conceptual starting points for the genesis of an application as well as the reuse of some projects by others.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Application Blueprint Designer – &lt;a href=&quot;https://wiki.openstack.org/wiki/Merlin&quot; target=&quot;_blank&quot;&gt;Merlin&lt;/a&gt;&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;RavelloSystems, UrbanCode, CliQr, Prime Service Catalog*…&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Application Lifecycle Management PaaS – &lt;a href=&quot;https://wiki.openstack.org/wiki/Solum&quot; target=&quot;_blank&quot;&gt;Solum&lt;/a&gt;&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Similar technologies (ALM) – Atlassian Suite, HP ALM, Cloudpipes, Serena…&lt;/li&gt;
+      &lt;li&gt;Similar technologies (PaaS) – Openshift, Cloud Foundry, BlueMix, AppScale, Heroku, App Engine…&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;div id=&quot;attachment_887&quot; style=&quot;width: 310px&quot; class=&quot;wp-caption alignright&quot;&gt;
+  &lt;a href=&quot;http://blog.gingergeek.com/2014/11/going-native-with-openstack-centric-applications-overview/openstack-centric-applications-project-focus-and-relationship/&quot;&gt;&lt;img class=&quot;wp-image-887 size-medium&quot; src=&quot;https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Project-Focus-and-Relationship.png?resize=300%2C142&quot; alt=&quot;OpenStack Centric Applications - Project Focus and Relationship&quot; srcset=&quot;https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Project-Focus-and-Relationship.png?resize=300%2C142 300w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Project-Focus-and-Relationship.png?resize=1024%2C487 1024w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Project-Focus-and-Relationship.png?w=1568 1568w&quot; sizes=&quot;(max-width: 300px) 100vw, 300px&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;
+      
+  &lt;p class=&quot;wp-caption-text&quot;&gt;
+    Project Focus and Relationship
+  &lt;/p&gt;
+&lt;/div&gt;
+    &lt;p&gt;&amp;lt;/li&amp;gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Application Catalog – &lt;a href=&quot;https://wiki.openstack.org/wiki/Murano&quot; target=&quot;_blank&quot;&gt;Murano&lt;/a&gt;&lt;/strong&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Similar technologies – AppStack, CliQr, ITApp, AppDirect…&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Application Stack Provisioning – &lt;a href=&quot;https://wiki.openstack.org/wiki/Heat&quot; target=&quot;_blank&quot;&gt;Heat&lt;/a&gt;, Magnum&lt;/strong&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Similar technologies – AWS Elastic Beanstalk, Kubernetes, GearD, Warden, Fleet, MaestroNG, CliQr, Nirmata…&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Application Containers – &lt;a href=&quot;https://wiki.openstack.org/wiki/Docker&quot; target=&quot;_blank&quot;&gt;Docker&lt;/a&gt;&lt;/strong&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Similar technologies – OpenVZ, Linux V-Server, FreeBSD jails, AIX Workload Partitions and Solaris Containers&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Application Configuration Management – Puppet, Chef&lt;/strong&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Similar technologies – Heat, Salt, Ansible, &lt;a href=&quot;https://wiki.openstack.org/wiki/Satori&quot; target=&quot;_blank&quot;&gt;Satori&lt;/a&gt;*…&amp;lt;/ul&amp;gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;h3 id=&quot;a-day-in-the-life-of-an-openstack-native-application&quot;&gt;A Day in the Life of an OpenStack-Native Application&lt;/h3&gt;
+
+    &lt;p&gt;The &lt;em&gt;Application Lifecycle Flows&lt;/em&gt; diagram defines different entrance points by which applications are birthed and the flow between different OpenStack projects within their lifecycle.&lt;/p&gt;
+
+    &lt;div id=&quot;attachment_878&quot; style=&quot;width: 310px&quot; class=&quot;wp-caption alignleft&quot;&gt;
+  &lt;a href=&quot;http://blog.gingergeek.com/2014/11/going-native-with-openstack-centric-applications-overview/openstack-centric-applications-application-lifecycle-flows/&quot; rel=&quot;attachment wp-att-878&quot;&gt;&lt;img class=&quot;size-medium wp-image-878&quot; src=&quot;https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Application-Lifecycle-Flows.png?resize=300%2C176&quot; alt=&quot;OpenStack Centric Applications - Application Lifecycle Flows&quot; srcset=&quot;https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Application-Lifecycle-Flows.png?resize=300%2C176 300w, https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Application-Lifecycle-Flows.png?resize=1024%2C603 1024w&quot; sizes=&quot;(max-width: 300px) 100vw, 300px&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;
+      
+  &lt;p class=&quot;wp-caption-text&quot;&gt;
+    Application Lifecycle Flows
+  &lt;/p&gt;
+&lt;/div&gt;
+
+    &lt;p&gt;Users may &lt;strong&gt;design&lt;/strong&gt; applications with Merlin, &lt;strong&gt;develop&lt;/strong&gt; applications with Solum, &lt;strong&gt;order&lt;/strong&gt; applications with Murano, &lt;strong&gt;deploy&lt;/strong&gt; applications and resources with Heat and &lt;strong&gt;manage&lt;/strong&gt; applications with Puppet/other configuration managers.&lt;/p&gt;
+
+    &lt;h3 id=&quot;applications&quot;&gt;“Applications”&lt;/h3&gt;
+
+    &lt;p&gt;Given that applications are varied in nature both in terms of their type and complexity, let’s take a moment to review their possible shapes and sizes. With regard to types of applications, some are  image-based and some are container-based while others are offered simply as a SaaS subscription (implying that a singular instance of this application may serve multiple tenants). Applications may be cloud-native (designed to be scaled out, highly distributed, service-oriented) or enterprise-architected (designed to be scaled up, designed with layers and functional domains). Application complexity ranges from single component (image or container) to multiple component, multiple environment, multiple OpenStack deployments to OpenStack and other systems. Applications may be comprised of multiple components (e.g. MySQL, PHP, Apache) or a singular components (MySQL). Application components may be distributed or contained within a given container, VM or cloud. With these possibilities in mind, let’s begin our survey of their support with the OpenStack-native application catalog – Murano in the next post in this series.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2014/11/going-native-with-openstack-centric-applications-overview/&quot;&gt;Going Native with OpenStack Centric Applications: Overview&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on November 16, 2014.&lt;/p&gt;
   </content>
 </entry>
 
