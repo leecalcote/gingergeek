@@ -16,12 +16,9 @@ tags:
   - cncf
   - prometheus
 ---
-
 {::nomarkdown}
-<iframe width="560" height="315" src="//youtu.be/jpb6fLQOgn4" frameborder="0" allowfullscreen></iframe>
-{:/nomarkdown}
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jpb6fLQOgn4" frameborder="0" allowfullscreen></iframe>
+{:/nomarkdown}
 
 Presented at [CloudNativeCon + KubeCon EU 2017](https://cloudnativeeu2017.sched.com/event/9Td7?iframe=no).
 
