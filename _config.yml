@@ -29,6 +29,8 @@ menu:
     url: '/speaking'
   - title: 'Podcasts'
     url: '/podcasts'
+  - title: 'Books'
+    url: '/books'
 
   # - title: 'Index'
   #   url: '#'

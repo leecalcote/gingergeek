@@ -1,0 +1,457 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Containers and Functions - Leveraging Ephemeral Infrastructure Effectively &#8211; Ginger Geek</title>
+<meta name="description" content="Gabbing gegariously on geekery">
+<meta name="keywords" content="cncf, community">
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@lcalcote">
+<meta name="twitter:creator" content="@lcalcote">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Containers and Functions - Leveraging Ephemeral Infrastructure Effectively">
+<meta property="og:description" content="Gabbing gegariously on geekery">
+<meta property="og:url" content="http://localhost:4000/2018/04/containers-and-functions-leveraging-ephemeral-infrastructure-effectively/">
+<meta property="og:site_name" content="Ginger Geek">
+<meta property="og:image" content="http://localhost:4000/images/images/gingergeek.png">
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/2018/04/containers-and-functions-leveraging-ephemeral-infrastructure-effectively/">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Ginger Geek Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+<link rel="stylesheet" href="http://localhost:4000/assets/css/jquery.mmenu.all.css">
+<link rel="stylesheet" href="http://localhost:4000/assets/css/jquery.floating-social-share.min.css">
+
+<link rel="stylesheet" href="http://localhost:4000/assets/css/utility.css">
+<link rel="stylesheet" href="http://localhost:4000/assets/css/social-share.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+
+<!-- Webfonts -->
+<link href="//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- Load Modernizr -->
+<script type="text/javascript" src="http://localhost:4000/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://localhost:4000/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://localhost:4000/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/images/apple-touch-icon-144x144-precomposed.png">
+
+
+
+
+</head>
+
+<body id="post" >
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+
+
+
+<div class="header-menu header-menu-top">
+    <ul class="header-item-container">
+      <li class="header-item-title header-toggle "><a href="#menu"><h2><i class="fa fa-bars"></i></h2></a></li>
+      <li class="header-item-title">
+        <a href="http://localhost:4000/">
+          
+            <img class="logo" src="http://localhost:4000/images/gingergeek.png" alt="Ginger Geek">
+          
+          <a href="http://localhost:4000/" class="title"> Ginger Geek</a>
+        </a>
+      </li>
+      
+        
+        
+
+        
+            
+                <li class="header-item "><a href="http://localhost:4000/books"><h3>Books</h3></a></li>
+            
+        
+      
+        
+        
+
+        
+            
+                <li class="header-item "><a href="http://localhost:4000/podcasts"><h3>Podcasts</h3></a></li>
+            
+        
+      
+        
+        
+
+        
+            
+                <li class="header-item "><a href="http://localhost:4000/speaking"><h3>Speaking</h3></a></li>
+            
+        
+      
+        
+        
+
+        
+          <li class="header-item "><a href="http://localhost:4000/articles"><h3>Articles</h3></a>
+            <ul class="header-submenu">
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#automator">automator</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#cncf">cncf</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#community">community</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#containers">containers</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#entourage">entourage</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#how-to articles">how-to articles</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#mac">mac</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#microservices">microservices</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#netconf">netconf</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#network management">network management</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#openstack">openstack</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#prometheus">prometheus</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#redfish">redfish</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#systems management">systems management</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#wsma">wsma</a></li>
+              
+            </ul>
+          </li>
+        
+      
+        
+        
+
+        
+            
+                <li class="header-item "><a href="http://localhost:4000/about"><h3>About</h3></a></li>
+            
+        
+      
+        
+        
+
+        
+            
+                <li class="header-item "><a href="http://localhost:4000/"><h3>Blog</h3></a></li>
+            
+        
+      
+      <li class="header-item"><a href="http://localhost:4000/search"><h3><i class="fa fa-search"></i></h3></a></li>
+    </ul>
+  </div>
+<div class="entry-header">
+  <div class="header-title">
+    <div class="header-title-wrap">
+      <h1>Containers and Functions - Leveraging Ephemeral Infrastructure Effectively</h1>
+      
+        <h2><span class="entry-date date published updated"><time datetime="2018-12-03T06:06:15-06:00">December 03, 2018</time></span></h2>
+      
+
+      
+        <p class="entry-reading-time">
+          <i class="fa fa-clock-o"></i>
+          
+          Reading time ~6 minutes
+        </p><!-- /.entry-reading-time -->
+      
+    </div><!-- /.header-title-wrap -->
+  </div><!-- /.header-title -->
+</div><!-- /.entry-header -->
+
+
+<nav id="menu" style="display: none">
+  <ul>
+    
+      
+        <li><a href="http://localhost:4000/"><h3>Blog</h3></a></li>
+      
+    
+      
+        <li><a href="http://localhost:4000/about"><h3>About</h3></a></li>
+      
+    
+      
+        <li><a href="http://localhost:4000/articles"><h3>Articles</h3></a>
+          <ul>
+            
+              
+                <li><a href="http://localhost:4000/categories/#automator">automator</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#cncf">cncf</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#community">community</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#containers">containers</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#entourage">entourage</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#how-to articles">how-to articles</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#mac">mac</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#microservices">microservices</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#netconf">netconf</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#network management">network management</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#openstack">openstack</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#prometheus">prometheus</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#redfish">redfish</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#systems management">systems management</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#wsma">wsma</a></li>
+            
+          </ul>
+        </li>
+      
+    
+      
+        <li><a href="http://localhost:4000/speaking"><h3>Speaking</h3></a></li>
+      
+    
+      
+        <li><a href="http://localhost:4000/podcasts"><h3>Podcasts</h3></a></li>
+      
+    
+      
+        <li><a href="http://localhost:4000/books"><h3>Books</h3></a></li>
+      
+    
+  </ul>
+</nav>
+
+
+  <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="btn btn-info button-twitter" data-size="large" data-show-count="false"><i class="fab fa-twitter"></i> Tweet to @lcalcote</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+
+<div id="main" role="main">
+  <article class="hentry">
+    <div class="entry-content">
+        
+      <h1 class="post-title entry-title">Containers and Functions - Leveraging Ephemeral Infrastructure Effectively</h1>
+      <p><i>Originally published on Container Journal on December 3rd, 2018.</i></p>
+
+<p>With containers, microservices and functions interweaving through modern application design, diligence is necessary to make sure you’re successfully navigating when to use containers and functions as application packaging technologies and how to employ post-deployment techniques.</p>
+
+<p>We all know this can be daunting—it’s an ephemeral world out there. Establishing a delivery pipeline and streamlining workflow for microservices is key to achieving benefits from containers and functions at both an operational level for confidence of resiliency, performance and so on, and at a strategic business level for competitive advantages of speed, flexibility and more.</p>
+
+<p>Let’s explore several universal best practices for succeeding in the ephemeral world of containers and functions, and walk through a few of the ins and outs of discerning befitting use of serverless computing. Then, in my next blog post, we’ll look at how to harness the value promised by incorporation of a service mesh into your stack.</p>
+
+<p>Incorporating Orchestration: Wrangling Container Management</p>
+
+<p>Given their near-ubiquitous adoption, container formats and their runtime engines have effectively standardized and stabilized as reliable and interoperable infrastructure. Organizations of all sizes have been running containers in production for a number of years now. Their success in operating containerized workloads in complex ways may be largely attributed to the capabilities of container orchestrators.</p>
+
+<p>As I described when contrasting and comparing container orchestrators, use of a container orchestrator addresses much of layer of infrastructure needs, it does not meet all application or service-level requirements. Isn’t that why we run infrastructure? To serve the application? With that rhetorical question asked, container orchestrators have necessarily focused first on infrastructure level concerns, critical to ensuring robust management of the underlying substrate of distributed systems challenges.</p>
+
+<p>Use of a container orchestrator does not meet all application or service-level requirements. Isn’t that why we run infrastructure? To serve the application? With that rhetorical question asked, container orchestrators have necessarilyfocused first on infrastructure-level concerns, critical to ensuring robust management of the underlying substrate of distributed systems challenges.</p>
+
+<p>Unfortunately, this leaves a number of distributed systems concerns for developers to address. Until recently, developers have largely addressed these concerns by writing infrastructure logic into application code—things such as circuit breaking, timeouts and retries—employing client-side libraries to do so. In my second part in this series, I’ll highlight how DevOps teams can manage the layer of challenges unaddressed by container orchestrators using a service mesh. For now, let’s turn our focus to another ephemeral piece of infrastructure—functions.</p>
+
+<p>Costs and Benefits of Serverless Computing</p>
+
+<p>Many of you have become comfortable running multiple containers and are now looking to transcend containers and microservices, augmenting your stack by interweaving functions. Writing individual functions to complete specific tasks is appealing, as doing so facilitates faster startup times, better resource utilization, finer-grained management, flexible and precise scaling and no provisioning, updating or managing server infrastructure. However, certain use cases are better-suited for serverless computing than others. Testing, startup latency, debuggability and cost all must be considered when deciding if serverless is the right fit for an environment.</p>
+
+<p>The notion of running a function to perform a task and only paying for the execution time needed to run that task is veryappealing. As functions take foothold with your applications, exercise caution with respect to serverless pricing models, as cost accumulates quickly. Costs can accrue in short order when either a given function enjoys too much success (is invoked well beyond the number of times initially accounted for), particularly if the execution of one function in turn calls other many functions (or, perhaps, calls back to itself, creating an endless loop of execution). It’s therefore important to understand how many times the function is going to be invoked when deciding if serverless is the right fit. Functions are best-suited for a task that’s run under a short time period. Be conscientious when calling a function from another function: You run the risk of doubling your cost and increasing the complexity of debugging your software as it divides into more and smaller units of independent execution.</p>
+
+<p>FaaScinating Use Cases</p>
+
+<p>The architectural pattern of the use of functions follows an event-driven design, typically persisting output/results from a function to a datastore or queue that in turn triggers the next function (if needed). When ascribing to this pattern, treat all data as though it is in motion, not at rest, at any point during the execution of your function.</p>
+
+<p>It’s best to consider serverless when a workload is: asynchronous; concurrent; easy to parallelize into independent units of work; infrequent or with sporadic demand; with large, unpredictable variance in scaling requirements; stateless; ephemeral; without a major need for instantaneous cold start time; or highly dynamic in terms of changing business requirements that drive a need for accelerated developer velocity. Example workloads that readily benefit from serverless architectures include:</p>
+
+<p>Executing logic in response to database changes (insert, update, trigger, delete).
+Performing analytics on IoT sensor input messages, for example, as Message Queuing Telemetry Transport (MQTT) messages.
+Handling stream processing (analyzing or modifying data in motion).
+Managing single time extract, transform, and load jobs that require a great deal of processing for a short time.
+Providing cognitive computing via a chat bot interface (asynchronous, but correlated).
+Scheduling tasks performed for a short time (e.g., cron or batch style invocations).
+Serving machine learning and AI models (retrieving one or more data elements such as tables or images and matching against a pre-learned data model to identify text, faces, anomalies, etc.).
+Continuous integration pipelines that provision resources for build jobs on-demand, instead of keeping a pool of build slave hosts waiting for jobs to be dispatched.
+Universal Tips for Successfully Navigating an Ephemeral World</p>
+
+<p>As application packing technologies, both containers and functions have their own caveats, so knowing how and when to leverage them is key. In your organization, you can apply four universally applicable best practices to packaging, running, deploying and operating containers and functions, including:</p>
+
+<p>Prioritize Observability: When writing an application for containers, particularly in the case of a microservices design, it’s crucial to ensure both your orchestration and application layers are observable to ensure they expose key metrics about the performance of your infrastructure and application, so that you may reason over their health as needed.
+Adopt Modern Tooling: Containers, microservices and functions pose different application development patterns than you may have traditionally encountered, so the right tooling is not always available. However, it’s crucial to adopt monitoring and debugging tools that can support these application development patterns, to help ensure success in deployment and running workloads.
+Application Design: The modern application development landscape is ephemeral; a function will come and go, a container will come and go, and applications must be designed to support this life cycle. For functions specifically, you can run into issues with incorrect logic and end up having functions fall into a vicious cycle of calling each other, billing spikes and generally not working effectively.
+Fit Your Use Case: How many of the characteristics listed above apply to your user case? Is this use case or your application well-positioned for these ephemeral execution environments?
+Conclusion</p>
+
+<p>At first, the idea of running a function to perform a task and only paying for the execution time needed to run that task is attractive. However, this pricing model can become expensive if you are executing many functions or running a specific function millions of times. With that in mind, it’s crucial to understand how many times the function is going to be invoked when deciding if serverless is the right fit—lengthy batch-processing tasks may not be the best fit for use of a function; functions are better-suited for a task that’s run under a short time period.</p>
+
+<p>As containers, microservices and functions become even more integrated into hybrid and cloud environments, you must remain diligent to ensure you’re navigating these aspects of the modern application development landscape successfully. Implementing several universal best practices including prioritizing observability, adopting modern DevOps monitoring tools, application design and knowing specific use cases can all help you succeed in the world of containers, microservices and functions.</p>
+
+      <footer class="entry-meta">
+        <span class="entry-tags"><a href="http://localhost:4000/tags#cncf" title="Pages tagged cncf" class="tag"><span class="term">cncf</span></a><a href="http://localhost:4000/tags#community" title="Pages tagged community" class="tag"><span class="term">community</span></a></span>
+        
+        <span class="author vcard"><span class="fn">Lee Calcote</span></span>
+        <div class="social-share">
+  <ul class="socialcount socialcount-small inline-list">
+    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/2018/04/containers-and-functions-leveraging-ephemeral-infrastructure-effectively/" title="Share on Facebook"><span class="count"><i class="fab fa-facebook-square"></i> Like</span></a></li>
+    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://localhost:4000/2018/04/containers-and-functions-leveraging-ephemeral-infrastructure-effectively/" title="Share on Twitter"><span class="count"><i class="fab fa-twitter-square"></i> Tweet</span></a></li>
+    <li class="googleplus"><a href="https://plus.google.com/share?url=http://localhost:4000/2018/04/containers-and-functions-leveraging-ephemeral-infrastructure-effectively/" title="Share on Google Plus"><span class="count"><i class="fab fa-google-plus-square"></i> +1</span></a></li>
+  </ul>
+</div><!-- /.social-share -->
+
+      </footer>
+    </div><!-- /.entry-content -->
+    <div class="read-more">
+  <div class="read-more-header">
+    <a href="http://calcotestudios.com/gingergeek" class="read-more-btn">About the Author</a>
+  </div><!-- /.read-more-header -->
+  <div class="read-more-content author-info">
+    <h3>Lee Calcote</h3>
+    <div class="author-container">
+      <img class="author-img" src="http://localhost:4000/images/Lee-Calcote-large.jpg" alt="Lee Calcote" />
+      <div class="author-bio">Lee Calcote is an innovative thought leader, passionate about developer platforms and management software for clouds, containers, infrastructure and applications. Advanced and emerging technologies have been a consistent focus through Calcote’s tenure at SolarWinds, Seagate, Cisco and Pelco. An organizer of technology meetups and conferences, a writer, author, speaker, he is active in the tech community.</div>
+    </div>
+    <div class="author-share">
+      <ul class="list-inline social-buttons">
+        
+          <li><a href="https://github.com/leecalcote" target="_blank"><i class="fa fa-github fa-fw"></i></a></li>
+        
+          <li><a href="https://linkedin.com/in/leecalcote" target="_blank"><i class="fa fa-linkedin fa-fw"></i></a></li>
+        
+          <li><a href="https://www.youtube.com/playlist?list=PLYjO73_1efChX9NuRaU7WocTbgrfvCoPE" target="_blank"><i class="fa fa-youtube fa-fw"></i></a></li>
+        
+      </ul>
+      
+        <a aria-label="Follow @leecalcote on GitHub" data-style="mega" href="https://github.com/leecalcote" class="github-button">Follow @leecalcote</a>
+      
+      <br>
+      
+        <a href="https://twitter.com/lcalcote" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @lcalcote</a>
+      
+    </div>
+  </div>
+</div>
+
+    
+    <div class="read-more">
+  
+    <div class="read-more-header">
+      <a href="http://localhost:4000/2018/09/automation-and-orchestration-in-a-container-world/" class="read-more-btn">Read More</a>
+    </div><!-- /.read-more-header -->
+    <div class="read-more-content">
+      <h3><a href="http://localhost:4000/2019/10/service-meshes-but-at-what-cost/" title="Talk - Service Meshes, but at what cost">Talk - Service Meshes, but at what cost</a></h3>
+      <p>As you learn of the architecture and value provided by service meshes, you’re intrigued and initially impressed. Upon reflection, you, li...&hellip; <a href="http://localhost:4000/2019/10/service-meshes-but-at-what-cost/">Continue reading</a></p>
+    </div><!-- /.read-more-content -->
+  
+  <div class="read-more-list">
+    
+      <div class="list-item">
+        <h4><a href="http://localhost:4000/2018/12/how-to-establish-an-open-source-program-office" title="How to establish an open source program office">How to establish an open source program office</a></h4>
+        <span>Published on December 18, 2018</span>
+      </div><!-- /.list-item -->
+    
+      <div class="list-item">
+        <h4><a href="http://localhost:4000/2018/12/linux-containers-101-from-containers-to-orchestrators" title="Talk - Linux Containers 101 – from engines to orchestrators">Talk - Linux Containers 101 – from engines to orchestrators</a></h4>
+        <span>Published on December 08, 2018</span>
+      </div><!-- /.list-item -->
+    
+  </div><!-- /.read-more-list -->
+</div><!-- /.read-more -->
+  </article>
+</div><!-- /#main -->
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript">window.jQuery || document.write('<script type="text/javascript" src="http://localhost:4000/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script type="text/javascript" src="http://localhost:4000/assets/js/scripts.min.js"></script>
+<script type="text/javascript" async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+<script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js" type="text/javascript"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+
+
+
+
+
+
+
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <span>&copy; 2021 Lee Calcote.</span>
+
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+</body>
+</html>

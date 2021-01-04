@@ -296,4 +296,4 @@ guid: http://blog.gingergeek.com/?page_id=1100
       
       <p>
         <a href="https://drive.google.com/open?id=0BwKKA_Ml1VXuQ05WUkJIWXlWc2s"><img class="aligncenter" src="https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2016/05/DockeratCisco-Introduction-to-Docker.png?w=620" alt="DockeratCisco - Introduction to Docker" data-recalc-dims="1" /></a>
-      </p></div>
+      </p>
