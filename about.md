@@ -8,6 +8,7 @@ guid: http://blog.gingergeek.com//?page_id=2
 ---
 <img src="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2009/02/Lee_Calcote.jpg?w=200" alt="Lee_Calcote" data-recalc-dims="1" />
 
+<!--Description and profile picture needs to be updated-->
 I <span style="color: red; font-size: 1em;">♥</span> management software for clouds, containers, infrastructure and applications. I am an innovative thought leader, passionate about building best-in-class teams and offerings, with a solid record of leveraging advanced and emerging technologies for competitive advantage, improving processes and speed of delivery on the way to driving revenue and market share.
 
 With nearly 20 years of combined technical, management and leadership experience with globally distributed, agile teams throughout full software development lifecycle. I look to profoundly impact by leading strategy and development of product and delivery of services at the intersection of clouds, containers, networks, systems and applications.
