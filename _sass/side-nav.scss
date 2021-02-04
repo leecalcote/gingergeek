@@ -1,0 +1,101 @@
+.menu-wrap {
+	background-color: white;
+	width: 50px; 
+	height: 100vh; 
+	position: sticky; 
+	overflow: auto; 
+	top: 0px; 
+    left: 0px; 
+}
+.menu {
+	height: 40vh;
+	width: 50px; 
+	display: flex; 
+	position: sticky; 
+	flex-flow: column; 
+	justify-content: space-between; 
+	padding-top: 110px; 
+	padding-right: 10px; 
+	padding-left: 30px; 
+	span {
+		color: #fff; 
+		line-height: 40px; 
+		font-size: 22px; 
+		bottom: inherit; 
+        transform: rotate(180deg);
+	}  
+}      
+
+
+.circle {
+	width: 50px;
+	height: 50px;
+	box-shadow: 3px 3px 3px #333333;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 0px;
+	right: -12px;
+	top: 4px;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-ms-transition: all 0.3s linear;
+	transition: all 0.3s linear;
+}
+.first_circle {
+	background-color: #db4531;
+	z-index: 3;
+}
+.second_circle {
+	z-index: 2;
+	background-image: url(https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2009/02/Lee_Calcote.jpg?w=200);
+	transform: rotate(90deg);
+	background-size: cover;
+}
+.third_circle {
+	z-index: 1;
+	background-image: url(https://cdn.pixabay.com/photo/2018/05/15/20/47/microphone-3404243_1280.png);
+	transform: rotate(90deg);
+	background-size: cover;
+}
+.container_circle {
+	&:hover {
+		.second_circle {
+			right: 60px;
+		}
+		.third_circle {
+			right: 120px;
+		}
+	}
+}
+
+@media (max-width: 992px)  {
+
+	.menu {
+		display: none;
+	}
+	
+	.menu-wrap {
+		display: none;
+	}
+
+	.circle {
+		display: none;
+	}
+
+	.container_circle {
+		display: none;
+	}
+
+	.first_circle {
+		display: none;
+	}
+
+	.second_circle {
+		display: none;
+	}
+
+	.third_circle {
+		display: none;
+	}
+ 
+ }

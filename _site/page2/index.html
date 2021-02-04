@@ -39,6 +39,12 @@
 <link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
 <link rel="stylesheet" href="http://localhost:4000/assets/css/jquery.mmenu.all.css">
 <link rel="stylesheet" href="http://localhost:4000/assets/css/jquery.floating-social-share.min.css">
+
+<link rel="stylesheet" href="http://localhost:4000/assets/css/utility.css">
+<link rel="stylesheet" href="http://localhost:4000/assets/css/social-share.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+
 <!-- Webfonts -->
 <link href="//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
 
@@ -60,6 +66,7 @@
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/images/apple-touch-icon-114x114-precomposed.png">
 <!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/images/apple-touch-icon-144x144-precomposed.png">
+
 
 
 
@@ -88,7 +95,34 @@
         
 
         
-          <li class="header-item "><a href="http://localhost:4000/podcasts"><h3>Podcasts</h3></a>
+            
+                <li class="header-item "><a href="http://localhost:4000/books"><h3>Books</h3></a></li>
+            
+        
+      
+        
+        
+
+        
+            
+                <li class="header-item "><a href="http://localhost:4000/podcasts"><h3>Podcasts</h3></a></li>
+            
+        
+      
+        
+        
+
+        
+            
+                <li class="header-item "><a href="http://localhost:4000/speaking"><h3>Speaking</h3></a></li>
+            
+        
+      
+        
+        
+
+        
+          <li class="header-item "><a href="http://localhost:4000/articles"><h3>Articles</h3></a>
             <ul class="header-submenu">
               
                 
@@ -145,24 +179,6 @@
 
         
             
-                <li class="header-item "><a href="http://localhost:4000/speaking"><h3>Speaking</h3></a></li>
-            
-        
-      
-        
-        
-
-        
-            
-                <li class="header-item "><a href="http://localhost:4000/articles"><h3>Articles</h3></a></li>
-            
-        
-      
-        
-        
-
-        
-            
                 <li class="header-item "><a href="http://localhost:4000/about"><h3>About</h3></a></li>
             
         
@@ -209,15 +225,7 @@
       
     
       
-        <li><a href="http://localhost:4000/articles"><h3>Articles</h3></a></li>
-      
-    
-      
-        <li><a href="http://localhost:4000/speaking"><h3>Speaking</h3></a></li>
-      
-    
-      
-        <li><a href="http://localhost:4000/podcasts"><h3>Podcasts</h3></a>
+        <li><a href="http://localhost:4000/articles"><h3>Articles</h3></a>
           <ul>
             
               
@@ -269,11 +277,24 @@
         </li>
       
     
+      
+        <li><a href="http://localhost:4000/speaking"><h3>Speaking</h3></a></li>
+      
+    
+      
+        <li><a href="http://localhost:4000/podcasts"><h3>Podcasts</h3></a></li>
+      
+    
+      
+        <li><a href="http://localhost:4000/books"><h3>Books</h3></a></li>
+      
+    
   </ul>
 </nav>
 
 
-  <a href="https://twitter.com/lcalcote" class="btn btn-info button-twitter" data-show-count="false" data-size="large"><i class="fa fa-twitter"></i> <span> | Follow @lcalcote</span></a>
+  <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="btn btn-info button-twitter" data-size="large" data-show-count="false"><i class="fab fa-twitter"></i> Tweet to @lcalcote</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 
 
@@ -283,21 +304,21 @@
   <header>
     
     <div class="entry-meta">
-      <span class="entry-date date published updated"><time datetime="2016-10-04T16:34:05-05:00"><a href="http://localhost:4000/2016/10/from-engines-to-orchestrators/">October 04, 2016</a></time></span><span class="author vcard"><span class="fn"><a href="http://localhost:4000/about/" title="About Lee Calcote">Lee Calcote</a></span></span>
+      <span class="entry-date date published updated"><time datetime="2018-12-03T06:06:15-06:00"><a href="http://localhost:4000/2018/04/containers-and-functions-leveraging-ephemeral-infrastructure-effectively/">December 03, 2018</a></time></span><span class="author vcard"><span class="fn"><a href="http://localhost:4000/about/" title="About Lee Calcote">Lee Calcote</a></span></span>
       
       <span class="entry-reading-time">
         <i class="fa fa-clock-o"></i>
         
-        Reading time ~1 minute
+        Reading time ~6 minutes
       </span><!-- /.entry-reading-time -->
       
     </div><!-- /.entry-meta -->
     
-      <h1 class="entry-title"><a href="http://localhost:4000/2016/10/from-engines-to-orchestrators/" rel="bookmark" title="From Engines to Orchestrators" itemprop="url">From Engines to Orchestrators</a></h1>
+      <h1 class="entry-title"><a href="http://localhost:4000/2018/04/containers-and-functions-leveraging-ephemeral-infrastructure-effectively/" rel="bookmark" title="Containers and Functions - Leveraging Ephemeral Infrastructure Effectively" itemprop="url">Containers and Functions - Leveraging Ephemeral Infrastructure Effectively</a></h1>
     
   </header>
   <div class="entry-content">
-      An introduction to container runtimes (engines) and an understanding of when container orchestrators enter and what role they play. We’ll look at what makes them alike, yet unique.
+      With containers, microservices and functions interweaving through modern application design, diligence is necessary to make sure you’re successfully navigating when to use containers and functions as application packaging technologies and how to employ post-deployment techniques. Wrangling with Container Management? Read on.
       
   </div><!-- /.entry-content -->
 </article><!-- /.hentry -->
@@ -306,30 +327,7 @@
   <header>
     
     <div class="entry-meta">
-      <span class="entry-date date published updated"><time datetime="2016-09-17T02:05:45-05:00"><a href="http://localhost:4000/2016/09/powering-microservices-sockets-with-nginx-and-kubernetes/">September 17, 2016</a></time></span><span class="author vcard"><span class="fn"><a href="http://localhost:4000/about/" title="About Lee Calcote">Lee Calcote</a></span></span>
-      
-      <span class="entry-reading-time">
-        <i class="fa fa-clock-o"></i>
-        
-        Reading time ~1 minute
-      </span><!-- /.entry-reading-time -->
-      
-    </div><!-- /.entry-meta -->
-    
-      <h1 class="entry-title"><a href="http://localhost:4000/2016/09/powering-microservices-sockets-with-nginx-and-kubernetes/" rel="bookmark" title="Powering Microservices &#038; Sockets with Nginx and Kubernetes" itemprop="url">Powering Microservices &#038; Sockets with Nginx and Kubernetes</a></h1>
-    
-  </header>
-  <div class="entry-content">
-      Microservices present challenges of coordination, SSL termination and socket connection among others. Looking to different cloud providers to assist with their load-balancers leaves you wanting as features socket connection support, SSL termination and geo-distributed load-balancing are often absent.
-      
-  </div><!-- /.entry-content -->
-</article><!-- /.hentry -->
-
-<article class="hentry">
-  <header>
-    
-    <div class="entry-meta">
-      <span class="entry-date date published updated"><time datetime="2016-09-16T07:48:03-05:00"><a href="http://localhost:4000/2016/09/the-container-networking-landscape-cni-from-coreos-and-cnm-from-docker/">September 16, 2016</a></time></span><span class="author vcard"><span class="fn"><a href="http://localhost:4000/about/" title="About Lee Calcote">Lee Calcote</a></span></span>
+      <span class="entry-date date published updated"><time datetime="2018-09-13T07:50:15-05:00"><a href="http://localhost:4000/2018/09/automation-and-orchestration-in-a-container-world/">September 13, 2018</a></time></span><span class="author vcard"><span class="fn"><a href="http://localhost:4000/about/" title="About Lee Calcote">Lee Calcote</a></span></span>
       
       <span class="entry-reading-time">
         <i class="fa fa-clock-o"></i>
@@ -339,11 +337,11 @@
       
     </div><!-- /.entry-meta -->
     
-      <h1 class="entry-title"><a href="http://localhost:4000/2016/09/the-container-networking-landscape-cni-from-coreos-and-cnm-from-docker/" rel="bookmark" title="The Container Networking Landscape: CNI from CoreOS and CNM from Docker" itemprop="url">The Container Networking Landscape: CNI from CoreOS and CNM from Docker</a></h1>
+      <h1 class="entry-title"><a href="http://localhost:4000/2018/09/automation-and-orchestration-in-a-container-world/" rel="bookmark" title="Automation and Orchestration in a Container World" itemprop="url">Automation and Orchestration in a Container World</a></h1>
     
   </header>
   <div class="entry-content">
-      There are two proposed standards for configuring network interfaces for Linux containers: the container network model (CNM) and the container network interface (CNI). Networking is complex, and there are many ways to deliver functionality. Arguments can be made as to which one is easier to adopt than the next, or which one is less tethered to their benefactor’s technology.
+      This talk was presented at Developer Week Austin 2018. Characteristics such as portability, highly efficient sharing of system resources and broad support have made containers an increasingly popular choice. Mitigating Challenges through Automation and Orchestration? Read on.
       
   </div><!-- /.entry-content -->
 </article><!-- /.hentry -->
@@ -352,21 +350,21 @@
   <header>
     
     <div class="entry-meta">
-      <span class="entry-date date published updated"><time datetime="2016-09-14T07:36:24-05:00"><a href="http://localhost:4000/2016/09/container-networking-a-breakdown-explanation-and-analysis/">September 14, 2016</a></time></span><span class="author vcard"><span class="fn"><a href="http://localhost:4000/about/" title="About Lee Calcote">Lee Calcote</a></span></span>
+      <span class="entry-date date published updated"><time datetime="2018-09-08T07:25:15-05:00"><a href="http://localhost:4000/2018/08/now-available-the-enterprise-path-to-service-mesh-architectures/">September 08, 2018</a></time></span><span class="author vcard"><span class="fn"><a href="http://localhost:4000/about/" title="About Lee Calcote">Lee Calcote</a></span></span>
       
       <span class="entry-reading-time">
         <i class="fa fa-clock-o"></i>
         
-        Reading time ~12 minutes
+        Reading time ~2 minutes
       </span><!-- /.entry-reading-time -->
       
     </div><!-- /.entry-meta -->
     
-      <h1 class="entry-title"><a href="http://localhost:4000/2016/09/container-networking-a-breakdown-explanation-and-analysis/" rel="bookmark" title="Container Networking: A Breakdown, Explanation and Analysis" itemprop="url">Container Networking: A Breakdown, Explanation and Analysis</a></h1>
+      <h1 class="entry-title"><a href="http://localhost:4000/2018/08/now-available-the-enterprise-path-to-service-mesh-architectures/" rel="bookmark" title="Now Available - The Enterprise Path to Service Mesh Architectures" itemprop="url">Now Available - The Enterprise Path to Service Mesh Architectures</a></h1>
     
   </header>
   <div class="entry-content">
-      While many gravitate toward network overlays as a popular approach to addressing container networking across hosts, the functions and types of container networking vary greatly and are worth better understanding as you consider the right type for your environment. 
+      As someone interested in modern software design, you have likely heard of service mesh architectures in context of microservices. Service meshes introduce a new layer into modern infrastructures, offering the potential for creating robust and scalable applications and granular control over them. Is a service mesh right for you? Find out with my new book.
       
   </div><!-- /.entry-content -->
 </article><!-- /.hentry -->
@@ -375,21 +373,44 @@
   <header>
     
     <div class="entry-meta">
-      <span class="entry-date date published updated"><time datetime="2016-09-02T08:20:47-05:00"><a href="http://localhost:4000/2016/09/cloud-native-ambassadors-and-docker-captains-navigate-users-through-the-container-ecosystem/">September 02, 2016</a></time></span><span class="author vcard"><span class="fn"><a href="http://localhost:4000/about/" title="About Lee Calcote">Lee Calcote</a></span></span>
+      <span class="entry-date date published updated"><time datetime="2018-05-09T08:20:15-05:00"><a href="http://localhost:4000/2018/05/how-to-customize-an-istio-service-mesh/">May 09, 2018</a></time></span><span class="author vcard"><span class="fn"><a href="http://localhost:4000/about/" title="About Lee Calcote">Lee Calcote</a></span></span>
       
       <span class="entry-reading-time">
         <i class="fa fa-clock-o"></i>
         
-        Reading time ~3 minutes
+        Reading time ~2 minutes
       </span><!-- /.entry-reading-time -->
       
     </div><!-- /.entry-meta -->
     
-      <h1 class="entry-title"><a href="http://localhost:4000/2016/09/cloud-native-ambassadors-and-docker-captains-navigate-users-through-the-container-ecosystem/" rel="bookmark" title="Cloud Native Ambassadors and Docker Captains navigate users through the container ecosystem" itemprop="url">Cloud Native Ambassadors and Docker Captains navigate users through the container ecosystem</a></h1>
+      <h1 class="entry-title"><a href="http://localhost:4000/2018/05/how-to-customize-an-istio-service-mesh/" rel="bookmark" title="How to customize an Istio Service Mesh" itemprop="url">How to customize an Istio Service Mesh</a></h1>
     
   </header>
   <div class="entry-content">
-      Navigating the container ecosystem can be confusing. Deciding where to dip your toes is challenging for those stepping into container and microservices waters. Even those who have already ventured knee-deep still wade through many questions as they progress in their cloud native journey. To help them guide them through the ecosystem, the Cloud Native Computing Foundation (CNCF) recently launched a Cloud Native Ambassadors program at its inaugural CloudNativeDay in Toronto.
+      Working with Istio? Learn how to customize it to mesh along with your architectural needs.
+      
+  </div><!-- /.entry-content -->
+</article><!-- /.hentry -->
+
+<article class="hentry">
+  <header>
+    
+    <div class="entry-meta">
+      <span class="entry-date date published updated"><time datetime="2017-04-25T16:01:00-05:00"><a href="http://localhost:4000/2017/04/the-hybrid-evolution-of-it/">April 25, 2017</a></time></span><span class="author vcard"><span class="fn"><a href="http://localhost:4000/about/" title="About Lee Calcote">Lee Calcote</a></span></span>
+      
+      <span class="entry-reading-time">
+        <i class="fa fa-clock-o"></i>
+        
+        Reading time ~4 minutes
+      </span><!-- /.entry-reading-time -->
+      
+    </div><!-- /.entry-meta -->
+    
+      <h1 class="entry-title"><a href="http://localhost:4000/2017/04/the-hybrid-evolution-of-it/" rel="bookmark" title="The Hybrid Evolution of IT" itemprop="url">The Hybrid Evolution of IT</a></h1>
+    
+  </header>
+  <div class="entry-content">
+      It’s a great time to be in Information Technology.” While this is a true statement, not everyone clearly understands why (or perhaps, has the fortitude to make it so). In the face of a massive movement to public cloud many in IT feel their value in the workplace eroding along with their identity. This feeling doesn’t need to be reality. Businesses are changing the way they operate and are transforming to leverage information technology more strategically. IT has a real opportunity to lead this transformation, not let the transformation happen to them.
       
   </div><!-- /.entry-content -->
 </article><!-- /.hentry -->
@@ -443,7 +464,7 @@
     
 
     
-      <li><a href="http://localhost:4000/page7/">7</a></li>
+      <li><a href="http://localhost:4000/page9/">9</a></li>
     
 
     
@@ -461,7 +482,9 @@
 <script type="text/javascript" src="http://localhost:4000/assets/js/scripts.min.js"></script>
 <script type="text/javascript" async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
 <script type="text/javascript">!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js" type="text/javascript"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
 
 
@@ -472,7 +495,7 @@
 
 <div class="footer-wrapper">
   <footer role="contentinfo">
-    <span>&copy; 2017 Lee Calcote.</span>
+    <span>&copy; 2021 Lee Calcote.</span>
 
   </footer>
 </div><!-- /.footer-wrapper -->

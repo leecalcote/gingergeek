@@ -1,0 +1,144 @@
+.share-btn {
+    width: 80px;
+    height: 80px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .25);
+    border-radius: 10px;
+    color: #444444;
+    display: block;
+    float: left;
+    font-family: "Proxima Nova", "Helvetica Neue", sans-serif;
+    font-weight: 600;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.share-btn .btn-top {
+    width: 78px;
+    height: 40px;
+    background: #e5eef2;
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.03) 0%,rgba(0,0,0,0) 50%,rgba(0,0,0,0) 100%);
+    border: 1px solid #b9b9b9;
+    border-bottom: none;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
+    display: inline-block;
+    font-size: 22px;
+    line-height: 40px;
+    position: relative;
+    text-align: center;
+    text-shadow: 0 1px 0 #fff;
+}
+
+.share-btn .btn-arrow {
+    width: 0;
+    height: 0;
+    border-color: rgba(146, 146, 146, .5) transparent transparent transparent;
+    border-style: solid;
+    border-width: 8px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    z-index: 10;
+}
+
+.twitter-btn .btn-arrow {
+    border-color: rgba(111, 164, 181, .5) transparent transparent transparent;
+}
+
+.facebook-btn .btn-arrow {
+    border-color: rgba(53, 83, 143, .5) transparent transparent transparent;
+}
+
+.gplus-btn .btn-arrow {
+    border-color: rgba(48, 48, 48, .5) transparent transparent transparent;
+}
+
+.share-btn .btn-arrow::after {
+    width: 0;
+    height: 0;
+    border-color: #e5eef2 transparent transparent transparent;
+    border-style: solid;
+    border-width: 6px;
+    content: "_";
+    display: block;
+    float: left;
+    position: relative;
+    top: -8px;
+    left: -6px;
+    text-indent: -9999px;
+    z-index: -10;
+}
+
+.share-btn .btn-bottom {
+    width: 78px;
+    height: 32px;
+    background: #ababab url(http://noisepng.com/75-80-3-monochrome.png) repeat;
+    border: 1px solid #929292;
+    border-bottom: none;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 0 5px rgba(255, 255, 255, .5) inset,
+        0 1px 1px rgba(0, 0, 0, .25) inset,
+        0 -1px 0 rgba(255, 255, 255, .2) inset;
+    color: #fff;
+    display: block;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 32px;
+    position: relative;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .35);
+}
+
+.twitter-btn .btn-bottom {
+    background: #6fbbd5 url(http://noisepng.com/75-80-3-monochrome.png);
+    background-image: url(http://noisepng.com/75-80-3-monochrome.png), -webkit-linear-gradient(top, rgba(138,212,237,1) 44%,rgba(108,189,216,1) 100%);
+    border: 1px solid #6fa4b5;
+    border-bottom: none;
+}
+
+.facebook-btn .btn-bottom {
+    background: #3b5998 url(http://noisepng.com/75-80-3-monochrome.png);
+    background-image: url(http://noisepng.com/75-80-3-monochrome.png), -webkit-linear-gradient(top, rgba(110,139,198,1) 44%,rgba(59,89,152,1) 100%);
+    border: 1px solid #35538f;
+    border-bottom: none;
+}
+
+.gplus-btn .btn-bottom {
+    background: #3e3e40 url(http://noisepng.com/75-80-3-monochrome.png);
+    background-image: url(http://noisepng.com/75-80-3-monochrome.png), -webkit-linear-gradient(top, rgba(109,109,109,1) 44%,rgba(62,62,64,1) 100%);
+    border: 1px solid #303030;
+    border-bottom: none;
+}
+
+.share-btn .btn-bottom::after {
+    width: 78px;
+    height: 15px;
+    background: #8c8c8c;
+    background-image: url(http://noisepng.com/75-80-3-monochrome.png),
+        -webkit-linear-gradient(left, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0) 50%,rgba(0,0,0,0.2) 100%);
+    border: 1px solid #626262;
+    border-top: none;
+    border-radius: 0 0 10px 10px;
+    content: "_";
+    display: block;
+    margin-left: -1px;
+    position: relative;
+    top: -10px;
+    text-indent: -9999px;
+    z-index: -10;
+}
+
+.twitter-btn .btn-bottom::after {
+    background-color: #56a8c2;
+    border-color: #387185
+}
+
+.facebook-btn .btn-bottom::after {
+    background-color: #2c4884;
+    border-color: #08152f;
+}
+
+.gplus-btn .btn-bottom::after {
+    background-color: #404040;
+    border-color: #000;
+}

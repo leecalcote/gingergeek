@@ -4,13 +4,366 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
 <link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2017-04-30T13:44:20-05:00</updated>
+<updated>2021-02-02T07:30:56-06:00</updated>
 <id>http://localhost:4000/</id>
 <author>
   <name>Lee Calcote</name>
   <uri>http://localhost:4000/</uri>
   <email>lee@calcotestudios.com</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Talk - Service Meshes, but at what cost]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/2019/10/service-meshes-but-at-what-cost/" />
+  <id>http://localhost:4000/2019/10/service-meshes-but-at-what-cost</id>
+  <published>2019-10-04T05:10:15-05:00</published>
+  <updated>2019-10-04T05:10:15-05:00</updated>
+  <author>
+    <name>Lee Calcote</name>
+    <uri>http://localhost:4000</uri>
+    <email>lee@calcotestudios.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;As you learn of the architecture and value provided by service meshes, you’re intrigued and initially impressed. Upon reflection, you, like many others think: &lt;font style=&quot;color:grey;position:inline;&quot;&gt;“I see the value, but what overhead does being on the mesh incur?” &lt;/font&gt;&lt;/p&gt;
+
+&lt;p&gt;Complicating the answer is the fact that there are over 10 service meshes projects to choose from. While this presentation does not take an in-depth look at the&lt;a href=&quot;https://layer5.io/landscape&quot;&gt; landscape of service meshes&lt;/a&gt;, it does introduce &lt;a href=&quot;https://layer5.io/meshery&quot;&gt;Meshery&lt;/a&gt; as a utility for both benchmarking service mesh performance and provides a playground for familiarizing with the various features of different service meshes.&lt;/p&gt;
+
+&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/3PGWiGNg12FP8O&quot; width=&quot;595&quot; height=&quot;485&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
+&lt;div style=&quot;margin-bottom:5px&quot;&gt; &lt;strong&gt; &lt;a href=&quot;//www.slideshare.net/leecalcote/service-meshes-but-at-what-cost&quot; title=&quot;Service Meshes, but at what cost?&quot; target=&quot;_blank&quot;&gt;Service Meshes, but at what cost?&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&quot;https://www.slideshare.net/leecalcote&quot; target=&quot;_blank&quot;&gt;Lee Calcote&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
+
+&lt;p&gt;This talk was delivered at &lt;a href=&quot;https://servicemeshday.com&quot;&gt;&lt;b&gt;Service Mesh Day 2019&lt;/b&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;./assets/Meshery-Service-Mesh-Day-2019.pdf&quot;&gt;
+&lt;b&gt;Meshery - Service Mesh Day 2019&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;button&gt;
+&lt;a href=&quot;./assets/Meshery-Service-Mesh-Day-2019.pdf&quot; download=&quot;Meshery Service Mesh Day 2019&quot;&gt; Download &lt;/a&gt; 
+&lt;/button&gt;
+&lt;!-- /wp:file --&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2019/10/service-meshes-but-at-what-cost/&quot;&gt;Talk - Service Meshes, but at what cost&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on October 04, 2019.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[How to establish an open source program office]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/2018/12/how-to-establish-an-open-source-program-office" />
+  <id>http://localhost:4000/2018/12/how-to-establish-an-open-source-program-office</id>
+  <published>2018-12-18T06:41:15-06:00</published>
+  <updated>2018-12-18T06:41:15-06:00</updated>
+  <author>
+    <name>Lee Calcote</name>
+    <uri>http://localhost:4000</uri>
+    <email>lee@calcotestudios.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;In many companies, open source programs start informally with a group of diligent engineers and a few legal people. The ad-hoc group soon realizes it needs a more formal program to scale to address the litany of important issues and achieve specific business goals. With such an office in place, businesses can establish and execute on their open source strategies in clear terms, giving their leaders, developers, marketers, and other staff the tools they need to make open source a success within their operations. In this talk, I discussed:&lt;/p&gt;
+&lt;ul type=&quot;disc&quot;&gt;
+&lt;li&gt;Why to create an open source program office.&lt;/li&gt;
+&lt;li&gt;The role of the open source program office.&lt;/li&gt;
+&lt;li&gt;Open source programs at prominent technology companies.&lt;/li&gt;
+&lt;li&gt;How to establish an open source office.&lt;/li&gt;
+&lt;li&gt;Program structure and management roles.&lt;/li&gt;
+&lt;li&gt;Setting policy, processes and goals.&lt;/li&gt;
+&lt;li&gt;Measuring and monitoring success.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This talk was presented at InnoTech Austin 2018. Slides below &amp;#8211;&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;iframe src=&quot;https://calcotestudios.com/talks/decks/slides-innotech-austin-2018-establishing-an-open-source-office.html&quot; width=&quot;640&quot; height=&quot;420&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;span data-mce-type=&quot;bookmark&quot; style=&quot;display: inline-block; width: 0px; overflow: hidden; line-height: 0;&quot; class=&quot;mce_SELRES_start&quot;&gt;﻿&lt;/span&gt;&lt;/iframe&gt;&lt;a href=&quot;https://calcotestudios.com/talks/decks/slides-innotech-austin-2018-establishing-an-open-source-office.html&quot;&gt;open slides&lt;/a&gt;&lt;/div&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2018/12/how-to-establish-an-open-source-program-office&quot;&gt;How to establish an open source program office&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on December 18, 2018.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Talk - Linux Containers 101 – from engines to orchestrators]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/2018/12/linux-containers-101-from-containers-to-orchestrators" />
+  <id>http://localhost:4000/2018/12/linux-containers-101-from-containers-to-orchestrators</id>
+  <published>2018-12-08T06:20:15-06:00</published>
+  <updated>2018-12-08T06:20:15-06:00</updated>
+  <author>
+    <name>Lee Calcote</name>
+    <uri>http://localhost:4000</uri>
+    <email>lee@calcotestudios.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;This talk was presented at DeveloperWeek Austin 2018 as an introduction to the concept of Docker containers.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Slides:&lt;/strong&gt;&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;
+&lt;iframe src=&quot;https://calcotestudios.com/talks/decks/slides-developerweek-austin-2018-linux-containers-101&quot; width=&quot;640&quot; height=&quot;420&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;span data-mce-type=&quot;bookmark&quot; style=&quot;display: inline-block; width: 0px; overflow: hidden; line-height: 0;&quot; class=&quot;mce_SELRES_start&quot;&gt;﻿&lt;/span&gt;&lt;/iframe&gt;
+
+&lt;a href=&quot;https://calcotestudios.com/talks/decks/slides-developerweek-austin-2018-linux-containers-101&quot;&gt;open slides&lt;/a&gt;&lt;/div&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2018/12/linux-containers-101-from-containers-to-orchestrators&quot;&gt;Talk - Linux Containers 101 – from engines to orchestrators&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on December 08, 2018.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[What it means to be Cloud Native]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/2018/04/what-it-means-to-be-cloud-native/" />
+  <id>http://localhost:4000/2018/04/what-it-means-to-be-cloud-native</id>
+  <published>2018-12-08T06:20:15-06:00</published>
+  <updated>2018-12-08T06:20:15-06:00</updated>
+  <author>
+    <name>Lee Calcote</name>
+    <uri>http://localhost:4000</uri>
+    <email>lee@calcotestudios.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;This talk was presented at InnoTech San Antonio 2018 as a perspective of what it means to be Cloud Native &amp;#8211; from containers to functions. See the &lt;a href=&quot;https://blog.gingergeek.com/wp-content/uploads/2018/11/cloud-native-evolution.gif&quot;&gt;full-size&lt;/a&gt; animated gif.&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;
+&lt;p dir=&quot;ltr&quot; lang=&quot;en&quot;&gt;Preparing for a talk on &amp;#8220;Establishing an Open Source Program Office&amp;#8221; for &lt;a href=&quot;https://twitter.com/INNOTECHAustin?ref_src=twsrc%5Etfw&quot;&gt;@INNOTECHAustin&lt;/a&gt; this week has me looking back at last year&amp;#8217;s presentation &amp;#8211; &amp;#8220;What It Means to be Cloud Native?&amp;#8221; The answer is cross-cutting&amp;#8230; &lt;a href=&quot;https://t.co/Z9hTZVVsVj&quot;&gt;https://t.co/Z9hTZVVsVj&lt;/a&gt; &lt;a href=&quot;https://t.co/2w1lRCZxD2&quot;&gt;pic.twitter.com/2w1lRCZxD2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;— Lee Calcote (@lcalcote) &lt;a href=&quot;https://twitter.com/lcalcote/status/1046744435248254976?ref_src=twsrc%5Etfw&quot;&gt;October 1, 2018&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot; type=&quot;852ae190fb4b7336cfaf374d-text/javascript&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Slides:&lt;/strong&gt;&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;iframe src=&quot;https://calcotestudios.com/talks/decks/slides-innotech-san-antonio-2018-what-it-means-to-be-cloud-native.html&quot; width=&quot;640&quot; height=&quot;420&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;span data-mce-type=&quot;bookmark&quot; style=&quot;display: inline-block; width: 0px; overflow: hidden; line-height: 0;&quot; class=&quot;mce_SELRES_start&quot;&gt;﻿&lt;/span&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2018/04/what-it-means-to-be-cloud-native/&quot;&gt;What it means to be Cloud Native&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on December 08, 2018.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Innovate Summit 2017 - State of Serverless & the CNCF]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/2017/12/innovate-summit-2017-state-of-serverless-the-cncf/" />
+  <id>http://localhost:4000/2017/12/innovate-summit-2017-state-of-serverless-the-cncf</id>
+  <published>2018-12-08T06:20:15-06:00</published>
+  <updated>2018-12-08T06:20:15-06:00</updated>
+  <author>
+    <name>Lee Calcote</name>
+    <uri>http://localhost:4000</uri>
+    <email>lee@calcotestudios.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;Presented at &lt;a href=&quot;https://innovate.solarwinds.io&quot;&gt;SolarWinds Innovate Summit 2017&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Slides:&lt;/strong&gt;&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;iframe src=&quot;https://calcotestudios.com/talks/decks/slides-innovate-summit-2017-state-of-serverless-the-cncf.html&quot; width=&quot;640&quot; height=&quot;420&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;span data-mce-type=&quot;bookmark&quot; style=&quot;display: inline-block; width: 0px; overflow: hidden; line-height: 0;&quot; class=&quot;mce_SELRES_start&quot;&gt;﻿&lt;/span&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Video:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe title=&quot;The Serverless Landscape &amp;amp; the CNCF - Innovate Summit 2017&quot; width=&quot;500&quot; height=&quot;281&quot; src=&quot;https://www.youtube.com/embed/iEdltQgfNLU?feature=oembed&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2017/12/innovate-summit-2017-state-of-serverless-the-cncf/&quot;&gt;Innovate Summit 2017 - State of Serverless &amp; the CNCF&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on December 08, 2018.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Containers and Functions - Leveraging Ephemeral Infrastructure Effectively]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/2018/04/containers-and-functions-leveraging-ephemeral-infrastructure-effectively/" />
+  <id>http://localhost:4000/2018/04/containers-and-functions-leveraging-ephemeral-infrastructure-effectively</id>
+  <published>2018-12-03T06:06:15-06:00</published>
+  <updated>2018-12-03T06:06:15-06:00</updated>
+  <author>
+    <name>Lee Calcote</name>
+    <uri>http://localhost:4000</uri>
+    <email>lee@calcotestudios.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;&lt;i&gt;Originally published on Container Journal on December 3rd, 2018.&lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;With containers, microservices and functions interweaving through modern application design, diligence is necessary to make sure you’re successfully navigating when to use containers and functions as application packaging technologies and how to employ post-deployment techniques.&lt;/p&gt;
+
+&lt;p&gt;We all know this can be daunting—it’s an ephemeral world out there. Establishing a delivery pipeline and streamlining workflow for microservices is key to achieving benefits from containers and functions at both an operational level for confidence of resiliency, performance and so on, and at a strategic business level for competitive advantages of speed, flexibility and more.&lt;/p&gt;
+
+&lt;p&gt;Let’s explore several universal best practices for succeeding in the ephemeral world of containers and functions, and walk through a few of the ins and outs of discerning befitting use of serverless computing. Then, in my next blog post, we’ll look at how to harness the value promised by incorporation of a service mesh into your stack.&lt;/p&gt;
+
+&lt;p&gt;Incorporating Orchestration: Wrangling Container Management&lt;/p&gt;
+
+&lt;p&gt;Given their near-ubiquitous adoption, container formats and their runtime engines have effectively standardized and stabilized as reliable and interoperable infrastructure. Organizations of all sizes have been running containers in production for a number of years now. Their success in operating containerized workloads in complex ways may be largely attributed to the capabilities of container orchestrators.&lt;/p&gt;
+
+&lt;p&gt;As I described when contrasting and comparing container orchestrators, use of a container orchestrator addresses much of layer of infrastructure needs, it does not meet all application or service-level requirements. Isn’t that why we run infrastructure? To serve the application? With that rhetorical question asked, container orchestrators have necessarily focused first on infrastructure level concerns, critical to ensuring robust management of the underlying substrate of distributed systems challenges.&lt;/p&gt;
+
+&lt;p&gt;Use of a container orchestrator does not meet all application or service-level requirements. Isn’t that why we run infrastructure? To serve the application? With that rhetorical question asked, container orchestrators have necessarilyfocused first on infrastructure-level concerns, critical to ensuring robust management of the underlying substrate of distributed systems challenges.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, this leaves a number of distributed systems concerns for developers to address. Until recently, developers have largely addressed these concerns by writing infrastructure logic into application code—things such as circuit breaking, timeouts and retries—employing client-side libraries to do so. In my second part in this series, I’ll highlight how DevOps teams can manage the layer of challenges unaddressed by container orchestrators using a service mesh. For now, let’s turn our focus to another ephemeral piece of infrastructure—functions.&lt;/p&gt;
+
+&lt;p&gt;Costs and Benefits of Serverless Computing&lt;/p&gt;
+
+&lt;p&gt;Many of you have become comfortable running multiple containers and are now looking to transcend containers and microservices, augmenting your stack by interweaving functions. Writing individual functions to complete specific tasks is appealing, as doing so facilitates faster startup times, better resource utilization, finer-grained management, flexible and precise scaling and no provisioning, updating or managing server infrastructure. However, certain use cases are better-suited for serverless computing than others. Testing, startup latency, debuggability and cost all must be considered when deciding if serverless is the right fit for an environment.&lt;/p&gt;
+
+&lt;p&gt;The notion of running a function to perform a task and only paying for the execution time needed to run that task is veryappealing. As functions take foothold with your applications, exercise caution with respect to serverless pricing models, as cost accumulates quickly. Costs can accrue in short order when either a given function enjoys too much success (is invoked well beyond the number of times initially accounted for), particularly if the execution of one function in turn calls other many functions (or, perhaps, calls back to itself, creating an endless loop of execution). It’s therefore important to understand how many times the function is going to be invoked when deciding if serverless is the right fit. Functions are best-suited for a task that’s run under a short time period. Be conscientious when calling a function from another function: You run the risk of doubling your cost and increasing the complexity of debugging your software as it divides into more and smaller units of independent execution.&lt;/p&gt;
+
+&lt;p&gt;FaaScinating Use Cases&lt;/p&gt;
+
+&lt;p&gt;The architectural pattern of the use of functions follows an event-driven design, typically persisting output/results from a function to a datastore or queue that in turn triggers the next function (if needed). When ascribing to this pattern, treat all data as though it is in motion, not at rest, at any point during the execution of your function.&lt;/p&gt;
+
+&lt;p&gt;It’s best to consider serverless when a workload is: asynchronous; concurrent; easy to parallelize into independent units of work; infrequent or with sporadic demand; with large, unpredictable variance in scaling requirements; stateless; ephemeral; without a major need for instantaneous cold start time; or highly dynamic in terms of changing business requirements that drive a need for accelerated developer velocity. Example workloads that readily benefit from serverless architectures include:&lt;/p&gt;
+
+&lt;p&gt;Executing logic in response to database changes (insert, update, trigger, delete).
+Performing analytics on IoT sensor input messages, for example, as Message Queuing Telemetry Transport (MQTT) messages.
+Handling stream processing (analyzing or modifying data in motion).
+Managing single time extract, transform, and load jobs that require a great deal of processing for a short time.
+Providing cognitive computing via a chat bot interface (asynchronous, but correlated).
+Scheduling tasks performed for a short time (e.g., cron or batch style invocations).
+Serving machine learning and AI models (retrieving one or more data elements such as tables or images and matching against a pre-learned data model to identify text, faces, anomalies, etc.).
+Continuous integration pipelines that provision resources for build jobs on-demand, instead of keeping a pool of build slave hosts waiting for jobs to be dispatched.
+Universal Tips for Successfully Navigating an Ephemeral World&lt;/p&gt;
+
+&lt;p&gt;As application packing technologies, both containers and functions have their own caveats, so knowing how and when to leverage them is key. In your organization, you can apply four universally applicable best practices to packaging, running, deploying and operating containers and functions, including:&lt;/p&gt;
+
+&lt;p&gt;Prioritize Observability: When writing an application for containers, particularly in the case of a microservices design, it’s crucial to ensure both your orchestration and application layers are observable to ensure they expose key metrics about the performance of your infrastructure and application, so that you may reason over their health as needed.
+Adopt Modern Tooling: Containers, microservices and functions pose different application development patterns than you may have traditionally encountered, so the right tooling is not always available. However, it’s crucial to adopt monitoring and debugging tools that can support these application development patterns, to help ensure success in deployment and running workloads.
+Application Design: The modern application development landscape is ephemeral; a function will come and go, a container will come and go, and applications must be designed to support this life cycle. For functions specifically, you can run into issues with incorrect logic and end up having functions fall into a vicious cycle of calling each other, billing spikes and generally not working effectively.
+Fit Your Use Case: How many of the characteristics listed above apply to your user case? Is this use case or your application well-positioned for these ephemeral execution environments?
+Conclusion&lt;/p&gt;
+
+&lt;p&gt;At first, the idea of running a function to perform a task and only paying for the execution time needed to run that task is attractive. However, this pricing model can become expensive if you are executing many functions or running a specific function millions of times. With that in mind, it’s crucial to understand how many times the function is going to be invoked when deciding if serverless is the right fit—lengthy batch-processing tasks may not be the best fit for use of a function; functions are better-suited for a task that’s run under a short time period.&lt;/p&gt;
+
+&lt;p&gt;As containers, microservices and functions become even more integrated into hybrid and cloud environments, you must remain diligent to ensure you’re navigating these aspects of the modern application development landscape successfully. Implementing several universal best practices including prioritizing observability, adopting modern DevOps monitoring tools, application design and knowing specific use cases can all help you succeed in the world of containers, microservices and functions.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2018/04/containers-and-functions-leveraging-ephemeral-infrastructure-effectively/&quot;&gt;Containers and Functions - Leveraging Ephemeral Infrastructure Effectively&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on December 03, 2018.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Automation and Orchestration in a Container World]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/2018/09/automation-and-orchestration-in-a-container-world/" />
+  <id>http://localhost:4000/2018/09/automation-and-orchestration-in-a-container-world</id>
+  <published>2018-09-13T07:50:15-05:00</published>
+  <updated>2018-09-13T07:50:15-05:00</updated>
+  <author>
+    <name>Lee Calcote</name>
+    <uri>http://localhost:4000</uri>
+    <email>lee@calcotestudios.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;&lt;a href=&quot;https://blog.gingergeek.com/wp-content/uploads/2018/09/Automation-Orchestration-Container.jpg&quot;&gt;&lt;img class=&quot;alignright wp-image-2199 size-medium&quot; src=&quot;https://blog.gingergeek.com/wp-content/uploads/2018/09/Automation-Orchestration-Container-300x129.jpg&quot; alt=&quot;&quot; width=&quot;300&quot; height=&quot;129&quot; srcset=&quot;http://blog.gingergeek.com/wp-content/uploads/2018/09/Automation-Orchestration-Container-300x129.jpg 300w, http://blog.gingergeek.com/wp-content/uploads/2018/09/Automation-Orchestration-Container-768x329.jpg 768w, http://blog.gingergeek.com/wp-content/uploads/2018/09/Automation-Orchestration-Container.jpg 800w&quot; sizes=&quot;(max-width: 300px) 100vw, 300px&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href=&quot;https://containerjournal.com/2018/09/17/automation-and-orchestration-in-a-container-world/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener&quot;&gt;Originally published&lt;/a&gt; on Sept. 17th, 2018 on Container Journal.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Since Docker began popularizing containers about five and a half years ago, this technology has become a key element of digital business transformation. Characteristics such as portability, highly efficient sharing of system resources and broad support have made containers an increasingly popular choice. In fact, in March 2017, a &lt;u&gt;&lt;a href=&quot;https://i.dell.com/sites/doccontent/business/solutions/whitepapers/en/Documents/Containers_Real_Adoption_2017_Dell_EMC_Forrester_Paper.pdf&quot;&gt;Forrester study &lt;/a&gt;&lt;/u&gt;found 66 percent of organizations that had adopted containers experienced accelerated developer efficiency, while 75 percent of companies achieved a moderate-to-significant increase in application deployment speed.&lt;span id=&quot;more-2196&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;These positive impacts are accelerating container adoption; in SolarWinds’ recent “&lt;u&gt;&lt;a href=&quot;https://www.solarwinds.com/company/press-releases/2018-q2/solarwinds-study-of-it-professionals-finds-cloud-computing-is-top-transformative-technology-and-main-cause-of-mounting-performance-challenges&quot;&gt;IT Trends Report 2018&lt;/a&gt;&lt;/u&gt;,” 44 percent of respondents ranked containers as the most important technology priority today, and 38 percent of respondents ranked containers as the most important technology priority three to five years from now. These industry statistics confirm that container technology interest and adoption is increasing with time.&lt;/p&gt;
+&lt;p&gt;To successfully deploy containers, technology professionals must understand the impact this technology will have on various aspects of the way in which their applications and infrastructure run, and uplevel both their skills and tools accordingly. Even the most nominally sized container deployment calls upon orchestration to help manage new aspects of this technology’s life cycle. With the rapid adoption of containers, container orchestrators saw a sharp rise in popularity as they streamlined management for IT administrators and broadly provided for the general caretaking (e.g., scheduling, service discovery, health checking, etc.) of a cluster of nodes (servers) running containers.&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Deploying Containers: Impact on the Network and Security&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;The impact containers have on various aspects of an IT environment are in part contingent on the type of containerized workload deployed. To understand this better, let’s characterize two classes of containerized workloads being run as either a system container or an application container. System containers can be described as VM-like in nature, and generally contain a full operating system image and run multiple processes, while an application container is often lighterweight both in terms of footprint and number of processes running (ideally, only a single process). Both classes of containers use namespaces to deal with resource isolation and control groups (cgroups) to manage and enforce resource limits. However, the former lends itself to the containerization of pre-existing applications, while the latter is a best practices pattern for applications initially written to be run as a container.&lt;/p&gt;
+&lt;p&gt;So, how does this distinction materialize in the administration of IT environments? For example, when a system container is deployed, the network may not be a significant consideration when containerizing an entire system and treating it similarly to a VM. By contrast, using application containers to deploy microservices requires requests and application traffic to transit several containers and hosts over the network—potentially even several different networks—making it crucial to have a network monitoring system in place to track latency and ensure requests are addressed in a timely and effective manner. This is easier said than done; although implementing microservices can allow teams to iterate more quickly, they introduce several different components of an application and can be difficult to monitor.&lt;/p&gt;
+&lt;p&gt;As with the implementation of any new technology, security must be strongly considered. Vulnerability scanning and runtime protection should be weaved into the security practices of any organization deploying containers. Vulnerability scanning is necessary when various packages and libraries are built into each container, whether those are pulled from open source repositories, from internal code repositories or even if the container images are reused from public container registries. Security scanning must be completed to verify that there are no inherent vulnerabilities within a given image’s layers.&lt;/p&gt;
+&lt;p&gt;Whether containerizing an entire system or building an application container from scratch, static analysis of an image’s layers and its Dockerfile (a text document that contains all the commands a user could call on the command line to assemble an image) is key to identifying any vulnerabilities. In the second step of maintaining security, after verifying the container images have a clean bill of health and then deploying them, it’s necessary to implement runtime security. Containers can elicit abnormal behavior that could be caused by an administrator not adhering to operational best practices, or a malicious hacker that has penetrated a container. Runtime security helps ensure that once deployed, containers function within their intended bounds of operation.&lt;/p&gt;
+&lt;p&gt;With this in mind, how can technology professionals best manage container technology to reap the maximum benefits of leveraging it?&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Mitigating Challenges through Automation and Orchestration&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Leveraging automation and orchestration helps technology professionals save time and money, prevents issues, and ultimately deploys containers in the most effective way possible. Once a container deployment grows beyond a few hosts, technology professionals typically find the operational functionality provided by container orchestrators critical. Orchestrators commonly provide cluster management (host discovery and host health monitoring), scheduling (placement of containers across hosts in the cluster), service discovery (automatic registration of new services and provisioning of friendly DNS names) and so on. Orchestration is key to scaling deployments and to facilitating efficient collaboration between different engineering teams.&lt;/p&gt;
+&lt;p&gt;As container implementation becomes more mainstream, clear standards in container technology have begun to emerge, particularly for the foundational components of containers. The &lt;u&gt;&lt;a href=&quot;https://www.opencontainers.org/&quot;&gt;Open Container Initiative&lt;/a&gt;&lt;/u&gt; (OCI), for example, calls for creating open industry standards around runtime and image specifications to ensure vendors are able to guarantee and deliver on the promise of portability, allowing containers to be effectively shipped and interoperable across different systems.&lt;/p&gt;
+&lt;p&gt;Various tools and best practices in the realm of automation and orchestration can help facilitate successful container deployment and management. For example, leveraging a configuration management tool such as &lt;u&gt;&lt;a href=&quot;https://puppet.com/&quot;&gt;Puppet&lt;/a&gt;&lt;/u&gt; gives technology professionals a way to automatically inspect and deliver their software.&lt;/p&gt;
+&lt;p&gt;Additionally, treating infrastructure as code can help companies that are working toward faster deployments, as this method calls for managing the infrastructure with the same tools and processes that software developers use, such as automated testing, continuous integration, code review, and version control. These enable infrastructure changes to be completed more easily, rapidly, safely, and reliably. Understanding the type of (and extent of) management that a given container deployment requires is also essential. In some cases leveraging a solution such as &lt;u&gt;&lt;a href=&quot;https://www.docker.com/&quot;&gt;Docker&lt;/a&gt;&lt;/u&gt; in swarm mode is sufficient, while others may call for a tool such as &lt;u&gt;&lt;a href=&quot;https://kubernetes.io/&quot;&gt;Kubernetes&lt;/a&gt;&lt;/u&gt;.&lt;/p&gt;
+&lt;h2&gt;&lt;strong&gt;Successful Container Management and Deployment&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;In addition to leveraging automation and orchestration, technology professionals should develop new skills and leverage tools and services when implementing container technology in their organization. Here are a few tips to help facilitate successful container deployment and management:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Get certified in third-party tools:&lt;/strong&gt; For NetAdmins, SysAdmins, or those who are “container curious,” getting certified in Docker and Kubernetes can help uplevel container management skills. Whether certification is achieved or not, merely studying the curriculum provides a helpful guide to aspects of container management that a tech pro may be otherwise unaware of.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Monitor as a Discipline (MaaD): &lt;/strong&gt;Companies expect performance guarantees, cost efficiency, and service availability from their IT departments. One effective way to meet these requirements while using container technology is by leveraging monitoring tools. Actively tracking the activity in environments when application traffic is transiting the network is crucial and using a monitoring tool to set up automated alerts can also be beneficial when container deployments fail.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Conduct regular vulnerability scan&lt;/strong&gt;&lt;strong&gt;s: &lt;/strong&gt;Organizations that choose to work with container technology will need to create a security framework and set of procedures that are consistently evaluated and updated to prevent attacks. Conducting regular scans of container images is key, as it provides visibility into their security, including vulnerabilities, malware, and policy violations. Even prominently and popularly used container images on public-facing container repositories are subject to being laced with vulnerabilities. Many container-related security vendors such as &lt;u&gt;&lt;a href=&quot;https://www.twistlock.com/&quot;&gt;Twistlock&lt;/a&gt;&lt;/u&gt; and container registries offer help to identify issues introduced by these vulnerabilities. Container orchestration systems and container runtimes enable regular health-checks by probing the software inside containers to ensure that the application is still healthy and functional.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Words of Encouragement: Skill Up and Fear Not&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;With container use increasingly becoming mainstream, it’s important for technology professionals to embrace them now, and avoid letting containers happen to them. But fear not—for tech pros hesitant to implement this new technology, containers are not as foreign or intimidating as they seem. While distinct from virtual machines, administrators familiar with VM management will find many of these paradigms reincarnated. To get started, administrators can even experiment with containers by leveraging the technology on their personal laptops.&lt;/p&gt;
+&lt;p&gt;Implementing automation tooling and orchestration can enhance strategies and tactics to enable smooth container use and adoption, and several additional best practices can help ensure successful implementation and deployment. Beyond automation and orchestration, technology professionals without a background in software engineering should also look to learn scripting, as it will serve them well as deployments scale. Practice building efficient container images, using multi-stage builds, and sorting multi-line arguments alphanumerically is also key. Docker even offers &lt;u&gt;&lt;a href=&quot;https://docs.docker.com/develop/develop-images/dockerfile_best-practices/&quot;&gt;best practices and methods&lt;/a&gt;&lt;/u&gt; for building container images.&lt;/p&gt;
+&lt;p&gt;At the end of the day, as emerging technologies with higher-level capabilities such as functions and serverless platforms, service meshes, analytics, and machine learning are poised to augment container technology in the coming years, it’s important for administrators to skill up now more than ever.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2018/09/automation-and-orchestration-in-a-container-world/&quot;&gt;Automation and Orchestration in a Container World&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on September 13, 2018.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Now Available - The Enterprise Path to Service Mesh Architectures]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/2018/08/now-available-the-enterprise-path-to-service-mesh-architectures/" />
+  <id>http://localhost:4000/2018/08/now-available-the-enterprise-path-to-service-mesh-architectures</id>
+  <published>2018-09-08T07:25:15-05:00</published>
+  <updated>2018-09-08T07:25:15-05:00</updated>
+  <author>
+    <name>Lee Calcote</name>
+    <uri>http://localhost:4000</uri>
+    <email>lee@calcotestudios.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;&lt;a href=&quot;https://www.nginx.com/resources/library/the-enterprise-path-to-service-mesh-architectures?utm_source=calcote&quot;&gt;&lt;img class=&quot;alignleft size-medium wp-image-2089&quot; src=&quot;https://blog.gingergeek.com/wp-content/uploads/2018/08/The-Enterprise-Path-to-Service-Mesh-Architectures-200x300.png&quot; alt=&quot;&quot; width=&quot;200&quot; height=&quot;300&quot; srcset=&quot;http://blog.gingergeek.com/wp-content/uploads/2018/08/The-Enterprise-Path-to-Service-Mesh-Architectures-200x300.png 200w, http://blog.gingergeek.com/wp-content/uploads/2018/08/The-Enterprise-Path-to-Service-Mesh-Architectures-768x1152.png 768w, http://blog.gingergeek.com/wp-content/uploads/2018/08/The-Enterprise-Path-to-Service-Mesh-Architectures-683x1024.png 683w&quot; sizes=&quot;(max-width: 200px) 100vw, 200px&quot; /&gt;&lt;/a&gt;As someone interested in modern software design, you have likely heard of service mesh architectures in context of microservices. Service meshes introduce a new layer into modern infrastructures, offering the potential for creating robust and scalable applications and granular control over them. Is a service mesh right for you?&lt;/p&gt;
+&lt;p&gt;My newly published short book,&amp;nbsp;&lt;a href=&quot;https://learning.oreilly.com/library/view/the-enterprise-path/9781492041795/?utm_source=calcote&quot;&gt;&lt;em&gt;The Enterprise Path to Service Mesh Architectures&lt;/em&gt;&lt;/a&gt;, helps answer common questions on service mesh architectures through the lens of a large enterprise and addresses how to evaluate your organization’s readiness, factors to consider when building new applications and converting existing applications to best leverage a service mesh, and offers insight on deployment architectures used to get you there.&lt;/p&gt;
+&lt;p&gt;This isn&amp;#8217;t the only O&amp;#8217;Reilly title available on the topic of service meshes, however. Before authoring&amp;nbsp;&lt;em&gt;The Enterprise Path to Service Mesh Architectures&lt;/em&gt;&amp;nbsp;I happily provided technical review of two other excellent O’Reilly titles on the topic of service meshes: &lt;a href=&quot;https://twitter.com/christianposta&quot;&gt;Christian Posta&lt;/a&gt;&amp;#8216;s and &lt;a href=&quot;https://twitter.com/burrsutter&quot;&gt;Burr Sutter&lt;/a&gt;&amp;#8216;s &lt;em&gt;&lt;a href=&quot;http://blog.christianposta.com/our-book-has-been-released-introducing-istio-service-mesh-for-microservices?utm_source=calcote&quot;&gt;Introducing Istio Service Mesh for Microservices&lt;/a&gt;&lt;/em&gt;&amp;nbsp;and &lt;a href=&quot;https://twitter.com/gmiranda23&quot;&gt;George Miranda&lt;/a&gt;&amp;#8216;s &lt;em&gt;The Service Mesh&lt;/em&gt;. &lt;span id=&quot;more-2079&quot;&gt;&lt;/span&gt;These three complement each other well, helping educate adopters and onlookers alike:&lt;/p&gt;
+&lt;div&gt;
+&lt;div class=&quot;&quot; style=&quot;padding-left: 30px;&quot;&gt;&lt;i class=&quot;&quot;&gt;Introducing Istio Service Mesh for Microservices&lt;/i&gt;&amp;nbsp;by Christian Posta and George Miranda does an excellent job of introducing Istio, specifically, and walks through examples of each of its core capabilities. Their book provides a unique perspective of Istio through ever so faintly-tinted OpenShift lens. The code samples incorporated to the book are clear and helpful in quickly ramping on Istio.&lt;/div&gt;
+&lt;div class=&quot;&quot; style=&quot;padding-left: 30px;&quot;&gt;&lt;i class=&quot;&quot;&gt;&amp;nbsp;&lt;/i&gt;&lt;/div&gt;
+&lt;div class=&quot;&quot; style=&quot;padding-left: 30px;&quot;&gt;&lt;i class=&quot;&quot;&gt;The Service Mesh&lt;/i&gt; by George Miranda is an introduction to service meshes in general and successfully avoids the natural inclination to compare specifics between popular service mesh offerings. Instead, George gives real-world examples of where and how service meshes have benefited customers. There’s clear value derived in learning from George&amp;#8217;s experience.&lt;/div&gt;
+&lt;div class=&quot;&quot; style=&quot;padding-left: 30px;&quot;&gt;&lt;i class=&quot;&quot;&gt;&amp;nbsp;&lt;/i&gt;&lt;/div&gt;
+&lt;div class=&quot;&quot; style=&quot;padding-left: 30px;&quot;&gt;&lt;i class=&quot;&quot;&gt;The Enterprise Path to&amp;nbsp;Service Mesh Architectures&lt;/i&gt;&amp;nbsp;by Lee Calcote focuses on the value of service meshes, how they contrast against container orchestrators and other microservices frameworks, what shape various deployment models take, customization and integration of service meshes into existing infrastructure.&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;For as well as these three short books cover the space and specific technologies, much room is left for a deeper, post-Istio-1.0 book. And its exactly such a book that I and my two coauthors, &lt;a href=&quot;https://twitter.com/baldwinmathew&quot;&gt;Matt Baldwin&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/zackbutcher?lang=en&quot;&gt;Zack Butcher&lt;/a&gt;, have set forth to produce:&amp;nbsp;&lt;i class=&quot;&quot;&gt;Istio: Up and Running&lt;/i&gt;. There’s clear underlap and complement in these short books and our forthcoming title.&lt;/p&gt;
+&lt;div&gt;Like other titles on emergent technology, there’s risk in a short shelf-live of some of the technical content. The post-1.0 publication of &lt;em&gt;Istio: Up and Running&lt;/em&gt; certainly improves the&amp;nbsp;durability of its content. To further its usefulness (and shelf-life), we&amp;#8217;re deemphasizing specifics of Istio&amp;#8217;s deployment and focusing on other aspects like advanced deployment, multi-cluster, multi-tenant, best practices, case studies, etc., lacing these with code samples throughout.&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Stay tuned on&amp;nbsp;&lt;a href=&quot;https://blog.gingergeek.com&quot;&gt;my blog&lt;/a&gt; or sign-up below for updates &amp;#8211;&lt;/p&gt;
+&lt;p&gt;
+&lt;link href=&quot;//cdn-images.mailchimp.com/embedcode/classic-10_7.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }&lt;br /&gt;
+	/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.&lt;br /&gt;
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */&lt;br /&gt;
+&lt;/style&gt;
+&lt;div id=&quot;mc_embed_signup&quot;&gt;
+&lt;form action=&quot;https://calcotestudios.us15.list-manage.com/subscribe/post?u=6b50be5aea3dfe1fd4c041d80&amp;amp;id=6bb65defeb&quot; method=&quot;post&quot; id=&quot;mc-embedded-subscribe-form&quot; name=&quot;mc-embedded-subscribe-form&quot; class=&quot;validate&quot; target=&quot;_blank&quot; novalidate=&quot;&quot;&gt;
+&lt;div id=&quot;mc_embed_signup_scroll&quot;&gt;
+&lt;div class=&quot;indicates-required&quot;&gt;&lt;span class=&quot;asterisk&quot;&gt;*&lt;/span&gt; indicates required&lt;/div&gt;
+&lt;div class=&quot;mc-field-group&quot;&gt;
+&lt;label for=&quot;mce-EMAIL&quot;&gt;Email Address &lt;span class=&quot;asterisk&quot;&gt;*&lt;/span&gt;&lt;br /&gt;
+&lt;/label&gt;&lt;br /&gt;
+&lt;input type=&quot;email&quot; value=&quot;&quot; name=&quot;EMAIL&quot; class=&quot;required email&quot; id=&quot;mce-EMAIL&quot; /&gt;&lt;/div&gt;
+&lt;div class=&quot;mc-field-group&quot;&gt;
+&lt;label for=&quot;mce-FNAME&quot;&gt;First Name &lt;/label&gt;&lt;br /&gt;
+&lt;input type=&quot;text&quot; value=&quot;&quot; name=&quot;FNAME&quot; class=&quot;&quot; id=&quot;mce-FNAME&quot; /&gt;&lt;/div&gt;
+&lt;div class=&quot;mc-field-group&quot;&gt;
+&lt;label for=&quot;mce-LNAME&quot;&gt;Last Name &lt;/label&gt;&lt;br /&gt;
+&lt;input type=&quot;text&quot; value=&quot;&quot; name=&quot;LNAME&quot; class=&quot;&quot; id=&quot;mce-LNAME&quot; /&gt;&lt;/div&gt;
+&lt;div id=&quot;mce-responses&quot; class=&quot;clear&quot;&gt;
+&lt;div class=&quot;response&quot; id=&quot;mce-error-response&quot; style=&quot;display:none&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;response&quot; id=&quot;mce-success-response&quot; style=&quot;display:none&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;div style=&quot;position: absolute; left: -5000px;&quot; aria-hidden=&quot;true&quot;&gt;&lt;input type=&quot;text&quot; name=&quot;b_6b50be5aea3dfe1fd4c041d80_6bb65defeb&quot; tabindex=&quot;-1&quot; value=&quot;&quot; /&gt;&lt;/div&gt;
+&lt;div class=&quot;clear&quot;&gt;&lt;input type=&quot;submit&quot; value=&quot;Subscribe&quot; name=&quot;subscribe&quot; id=&quot;mc-embedded-subscribe&quot; class=&quot;button&quot; /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/form&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+
+
+&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2018/08/now-available-the-enterprise-path-to-service-mesh-architectures/&quot;&gt;Now Available - The Enterprise Path to Service Mesh Architectures&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on September 08, 2018.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[How to customize an Istio Service Mesh]]></title>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/2018/05/how-to-customize-an-istio-service-mesh/" />
+  <id>http://localhost:4000/2018/05/how-to-customize-an-istio-service-mesh</id>
+  <published>2018-05-09T08:20:15-05:00</published>
+  <updated>2018-05-09T08:20:15-05:00</updated>
+  <author>
+    <name>Lee Calcote</name>
+    <uri>http://localhost:4000</uri>
+    <email>lee@calcotestudios.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;&lt;a href=&quot;https://pixabay.com/en/louvre-pyramid-mesh-perspective-2189967/&quot;&gt;&lt;img aria-describedby=&quot;caption-attachment-2050&quot; class=&quot;wp-image-2050 size-medium&quot; src=&quot;https://blog.gingergeek.com/wp-content/uploads/2018/05/louvre-2189967_crop-98f00246a2776bae3338fdcb88b2badf-300x200.jpg&quot; alt=&quot;&quot; width=&quot;300&quot; height=&quot;200&quot; srcset=&quot;http://blog.gingergeek.com/wp-content/uploads/2018/05/louvre-2189967_crop-98f00246a2776bae3338fdcb88b2badf-300x200.jpg 300w, http://blog.gingergeek.com/wp-content/uploads/2018/05/louvre-2189967_crop-98f00246a2776bae3338fdcb88b2badf.jpg 720w&quot; sizes=&quot;(max-width: 300px) 100vw, 300px&quot; /&gt;&lt;/a&gt;&amp;lt;p id=&quot;caption-attachment-2050&quot; class=&quot;wp-caption-text&quot;&amp;gt;Louvre mesh perspective (source: jraffin via Pixabay)&amp;lt;/p&amp;gt;&amp;lt;/div&amp;gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href=&quot;https://www.oreilly.com/ideas/how-to-customize-an-istio-service-mesh&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener&quot;&gt;Originally published&lt;/a&gt; on April 26th, 2018 on O’Reilly.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Even though service meshes provide value outside of the use of microservices and containers, it&amp;#8217;s in these environments that many teams first consider using a service mesh. The sheer volume of services that must be managed on an individual, distributed basis with microservices (versus centrally for a monolith) creates challenges for ensuring reliability, observability, and security of these services.&lt;/p&gt;
+&lt;p&gt;Adoption of a container orchestrator addresses a layer of infrastructure needs, but leaves some application or service-level needs unmet. Rather than attempting to overcome distributed systems concerns by writing infrastructure logic into application code, some teams choose to manage these challenges with a service mesh. A service mesh can help by ensuring the responsibility of service management is centralized, avoiding redundant instrumentation, and making observability ubiquitous and uniform across services.&lt;span id=&quot;more-2049&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Choosing a service mesh&lt;/h2&gt;
+&lt;p&gt;Factors such as your teams’ operational and technology expertise, existing observability, and access control tooling will influence the service mesh components, adapters, and deployment model you choose. Among others, Istio is a popularly adopted, open source service mesh. Some choose Istio (or any service mesh) for the automatic and immediate visibility it provides into top-line service metrics. In fact, many become hooked on service meshes for the observability they provide alone.&lt;/p&gt;
+&lt;p&gt;As a microservices platform, Istio is extensible through the way in which it offers choice of adapters and sidecars. Istio envelops and integrates with other open source projects to deliver a full-service mesh, which both bolsters its set of capabilities and offers a choice of which specific projects are included and deployed. Whether through Mixer adapters for observability or through swapping sidecars, Istio allows you to choose which components to include in your deployment.&lt;/p&gt;
+&lt;h2&gt;Customizing an Istio service mesh&lt;/h2&gt;
+&lt;p&gt;There are multiple deployment models you can use to lay down a service mesh. One of the most popular options is to deploy your service proxies as sidecars. Sidecarring your service proxy offers benefits like fine-grained policy enforcement and intra-cluster service-to-service encryption. This deployment model is the model of choice for Istio. Other Istio deployment choices include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mixer adapters: typically used for integrating with access control, telemetry, quota enforcement, and billing systems.&lt;/li&gt;
+&lt;li&gt;Service proxies: abstract the network, translating requests between a client and service.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Though Envoy is the default service proxy sidecar, you may choose another service proxy for your sidecar. While there are multiple service proxies in the ecosystem, outside of Envoy, only two have currently demonstrated integration with Istio: Linkerd and NGINX. The arrival of choice in service proxies for Istio has generated a lot of excitement. &lt;a href=&quot;https://linkerd.io/getting-started/istio/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener&quot;&gt;Linkerd’s integration&lt;/a&gt; was created early in Istio’s 0.1.6 release. Similarly, the &lt;a href=&quot;https://github.com/nginmesh/nginmesh&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener&quot;&gt;nginMesh&lt;/a&gt; project has drawn much interest in the use of NGINX as Istio’s service proxy, as many organizations have broad and deep operational expertise built around this battle-tested proxy.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Learn more about how to deploy your sidecar (Istio proxy) of choice in the free webcast &amp;#8220;&lt;/em&gt;&lt;a href=&quot;https://www.oreilly.com/pub/e/3926?intcmp=il-data-webcast-lp-webcast_new_site_how-to-customize-an-istio-service-mesh_end_body_link_cta&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener&quot;&gt;&lt;em&gt;Istio &amp;#8211; The extensible service mesh&lt;/em&gt;&lt;/a&gt;&lt;em&gt;&amp;#8220;.&lt;/em&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2018/05/how-to-customize-an-istio-service-mesh/&quot;&gt;How to customize an Istio Service Mesh&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on May 09, 2018.&lt;/p&gt;
+  </content>
+</entry>
 
 
 <entry>
@@ -64,7 +417,7 @@
     <email>lee@calcotestudios.com</email>
   </author>
   <content type="html">
-    &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//youtu.be/jpb6fLQOgn4&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/jpb6fLQOgn4&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;p&gt;Presented at &lt;a href=&quot;https://cloudnativeeu2017.sched.com/event/9Td7?iframe=no&quot;&gt;CloudNativeCon + KubeCon EU 2017&lt;/a&gt;.&lt;/p&gt;
 
@@ -96,7 +449,7 @@
   &lt;br /&gt; Presented at &lt;a href=&quot;https://cloudnativeeu2017.sched.com/event/9Tc3?iframe=no&quot;&gt;CloudNativeCon + KubeCon EU 2017&lt;/a&gt;.
 &lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2017/03/create-great-cncf-user-base-from-lessons-learned-from-other-open-source-communities/&quot;&gt;Create Great CNCF User-Base from Lessons Learned from Other Open Source Communities&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on March 30, 2017.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2017/03/create-great-cncf-user-base-from-lessons-learned-from-other-open-source-communities/&quot;&gt;Create Great CNCF User-Base from Lessons Learned from Other Open Source Communities&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on March 31, 2017.&lt;/p&gt;
   </content>
 </entry>
 
@@ -535,834 +888,6 @@
 &lt;/p&gt;
 
     &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2016/09/contrasting-swarmkit-kubernetes-mesosmarathon/&quot;&gt;Contrasting Swarmkit, Kubernetes, Mesos+Marathon&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on September 01, 2016.&lt;/p&gt;
-  </content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Renewing my energy at SolarWinds]]></title>
- <link rel="alternate" type="text/html" href="http://localhost:4000/2016/07/renewing-my-energy-at-solarwinds/" />
-  <id>http://localhost:4000/2016/07/renewing-my-energy-at-solarwinds</id>
-  <published>2016-07-31T16:51:39-05:00</published>
-  <updated>2016-07-31T16:51:39-05:00</updated>
-  <author>
-    <name>Lee Calcote</name>
-    <uri>http://localhost:4000</uri>
-    <email>lee@calcotestudios.com</email>
-  </author>
-  <content type="html">
-    &lt;p&gt;&lt;img class=&quot;alignleft&quot; src=&quot;https://i2.wp.com/lh3.googleusercontent.com/-SV1-YUgXozE/AAAAAAAAAAI/AAAAAAAABFE/LVzp7vgXZbs/photo.jpg?resize=205%2C205&amp;#038;ssl=1&quot; data-recalc-dims=&quot;1&quot; /&gt;Headquartered in what has become my hometown, &lt;a href=&quot;http://www.solarwinds.com&quot;&gt;SolarWinds&lt;/a&gt; shares a campus with AMD in the southwestern corner of Austin. The majority of the existing, product suite is comprised of componentized, enterprise-architected, Windows-oriented network, systems, security, database management software. Many (not all) of these offerings were from one of ~18 acquisitions, with the latest (&lt;a href=&quot;https://www.logicnow.com&quot;&gt;LogicNow&lt;/a&gt;) in early June of this year. These acquisitions include three SaaS offerings, &lt;a href=&quot;http://Librato&quot;&gt;Librato&lt;/a&gt;, &lt;a href=&quot;https://papertrailapp.com&quot;&gt;Papertrail&lt;/a&gt; and &lt;a href=&quot;https://www.pingdom.com&quot;&gt;Pingdom&lt;/a&gt;, giving SolarWinds continuous-delivery known-how and a splash of DevOps culture.&lt;!--more--&gt;&lt;/p&gt;
-
-&lt;p&gt;SolarWinds is bimodal both in how offerings are built and delivered, but also in terms of customer environments its software manages. With Mode 1 offerings in hand, SolarWinds is well-poised and funded for new product initiatives and acquisitions moving toward Mode 2 offerings. With this in mind, I join forces at SolarWinds. I’ll highlight a few attractions to coming aboard:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;company recently privatized, freeing itself from external (Street) pressure&lt;/li&gt;
-  &lt;li&gt;recently refreshed set of well-experienced leadership&lt;/li&gt;
-  &lt;li&gt;headquartered in Austin – a refreshing change for me from having led high profile initiatives from branch campuses&lt;/li&gt;
-  &lt;li&gt;a forward-looking mindset toward new offerings; SaaS know-how embedded with the acquisitions of Librato, Papertrail and Pingdom&lt;/li&gt;
-  &lt;li&gt;alignment with my long-standing love of empowering engineers to work smarter with great software&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I anticipate a smooth acclimation to the company (given its culture) and role given that developer platforms, management and automation software have been, not the only, but a consistent theme throughout my career:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;An extranet at &lt;a href=&quot;https://www.global.weir&quot;&gt;Weir Minerals&lt;/a&gt; integrating their ERP system with supply chain vendors for real-time information on materials and orders, automation of document management.&lt;/li&gt;
-  &lt;li&gt;Moving to &lt;a href=&quot;https://www.pelco.com&quot;&gt;Pelco&lt;/a&gt; to lead Engineering IT, I empowered engineering groups to self-service and innovate autonomously by deploying network environments while maintaining supportable, dynamically-documented systems/networks with transparency to each environment’s configuration and service status; Designed first SNMP MIB and OID structure and introduced SNMP as a new capability across product portfolio; having created the Pelco Management Station, I moved to Cisco.&lt;/li&gt;
-  &lt;li&gt;Focus on management software and efficient service delivery continued within &lt;a href=&quot;http://www.cisco.com/web/services/portfolio/operations-management/managed-service/index.html&quot;&gt;Cisco Remote Management Services&lt;/a&gt; group, where I spent much time pushing the envelope of ScienceLogic’s EM7 (e.g. &lt;a href=&quot;http://mspmentor.net/managed-services/sciencelogic-it-platform-includes-video-management-enterprise-msps&quot;&gt;video mgmt&lt;/a&gt;, &lt;a href=&quot;http://blogs.cisco.com/ciscoit/configuration_management_whats_your_approach&quot;&gt;network configuration management&lt;/a&gt;) capabilities; brought in a data center automation engine to automate service delivery producing over 70 man-months of savings in its first year running.&lt;/li&gt;
-  &lt;li&gt;Transitioning into &lt;a href=&quot;http://www.cisco.com/c/en/us/solutions/data-center-virtualization/index.html&quot;&gt;Cisco Cloud and Virtualization Group&lt;/a&gt;, where I built &lt;a href=&quot;http://www.cisco.com/c/en/us/support/cloud-systems-management/intelligent-automation-cloud/tsd-products-support-series-home.html&quot;&gt;Cisco Intelligent Automation for Cloud&lt;/a&gt;, (and teams of excellent engineers); delivered the initial Cisco &lt;a href=&quot;https://en.wikipedia.org/wiki/Intercloud&quot;&gt;Intercloud&lt;/a&gt; release; founded the &lt;a href=&quot;https://drive.google.com/file/d/0BwKKA_Ml1VXuQ05WUkJIWXlWc2s/view?usp=sharing&quot;&gt;Docker@Cisco&lt;/a&gt; community.&lt;/li&gt;
-  &lt;li&gt;Joining Seagate, to focus on hyper-converged infrastructure and SDS, I pushed forward &lt;a href=&quot;http://dmtf.org/standards/redfish&quot;&gt;DMTF Redfish&lt;/a&gt; (&lt;a href=&quot;http://dmtf.org/sites/default/files/standards/documents/DSP0266_1.0.0.pdf&quot;&gt;1.0&lt;/a&gt;), a next-generation of IPMI, and delivered the company’s &lt;a href=&quot;http://blog.seagate.com/intelligent/redfish-slipstreams-ipmi-with-1-0-release/&quot;&gt;first implementation&lt;/a&gt;; Directed a suite of management software, spanning systems monitoring to drive analytics with failure prediction algorithms to the deployment of Seagate Call Home on container PaaS, Red Hat OpenShift (and joining the &lt;a href=&quot;http://commons.openshift.org/&quot;&gt;OpenShift Commons&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;In the office of the CTO and chartered with technology strategy for the existing product lines and forward-looking ventures, I look forward to new challenges and relationships, and in doing so, reuniting and partnering with a former cohort from Cisco and Seagate. It seems acquisitions truly are SolarWinds’ forte – team acquisition in this case.&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2016/07/renewing-my-energy-at-solarwinds/&quot;&gt;Renewing my energy at SolarWinds&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on July 31, 2016.&lt;/p&gt;
-  </content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Contributing to Prometheus: An Open Source Tutorial]]></title>
- <link rel="alternate" type="text/html" href="http://localhost:4000/2016/06/contributing-to-prometheus-an-open-source-tutorial/" />
-  <id>http://localhost:4000/2016/06/contributing-to-prometheus-an-open-source-tutorial</id>
-  <published>2016-06-12T07:30:35-05:00</published>
-  <updated>2016-06-12T07:30:35-05:00</updated>
-  <author>
-    <name>Lee Calcote</name>
-    <uri>http://localhost:4000</uri>
-    <email>lee@calcotestudios.com</email>
-  </author>
-  <content type="html">
-    &lt;p&gt;&lt;a href=&quot;https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2016/06/photo-1460804198264-011ca89eaa43.jpg&quot;&gt;&lt;img class=&quot;alignleft wp-image-1236 size-medium&quot; src=&quot;https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2016/06/photo-1460804198264-011ca89eaa43.jpg?resize=300%2C209&quot; alt=&quot;photo-1460804198264-011ca89eaa43&quot; data-id=&quot;1236&quot; srcset=&quot;https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2016/06/photo-1460804198264-011ca89eaa43.jpg?resize=300%2C209 300w, https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2016/06/photo-1460804198264-011ca89eaa43.jpg?w=640 640w&quot; sizes=&quot;(max-width: 300px) 100vw, 300px&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;Recently &lt;a href=&quot;http://thenewstack.io/cloud-native-computing-foundation-prometheus-second-hosted-project/&quot;&gt;adopted&lt;/a&gt;{.local-link} by the Cloud Native Computing Foundation, &lt;a class=&quot;ext-link&quot; href=&quot;http://www.prometheus.io/&quot; rel=&quot;external nofollow&quot;&gt;Prometheus&lt;/a&gt; is an open-source systems monitoring and alerting toolkit, focused on supporting the operation of microservices and containers. Like any open source project, it can be augmented with additional capabilities.&lt;/p&gt;
-
-&lt;p&gt;Contributing to Prometheus is no different than most other open source endeavors, which, like many projects, welcomes &lt;a class=&quot;ext-link&quot; href=&quot;https://prometheus.io/community/&quot; rel=&quot;external nofollow&quot;&gt;community contributions&lt;/a&gt;. Let’s gain better familiarity with the process by augmenting Prometheus’ &lt;a class=&quot;ext-link&quot; href=&quot;https://github.com/prometheus/alertmanager&quot; rel=&quot;external nofollow&quot;&gt;Alert Manager&lt;/a&gt; with a new “history” view. The first step, naturally, is to check out the contributing guidelines for the specific repository (in this case, &lt;a class=&quot;ext-link&quot; href=&quot;https://github.com/prometheus/alertmanager/blob/master/CONTRIBUTING.md&quot; rel=&quot;external nofollow&quot;&gt;Alert Manager&lt;/a&gt;‘s).&lt;/p&gt;
-
-&lt;p&gt;When electing to contribute to any open source project, you’ll want to ensure that you are capable of wielding the technologies used with the project — in this case, those are Go, AngularJS, SQL, etc. &lt;!--more--&gt;&lt;/p&gt;
-
-&lt;p&gt;The AlertManager component handles alerts sent by client applications such as the Prometheus server, carefully de-duplicating, correlating, and routing their notifications to their appropriate receiver (e.g. email, webhook, etc.). Current behavior of this component is only to display actively firing alerts.&lt;/p&gt;
-
-&lt;p&gt;Read more on &lt;a href=&quot;http://thenewstack.io/contributing-prometheus-history-alertmanager/&quot;&gt;The New Stack&lt;/a&gt;…&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2016/06/contributing-to-prometheus-an-open-source-tutorial/&quot;&gt;Contributing to Prometheus: An Open Source Tutorial&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on June 12, 2016.&lt;/p&gt;
-  </content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Characterizing and Contrasting Container Orchestrators at OpenStack Summit Container Day]]></title>
- <link rel="alternate" type="text/html" href="http://localhost:4000/2016/04/characterizing-and-contrasting-container-orchestrators-at-openstack-summit-container-day/" />
-  <id>http://localhost:4000/2016/04/characterizing-and-contrasting-container-orchestrators-at-openstack-summit-container-day</id>
-  <published>2016-04-26T10:31:34-05:00</published>
-  <updated>2016-04-26T10:31:34-05:00</updated>
-  <author>
-    <name>Lee Calcote</name>
-    <uri>http://localhost:4000</uri>
-    <email>lee@calcotestudios.com</email>
-  </author>
-  <content type="html">
-    &lt;div align=&quot;center&quot;&gt;
-  &lt;p&gt;
-    Running a few containers? No problem. Running hundreds or thousands? Enter the container orchestrator. Let’s take a look at the characteristics of the three most popular container orchestrators and what makes them alike, yet unique.
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    &lt;span class=&quot;embed-youtube&quot; style=&quot;text-align:center; display: block;&quot;&gt;&lt;/span&gt;
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    &lt;a href=&quot;http://blog.rackspace.com/relax-recharge-rackspace-cantina-openstack-summit-austin/&quot;&gt;Relax and Recharge at the Rackspace Cantina During OpenStack Summit Austin&lt;/a&gt;
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    Look for more detail in my upcoming book &lt;i&gt;&lt;a href=&quot;https://www.packtpub.com/virtualization-and-cloud/developer-defined-infrastructure-using-tectonic-and-kubernetes&quot;&gt;Developer Defined Infrastructure using Tectonic and Kubernetes&lt;/a&gt;&lt;/i&gt;.
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    The &lt;a href=&quot;http://www.slideshare.net/leecalcote/characterizing-and-contrasting-container-orchestrators&quot;&gt;slides&lt;/a&gt; from my talk have been posted.
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    &lt;span class=&quot;embed-youtube&quot; style=&quot;text-align:center; display: block;&quot;&gt;&lt;/span&gt;
-  &lt;/p&gt;
-  
-  &lt;p&gt;
-    &lt;a href=&quot;https://getcarina.com/blog/container-day-austin-summit/&quot;&gt;OpenStack Summit Austin: Container Day&lt;/a&gt;
-  &lt;/p&gt;
-&lt;/div&gt;
-
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2016/04/characterizing-and-contrasting-container-orchestrators-at-openstack-summit-container-day/&quot;&gt;Characterizing and Contrasting Container Orchestrators at OpenStack Summit Container Day&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on April 26, 2016.&lt;/p&gt;
-  </content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[22 new concerns added to Docker security benchmark]]></title>
- <link rel="alternate" type="text/html" href="http://localhost:4000/2016/04/22-new-concerns-added-to-docker-security-benchmark/" />
-  <id>http://localhost:4000/2016/04/22-new-concerns-added-to-docker-security-benchmark</id>
-  <published>2016-04-15T03:43:12-05:00</published>
-  <updated>2016-04-15T03:43:12-05:00</updated>
-  <author>
-    <name>Lee Calcote</name>
-    <uri>http://localhost:4000</uri>
-    <email>lee@calcotestudios.com</email>
-  </author>
-  <content type="html">
-    &lt;p&gt;&lt;img class=&quot;size-medium wp-image-1075 align left&quot; src=&quot;https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2016/04/CIS-Docker-Benchmark.png?resize=300%2C225&quot; alt=&quot;CIS-Docker-Benchmark&quot; srcset=&quot;https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2016/04/CIS-Docker-Benchmark.png?resize=300%2C225 300w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2016/04/CIS-Docker-Benchmark.png?w=620 620w&quot; sizes=&quot;(max-width: 300px) 100vw, 300px&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;small&gt;&lt;em&gt;Article originally appeared on &lt;a href=&quot;http://www.networkworld.com/article/3056031/open-source-tools/22-new-concerns-added-to-docker-security-benchmark.html&quot;&gt;Network World&lt;/a&gt; on April 15th, 2016.&lt;/em&gt;&lt;/small&gt;&lt;/p&gt;
-
-&lt;p&gt;Security has and continues to be an impediment to container adoption. Whether containers are less or more secure than their virtual machine counterparts is a topic of continued debate.&lt;/p&gt;
-
-&lt;p&gt;Like any debate, there are merits to arguments on both sides with a bit of FUD interlaced. Many efforts have been undertaken within the container ecosystem to educate adopters and improve their comprehension of available tooling and security postures within platforms and offerings—be that in the form of static analysis (image scanning), runtime vulnerability detection, provenance (image signing), fine-grained authorization, cryptographic verification, etc.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;The breadth of need for improved security capabilities has provided an opportunity for emerging start-ups to focus specifically on the container security space and others to dedicate their company’s mission to securing the Internet. Having spent time with most of the vendors in this space, I’ll say that as you might expect, it’s a quickly changing landscape. One thing is evident: open source communities and vendors at every layer—from hardware through operating system, container runtime, container image, host to cluster orchestrator, PaaS to CaaS—have significantly marshalled forward security-centered improvements in the past year.&lt;/p&gt;
-
-&lt;p&gt;The &lt;a href=&quot;https://www.cisecurity.org/&quot; target=&quot;new&quot;&gt;Center for Internet Security&lt;/a&gt; (CIS) is one of those organizations. CIS is dedicated to enhancing cybersecurity readiness and response between both public and private sectors. CIS produces Security Benchmarks as a way of providing defined, unbiased and consensus-based industry best practices to help organizations assess and improve their security. Thanks to a community of collaborators (&lt;em&gt;disclaimer: I am a member of the CIS Docker Benchmarks working group&lt;/em&gt;), the first CIS Docker Benchmark was published last April for Docker 1.6. A year later (April 13, 2016), a revision of this benchmark was released in concert with the Docker 1.11.0 release.&lt;/p&gt;
-
-&lt;div class=&quot;apart ad lazyload_ad_article&quot;&gt;
-&lt;/div&gt;
-&lt;aside class=&quot;nativo-promo smartphone&quot;&gt;&lt;/aside&gt;
-
-&lt;p&gt;Each CIS Docker Benchmark provides prescriptive guidance (in the form of rules) for establishing a secure configuration posture for Docker container infrastructure. The new benchmark version has been published with 22 new rules added and 23 rules removed, netting 83 rules in total.&lt;/p&gt;
-
-&lt;p&gt;As Docker has evolved over the past year, several rules have been updated or simply removed, as these concerns are now addressed in later versions of Docker tooling. Other updates in the rules are simply a reflection of architectural shifts Docker has made. In the 1.11.0 release, Docker has separated the concern of supervising containers and their runtime, splitting into two daemons: &lt;a href=&quot;https://containerd.tools/&quot; target=&quot;new&quot;&gt;containerd and runc&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The benchmark categorizes Docker security concerns into these groups (with number of concerns in parenthesis):&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Host Configuration (15)&lt;/li&gt;
-  &lt;li&gt;Docker daemon configuration (13)&lt;/li&gt;
-  &lt;li&gt;Docker daemon configuration files (20)&lt;/li&gt;
-  &lt;li&gt;Container Images and Build File (5)&lt;/li&gt;
-  &lt;li&gt;Container Runtime (25)&lt;/li&gt;
-  &lt;li&gt;Docker Security Operations (5)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Each rule not only describes the security concern and how to perform an audit to ascertain your deployment’s disposition, but also suggests how you may remediate the concern. Both rules and their remediations are written from the perspective of a container host, not a cluster, so how you choose to remediate the concern will vary based on your cluster size and platform choice (bare metal, container PaaS, cloud, etc.)&lt;/p&gt;
-
-&lt;p&gt;New rules introduced in the &lt;a href=&quot;https://benchmarks.cisecurity.org/tools2/docker/CIS_Docker_1.11.0_Benchmark_v1.0.0.pdf&quot; target=&quot;new&quot;&gt;CIS Docker 1.11.0 Benchmark&lt;/a&gt; (pdf):&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Host Configuration
-    &lt;ul&gt;
-      &lt;li&gt;1.11 Audit Docker files and directories – docker.socket&lt;/li&gt;
-      &lt;li&gt;1.13 Audit Docker files and directories – /etc/docker/daemon.json&lt;/li&gt;
-      &lt;li&gt;1.14 Audit Docker files and directories – /usr/bin/docker-containerd&lt;/li&gt;
-      &lt;li&gt;1.15 Audit Docker files and directories – /usr/bin/docker-runc&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Docker Daemon Configuration
-    &lt;ul&gt;
-      &lt;li&gt;2.8 Enable user namespace support&lt;/li&gt;
-      &lt;li&gt;2.9 Confirm default cgroup usage&lt;/li&gt;
-      &lt;li&gt;2.10 Do not change base device size until needed&lt;/li&gt;
-      &lt;li&gt;2.11 Use authorization plugin&lt;/li&gt;
-      &lt;li&gt;2.12 Configure centralized and remote logging&lt;/li&gt;
-      &lt;li&gt;2.13 Disable operations on legacy registry (v1)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Docker Daemon Configuration Files
-    &lt;ul&gt;
-      &lt;li&gt;3.17 Verify that daemon.json file ownership is set to root:root&lt;/li&gt;
-      &lt;li&gt;3.18 Verify that daemon.json file permissions are set to 644 or more restrictive&lt;/li&gt;
-      &lt;li&gt;3.19 Verify that /etc/default/docker file ownership is set to root:root&lt;/li&gt;
-      &lt;li&gt;3.20 Verify that /etc/default/docker file permissions are set to 644 or more restrictive&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Container Images and Build File
-    &lt;ul&gt;
-      &lt;li&gt;4.5 Enable Content trust for Docker&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Container Runtime
-    &lt;ul&gt;
-      &lt;li&gt;5.19 Do not set mount propagation mode to shared&lt;/li&gt;
-      &lt;li&gt;5.20 Do not share the host’s UTS namespace&lt;/li&gt;
-      &lt;li&gt;5.21 Do not disable default seccomp profile&lt;/li&gt;
-      &lt;li&gt;5.22 Do not docker exec commands with privileged option&lt;/li&gt;
-      &lt;li&gt;5.23 Do not docker exec commands with user option&lt;/li&gt;
-      &lt;li&gt;5.24 Confirm cgroup usage&lt;/li&gt;
-      &lt;li&gt;5.25 Restrict container from acquiring additional privileges&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Some container security vendors participate in the creation of the Docker Security Benchmark, while many others incorporate detection of these issues into their offering or project. While some include policy-driven orchestration to address failed security tests, few actually fully remediate the issue (only some issues are well-suited for automated remediation).&lt;/p&gt;
-
-&lt;p&gt;Security Configuration Benchmarks are distributed free of charge to propagate their worldwide use and adoption as user-originated standards. One such tool adopting the 1.11.0 benchmark concerns is the &lt;a href=&quot;https://github.com/docker/docker-bench-security&quot; target=&quot;new&quot;&gt;Docker Bench for Security&lt;/a&gt;—an open source, command-line tool used to perform checks in accordance with the CIS Docker Benchmark.&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2016/04/22-new-concerns-added-to-docker-security-benchmark/&quot;&gt;22 new concerns added to Docker security benchmark&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on April 15, 2016.&lt;/p&gt;
-  </content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Kubernetes community gathers for inaugural European edition of KubeCon]]></title>
- <link rel="alternate" type="text/html" href="http://localhost:4000/2016/03/kubernetes-community-gathers-for-inaugural-european-edition-of-kubecon/" />
-  <id>http://localhost:4000/2016/03/kubernetes-community-gathers-for-inaugural-european-edition-of-kubecon</id>
-  <published>2016-03-24T08:57:53-05:00</published>
-  <updated>2016-03-24T08:57:53-05:00</updated>
-  <author>
-    <name>Lee Calcote</name>
-    <uri>http://localhost:4000</uri>
-    <email>lee@calcotestudios.com</email>
-  </author>
-  <content type="html">
-    &lt;p&gt;&lt;img class=&quot;size-medium wp-image-1059 align left&quot; title=&quot;&quot; src=&quot;https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2016/03/DSC_0008.jpg?resize=300%2C200&quot; alt=&quot;DSC_0008&quot; style=&quot;margin-right:.10in;margin-bottom:.05in;&quot; srcset=&quot;https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2016/03/DSC_0008.jpg?resize=300%2C200 300w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2016/03/DSC_0008.jpg?resize=768%2C511 768w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2016/03/DSC_0008.jpg?w=925 925w&quot; sizes=&quot;(max-width: 300px) 100vw, 300px&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;small&gt;&lt;em&gt;Originally posted on &lt;a href=&quot;http://www.networkworld.com/article/3046063/open-source-tools/kubernetes-community-gathers-for-inaugural-european-edition-of-kubecon.html&quot; target=&quot;_blank&quot;&gt;Network World&lt;/a&gt; on March 24th, 2016. &lt;/em&gt;&lt;/small&gt;&lt;/p&gt;
-
-&lt;p&gt;For the uninitiated, &lt;a title=&quot;Kubernetes&quot; href=&quot;http://kubernetes.io/docs/whatisk8s/&quot; target=&quot;new&quot;&gt;Kubernetes&lt;/a&gt; is an opinionated framework for building distributed systems or as its tagline states “an open source system for automating deployment, scaling, and operations of applications.” While a hot topic at various conferences, Kubernetes is the sole technological focus at KubeCon. KubeCon is a conference dedicated to education and community engagement of Kubernauts (Kubernetes enthusiasts).&lt;!--more--&gt;&lt;/p&gt;
-
-&lt;p&gt;Organized by KubeAcademy, KubeCon 2015 was the initial edition of this conference, launched back in November and held in San Francisco. With about 500 attendees, KubeCon EU 2016 was the inaugural European edition. The two-day community conference was held in London on March 10 and 11, 2016 with &lt;a href=&quot;https://skillsmatter.com/conferences/7884-kubecon-london#venue&quot; target=&quot;new&quot;&gt;CodeNode&lt;/a&gt; as the venue – well-suited for the number of attendees and sessions.&lt;/p&gt;
-
-&lt;p&gt;Not at all talks were strictly cluster manager focused. Some explored the intersection of traditional virtualization with virtual machines or configuration management and container-based workloads orchestrated by Kubernetes. Slides from all talks have been made &lt;a href=&quot;http://www.slideshare.net/search/slideshow?lang=en&amp;amp;page=1&amp;amp;q=kubeacademy&amp;amp;qid=0465320c-6d5b-40b1-835a-25ec924e8a88&amp;amp;searchfrom=header&amp;amp;sort=relevance&quot; target=&quot;new&quot;&gt;available&lt;/a&gt; as well as their recordings will soon be posted. Presenters and vendors at the conference confirmed the pace of innovation of this container orchestration system continues to move at an incredible clip. Users including New York Times, Met Office Informatics Lab, Pearson and others were not shy in bringing forward their stories.&lt;/p&gt;
-
-&lt;p&gt;In the week following KubeCon (on St. Patrick’s Day), Kubernetes 1.2 was released, touting 680 unique contributions to the project – the largest release yet. In coordination with this release was the relaunching of a redesigned &lt;a href=&quot;http://kubernetes.io/&quot; target=&quot;new&quot;&gt;kubernetes.io&lt;/a&gt; site launched to boot. &lt;a href=&quot;http://blog.kubernetes.io/2016/03/Kubernetes-1.2-even-more-performance-upgrades-plus-easier-application-deployment-and-management-.html&quot; target=&quot;new&quot;&gt;Highlights of the 1.2 release&lt;/a&gt; include:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Scale improvements&lt;/strong&gt; – increased cluster scale by 400% to 1,000 nodes and 30,000 containers per cluster.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Dynamic Configuration (ConfigMap API)&lt;/strong&gt; enables applications to pull their configuration when they run rather than packaging it in at build time.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Turnkey Deployments&lt;/strong&gt; (Beta Deployment API) handles versioning, multiple simultaneous rollouts, aggregating status across all pods, maintaining application availability and rollback.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Automated cluster management&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Simplified application deployment and management.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Kubedash&lt;/strong&gt; – a new UI allows for getting started quickly and accessing the same functionality found in the CLI.&lt;figure class=&quot;large &quot;&gt;&lt;/figure&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://i2.wp.com/images.techhive.com/images/article/2016/03/screen-shot-2016-03-22-at-2.28.46-pm-100651902-large.idge.png&quot;&gt;&lt;img class=&quot;align center&quot; src=&quot;https://i2.wp.com/images.techhive.com/images/article/2016/03/screen-shot-2016-03-22-at-2.28.46-pm-100651902-large.idge.png?w=90%25&quot; alt=&quot;kubedash screenshot&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;&amp;lt;/figure&amp;gt;&lt;/p&gt;
-
-&lt;p&gt;No sooner than 1.2 is published does the 1.3 roadmap take shape and tentatively scheduled for release ~16 weeks from now with the following highlights slated:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Legacy application support&lt;/strong&gt; (Nominal Services aka &lt;a href=&quot;https://github.com/kubernetes/kubernetes/pull/18016&quot;&gt;PetSet&lt;/a&gt;) – aims to solve problems currently encountered with systems where the identities of nodes are important (primarily for different types of databases)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Cluster Federation&lt;/strong&gt; (aka &lt;a href=&quot;https://github.com/kubernetes/kubernetes/blob/8813c955182e3c9daae68a8257365e02cd871c65/release-0.19.0/docs/proposals/federation.md&quot;&gt;Ubernetes&lt;/a&gt;) – will provide a real (perhaps preliminary) solution to cross-zone clusters (typically geographically distant clusters)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Higher scale&lt;/strong&gt; – improving upon the 400% scale increase already delivered in 1.2.
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://trello.com/c/fD83kRPE/102-remove-hard-coded-caps-and-use-back-pressure-in-the-system&quot;&gt;Scale up to 250 pods per node&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;Scale out to 1000 nodes at half-max-pod-density&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;In-cluster IAM&lt;/strong&gt; – Identity and Access Management will be added in the form of an &lt;a href=&quot;http://openid.net/connect/&quot;&gt;OIDC&lt;/a&gt; integration to distinguish between different types of users accessing a cluster&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Cluster auto-scaling&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Scheduled job&lt;/strong&gt; – needed for performing all time-related actions, namely backups, report generation, etc.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Public cloud dashboard&lt;/strong&gt; – with results of nightly runs across multiple cloud providers&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Storage&lt;/strong&gt; – improve dynamic provisioning of volumes
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://trello.com/c/e85W63b1/113-enable-quotas-for-total-volume-size-across-all-pvs-ops-rfe&quot;&gt;quotas for PersistentVolumes&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Among other announcements at the conference was that of the Cloud Native Computing Foundation (part of the Linux Foundation) &lt;a href=&quot;https://cncf.io/news/announcement/2016/03/cloud-native-computing-foundation-accepts-kubernetes-first-hosted-projec-0&quot;&gt;accepting Kubernetes as its first hosted project&lt;/a&gt;. Along with the acceptance of Kubernetes’ intellectual property (the entire Kubernetes code base), CNCF announced results of the election for members to the project’s Technical Oversight Committee. This list currently includes members from six different organizations, all of which either having significant doings with both advancing Kubernetes as well as their business models around the open source project.&lt;/p&gt;
-
-&lt;p&gt;Following the footsteps of Rackspace and Intel in putting together &lt;a href=&quot;http://blog.rackspace.com/openstack-tokyo-day-1-two-1000-node-clusters-now-available-for-testing/&quot;&gt;two 1,000 node clusters for the OpenStack community&lt;/a&gt; to develop and test at scale, next steps for the CNCF include establishing a 1,000 node cluster for the community to run and validate cloud native applications and infrastructure at scale.&amp;lt;aside id=&quot;&quot; class=&quot;nativo-promo tablet desktop&quot;&amp;gt;&amp;lt;/aside&amp;gt;&lt;/p&gt;
-
-&lt;p&gt;Comments from those who attended and did not attend the conference indicators that KubeAcademy is acheiving their stated mission of fostering a community of Kubernetes developers and operators by providing education, training, and events. With some conference goers simply thrilled just to “…finally get a proper Kubernetes sticker for my laptop!!! Yaay!” and others setting “new professional goals to make it 2 the next KubeCon”, the conference was a success. Let’s hope &lt;a href=&quot;https://kubecon.io/sponsors/&quot;&gt;sponsor funding&lt;/a&gt; of the next KubeCon includes a livestream!&lt;/p&gt;
-
-&lt;p&gt; &lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2016/03/kubernetes-community-gathers-for-inaugural-european-edition-of-kubecon/&quot;&gt;Kubernetes community gathers for inaugural European edition of KubeCon&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on March 24, 2016.&lt;/p&gt;
-  </content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Dockercon EU 2015 Recap]]></title>
- <link rel="alternate" type="text/html" href="http://localhost:4000/2015/12/dockercon-eu-2015-recap/" />
-  <id>http://localhost:4000/2015/12/dockercon-eu-2015-recap</id>
-  <published>2015-12-04T07:41:13-06:00</published>
-  <updated>2015-12-04T07:41:13-06:00</updated>
-  <author>
-    <name>Lee Calcote</name>
-    <uri>http://localhost:4000</uri>
-    <email>lee@calcotestudios.com</email>
-  </author>
-  <content type="html">
-    &lt;p align=&quot;center&quot;&gt;
-  A brief recap of the Docker, Docker, Docker highlights from Dockercon EU 2015.
-&lt;/p&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-&lt;/div&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-  Presented at Docker Austin.
-&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2015/12/dockercon-eu-2015-recap/&quot;&gt;Dockercon EU 2015 Recap&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on December 04, 2015.&lt;/p&gt;
-  </content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Redfish slipstreams IPMI with 1.0 release]]></title>
- <link rel="alternate" type="text/html" href="http://localhost:4000/2015/08/redfish-slipstreams-ipmi-with-1-0-release/" />
-  <id>http://localhost:4000/2015/08/redfish-slipstreams-ipmi-with-1-0-release</id>
-  <published>2015-08-12T17:55:34-05:00</published>
-  <updated>2015-08-12T17:55:34-05:00</updated>
-  <author>
-    <name>Lee Calcote</name>
-    <uri>http://localhost:4000</uri>
-    <email>lee@calcotestudios.com</email>
-  </author>
-  <content type="html">
-    &lt;p&gt; &lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2015/08/DMTF-Redfish-Logo.jpg&quot;&gt;&lt;img class=&quot;alignleft size-medium wp-image-969&quot; src=&quot;https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2015/08/DMTF-Redfish-Logo.jpg?resize=300%2C211&quot; alt=&quot;DMTF Redfish Logo&quot; srcset=&quot;https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2015/08/DMTF-Redfish-Logo.jpg?resize=300%2C211 300w, https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2015/08/DMTF-Redfish-Logo.jpg?w=375 375w&quot; sizes=&quot;(max-width: 300px) 100vw, 300px&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;Last week, I was delighted to join in heralding the &lt;a href=&quot;http://www.dmtf.org/news/pr/2015/8/dmtf-helps-enable-multi-vendor-data-center-management-new-redfish-10-standard&quot;&gt;announcement the release&lt;/a&gt; of the Redfish 1.0 specification and highlight Seagate’s support of this emerging systems management API standard.&lt;/p&gt;
-
-&lt;p&gt;For those unfamiliar with this newly minted, &lt;a href=&quot;http://dmtf.org/standards/redfish&quot;&gt;industry API specification&lt;/a&gt;, understand that Redfish is a standard for data center and systems management that delivers improved performance, functionality, scalability and security. Designed to meet the expectations of end users for simple and interoperable management of modern scalable platform hardware, Redfish takes advantage of widely-used technologies to speed implementation and help system administrators be more effective.&lt;!--more--&gt;&lt;/p&gt;
-
-&lt;p&gt;With Redfish being a REST-based interface utilizing JSON and OData for systems management aims to replace Intelligent Platform Management Interface (IPMI), a widely used out-of-band specification developed in the late ‘90s. Like most systems manufacturers, Seagate supports IPMI and will continue to support it as a critical standard in the data center in lieu of broad adoption of Redfish. Where IPMI strains to meet the requirements of today’s massive multiscale environments, Redfish addresses IPMI inadequacies of interoperability, security, simplicity and scalability.&lt;/p&gt;
-
-&lt;p&gt;Redfish is developed by the DMTF’s &lt;a href=&quot;http://www.dmtf.org/standards/spmf&quot;&gt;Scalable Platforms Management Forum&lt;/a&gt; (SPMF). As a supporting member, Seagate, works alongside other leading systems manufacturers to create and publish this open industry standard specification and schema. This forum is led by Broadcom, Dell, Emerson, HP, Intel, Lenovo, Microsoft, Supermicro and VMware with additional support from AMI, Oracle, Fujitsu, Huawei, Mellanox and Seagate.&lt;/p&gt;
-
-&lt;p&gt;Redfish 1.0 feature set summary:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Retrieve “IPMI class” data&lt;/strong&gt;&lt;/p&gt;
-
-&lt;li style=&quot;font-weight: 400;&quot;&gt;
-  &lt;span style=&quot;font-weight: 400;&quot;&gt;Basic server identification and asset info&lt;/span&gt;
-&lt;/li&gt;
-&lt;li style=&quot;font-weight: 400;&quot;&gt;
-  &lt;span style=&quot;font-weight: 400;&quot;&gt;Health state&lt;/span&gt;
-&lt;/li&gt;
-&lt;li style=&quot;font-weight: 400;&quot;&gt;
-  &lt;span style=&quot;font-weight: 400;&quot;&gt;Temperature sensors and fans&lt;/span&gt;
-&lt;/li&gt;
-&lt;li style=&quot;font-weight: 400;&quot;&gt;
-  &lt;span style=&quot;font-weight: 400;&quot;&gt;Power supply, power consumption and thresholds&lt;/span&gt;
-&lt;/li&gt;
-
-&lt;p&gt;&lt;strong&gt;Discovery&lt;/strong&gt;&lt;/p&gt;
-
-&lt;li style=&quot;font-weight: 400;&quot;&gt;
-  &lt;span style=&quot;font-weight: 400;&quot;&gt;Service endpoint (network-based discovery)&lt;/span&gt;
-&lt;/li&gt;
-&lt;li style=&quot;font-weight: 400;&quot;&gt;
-  &lt;span style=&quot;font-weight: 400;&quot;&gt;System topology (rack/chassis/server/node)&lt;/span&gt;
-&lt;/li&gt;
-
-&lt;p&gt;&lt;strong&gt;Basic I/O infrastructure data&lt;/strong&gt;&lt;/p&gt;
-
-&lt;li style=&quot;font-weight: 400;&quot;&gt;
-  &lt;span style=&quot;font-weight: 400;&quot;&gt;Host NIC MAC address(es) for LOM devices&lt;/span&gt;
-&lt;/li&gt;
-&lt;li style=&quot;font-weight: 400;&quot;&gt;
-  &lt;span style=&quot;font-weight: 400;&quot;&gt;Drive status / fault reporting&lt;/span&gt;
-&lt;/li&gt;
-
-&lt;p&gt;&lt;strong&gt;Security&lt;/strong&gt;&lt;/p&gt;
-
-&lt;li style=&quot;font-weight: 400;&quot;&gt;
-  &lt;span style=&quot;font-weight: 400;&quot;&gt;Session-based and leverages HTTPS&lt;/span&gt;
-&lt;/li&gt;
-
-&lt;p&gt;&lt;strong&gt;Perform Common Actions&lt;/strong&gt;&lt;/p&gt;
-
-&lt;li style=&quot;font-weight: 400;&quot;&gt;
-  &lt;span style=&quot;font-weight: 400;&quot;&gt;Reboot / power cycle server&lt;/span&gt;
-&lt;/li&gt;
-&lt;li style=&quot;font-weight: 400;&quot;&gt;
-  &lt;span style=&quot;font-weight: 400;&quot;&gt;Change boot order / device&lt;/span&gt;
-&lt;/li&gt;
-&lt;li style=&quot;font-weight: 400;&quot;&gt;
-  &lt;span style=&quot;font-weight: 400;&quot;&gt;Set power thresholds&lt;/span&gt;
-&lt;/li&gt;
-
-&lt;p&gt;&lt;strong&gt;Access and Notification&lt;/strong&gt;&lt;/p&gt;
-
-&lt;li style=&quot;font-weight: 400;&quot;&gt;
-  &lt;span style=&quot;font-weight: 400;&quot;&gt;Serial console access via SSH&lt;/span&gt;
-&lt;/li&gt;
-&lt;li style=&quot;font-weight: 400;&quot;&gt;
-  &lt;span style=&quot;font-weight: 400;&quot;&gt;Alert / event notification method(s)&lt;/span&gt;
-&lt;/li&gt;
-&lt;li style=&quot;font-weight: 400;&quot;&gt;
-  &lt;span style=&quot;font-weight: 400;&quot;&gt;Event Log access method(s)&lt;/span&gt;
-&lt;/li&gt;
-
-&lt;p&gt;&lt;strong&gt;BMC infrastructure&lt;/strong&gt;&lt;/p&gt;
-
-&lt;li style=&quot;font-weight: 400;&quot;&gt;
-  &lt;span style=&quot;font-weight: 400;&quot;&gt;View / configure BMC network settings&lt;/span&gt;
-&lt;/li&gt;
-&lt;li style=&quot;font-weight: 400;&quot;&gt;
-  &lt;span style=&quot;font-weight: 400;&quot;&gt;Manage local BMC user accounts&lt;/span&gt;
-&lt;/li&gt;
-
-&lt;p&gt;Redfish 1.0 is only the beginning. Seagate and other industry leaders are already engaging within the DMTF Scalable Platform Management Forum on enhancements beyond Redfish 1.0 standard. You’re invited to &lt;a href=&quot;http://www.dmtf.org/join/spmf&quot;&gt;join&lt;/a&gt; the discussion or provide feedback through the DMTF submission portal. Comments and requirements from Redfish consumers are openly solicited and crucial to helping the SPMF prioritize capabilities in the upcoming next versions.&lt;/p&gt;
-
-&lt;p&gt;What does Redfish mean for Seagate partners and customers? It means a new level of control, management and monitoring for the data center, using a modern, secure RESTful API that is commonly understood and will be widely supported. We’ll further discuss Redfish’s concepts and constructs in this blog series, so stay tuned as we begin to showcase our adoption of Redfish initially within our suite of systems management software.&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2015/08/redfish-slipstreams-ipmi-with-1-0-release/&quot;&gt;Redfish slipstreams IPMI with 1.0 release&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on August 12, 2015.&lt;/p&gt;
-  </content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Going Native with OpenStack Centric Applications: Murano]]></title>
- <link rel="alternate" type="text/html" href="http://localhost:4000/2014/11/going-native-with-openstack-centric-applications-murano/" />
-  <id>http://localhost:4000/2014/11/going-native-with-openstack-centric-applications-murano</id>
-  <published>2014-11-18T17:44:39-06:00</published>
-  <updated>2014-11-18T17:44:39-06:00</updated>
-  <author>
-    <name>Lee Calcote</name>
-    <uri>http://localhost:4000</uri>
-    <email>lee@calcotestudios.com</email>
-  </author>
-  <content type="html">
-    &lt;p&gt;Following on our previous discussion &lt;a href=&quot;http://blog.gingergeek.com/2014/11/going-native-with-openstack-centric-applications-overview/&quot;&gt;surveying the projects supporting applications within OpenStack&lt;/a&gt;, let’s continue our review with an in-depth look at the OpenStack-native Application Catalog: Murano, currently an incubation status project, having seen its functionality and core services integration advanced over the past few OpenStack releases.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano.png&quot;&gt;&lt;img class=&quot;alignleft&quot; src=&quot;https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano.png?w=150&quot; alt=&quot;OpenStack Centric Applications - Murano&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;what-is-it&quot;&gt;What is it?&lt;/h3&gt;
-
-&lt;p&gt;An application catalog developed by Mirantis, HP and others (now including Cisco), that allows application developers and cloud administrators to publish applications in a categorized catalog to be perused and deployed by application consumers. The selection of applications available within the catalog is intended to be that of released versions (ready-state) of applications (cloud-native or enterprise-architected), not application versions that are mid-development. Ideally, these are applications ready to be consumed and run by application users.&lt;!--more--&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;functionality-highlights&quot;&gt;Functionality Highlights&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;div id=&quot;attachment_883&quot; style=&quot;width: 310px&quot; class=&quot;wp-caption alignright&quot;&gt;
-  &lt;a href=&quot;https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Catalog-UI.png&quot;&gt;&lt;img class=&quot;wp-image-883 size-medium&quot; src=&quot;https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Catalog-UI.png?resize=300%2C207&quot; alt=&quot;OpenStack Centric Applications - Murano Application Catalog UI&quot; srcset=&quot;https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Catalog-UI.png?resize=300%2C207 300w, https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Catalog-UI.png?resize=1024%2C708 1024w, https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Catalog-UI.png?w=1196 1196w&quot; sizes=&quot;(max-width: 300px) 100vw, 300px&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;
-      
-  &lt;p class=&quot;wp-caption-text&quot;&gt;
-    Murano Application Catalog UI
-  &lt;/p&gt;
-&lt;/div&gt;
-    &lt;p&gt;Supports Windows and Linux applications&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Leverages HOT templates for application definition&lt;/li&gt;
-  &lt;li&gt;Controls Heat stack creation and updates processes&lt;/li&gt;
-  &lt;li&gt;Track application properties and dependencies&lt;/li&gt;
-  &lt;li&gt;Defines provisioning workflow definitions and executes them&lt;/li&gt;
-  &lt;li&gt;Introduces “Application” and “Environment” constructs&lt;/li&gt;
-  &lt;li&gt;Provides UI for application topology visualization&lt;/li&gt;
-  &lt;li&gt;Control lifecycle of a deployed application&lt;/li&gt;
-  &lt;li&gt;Allows simple management of access to an application&lt;/li&gt;
-  &lt;li&gt;Compose an environment from multiple application components&lt;/li&gt;
-  &lt;li&gt;Out of the Box Cataloged Applications
-    &lt;ul&gt;
-      &lt;li&gt;16 sample applications available now&lt;/li&gt;
-      &lt;li&gt;6 production-grade applications on Mirantis OpenStack Express**&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Multiple application formats supported:
-    &lt;ul&gt;
-      &lt;li&gt;HOT Templates&lt;/li&gt;
-      &lt;li&gt;MuranoPL&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Vision to support
-    &lt;ul&gt;
-      &lt;li&gt;Other application model formats:
-        &lt;ul&gt;
-          &lt;li&gt;Parallels APS format&lt;/li&gt;
-          &lt;li&gt;TOSCA format&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Pricing; billing system integration&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;user-personas--capabilities&quot;&gt;User Personas &amp;amp; Capabilities&lt;/h3&gt;
-
-&lt;p&gt;As an application catalog, Murano, primarily focuses on three user personas, the &lt;em&gt;Cloud Administrator&lt;/em&gt;, &lt;em&gt;Application Consumer&lt;/em&gt; and &lt;em&gt;Application Publisher&lt;/em&gt; receiving the most emphasis upfront in the development of this project.&lt;/p&gt;
-
-&lt;h4 id=&quot;application-consumer&quot;&gt;Application Consumer&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-User-Persona.png&quot;&gt;&lt;img class=&quot;alignleft size-thumbnail wp-image-889&quot; src=&quot;https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-User-Persona.png?resize=150%2C150&quot; alt=&quot;OpenStack Centric Applications - User Persona&quot; srcset=&quot;https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-User-Persona.png?resize=150%2C150 150w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-User-Persona.png?resize=300%2C300 300w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-User-Persona.png?w=677 677w&quot; sizes=&quot;(max-width: 150px) 100vw, 150px&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;The &lt;em&gt;Application Consumer&lt;/em&gt; selects and deploys instances of applications into environments they define. The &lt;em&gt;Application Consumer&lt;/em&gt; also…&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;…browses catalog (search, category, tags, etc)&lt;/li&gt;
-  &lt;li&gt;…creates new environments&lt;/li&gt;
-  &lt;li&gt;…deploys applications in environments&lt;/li&gt;
-  &lt;li&gt;…monitors application statistics&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;application-publisher&quot;&gt;Application Publisher&lt;/h4&gt;
-
-&lt;p&gt;The &lt;em&gt;Application Publisher&lt;/em&gt; creates application definitions (packages) that are imported as entries into the application catalog for perusal by &lt;em&gt;Application Consumers&lt;/em&gt;. The &lt;em&gt;Application Publisher&lt;/em&gt; also…&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;…defines application metadata (author, help message, version, etc)&lt;/li&gt;
-  &lt;li&gt;…identifies cloud resource allocation (HOT templates)&lt;/li&gt;
-  &lt;li&gt;…creates application deployment specifications (HOT templates)&lt;/li&gt;
-  &lt;li&gt;…defines a template for dynamic visualization of application topology (Horizon)&lt;/li&gt;
-  &lt;li&gt;…identifies metrics collection (Ceilometer)&lt;/li&gt;
-  &lt;li&gt;…establishes actions &amp;amp; events (Murano &amp;amp; Mistral)&lt;/li&gt;
-  &lt;li&gt;…imports and publishes application definition to catalog&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;cloud-administrator&quot;&gt;Cloud Administrator&lt;/h4&gt;
-
-&lt;p&gt;The &lt;em&gt;Cloud Administrator&lt;/em&gt; is responsible for running the application catalog and providing stable infrastructure upon which to deploy and run applications. The &lt;em&gt;Cloud Administrator&lt;/em&gt; also…&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;…curates application catalog (certification and signing of packages)&lt;/li&gt;
-  &lt;li&gt;…configures access to applications&lt;/li&gt;
-  &lt;li&gt;…defines billing rules*&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;application-packaging-process&quot;&gt;Application Packaging Process&lt;/h3&gt;
-
-&lt;p&gt;Currently, Murano applications may be packaged using two different formats to describe the application – the&lt;/p&gt;
-
-&lt;div id=&quot;attachment_884&quot; style=&quot;width: 310px&quot; class=&quot;wp-caption alignleft&quot;&gt;
-  &lt;a href=&quot;https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Packaging.png&quot;&gt;&lt;img class=&quot;wp-image-884 size-medium&quot; src=&quot;https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Packaging.png?resize=300%2C155&quot; alt=&quot;OpenStack Centric Applications - Murano Application Packaging&quot; srcset=&quot;https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Packaging.png?resize=300%2C155 300w, https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Packaging.png?resize=1024%2C529 1024w&quot; sizes=&quot;(max-width: 300px) 100vw, 300px&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;
-  
-  &lt;p class=&quot;wp-caption-text&quot;&gt;
-    Murano Application Packaging Process
-  &lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;MuranoPL or a HOT template. There’s roadmap to support addition application description formats. While these two methodologies vary in terms of how the orchestration is performed during provisioning of an instance of the app, their are common attributes (catalog metadata) like an application display name, logo, description, author, tags. For those familiar with other domain-specific languages of other popular configuration management frameworks, the MuranoPL is of little challenge to pick up (you may lean into  use Bash or Powershell if more comfortable) or you may opt to use SoftwareConfig and SoftwareDeploy of HOT.&lt;/p&gt;
-
-&lt;h3 id=&quot;architectural-overview-core-services-integration&quot;&gt;Architectural Overview &amp;amp; Core Services Integration&lt;/h3&gt;
-
-&lt;p&gt;See the “Murano Architectural Overview” diagram for a visual representation of how Murano is tightly integrated with core OpenStack services. It’s relationship to existing core services breaks down as follows:&lt;/p&gt;
-
-&lt;div id=&quot;attachment_885&quot; style=&quot;width: 310px&quot; class=&quot;wp-caption alignright&quot;&gt;
-  &lt;a href=&quot;https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Architectural-Overview.png&quot;&gt;&lt;img class=&quot;wp-image-885 size-medium&quot; src=&quot;https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Architectural-Overview.png?resize=300%2C140&quot; alt=&quot;OpenStack Centric Applications - Murano Architectural Overview&quot; srcset=&quot;https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Architectural-Overview.png?resize=300%2C140 300w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Architectural-Overview.png?resize=1024%2C479 1024w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Architectural-Overview.png?w=2000 2000w&quot; sizes=&quot;(max-width: 300px) 100vw, 300px&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;
-  
-  &lt;p class=&quot;wp-caption-text&quot;&gt;
-    Murano Architectural Overview
-  &lt;/p&gt;
-&lt;/div&gt;
-
-&lt;div style=&quot;margin-left: .25in;&quot;&gt;
-  &lt;h4&gt;
-    Glance
-  &lt;/h4&gt;
-  
-  &lt;p&gt;
-    Originally designed as an image repository, Murano will use Glance to store &amp;amp; query application definitions. Glance is used as an artifact repository to store application definitions, query &amp;amp; search them and store images required by applications. Images used by Murano are marked with specific metadata, which is used by Murano to derive appropriate selections within the UI during application deployment time.
-  &lt;/p&gt;
-  
-  &lt;h4&gt;
-    Heat
-  &lt;/h4&gt;
-  
-  &lt;ul&gt;
-    &lt;li&gt;
-      Cloud resource allocation specific to the application &lt;ul&gt;
-        &lt;li&gt;
-          Resources required by application is allocated using Heat
-        &lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/li&gt;
-    
-    &lt;li&gt;
-      Application provisioning / deployment via Heat Software Configuration
-    &lt;/li&gt;
-    &lt;li&gt;
-      Life-cycle callbacks*
-    &lt;/li&gt;
-  &lt;/ul&gt;
-  
-  &lt;h4&gt;
-    Horizon
-  &lt;/h4&gt;
-  
-  &lt;p&gt;
-    Horizon is used to provide the Application Catalog user interface wherein &lt;em&gt;Application Publishers &lt;/em&gt;may browse and deploy applications. Horizon is also u&lt;span style=&quot;line-height: 1.5em;&quot;&gt;sed to both build applications and visualize the topology provisioned applications. The need for this type of dynamic user interface (application topology canvas) has been p&lt;/span&gt;&lt;span style=&quot;line-height: 1.5em;&quot;&gt;roposed as separate project to provide common support to other Application-oriented projects – Heat, Solum, Mistral and Murano. This application blueprint designer project is codename – &lt;/span&gt;&lt;a style=&quot;font-style: italic;&quot; href=&quot;https://wiki.openstack.org/wiki/Merlin&quot; target=&quot;_blank&quot;&gt;Merlin&lt;/a&gt;.
-  &lt;/p&gt;
-  
-  &lt;h4&gt;
-    Docker
-  &lt;/h4&gt;
-  
-  &lt;p&gt;
-    Murano supports existing Nova and Heat plugins. See the “Murano and Containers” section below.
-  &lt;/p&gt;
-  
-  &lt;h4&gt;
-    Ceilometer
-  &lt;/h4&gt;
-  
-  &lt;p&gt;
-    Murano uses Ceilometer for application metric collection &amp;amp; processing. Additionally, Ceilometer events may be subscribed to and trigger specific actions (see below) for autoscaling, HA, DR and other.
-  &lt;/p&gt;
-  
-  &lt;h4&gt;
-    Mistral
-  &lt;/h4&gt;
-  
-  &lt;ul&gt;
-    &lt;li&gt;
-      Workflows are used when complex workflow outside of Heat is needed.
-    &lt;/li&gt;
-    &lt;li&gt;
-      Actions (also available w/o Mistral) &lt;ul&gt;
-        &lt;li&gt;
-          Application level ad-hoc actions (e.g. create backup, enable/disable some feature, or create user for an application) will also be defined in Mistral.
-        &lt;/li&gt;
-        &lt;li&gt;
-          Events (e.g. when X occurs then do Y)
-        &lt;/li&gt;
-        &lt;li&gt;
-          Events mapping to actions
-        &lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/div&gt;
-
-&lt;div id=&quot;attachment_882&quot; style=&quot;width: 310px&quot; class=&quot;wp-caption alignleft&quot;&gt;
-  &lt;a href=&quot;https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Actions.png&quot;&gt;&lt;img class=&quot;wp-image-882 size-medium&quot; src=&quot;https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Actions.png?resize=300%2C202&quot; alt=&quot;OpenStack Centric Applications - Murano Actions&quot; srcset=&quot;https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Actions.png?resize=300%2C202 300w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Actions.png?w=995 995w&quot; sizes=&quot;(max-width: 300px) 100vw, 300px&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;
-  
-  &lt;p class=&quot;wp-caption-text&quot;&gt;
-    Murano Actions – application-specific scaling
-  &lt;/p&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;actions--events&quot;&gt;Actions &amp;amp; Events&lt;/h3&gt;
-
-&lt;div&gt;
-  Classic runbook automation applies here – Murano allows the &lt;em&gt;Application Publisher&lt;/em&gt; to define various custom actions to be taken upon trigger by an interesting event. What constitutes and interesting event is up to the &lt;em&gt;Application Publisher&lt;/em&gt;, who may define any action in the application definition and associate the action to a specific workflow. By exposing a webhook to trigger the action (and workflow), they may be triggered by Ceilometer alarms or any 3rd party tool.
-&lt;/div&gt;
-
-&lt;div&gt;
-&lt;/div&gt;
-
-&lt;div&gt;
-  Common use cases are auto-scaling, HA and DR. The “Murano Actions” diagram shows an example of an autoscaling scenario in which an application might require additional database instance based web server load.
-&lt;/div&gt;
-
-&lt;h3 id=&quot;murano-and-containers&quot;&gt;Murano and Containers&lt;/h3&gt;
-
-&lt;p&gt;Murano inherently supports Docker containers by relying upon existing OpenStack components for container integration and orchestration. This means that there are no considerations to be accounted for within the MuranoPL to describe the application package to support containers. Similarly, when using Heat templates at the core of the application package, only reference to Docker resources and images is needed to support container orchestration by Heat. There are different ways of using Docker in OpenStack via Murano:&lt;/p&gt;
-
-&lt;p style=&quot;padding-left: 15px;&quot;&gt;
-  1) Heat template can use Heat::Docker
-&lt;/p&gt;
-
-&lt;ul style=&quot;margin-left: 15px;&quot;&gt;
-  &lt;li style=&quot;padding-left: 15px;&quot;&gt;
-    &lt;span style=&quot;line-height: 1em;&quot;&gt;Heat::Docker driver leverages Heat engine directly to instantiate containers&lt;/span&gt;
-  &lt;/li&gt;
-  &lt;li style=&quot;padding-left: 15px;&quot;&gt;
-    &lt;span style=&quot;line-height: 1em;&quot;&gt;Use Heat when Nova does not support Docker&lt;/span&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p style=&quot;margin-left: 15px;&quot;&gt;
-  2) Heat template can use Nova::Docker
-&lt;/p&gt;
-
-&lt;ul style=&quot;margin-left: 15px;&quot;&gt;
-  &lt;li style=&quot;padding-left: 15px;&quot;&gt;
-    &lt;span style=&quot;line-height: 1em;&quot;&gt;Use when you have a bare metal Docker installation&lt;/span&gt;
-  &lt;/li&gt;
-  &lt;li style=&quot;padding-left: 15px;&quot;&gt;
-    &lt;span style=&quot;line-height: 1em;&quot;&gt;Through Nova API, create a container without a VM being created to host&lt;/span&gt;
-  &lt;/li&gt;
-  &lt;li style=&quot;padding-left: 15px;&quot;&gt;
-    &lt;span style=&quot;line-height: 1em;&quot;&gt;Nova can go to bare metale to create Docker container&lt;/span&gt;
-  &lt;/li&gt;
-  &lt;li style=&quot;padding-left: 15px;&quot;&gt;
-    &lt;span style=&quot;line-height: 1em;&quot;&gt;User provides Heat template, workflow (Murano DSL) and image&lt;/span&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p style=&quot;padding-left: 15px;&quot;&gt;
-  3) Not recommended – Use Heat resource to create a VM with Docker inside and boot an image file to the VM with &lt;code&gt;docker run&lt;/code&gt;.
-&lt;/p&gt;
-
-&lt;p&gt;The Murano team is looking to add autoscaling for Docker services, facilitate Docker application placement and integration with monitoring and network services.&lt;/p&gt;
-
-&lt;h3 id=&quot;murano-as-a-southbound-catalog&quot;&gt;Murano as a Southbound Catalog&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-tall.png&quot;&gt;&lt;img class=&quot;alignleft wp-image-930&quot; src=&quot;https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-tall.png?resize=165%2C200&quot; alt=&quot;OpenStack Centric Applications - Murano&quot; srcset=&quot;https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-tall.png?resize=246%2C300 246w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-tall.png?w=445 445w&quot; sizes=&quot;(max-width: 165px) 100vw, 165px&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;Murano has two different northbound APIs to expose access to applications in the catalog – REST and AMQP (Services Broker). Within the Juno release, the Services Broker has only been prototyped. It’s scheduled to be fully-implemented in Kilo. While other use cases may exist, the primary use case for these northbound API revolves around allowing northbound catalogs to access and expose OpenStack-native applications.&lt;/p&gt;
-
-&lt;p&gt;The &lt;em&gt;Services Broker&lt;/em&gt; supports CRUD and binds service with your application. A proof of concept has been completed to integrate Cloud Foundry with Murano via the Service Broker. When CloudFoundry is integrated to Murano, CloudFoundry users see and order Murano applications in CloudFoundry.&lt;/p&gt;
-
-&lt;p&gt;Using the &lt;em&gt;REST API&lt;/em&gt;, Murano may be integrated as a southbound application catalog to expose OpenStack-native applications as SaaS application profiles available for users of a northbound catalog. Users benefit from existing services offered on top of OpenStack. This enables application components to be split across infrastructure (having application components deployed into different infrastructures).&lt;/p&gt;
-
-&lt;h3 id=&quot;kilo-roadmap&quot;&gt;Kilo Roadmap&lt;/h3&gt;
-
-&lt;p&gt;While subject to change, based on Kilo design summit discussions this week, the project team aims to bite off the following capabilities before the next release in May.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Implementing CloudFoundry ServiceBroker API&lt;/li&gt;
-  &lt;li&gt;Use of Glance as an artifact repository&lt;/li&gt;
-  &lt;li&gt;Support pluggable package definitions formats:
-    &lt;ul&gt;
-      &lt;li&gt;TOSCA (Topology and Orchestration Specification for Cloud Applications)&lt;/li&gt;
-      &lt;li&gt;APS (Parallels Application Standard)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Multiple Heat Stacks and OpenStack Cloud support
-    &lt;ul&gt;
-      &lt;li&gt;Availability Zones (for DR)&lt;/li&gt;
-      &lt;li&gt;Multiple OpenStack clouds&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Pluggable Architecture
-    &lt;ul&gt;
-      &lt;li&gt;Integration with 3rd party API (F5, Brocade etc.)&lt;/li&gt;
-      &lt;li&gt;Package format plugins&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;We’ll continue our review of support for applications within OpenStack in the next post of this series by diving into application lifecycle management with Solum.&lt;/p&gt;
-
-&lt;p&gt;&lt;small&gt;—&lt;br /&gt; *Future capability&lt;br /&gt; **To be released in November 2014 on Mirantis OpenStack Express&lt;br /&gt; Murano logo and screenshots reprinted with permission from Mirantis Inc.&lt;/small&gt;&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2014/11/going-native-with-openstack-centric-applications-murano/&quot;&gt;Going Native with OpenStack Centric Applications: Murano&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on November 18, 2014.&lt;/p&gt;
-  </content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Going Native with OpenStack Centric Applications: Overview]]></title>
- <link rel="alternate" type="text/html" href="http://localhost:4000/2014/11/going-native-with-openstack-centric-applications-overview/" />
-  <id>http://localhost:4000/2014/11/going-native-with-openstack-centric-applications-overview</id>
-  <published>2014-11-16T18:39:04-06:00</published>
-  <updated>2014-11-16T18:39:04-06:00</updated>
-  <author>
-    <name>Lee Calcote</name>
-    <uri>http://localhost:4000</uri>
-    <email>lee@calcotestudios.com</email>
-  </author>
-  <content type="html">
-    &lt;p&gt;Cloud infrastructure is useless without applications running atop, providing business servi&lt;a href=&quot;http://blog.gingergeek.com/2014/11/going-native-with-openstack-centric-applications-overview/openstack-applications/&quot;&gt;&lt;img class=&quot;alignleft wp-image-868 size-thumbnail&quot; src=&quot;https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Applications.png?resize=150%2C150&quot; alt=&quot;OpenStack Applications&quot; srcset=&quot;https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Applications.png?resize=150%2C150 150w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Applications.png?resize=300%2C300 300w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Applications.png?w=697 697w&quot; sizes=&quot;(max-width: 150px) 100vw, 150px&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;ces and solving customer needs. So, as applications ascend to the throne as the rightful king of cloud, focus sharpens on their support within OpenStack-based clouds. With this focus, let’s walk through a survey of components and projects supporting applications in OpenStack, understanding what a day in the life of an application in OpenStack is like. We’ll start with an overview of the application ecosystem comprised of a number of supporting projects. In the ecosystem overview below, relevant OpenStack projects are presented in context of existing, similar technologies with which you may be familiar. These similar technologies both under and overlap functionality of the respective OpenStack project, but are shown to hasten your general understanding of which bucket these projects fall into by way of tech you may already know (so, add a pinch of salt when considering relevancy of suggested affiliated technologies).&lt;!--more--&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;application-ecosystem-by-project&quot;&gt;Application Ecosystem by Project&lt;/h3&gt;
-
-&lt;p&gt;Like individual lines in a product family, projects within OpenStack engulf and extend one another for related, but distinct purposes and target use cases. OpenStack developers are cautious to apply DRY principles in their approach to project design, integrating functionality rather than reinventing the wheel as they go. The &lt;em&gt;Project Focus and Relationship&lt;/em&gt; diagram both figuratively and literally places project relationships into round bubbles, identifying conceptual starting points for the genesis of an application as well as the reuse of some projects by others.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Application Blueprint Designer – &lt;a href=&quot;https://wiki.openstack.org/wiki/Merlin&quot; target=&quot;_blank&quot;&gt;Merlin&lt;/a&gt;&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;RavelloSystems, UrbanCode, CliQr, Prime Service Catalog*…&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Application Lifecycle Management PaaS – &lt;a href=&quot;https://wiki.openstack.org/wiki/Solum&quot; target=&quot;_blank&quot;&gt;Solum&lt;/a&gt;&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Similar technologies (ALM) – Atlassian Suite, HP ALM, Cloudpipes, Serena…&lt;/li&gt;
-      &lt;li&gt;Similar technologies (PaaS) – Openshift, Cloud Foundry, BlueMix, AppScale, Heroku, App Engine…&lt;/li&gt;
-    &lt;/ul&gt;
-
-    &lt;div id=&quot;attachment_887&quot; style=&quot;width: 310px&quot; class=&quot;wp-caption alignright&quot;&gt;
-  &lt;a href=&quot;http://blog.gingergeek.com/2014/11/going-native-with-openstack-centric-applications-overview/openstack-centric-applications-project-focus-and-relationship/&quot;&gt;&lt;img class=&quot;wp-image-887 size-medium&quot; src=&quot;https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Project-Focus-and-Relationship.png?resize=300%2C142&quot; alt=&quot;OpenStack Centric Applications - Project Focus and Relationship&quot; srcset=&quot;https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Project-Focus-and-Relationship.png?resize=300%2C142 300w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Project-Focus-and-Relationship.png?resize=1024%2C487 1024w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Project-Focus-and-Relationship.png?w=1568 1568w&quot; sizes=&quot;(max-width: 300px) 100vw, 300px&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;
-      
-  &lt;p class=&quot;wp-caption-text&quot;&gt;
-    Project Focus and Relationship
-  &lt;/p&gt;
-&lt;/div&gt;
-    &lt;p&gt;&amp;lt;/li&amp;gt;&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;&lt;strong&gt;Application Catalog – &lt;a href=&quot;https://wiki.openstack.org/wiki/Murano&quot; target=&quot;_blank&quot;&gt;Murano&lt;/a&gt;&lt;/strong&gt;
-        &lt;ul&gt;
-          &lt;li&gt;Similar technologies – AppStack, CliQr, ITApp, AppDirect…&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;Application Stack Provisioning – &lt;a href=&quot;https://wiki.openstack.org/wiki/Heat&quot; target=&quot;_blank&quot;&gt;Heat&lt;/a&gt;, Magnum&lt;/strong&gt;
-        &lt;ul&gt;
-          &lt;li&gt;Similar technologies – AWS Elastic Beanstalk, Kubernetes, GearD, Warden, Fleet, MaestroNG, CliQr, Nirmata…&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;Application Containers – &lt;a href=&quot;https://wiki.openstack.org/wiki/Docker&quot; target=&quot;_blank&quot;&gt;Docker&lt;/a&gt;&lt;/strong&gt;
-        &lt;ul&gt;
-          &lt;li&gt;Similar technologies – OpenVZ, Linux V-Server, FreeBSD jails, AIX Workload Partitions and Solaris Containers&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;strong&gt;Application Configuration Management – Puppet, Chef&lt;/strong&gt;
-        &lt;ul&gt;
-          &lt;li&gt;Similar technologies – Heat, Salt, Ansible, &lt;a href=&quot;https://wiki.openstack.org/wiki/Satori&quot; target=&quot;_blank&quot;&gt;Satori&lt;/a&gt;*…&amp;lt;/ul&amp;gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-
-    &lt;h3 id=&quot;a-day-in-the-life-of-an-openstack-native-application&quot;&gt;A Day in the Life of an OpenStack-Native Application&lt;/h3&gt;
-
-    &lt;p&gt;The &lt;em&gt;Application Lifecycle Flows&lt;/em&gt; diagram defines different entrance points by which applications are birthed and the flow between different OpenStack projects within their lifecycle.&lt;/p&gt;
-
-    &lt;div id=&quot;attachment_878&quot; style=&quot;width: 310px&quot; class=&quot;wp-caption alignleft&quot;&gt;
-  &lt;a href=&quot;http://blog.gingergeek.com/2014/11/going-native-with-openstack-centric-applications-overview/openstack-centric-applications-application-lifecycle-flows/&quot; rel=&quot;attachment wp-att-878&quot;&gt;&lt;img class=&quot;size-medium wp-image-878&quot; src=&quot;https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Application-Lifecycle-Flows.png?resize=300%2C176&quot; alt=&quot;OpenStack Centric Applications - Application Lifecycle Flows&quot; srcset=&quot;https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Application-Lifecycle-Flows.png?resize=300%2C176 300w, https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Application-Lifecycle-Flows.png?resize=1024%2C603 1024w&quot; sizes=&quot;(max-width: 300px) 100vw, 300px&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;/a&gt;
-      
-  &lt;p class=&quot;wp-caption-text&quot;&gt;
-    Application Lifecycle Flows
-  &lt;/p&gt;
-&lt;/div&gt;
-
-    &lt;p&gt;Users may &lt;strong&gt;design&lt;/strong&gt; applications with Merlin, &lt;strong&gt;develop&lt;/strong&gt; applications with Solum, &lt;strong&gt;order&lt;/strong&gt; applications with Murano, &lt;strong&gt;deploy&lt;/strong&gt; applications and resources with Heat and &lt;strong&gt;manage&lt;/strong&gt; applications with Puppet/other configuration managers.&lt;/p&gt;
-
-    &lt;h3 id=&quot;applications&quot;&gt;“Applications”&lt;/h3&gt;
-
-    &lt;p&gt;Given that applications are varied in nature both in terms of their type and complexity, let’s take a moment to review their possible shapes and sizes. With regard to types of applications, some are  image-based and some are container-based while others are offered simply as a SaaS subscription (implying that a singular instance of this application may serve multiple tenants). Applications may be cloud-native (designed to be scaled out, highly distributed, service-oriented) or enterprise-architected (designed to be scaled up, designed with layers and functional domains). Application complexity ranges from single component (image or container) to multiple component, multiple environment, multiple OpenStack deployments to OpenStack and other systems. Applications may be comprised of multiple components (e.g. MySQL, PHP, Apache) or a singular components (MySQL). Application components may be distributed or contained within a given container, VM or cloud. With these possibilities in mind, let’s begin our survey of their support with the OpenStack-native application catalog – Murano in the next post in this series.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2014/11/going-native-with-openstack-centric-applications-overview/&quot;&gt;Going Native with OpenStack Centric Applications: Overview&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on November 16, 2014.&lt;/p&gt;
   </content>
 </entry>
 

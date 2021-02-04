@@ -1,25 +1,51 @@
 ---
 id: 1100
 title: Speaking
-date: 2016-05-01T15:10:39+00:00
+#date: 2016-05-01T15:10:39+00:00
 author: Lee
 layout: page
 guid: http://blog.gingergeek.com/?page_id=1100
 ---
+
 <p style="float: right; text-align: right; font-size: 1.25em;">
   See <a href="/speaker-kit">Speaker Kit</a>
 </p>
 
-<div>
+ <link rel="stylesheet" href="{{site.baseurl}}/assets/css/utility.css" type="text/css"><div>
   <p>
     <span style="font-size: 1.25em;"><strong>Available for Speaking</strong></span>
   </p>
   
   <p style="margin-left: 1em;">
-    If your company or event could benefit from learning about cloud native things at the intersection of clouds, containers and microservices, drop me a line. See also this <a href="http://calcotestudios.com/talks">index of talks</a>.
+    If your company or event could benefit from learning about cloud native things at the intersection of clouds, containers and microservices, drop me a line. 
+    
+    Find an updated index at <button class="btn" style="padding-top: 5px;position: inherit;"><a href="http://calcotestudios.com/talks">Talks</a></button>
   </p>
-  
-  <p>
+
+<b>Upcoming Talks</b>
+
+<ul>
+  {% for talk in site.data.talks %}
+    <li>
+        <a href=" {{ talk.eventURL }}">{{ talk.eventName }}</a> | <a href="{{ talk.deckURL }}">deck</a> | <a href="{{ talk.videoURL }}">video</a>
+    </li>
+  {% endfor %}
+ </ul>
+
+<b>Previous Talks</b>
+
+<ul>
+  {% for previoustalk in site.data.previoustalks %}
+    <li>
+        <a href=" {{ previoustalk.eventURL }}">{{ previoustalk.eventName }}</a> | <a href="{{ previoustalk.deckURL }}">deck</a> | <a href="{{ previoustalk.videoURL }}">video</a>
+    </li>
+  {% endfor %}
+ </ul>
+
+
+   
+
+<!--<p>
     <span style="font-size: 1.25em;"><strong>Upcoming Engagements</strong></span>
   </p>
   
@@ -42,7 +68,7 @@ guid: http://blog.gingergeek.com/?page_id=1100
   <hr width="50%" />
   
   <p style="margin-left: 1em;">
-    <strong>Date:</strong> Mar 28th, 2017<br /> <strong>Event:</strong> CloudNativeCon+KubeCon EU 2017
+    <strong>Date:</strong> Nov 18th, 20th 2020<br /> <strong>Event:</strong> <a href="https://kccncna20.sched.com/event/ekEz/service-mesh-specifications-and-why-they-matter-in-your-deployment-lee-calcote-naveen-kumar-layer5">KubeCon NA 2020</a>
   </p>
   
   <p>
@@ -50,7 +76,7 @@ guid: http://blog.gingergeek.com/?page_id=1100
   </p>
   
   <p style="margin-left: 1em;">
-    <strong>Date:</strong> Dec 7th, 8th 2016<br /> <strong>Event:</strong> <a href="https://www.solarwindsmeetup.com/speaker/lee-calcote/">SolarWinds TechSummit 2016</a>
+    <strong>Date:</strong> Dec 10th 2020<br /> <strong>Event:</strong> <a href="https://www.oreilly.com/live-training/courses/introduction-to-istio/0636920422716/">O'Reilly Online Live Training - December 2020: Introduction to Istio |</a> <a href="https://calcotestudios.com/talks/decks/slides-oreilly-online-live-training-december-2020-introduction-to-istio.html">deck</a>
   </p>
   
   <p align="center">
@@ -102,7 +128,7 @@ guid: http://blog.gingergeek.com/?page_id=1100
   <hr width="50%" />
   
   <p>
-    <p=”margin-left:1em;”> <strong>Date:</strong> Nov 8-9th, 2016<br /> <strong>Event:</strong> <a href="http://events.linuxfoundation.org/events/cloudnativecon">CloudNativeCon</a><br /> <strong>Title:</strong> BOF: Growing a Community – Leveraging Meetups to educate, grow, and facilitate conversation.
+    <p=”margin-left:1em;”> <strong>Date:</strong> Nov 8-9th, 2016<br /> <strong>Event:</strong> <a href="http://events.linuxfoundation.org/events/cloudnativecon">CloudNativeCon</a><br /> <strong>Title:</strong> BOF: Growing a Community – Leveraging Meetups to educate, grow, and facilitate conversation. </p>
   </p>
   
   <p>
@@ -267,7 +293,7 @@ guid: http://blog.gingergeek.com/?page_id=1100
   
   <div align="center">
     <p>
-      <span class="embed-youtube" style="text-align:center; display: block;"></span><br /> <a href="http://blog.rackspace.com/relax-recharge-rackspace-cantina-openstack-summit-austin/">Relax and Recharge at the Rackspace Cantina During OpenStack Summit Austin</a><span class="embed-youtube" style="text-align:center; display: block;"></span><br /> <a href="https://getcarina.com/blog/container-day-austin-summit/">OpenStack Summit Austin: Containers Meetup!</a></div> 
+      <span class="embed-youtube" style="text-align:center; display: block;"></span><br /> <a href="http://blog.rackspace.com/relax-recharge-rackspace-cantina-openstack-summit-austin/">Relax and Recharge at the Rackspace Cantina During OpenStack Summit Austin</a><span class="embed-youtube" style="text-align:center; display: block;"></span><br /> <a href="https://getcarina.com/blog/container-day-austin-summit/">OpenStack Summit Austin: Containers Meetup!</a>
       
       <hr width="50%" />
       
@@ -296,4 +322,4 @@ guid: http://blog.gingergeek.com/?page_id=1100
       
       <p>
         <a href="https://drive.google.com/open?id=0BwKKA_Ml1VXuQ05WUkJIWXlWc2s"><img class="aligncenter" src="https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2016/05/DockeratCisco-Introduction-to-Docker.png?w=620" alt="DockeratCisco - Introduction to Docker" data-recalc-dims="1" /></a>
-      </p></div>
+      </p>-->
