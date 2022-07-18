@@ -27,7 +27,7 @@ guid: http://blog.gingergeek.com/?page_id=1100
 <ul>
   {% for talk in site.data.talks %}
     <li>
-        <a href=" {{ talk.eventURL }}">{{ talk.eventName }}</a> | <a href="{{ talk.deckURL }}">deck</a> | <a href="{{ talk.videoURL }}">video</a>
+        <a href=" {{ talk.eventURL }}">{{ talk.eventName }}</a> | <a href="https://calcotestudios.com/talks/decks/{{ talk.deckURL }}">deck</a> | <a href="{{ talk.videoURL }}">video</a>
     </li>
   {% endfor %}
  </ul>
@@ -37,7 +37,7 @@ guid: http://blog.gingergeek.com/?page_id=1100
 <ul>
   {% for previoustalk in site.data.previoustalks %}
     <li>
-        <a href=" {{ previoustalk.eventURL }}">{{ previoustalk.eventName }}</a> | <a href="{{ previoustalk.deckURL }}">deck</a> | <a href="{{ previoustalk.videoURL }}">video</a>
+        <a href=" {{ previoustalk.eventURL }}">{{ previoustalk.eventName }}</a> | <a href="https://calcotestudios.com/talks/decks/{{ previoustalk.deckURL }}">deck</a> | <a href="{{ previoustalk.videoURL }}">video</a>
     </li>
   {% endfor %}
  </ul>
