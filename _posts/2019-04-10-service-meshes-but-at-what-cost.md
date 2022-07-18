@@ -5,7 +5,7 @@ date: 2019-10-04T010:10:15+00:00
 author: Lee
 excerpt: 
 layout: post
-guid: http://blog.gingergeek.com/?p=1790
+guid: http://gingergeek.com/?p=1790
 permalink: /2019/10/service-meshes-but-at-what-cost/
 categories:
   - cncf

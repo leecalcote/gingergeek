@@ -5,7 +5,7 @@ date: 2009-06-08T11:18:27+00:00
 author: Lee
 excerpt: While some folks may find the Grab application handy, I prefer to use keyboard shortcuts to take pictures of the screen in Mac OS X. Here are a few ways to quickly snapshot your desktop.
 layout: post
-guid: http://blog.gingergeek.com/?p=106
+guid: http://gingergeek.com/?p=106
 permalink: /2009/06/how-to-capture-screenshots-in-mac-os-x-with-keyboard-shortcuts/
 dsq_thread_id:
   - "4806365518"
@@ -38,7 +38,7 @@ While some folks may find the Grab application handy, I prefer to use keyboard s
           
           <p>
             <div id="attachment_521" style="width: 290px" class="wp-caption alignright">
-              <img class="size-full wp-image-521" title="Mac Keyboard Shortcut to Capture Window" src="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2009/06/Mac-Keyboard-Shortcut-to-Capture-Window.png?w=280" alt="Cmd+Shift+4, then press Spacebar, then Click on the window/object" srcset="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2009/06/Mac-Keyboard-Shortcut-to-Capture-Window.png?w=400 400w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2009/06/Mac-Keyboard-Shortcut-to-Capture-Window.png?resize=300%2C224 300w" sizes="(max-width: 400px) 100vw, 400px" data-recalc-dims="1" />
+              <img class="size-full wp-image-521" title="Mac Keyboard Shortcut to Capture Window" src="https://i0.wp.com/gingergeek.com/wp-content/uploads/2009/06/Mac-Keyboard-Shortcut-to-Capture-Window.png?w=280" alt="Cmd+Shift+4, then press Spacebar, then Click on the window/object" srcset="https://i0.wp.com/gingergeek.com/wp-content/uploads/2009/06/Mac-Keyboard-Shortcut-to-Capture-Window.png?w=400 400w, https://i0.wp.com/gingergeek.com/wp-content/uploads/2009/06/Mac-Keyboard-Shortcut-to-Capture-Window.png?resize=300%2C224 300w" sizes="(max-width: 400px) 100vw, 400px" data-recalc-dims="1" />
               
               <p class="wp-caption-text">
                 Cmd+Shift+4, then press Spacebar, then Click on the window/object

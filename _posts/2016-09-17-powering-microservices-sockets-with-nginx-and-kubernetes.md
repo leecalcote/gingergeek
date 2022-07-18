@@ -5,7 +5,7 @@ date: 2016-09-17T07:05:45+00:00
 author: Lee
 excerpt: Microservices present challenges of coordination, SSL termination and socket connection among others. Looking to different cloud providers to assist with their load-balancers leaves you wanting as features socket connection support, SSL termination and geo-distributed load-balancing are often absent.
 layout: post
-guid: http://blog.gingergeek.com/?p=1529
+guid: http://gingergeek.com/?p=1529
 permalink: /2016/09/powering-microservices-sockets-with-nginx-and-kubernetes/
 dsq_thread_id:
   - "5156108978"

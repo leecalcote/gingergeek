@@ -5,10 +5,10 @@ date: 2009-06-17T21:51:01+00:00
 author: Lee
 excerpt: "While Entourage does not support the same resource booking functionality that Outlook does, I’m able to successfully schedule conference rooms in Entourage. Here's how."
 layout: post
-guid: http://blog.gingergeek.com/?p=299
+guid: http://gingergeek.com/?p=299
 permalink: /2009/06/how-to-reserve-a-conference-room-in-entourage-2008-calendar/
 articleimg:
-  - http://blog.gingergeek.com/wp-content/uploads/2009/06/Entourage-Resource-Booking-200.png
+  - http://gingergeek.com/wp-content/uploads/2009/06/Entourage-Resource-Booking-200.png
 dsq_thread_id:
   - "4785928250"
 categories:
@@ -61,7 +61,7 @@ While Entourage <a href="http://www.entourage.mvps.org/exchange/compare.html" ta
  
 
 <div id="attachment_322" style="width: 296px" class="wp-caption alignright">
-  <a href="http://blog.gingergeek.com/2009/06/how-to-reserve-a-conference-room-in-entourage-2008-calendar/entourage-resource-booking/" rel="attachment wp-att-322"><img class="size-medium wp-image-322" title="Entourage Resource Booking" src="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2009/06/Entourage-Resource-Booking.jpg?resize=286%2C300" alt="Entourage Resource Booking" srcset="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2009/06/Entourage-Resource-Booking.jpg?resize=286%2C300 286w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2009/06/Entourage-Resource-Booking.jpg?w=696 696w" sizes="(max-width: 286px) 100vw, 286px" data-recalc-dims="1" /></a>
+  <a href="http://gingergeek.com/2009/06/how-to-reserve-a-conference-room-in-entourage-2008-calendar/entourage-resource-booking/" rel="attachment wp-att-322"><img class="size-medium wp-image-322" title="Entourage Resource Booking" src="https://i0.wp.com/gingergeek.com/wp-content/uploads/2009/06/Entourage-Resource-Booking.jpg?resize=286%2C300" alt="Entourage Resource Booking" srcset="https://i0.wp.com/gingergeek.com/wp-content/uploads/2009/06/Entourage-Resource-Booking.jpg?resize=286%2C300 286w, https://i0.wp.com/gingergeek.com/wp-content/uploads/2009/06/Entourage-Resource-Booking.jpg?w=696 696w" sizes="(max-width: 286px) 100vw, 286px" data-recalc-dims="1" /></a>
   
   <p class="wp-caption-text">
     Entourage Resource Booking
@@ -74,7 +74,7 @@ The missing resource booking functionality here is:
   2. the ability to use counter-proposals received by others who may wish to reschedule the meeting time. You need to do this manually.
 
 <div id="attachment_335" style="width: 344px" class="wp-caption alignright">
-  <a href="http://blog.gingergeek.com/2009/06/how-to-reserve-a-conference-room-in-entourage-2008-calendar/entourage-meeting-request-accepted/" rel="attachment wp-att-335"><img class="size-full wp-image-335" title="Entourage Meeting Request Accepted" src="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2009/06/Entourage-Meeting-Request-Accepted.jpg?resize=334%2C44" alt="Entourage Meeting Request Accepted" srcset="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2009/06/Entourage-Meeting-Request-Accepted.jpg?w=334 334w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2009/06/Entourage-Meeting-Request-Accepted.jpg?resize=300%2C39 300w" sizes="(max-width: 334px) 100vw, 334px" data-recalc-dims="1" /></a>
+  <a href="http://gingergeek.com/2009/06/how-to-reserve-a-conference-room-in-entourage-2008-calendar/entourage-meeting-request-accepted/" rel="attachment wp-att-335"><img class="size-full wp-image-335" title="Entourage Meeting Request Accepted" src="https://i0.wp.com/gingergeek.com/wp-content/uploads/2009/06/Entourage-Meeting-Request-Accepted.jpg?resize=334%2C44" alt="Entourage Meeting Request Accepted" srcset="https://i0.wp.com/gingergeek.com/wp-content/uploads/2009/06/Entourage-Meeting-Request-Accepted.jpg?w=334 334w, https://i0.wp.com/gingergeek.com/wp-content/uploads/2009/06/Entourage-Meeting-Request-Accepted.jpg?resize=300%2C39 300w" sizes="(max-width: 334px) 100vw, 334px" data-recalc-dims="1" /></a>
   
   <p class="wp-caption-text">
     Entourage Meeting Request Accepted
@@ -91,4 +91,4 @@ Contrary to what some might believe, your Exchange server does not need to be ru
 
 I’m surprised others haven’t pointed out this functionality on how to schedule resources in Entourage out already. There seems to be many references pointing Entourage’s missing calendaring functionality. When I saw the University of Tennessee Knoxville IT department’s answer to “<a href="http://oit.utk.edu/helpdesk/kb/entry/292/" target="_blank">Can I schedule shared resources such as a conference room?</a>” I was particularly humored.
 
-This procedure works for scheduling **Cisco Telepresence** rooms, too. You simply need to reserve rooms at both ends of the call (or all ends of the call in the case of multipoint conferences). If you cannot view a resource’s availability when looking at the Scheduling tab, you may want to [Troubleshoot Free/Busy Times in Microsoft Entourage](http://blog.gingergeek.com/2009/11/troubleshooting-freebusy-times-in-microsoft-entourage/).
+This procedure works for scheduling **Cisco Telepresence** rooms, too. You simply need to reserve rooms at both ends of the call (or all ends of the call in the case of multipoint conferences). If you cannot view a resource’s availability when looking at the Scheduling tab, you may want to [Troubleshoot Free/Busy Times in Microsoft Entourage](http://gingergeek.com/2009/11/troubleshooting-freebusy-times-in-microsoft-entourage/).

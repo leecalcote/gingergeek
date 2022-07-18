@@ -143,6 +143,12 @@
                   <li class="sub-item"><a href="http://localhost:4000/categories/#how-to articles">how-to articles</a></li>
               
                 
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#image">image</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#intro">intro</a></li>
+              
+                
                   <li class="sub-item"><a href="http://localhost:4000/categories/#mac">mac</a></li>
               
                 
@@ -162,6 +168,9 @@
               
                 
                   <li class="sub-item"><a href="http://localhost:4000/categories/#redfish">redfish</a></li>
+              
+                
+                  <li class="sub-item"><a href="http://localhost:4000/categories/#sample">sample</a></li>
               
                 
                   <li class="sub-item"><a href="http://localhost:4000/categories/#systems management">systems management</a></li>
@@ -248,6 +257,12 @@
                 <li><a href="http://localhost:4000/categories/#how-to articles">how-to articles</a></li>
             
               
+                <li><a href="http://localhost:4000/categories/#image">image</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#intro">intro</a></li>
+            
+              
                 <li><a href="http://localhost:4000/categories/#mac">mac</a></li>
             
               
@@ -267,6 +282,9 @@
             
               
                 <li><a href="http://localhost:4000/categories/#redfish">redfish</a></li>
+            
+              
+                <li><a href="http://localhost:4000/categories/#sample">sample</a></li>
             
               
                 <li><a href="http://localhost:4000/categories/#systems management">systems management</a></li>
@@ -304,9 +322,9 @@
     <div class="entry-content">
         
       <h1 class="post-title entry-title">Going Native with OpenStack Centric Applications: Murano</h1>
-      <p>Following on our previous discussion <a href="http://blog.gingergeek.com/2014/11/going-native-with-openstack-centric-applications-overview/">surveying the projects supporting applications within OpenStack</a>, let’s continue our review with an in-depth look at the OpenStack-native Application Catalog: Murano, currently an incubation status project, having seen its functionality and core services integration advanced over the past few OpenStack releases.</p>
+      <p>Following on our previous discussion <a href="http://gingergeek.com/2014/11/going-native-with-openstack-centric-applications-overview/">surveying the projects supporting applications within OpenStack</a>, let’s continue our review with an in-depth look at the OpenStack-native Application Catalog: Murano, currently an incubation status project, having seen its functionality and core services integration advanced over the past few OpenStack releases.</p>
 
-<p><a href="https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano.png"><img class="alignleft" src="https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano.png?w=150" alt="OpenStack Centric Applications - Murano" data-recalc-dims="1" /></a></p>
+<p><a href="https://i1.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano.png"><img class="alignleft" src="https://i1.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano.png?w=150" alt="OpenStack Centric Applications - Murano" data-recalc-dims="1" /></a></p>
 
 <h3 id="what-is-it">What is it?</h3>
 
@@ -317,7 +335,7 @@
 <ul>
   <li>
     <div id="attachment_883" style="width: 310px" class="wp-caption alignright">
-  <a href="https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Catalog-UI.png"><img class="wp-image-883 size-medium" src="https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Catalog-UI.png?resize=300%2C207" alt="OpenStack Centric Applications - Murano Application Catalog UI" srcset="https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Catalog-UI.png?resize=300%2C207 300w, https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Catalog-UI.png?resize=1024%2C708 1024w, https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Catalog-UI.png?w=1196 1196w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a>
+  <a href="https://i1.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Catalog-UI.png"><img class="wp-image-883 size-medium" src="https://i1.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Catalog-UI.png?resize=300%2C207" alt="OpenStack Centric Applications - Murano Application Catalog UI" srcset="https://i1.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Catalog-UI.png?resize=300%2C207 300w, https://i1.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Catalog-UI.png?resize=1024%2C708 1024w, https://i1.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Catalog-UI.png?w=1196 1196w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a>
       
   <p class="wp-caption-text">
     Murano Application Catalog UI
@@ -365,7 +383,7 @@
 
 <h4 id="application-consumer">Application Consumer</h4>
 
-<p><a href="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-User-Persona.png"><img class="alignleft size-thumbnail wp-image-889" src="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-User-Persona.png?resize=150%2C150" alt="OpenStack Centric Applications - User Persona" srcset="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-User-Persona.png?resize=150%2C150 150w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-User-Persona.png?resize=300%2C300 300w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-User-Persona.png?w=677 677w" sizes="(max-width: 150px) 100vw, 150px" data-recalc-dims="1" /></a>The <em>Application Consumer</em> selects and deploys instances of applications into environments they define. The <em>Application Consumer</em> also…</p>
+<p><a href="https://i0.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-User-Persona.png"><img class="alignleft size-thumbnail wp-image-889" src="https://i0.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-User-Persona.png?resize=150%2C150" alt="OpenStack Centric Applications - User Persona" srcset="https://i0.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-User-Persona.png?resize=150%2C150 150w, https://i0.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-User-Persona.png?resize=300%2C300 300w, https://i0.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-User-Persona.png?w=677 677w" sizes="(max-width: 150px) 100vw, 150px" data-recalc-dims="1" /></a>The <em>Application Consumer</em> selects and deploys instances of applications into environments they define. The <em>Application Consumer</em> also…</p>
 
 <ul>
   <li>…browses catalog (search, category, tags, etc)</li>
@@ -403,7 +421,7 @@
 <p>Currently, Murano applications may be packaged using two different formats to describe the application – the</p>
 
 <div id="attachment_884" style="width: 310px" class="wp-caption alignleft">
-  <a href="https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Packaging.png"><img class="wp-image-884 size-medium" src="https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Packaging.png?resize=300%2C155" alt="OpenStack Centric Applications - Murano Application Packaging" srcset="https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Packaging.png?resize=300%2C155 300w, https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Packaging.png?resize=1024%2C529 1024w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a>
+  <a href="https://i1.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Packaging.png"><img class="wp-image-884 size-medium" src="https://i1.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Packaging.png?resize=300%2C155" alt="OpenStack Centric Applications - Murano Application Packaging" srcset="https://i1.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Packaging.png?resize=300%2C155 300w, https://i1.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Packaging.png?resize=1024%2C529 1024w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a>
   
   <p class="wp-caption-text">
     Murano Application Packaging Process
@@ -416,7 +434,7 @@
 <p>See the “Murano Architectural Overview” diagram for a visual representation of how Murano is tightly integrated with core OpenStack services. It’s relationship to existing core services breaks down as follows:</p>
 
 <div id="attachment_885" style="width: 310px" class="wp-caption alignright">
-  <a href="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Architectural-Overview.png"><img class="wp-image-885 size-medium" src="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Architectural-Overview.png?resize=300%2C140" alt="OpenStack Centric Applications - Murano Architectural Overview" srcset="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Architectural-Overview.png?resize=300%2C140 300w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Architectural-Overview.png?resize=1024%2C479 1024w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Architectural-Overview.png?w=2000 2000w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a>
+  <a href="https://i0.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Architectural-Overview.png"><img class="wp-image-885 size-medium" src="https://i0.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Architectural-Overview.png?resize=300%2C140" alt="OpenStack Centric Applications - Murano Architectural Overview" srcset="https://i0.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Architectural-Overview.png?resize=300%2C140 300w, https://i0.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Architectural-Overview.png?resize=1024%2C479 1024w, https://i0.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Architectural-Overview.png?w=2000 2000w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a>
   
   <p class="wp-caption-text">
     Murano Architectural Overview
@@ -502,7 +520,7 @@
 </div>
 
 <div id="attachment_882" style="width: 310px" class="wp-caption alignleft">
-  <a href="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Actions.png"><img class="wp-image-882 size-medium" src="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Actions.png?resize=300%2C202" alt="OpenStack Centric Applications - Murano Actions" srcset="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Actions.png?resize=300%2C202 300w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Actions.png?w=995 995w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a>
+  <a href="https://i0.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Actions.png"><img class="wp-image-882 size-medium" src="https://i0.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Actions.png?resize=300%2C202" alt="OpenStack Centric Applications - Murano Actions" srcset="https://i0.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Actions.png?resize=300%2C202 300w, https://i0.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Actions.png?w=995 995w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a>
   
   <p class="wp-caption-text">
     Murano Actions – application-specific scaling
@@ -566,7 +584,7 @@
 
 <h3 id="murano-as-a-southbound-catalog">Murano as a Southbound Catalog</h3>
 
-<p><a href="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-tall.png"><img class="alignleft wp-image-930" src="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-tall.png?resize=165%2C200" alt="OpenStack Centric Applications - Murano" srcset="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-tall.png?resize=246%2C300 246w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-tall.png?w=445 445w" sizes="(max-width: 165px) 100vw, 165px" data-recalc-dims="1" /></a>Murano has two different northbound APIs to expose access to applications in the catalog – REST and AMQP (Services Broker). Within the Juno release, the Services Broker has only been prototyped. It’s scheduled to be fully-implemented in Kilo. While other use cases may exist, the primary use case for these northbound API revolves around allowing northbound catalogs to access and expose OpenStack-native applications.</p>
+<p><a href="https://i0.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-tall.png"><img class="alignleft wp-image-930" src="https://i0.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-tall.png?resize=165%2C200" alt="OpenStack Centric Applications - Murano" srcset="https://i0.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-tall.png?resize=246%2C300 246w, https://i0.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-tall.png?w=445 445w" sizes="(max-width: 165px) 100vw, 165px" data-recalc-dims="1" /></a>Murano has two different northbound APIs to expose access to applications in the catalog – REST and AMQP (Services Broker). Within the Juno release, the Services Broker has only been prototyped. It’s scheduled to be fully-implemented in Kilo. While other use cases may exist, the primary use case for these northbound API revolves around allowing northbound catalogs to access and expose OpenStack-native applications.</p>
 
 <p>The <em>Services Broker</em> supports CRUD and binds service with your application. A proof of concept has been completed to integrate Cloud Foundry with Murano via the Service Broker. When CloudFoundry is integrated to Murano, CloudFoundry users see and order Murano applications in CloudFoundry.</p>
 
@@ -695,7 +713,7 @@
 
 <div class="footer-wrapper">
   <footer role="contentinfo">
-    <span>&copy; 2021 Lee Calcote.</span>
+    <span>&copy; 2022 Lee Calcote.</span>
 
   </footer>
 </div><!-- /.footer-wrapper -->

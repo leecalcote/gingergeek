@@ -5,7 +5,7 @@ date: 2016-04-15T08:43:12+00:00
 author: Lee
 excerpt: 'Collaborators working under governance of the Center for Internet Security released the second version of the Docker Security Benchmark in conjunction with the Docker 1.11.0 release. '
 layout: post
-guid: http://blog.gingergeek.com/?p=1074
+guid: http://gingergeek.com/?p=1074
 permalink: /2016/04/22-new-concerns-added-to-docker-security-benchmark/
 dsq_thread_id:
   - "4749345013"
@@ -18,7 +18,7 @@ tags:
   - docker
   - security
 ---
-<img class="size-medium wp-image-1075 align left" src="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2016/04/CIS-Docker-Benchmark.png?resize=300%2C225" alt="CIS-Docker-Benchmark" srcset="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2016/04/CIS-Docker-Benchmark.png?resize=300%2C225 300w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2016/04/CIS-Docker-Benchmark.png?w=620 620w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /><small><em>Article originally appeared on <a href="http://www.networkworld.com/article/3056031/open-source-tools/22-new-concerns-added-to-docker-security-benchmark.html">Network World</a> on April 15th, 2016.</em></small>
+<img class="size-medium wp-image-1075 align left" src="https://i0.wp.com/gingergeek.com/wp-content/uploads/2016/04/CIS-Docker-Benchmark.png?resize=300%2C225" alt="CIS-Docker-Benchmark" srcset="https://i0.wp.com/gingergeek.com/wp-content/uploads/2016/04/CIS-Docker-Benchmark.png?resize=300%2C225 300w, https://i0.wp.com/gingergeek.com/wp-content/uploads/2016/04/CIS-Docker-Benchmark.png?w=620 620w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /><small><em>Article originally appeared on <a href="http://www.networkworld.com/article/3056031/open-source-tools/22-new-concerns-added-to-docker-security-benchmark.html">Network World</a> on April 15th, 2016.</em></small>
 
 Security has and continues to be an impediment to container adoption. Whether containers are less or more secure than their virtual machine counterparts is a topic of continued debate.
 

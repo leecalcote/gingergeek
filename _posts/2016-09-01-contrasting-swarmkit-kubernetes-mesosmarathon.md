@@ -5,7 +5,7 @@ date: 2016-09-01T13:20:05+00:00
 author: Lee
 excerpt: Presented at LinuxCon+ContainerCon, August 2016. Includes Swarm 1.12, Kubernetes, Mesos+Marathon.
 layout: post
-guid: http://blog.gingergeek.com/?p=1498
+guid: http://gingergeek.com/?p=1498
 permalink: /2016/09/contrasting-swarmkit-kubernetes-mesosmarathon/
 dsq_thread_id:
   - "5112207239"

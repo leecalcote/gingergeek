@@ -5,7 +5,7 @@ date: 2009-12-02T00:04:15+00:00
 author: Lee
 excerpt: "If you're looking for a way to automatically tentatively accept calendar events upon receipt in Microsoft Entourage, there's a calendar preference option defined to perform just this behavior..."
 layout: post
-guid: http://blog.gingergeek.com/?p=754
+guid: http://gingergeek.com/?p=754
 permalink: /2009/12/automatically-tentatively-add-calendar-events-in-microsoft-entourage/
 dsq_thread_id:
   - "4893754860"
@@ -20,7 +20,7 @@ tags:
   - tips
 ---
 <div id="attachment_755" style="width: 160px" class="wp-caption alignleft">
-  <a rel="attachment wp-att-755" href="http://blog.gingergeek.com/2009/12/automatically-tentatively-add-calendar-events-in-microsoft-entourage/tentatively-add-microsoft-entourage-calendar-events/"><img class="size-thumbnail wp-image-755" title="Tentatively Add Microsoft Entourage Calendar Events" src="https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2009/12/Tentatively-Add-Microsoft-Entourage-Calendar-Events-150x150.png?resize=150%2C150" alt="Microsoft Entourage Calendar Preferences" srcset="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2009/12/Tentatively-Add-Microsoft-Entourage-Calendar-Events.png?resize=150%2C150 150w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2009/12/Tentatively-Add-Microsoft-Entourage-Calendar-Events.png?zoom=2&resize=150%2C150 300w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2009/12/Tentatively-Add-Microsoft-Entourage-Calendar-Events.png?zoom=3&resize=150%2C150 450w" sizes="(max-width: 150px) 100vw, 150px" data-recalc-dims="1" /></a>
+  <a rel="attachment wp-att-755" href="http://gingergeek.com/2009/12/automatically-tentatively-add-calendar-events-in-microsoft-entourage/tentatively-add-microsoft-entourage-calendar-events/"><img class="size-thumbnail wp-image-755" title="Tentatively Add Microsoft Entourage Calendar Events" src="https://i2.wp.com/gingergeek.com/wp-content/uploads/2009/12/Tentatively-Add-Microsoft-Entourage-Calendar-Events-150x150.png?resize=150%2C150" alt="Microsoft Entourage Calendar Preferences" srcset="https://i0.wp.com/gingergeek.com/wp-content/uploads/2009/12/Tentatively-Add-Microsoft-Entourage-Calendar-Events.png?resize=150%2C150 150w, https://i0.wp.com/gingergeek.com/wp-content/uploads/2009/12/Tentatively-Add-Microsoft-Entourage-Calendar-Events.png?zoom=2&resize=150%2C150 300w, https://i0.wp.com/gingergeek.com/wp-content/uploads/2009/12/Tentatively-Add-Microsoft-Entourage-Calendar-Events.png?zoom=3&resize=150%2C150 450w" sizes="(max-width: 150px) 100vw, 150px" data-recalc-dims="1" /></a>
   
   <p class="wp-caption-text">
     Microsoft Entourage Calendar Preferences

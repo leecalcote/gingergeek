@@ -5,7 +5,7 @@ date: 2016-04-26T15:31:34+00:00
 author: Lee
 excerpt: Presented at OpenStack Summit Austin 2016 Container Day.
 layout: post
-guid: http://blog.gingergeek.com/?p=1095
+guid: http://gingergeek.com/?p=1095
 permalink: /2016/04/characterizing-and-contrasting-container-orchestrators-at-openstack-summit-container-day/
 dsq_thread_id:
   - "4792268348"

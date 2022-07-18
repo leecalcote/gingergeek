@@ -5,10 +5,10 @@ date: 2009-06-10T07:44:22+00:00
 author: Lee
 excerpt: The measly 350MB mailbox quota allotted by my corporate IT department has me being creative with the storage of my email. Many of the other information workers I know suffer the same plight. If you are a Microsoft Entourage (the Mac OS X cousin to Microsoft Outlook) like me, I hope this how-to helps assuage your mail storage, archival and backup woes.
 layout: post
-guid: http://blog.gingergeek.com/?p=6
+guid: http://gingergeek.com/?p=6
 permalink: /2009/06/how-to-archive-entourage-2008-mail-using-multiple-identities/
 articleimg:
-  - http://blog.gingergeek.com/wp-content/uploads/2009/06/export-entourage-mail-to-rge-archive-200.png
+  - http://gingergeek.com/wp-content/uploads/2009/06/export-entourage-mail-to-rge-archive-200.png
 dsq_thread_id:
   - "4751809671"
 categories:
@@ -45,7 +45,7 @@ To clean up your mailbox in a comprehensive Time Machine and Spotlight-friendly 
 #### 1. Use Categories to Organize Email for Export
 
 <div id="attachment_168" style="width: 160px" class="wp-caption alignright">
-  <a rel="attachment wp-att-168" href="http://blog.gingergeek.com/2009/06/how-to-archive-entourage-2008-mail-using-multiple-identities/mail-views-for-received-and-sent-archives/"><img class="size-thumbnail wp-image-168" title="mail-views-for-received-and-sent-archives" src="https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2009/06/mail-views-for-received-and-sent-archives.png?resize=150%2C64" alt="Mail Views for Received and Sent Archives" data-recalc-dims="1" /></a>
+  <a rel="attachment wp-att-168" href="http://gingergeek.com/2009/06/how-to-archive-entourage-2008-mail-using-multiple-identities/mail-views-for-received-and-sent-archives/"><img class="size-thumbnail wp-image-168" title="mail-views-for-received-and-sent-archives" src="https://i2.wp.com/gingergeek.com/wp-content/uploads/2009/06/mail-views-for-received-and-sent-archives.png?resize=150%2C64" alt="Mail Views for Received and Sent Archives" data-recalc-dims="1" /></a>
   
   <p class="wp-caption-text">
     Mail Views for Received and Sent Archives
@@ -61,7 +61,7 @@ To clean up your mailbox in a comprehensive Time Machine and Spotlight-friendly 
   3. From the dropdown, set **“Date Received”**
   4. From the next dropdown, set **“Greater Than”** and then enter the preferred email age. This will find all email older than the specified number of days in the date received field. In the example screenshot, I was 151 days into the 365 day year when creating this archive.
 <div id="attachment_167" style="width: 310px" class="wp-caption alignright">
-  <a rel="attachment wp-att-167" href="http://blog.gingergeek.com/2009/06/how-to-archive-entourage-2008-mail-using-multiple-identities/mail-view-to-archive-email-by-date-sent/"><img class="size-medium wp-image-167" title="mail-view-to-archive-email-by-date-sent" src="https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2009/06/mail-view-to-archive-email-by-date-sent.png?resize=300%2C60" alt="Mail View to Archive Email by Date Sent" srcset="https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2009/06/mail-view-to-archive-email-by-date-sent.png?resize=300%2C60 300w, https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2009/06/mail-view-to-archive-email-by-date-sent.png?w=557 557w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a>
+  <a rel="attachment wp-att-167" href="http://gingergeek.com/2009/06/how-to-archive-entourage-2008-mail-using-multiple-identities/mail-view-to-archive-email-by-date-sent/"><img class="size-medium wp-image-167" title="mail-view-to-archive-email-by-date-sent" src="https://i1.wp.com/gingergeek.com/wp-content/uploads/2009/06/mail-view-to-archive-email-by-date-sent.png?resize=300%2C60" alt="Mail View to Archive Email by Date Sent" srcset="https://i1.wp.com/gingergeek.com/wp-content/uploads/2009/06/mail-view-to-archive-email-by-date-sent.png?resize=300%2C60 300w, https://i1.wp.com/gingergeek.com/wp-content/uploads/2009/06/mail-view-to-archive-email-by-date-sent.png?w=557 557w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a>
   
   <p class="wp-caption-text">
     Mail View to Archive Email by Date Sent
@@ -72,7 +72,7 @@ To clean up your mailbox in a comprehensive Time Machine and Spotlight-friendly 
   6. Repeat steps 1-5 for your Sent Items using the parameters **“Date Sent”, “Greater Than”, <number of days>”**.
 
 <div id="attachment_169" style="width: 160px" class="wp-caption alignright">
-  <a rel="attachment wp-att-169" href="http://blog.gingergeek.com/2009/06/how-to-archive-entourage-2008-mail-using-multiple-identities/saved-search-entourage-mail-view/"><img class="size-thumbnail wp-image-169" title="Setting Category on Entourage Mail" src="https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2009/06/saved-search-entourage-mail-view.png?resize=150%2C150" alt="Setting Category on Entourage Mail" srcset="https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2009/06/saved-search-entourage-mail-view.png?resize=150%2C150 150w, https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2009/06/saved-search-entourage-mail-view.png?zoom=2&resize=150%2C150 300w" sizes="(max-width: 150px) 100vw, 150px" data-recalc-dims="1" /></a>
+  <a rel="attachment wp-att-169" href="http://gingergeek.com/2009/06/how-to-archive-entourage-2008-mail-using-multiple-identities/saved-search-entourage-mail-view/"><img class="size-thumbnail wp-image-169" title="Setting Category on Entourage Mail" src="https://i2.wp.com/gingergeek.com/wp-content/uploads/2009/06/saved-search-entourage-mail-view.png?resize=150%2C150" alt="Setting Category on Entourage Mail" srcset="https://i2.wp.com/gingergeek.com/wp-content/uploads/2009/06/saved-search-entourage-mail-view.png?resize=150%2C150 150w, https://i2.wp.com/gingergeek.com/wp-content/uploads/2009/06/saved-search-entourage-mail-view.png?zoom=2&resize=150%2C150 300w" sizes="(max-width: 150px) 100vw, 150px" data-recalc-dims="1" /></a>
   
   <p class="wp-caption-text">
     Setting Category on Entourage Mail
@@ -103,7 +103,7 @@ To clean up your mailbox in a comprehensive Time Machine and Spotlight-friendly 
     <td>
       <p>
         <div id="attachment_166" style="width: 160px" class="wp-caption alignright">
-          <a rel="attachment wp-att-166" href="http://blog.gingergeek.com/2009/06/how-to-archive-entourage-2008-mail-using-multiple-identities/export-entourage-mail-to-rge-archive/"><img class="size-thumbnail wp-image-166" title="export-entourage-mail-to-rge-archive" src="https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2009/06/export-entourage-mail-to-rge-archive.png?resize=150%2C150" alt="Export Entourage Mail to rge Archive" srcset="https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2009/06/export-entourage-mail-to-rge-archive.png?resize=150%2C150 150w, https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2009/06/export-entourage-mail-to-rge-archive.png?zoom=2&resize=150%2C150 300w, https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2009/06/export-entourage-mail-to-rge-archive.png?zoom=3&resize=150%2C150 450w" sizes="(max-width: 150px) 100vw, 150px" data-recalc-dims="1" /></a>
+          <a rel="attachment wp-att-166" href="http://gingergeek.com/2009/06/how-to-archive-entourage-2008-mail-using-multiple-identities/export-entourage-mail-to-rge-archive/"><img class="size-thumbnail wp-image-166" title="export-entourage-mail-to-rge-archive" src="https://i2.wp.com/gingergeek.com/wp-content/uploads/2009/06/export-entourage-mail-to-rge-archive.png?resize=150%2C150" alt="Export Entourage Mail to rge Archive" srcset="https://i2.wp.com/gingergeek.com/wp-content/uploads/2009/06/export-entourage-mail-to-rge-archive.png?resize=150%2C150 150w, https://i2.wp.com/gingergeek.com/wp-content/uploads/2009/06/export-entourage-mail-to-rge-archive.png?zoom=2&resize=150%2C150 300w, https://i2.wp.com/gingergeek.com/wp-content/uploads/2009/06/export-entourage-mail-to-rge-archive.png?zoom=3&resize=150%2C150 450w" sizes="(max-width: 150px) 100vw, 150px" data-recalc-dims="1" /></a>
           
           <p class="wp-caption-text">
             Export Entourage Mail to rge Archive
@@ -113,7 +113,7 @@ To clean up your mailbox in a comprehensive Time Machine and Spotlight-friendly 
         <td>
           <p>
             <div id="attachment_162" style="width: 160px" class="wp-caption alignright">
-              <a rel="attachment wp-att-162" href="http://blog.gingergeek.com/2009/06/how-to-archive-entourage-2008-mail-using-multiple-identities/delete-entourage-archived-rge-mail/"><img class="size-thumbnail wp-image-162" title="Delete Entourage Archived .rge Mail" src="https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2009/06/delete-entourage-archived-rge-mail.png?resize=150%2C150" alt="Delete Entourage Archived .rge Mail" srcset="https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2009/06/delete-entourage-archived-rge-mail.png?resize=150%2C150 150w, https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2009/06/delete-entourage-archived-rge-mail.png?zoom=2&resize=150%2C150 300w, https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2009/06/delete-entourage-archived-rge-mail.png?zoom=3&resize=150%2C150 450w" sizes="(max-width: 150px) 100vw, 150px" data-recalc-dims="1" /></a>
+              <a rel="attachment wp-att-162" href="http://gingergeek.com/2009/06/how-to-archive-entourage-2008-mail-using-multiple-identities/delete-entourage-archived-rge-mail/"><img class="size-thumbnail wp-image-162" title="Delete Entourage Archived .rge Mail" src="https://i1.wp.com/gingergeek.com/wp-content/uploads/2009/06/delete-entourage-archived-rge-mail.png?resize=150%2C150" alt="Delete Entourage Archived .rge Mail" srcset="https://i1.wp.com/gingergeek.com/wp-content/uploads/2009/06/delete-entourage-archived-rge-mail.png?resize=150%2C150 150w, https://i1.wp.com/gingergeek.com/wp-content/uploads/2009/06/delete-entourage-archived-rge-mail.png?zoom=2&resize=150%2C150 300w, https://i1.wp.com/gingergeek.com/wp-content/uploads/2009/06/delete-entourage-archived-rge-mail.png?zoom=3&resize=150%2C150 450w" sizes="(max-width: 150px) 100vw, 150px" data-recalc-dims="1" /></a>
               
               <p class="wp-caption-text">
                 Delete Entourage Archived .rge Mail
@@ -204,7 +204,7 @@ To clean up your mailbox in a comprehensive Time Machine and Spotlight-friendly 
                     </ol>
                     
                     <p>
-                      <img class="size-full wp-image-192 alignnone" title="caution-sign-small" src="https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2009/06/caution-sign-small.gif?resize=48%2C60" alt="caution-sign-small" align="middle" data-recalc-dims="1" /> <em>The message Received timestamp is lost on export.</em>
+                      <img class="size-full wp-image-192 alignnone" title="caution-sign-small" src="https://i2.wp.com/gingergeek.com/wp-content/uploads/2009/06/caution-sign-small.gif?resize=48%2C60" alt="caution-sign-small" align="middle" data-recalc-dims="1" /> <em>The message Received timestamp is lost on export.</em>
                     </p>
                     
                     <p>
@@ -212,5 +212,5 @@ To clean up your mailbox in a comprehensive Time Machine and Spotlight-friendly 
                     </p>
                     
                     <p>
-                      <img class="size-full wp-image-255 alignleft" title="tip" src="https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2009/06/tip.png?resize=48%2C48" alt="tip" align="middle" data-recalc-dims="1" /><em>Drag your MBOX files into a new Identity, then switch Identities to search old mail. This keeps your regular database lean and more responsive.</em>
+                      <img class="size-full wp-image-255 alignleft" title="tip" src="https://i2.wp.com/gingergeek.com/wp-content/uploads/2009/06/tip.png?resize=48%2C48" alt="tip" align="middle" data-recalc-dims="1" /><em>Drag your MBOX files into a new Identity, then switch Identities to search old mail. This keeps your regular database lean and more responsive.</em>
                     </p>

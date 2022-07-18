@@ -4,7 +4,7 @@ title: Podcasts
 #date: 2016-06-01T13:07:11+00:00
 author: Lee
 layout: page
-guid: http://blog.gingergeek.com/?page_id=1206
+guid: http://gingergeek.com/?page_id=1206
 ---
 ##### [CloudNativeCon + KubeCon 2016](http://events.linuxfoundation.org/events/kubecon)
 
@@ -12,7 +12,7 @@ guid: http://blog.gingergeek.com/?page_id=1206
 
 <div class="polaroid">
   <p>
-    <a href="http://blog.gingergeek.com/wp-content/uploads/2016/06/Lee-Calcote-Mathew-Lodge-Prometheus-Weave-Cortex"><img class="polaroid alignnone" title="Lee Calcote" src="https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2016/06/Lee-Calcote-Mathew-Lodge-Prometheus-Weave-Cortex.png?resize=300%2C125" alt="lee-calcote-mathew-lodge-prometheus-weave-cortex" data-recalc-dims="1" /></a>
+    <a href="http://gingergeek.com/wp-content/uploads/2016/06/Lee-Calcote-Mathew-Lodge-Prometheus-Weave-Cortex"><img class="polaroid alignnone" title="Lee Calcote" src="https://i2.wp.com/gingergeek.com/wp-content/uploads/2016/06/Lee-Calcote-Mathew-Lodge-Prometheus-Weave-Cortex.png?resize=300%2C125" alt="lee-calcote-mathew-lodge-prometheus-weave-cortex" data-recalc-dims="1" /></a>
   </p>
   
   <div class="label">
@@ -134,7 +134,7 @@ guid: http://blog.gingergeek.com/?page_id=1206
 
 <div class="polaroid">
   <p>
-    <a href="https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2016/06/docker112security.jpg"><img class="polaroid alignnone" src="https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2016/06/docker112security.jpg?resize=640%2C720" alt="Lee Calcote" data-recalc-dims="1" /></a>
+    <a href="https://i2.wp.com/gingergeek.com/wp-content/uploads/2016/06/docker112security.jpg"><img class="polaroid alignnone" src="https://i2.wp.com/gingergeek.com/wp-content/uploads/2016/06/docker112security.jpg?resize=640%2C720" alt="Lee Calcote" data-recalc-dims="1" /></a>
   </p>
   
   <div class="label">

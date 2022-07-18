@@ -317,7 +317,7 @@
 - eventName: Container Summit Austin 2016
   eventURL: http://containersummit.io/city-series/2016/austin
   videoURL: https://player.vimeo.com/video/176685044?api=1&amp;player_id=176685044
-  deckURL: http://blog.gingergeek.com/speaking/#containersummitaustin2016
+  deckURL: http://gingergeek.com/speaking/#containersummitaustin2016
 - eventName: DockerCon 2016 Recap
   eventURL: https://www.meetup.com/Docker-Austin/events/231029121/
   deckURL: https://calcotestudios.com/dockercon-2016-recap
@@ -337,5 +337,5 @@
   deckURL: https://calcotestudios.com/dockercon-recap
   videoURL: ''
 - eventName: Docker@Cisco - Introduction to Docker
-  eventURL: http://blog.gingergeek.com/speaking/#DockeratCisco
+  eventURL: http://gingergeek.com/speaking/#DockeratCisco
   videoURL: https://drive.google.com/open?id=0BwKKA_Ml1VXuQ05WUkJIWXlWc2s

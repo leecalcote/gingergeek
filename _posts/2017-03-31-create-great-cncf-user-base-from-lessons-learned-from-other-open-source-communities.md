@@ -5,7 +5,7 @@ date: 2017-03-31T04:55:15+00:00
 author: Lee
 excerpt: Presented at CloudNativeCon+KubeCon EU, March, 2017.
 layout: post
-guid: http://blog.gingergeek.com/?p=1755
+guid: http://gingergeek.com/?p=1755
 permalink: /2017/03/create-great-cncf-user-base-from-lessons-learned-from-other-open-source-communities/
 dsq_thread_id:
   - "5683165761"

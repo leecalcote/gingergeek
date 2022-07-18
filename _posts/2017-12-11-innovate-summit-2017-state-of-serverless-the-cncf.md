@@ -5,7 +5,7 @@ date: 2018-12-08T012:20:15+00:00
 author: Lee
 excerpt: 
 layout: post
-guid: http://blog.gingergeek.com/?p=1796
+guid: http://gingergeek.com/?p=1796
 permalink: /2017/12/innovate-summit-2017-state-of-serverless-the-cncf/
 categories:
   - cncf

@@ -4,9 +4,9 @@ title: About
 #date: 2009-02-10T18:38:49+00:00
 author: Lee
 layout: page
-guid: http://blog.gingergeek.com//?page_id=2
+#guid: http://gingergeek.com/about
 ---
-<img src="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2009/02/Lee_Calcote.jpg?w=200" alt="Lee_Calcote" data-recalc-dims="1" />
+<img src="/images/Lee-Calcote.jpg" alt="Lee Calcote" width="50%" style="float:right;margin-left:.25rem;margin-bottom:.2rem;" />
 
 <!--Description and profile picture needs to be updated-->
 I <span style="color: red; font-size: 1em;">♥</span> management software for clouds, containers, infrastructure and applications. I am an innovative thought leader, passionate about building best-in-class teams and offerings, with a solid record of leveraging advanced and emerging technologies for competitive advantage, improving processes and speed of delivery on the way to driving revenue and market share.
@@ -49,7 +49,7 @@ I advise a few startups, including [Twistlock](https://www.twistlock.com/team/)
       <a href="http://blog.seagate.com/?s=Lee%20Calcote&search_by=author" rel="nofollow">Seagate blog</a>
     </li>
     <li class="gg">
-      <a href="http://blog.gingergeek.com/feed/" rel="nofollow">Ginger Geek blog feed</a>
+      <a href="http://gingergeek.com/feed/" rel="nofollow">Ginger Geek blog feed</a>
     </li>
   </ul>
 </div>

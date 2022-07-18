@@ -5,7 +5,7 @@ date: 2018-09-13T012:50:15+00:00
 author: Lee
 excerpt: This talk was presented at Developer Week Austin 2018. Characteristics such as portability, highly efficient sharing of system resources and broad support have made containers an increasingly popular choice. Mitigating Challenges through Automation and Orchestration? Read on.
 layout: post
-guid: http://blog.gingergeek.com/?p=1787
+guid: http://gingergeek.com/?p=1787
 permalink: /2018/09/automation-and-orchestration-in-a-container-world/
 categories:
   - cncf
@@ -15,7 +15,7 @@ tags:
   - containers
 ---
 
-<p><a href="https://blog.gingergeek.com/wp-content/uploads/2018/09/Automation-Orchestration-Container.jpg"><img class="alignright wp-image-2199 size-medium" src="https://blog.gingergeek.com/wp-content/uploads/2018/09/Automation-Orchestration-Container-300x129.jpg" alt="" width="300" height="129" srcset="http://blog.gingergeek.com/wp-content/uploads/2018/09/Automation-Orchestration-Container-300x129.jpg 300w, http://blog.gingergeek.com/wp-content/uploads/2018/09/Automation-Orchestration-Container-768x329.jpg 768w, http://blog.gingergeek.com/wp-content/uploads/2018/09/Automation-Orchestration-Container.jpg 800w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
+<p><a href="https://gingergeek.com/wp-content/uploads/2018/09/Automation-Orchestration-Container.jpg"><img class="alignright wp-image-2199 size-medium" src="https://gingergeek.com/wp-content/uploads/2018/09/Automation-Orchestration-Container-300x129.jpg" alt="" width="300" height="129" srcset="http://gingergeek.com/wp-content/uploads/2018/09/Automation-Orchestration-Container-300x129.jpg 300w, http://gingergeek.com/wp-content/uploads/2018/09/Automation-Orchestration-Container-768x329.jpg 768w, http://gingergeek.com/wp-content/uploads/2018/09/Automation-Orchestration-Container.jpg 800w" sizes="(max-width: 300px) 100vw, 300px" /></a></p>
 <p><em><a href="https://containerjournal.com/2018/09/17/automation-and-orchestration-in-a-container-world/" target="_blank" rel="nofollow noopener">Originally published</a> on Sept. 17th, 2018 on Container Journal.</em></p>
 <p>Since Docker began popularizing containers about five and a half years ago, this technology has become a key element of digital business transformation. Characteristics such as portability, highly efficient sharing of system resources and broad support have made containers an increasingly popular choice. In fact, in March 2017, a <u><a href="https://i.dell.com/sites/doccontent/business/solutions/whitepapers/en/Documents/Containers_Real_Adoption_2017_Dell_EMC_Forrester_Paper.pdf">Forrester study </a></u>found 66 percent of organizations that had adopted containers experienced accelerated developer efficiency, while 75 percent of companies achieved a moderate-to-significant increase in application deployment speed.<span id="more-2196"></span></p>
 <p>These positive impacts are accelerating container adoption; in SolarWinds’ recent “<u><a href="https://www.solarwinds.com/company/press-releases/2018-q2/solarwinds-study-of-it-professionals-finds-cloud-computing-is-top-transformative-technology-and-main-cause-of-mounting-performance-challenges">IT Trends Report 2018</a></u>,” 44 percent of respondents ranked containers as the most important technology priority today, and 38 percent of respondents ranked containers as the most important technology priority three to five years from now. These industry statistics confirm that container technology interest and adoption is increasing with time.</p>

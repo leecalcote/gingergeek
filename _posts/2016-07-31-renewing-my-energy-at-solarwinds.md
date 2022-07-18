@@ -5,7 +5,7 @@ date: 2016-07-31T21:51:39+00:00
 author: Lee
 excerpt: Headquartered in what has become my hometown, SolarWinds shares a campus with AMD in the southwestern corner of Austin.
 layout: post
-guid: http://blog.gingergeek.com/?p=1451
+guid: http://gingergeek.com/?p=1451
 permalink: /2016/07/renewing-my-energy-at-solarwinds/
 dsq_thread_id:
   - "5030071458"

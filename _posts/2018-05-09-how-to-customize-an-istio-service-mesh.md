@@ -5,7 +5,7 @@ date: 2018-05-09T013:20:15+00:00
 author: Lee
 excerpt: Working with Istio? Learn how to customize it to mesh along with your architectural needs.
 layout: post
-guid: http://blog.gingergeek.com/?p=1796
+guid: http://gingergeek.com/?p=1796
 permalink: /2018/05/how-to-customize-an-istio-service-mesh/
 categories:
   - cncf
@@ -15,7 +15,7 @@ tags:
   - containers
 ---
 
-<a href="https://pixabay.com/en/louvre-pyramid-mesh-perspective-2189967/"><img aria-describedby="caption-attachment-2050" class="wp-image-2050 size-medium" src="https://blog.gingergeek.com/wp-content/uploads/2018/05/louvre-2189967_crop-98f00246a2776bae3338fdcb88b2badf-300x200.jpg" alt="" width="300" height="200" srcset="http://blog.gingergeek.com/wp-content/uploads/2018/05/louvre-2189967_crop-98f00246a2776bae3338fdcb88b2badf-300x200.jpg 300w, http://blog.gingergeek.com/wp-content/uploads/2018/05/louvre-2189967_crop-98f00246a2776bae3338fdcb88b2badf.jpg 720w" sizes="(max-width: 300px) 100vw, 300px" /></a><p id="caption-attachment-2050" class="wp-caption-text">Louvre mesh perspective (source: jraffin via Pixabay)</p></div>
+<a href="https://pixabay.com/en/louvre-pyramid-mesh-perspective-2189967/"><img aria-describedby="caption-attachment-2050" class="wp-image-2050 size-medium" src="https://gingergeek.com/wp-content/uploads/2018/05/louvre-2189967_crop-98f00246a2776bae3338fdcb88b2badf-300x200.jpg" alt="" width="300" height="200" srcset="http://gingergeek.com/wp-content/uploads/2018/05/louvre-2189967_crop-98f00246a2776bae3338fdcb88b2badf-300x200.jpg 300w, http://gingergeek.com/wp-content/uploads/2018/05/louvre-2189967_crop-98f00246a2776bae3338fdcb88b2badf.jpg 720w" sizes="(max-width: 300px) 100vw, 300px" /></a><p id="caption-attachment-2050" class="wp-caption-text">Louvre mesh perspective (source: jraffin via Pixabay)</p></div>
 <p><em><a href="https://www.oreilly.com/ideas/how-to-customize-an-istio-service-mesh" target="_blank" rel="nofollow noopener">Originally published</a> on April 26th, 2018 on O’Reilly.</em></p>
 <p>Even though service meshes provide value outside of the use of microservices and containers, it&#8217;s in these environments that many teams first consider using a service mesh. The sheer volume of services that must be managed on an individual, distributed basis with microservices (versus centrally for a monolith) creates challenges for ensuring reliability, observability, and security of these services.</p>
 <p>Adoption of a container orchestrator addresses a layer of infrastructure needs, but leaves some application or service-level needs unmet. Rather than attempting to overcome distributed systems concerns by writing infrastructure logic into application code, some teams choose to manage these challenges with a service mesh. A service mesh can help by ensuring the responsibility of service management is centralized, avoiding redundant instrumentation, and making observability ubiquitous and uniform across services.<span id="more-2049"></span></p>

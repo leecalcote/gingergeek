@@ -5,7 +5,7 @@ date: 2018-12-03T012:06:15+00:00
 author: Lee
 excerpt: With containers, microservices and functions interweaving through modern application design, diligence is necessary to make sure you’re successfully navigating when to use containers and functions as application packaging technologies and how to employ post-deployment techniques. Wrangling with Container Management? Read on.
 layout: post
-guid: http://blog.gingergeek.com/?p=1798
+guid: http://gingergeek.com/?p=1798
 permalink: /2018/04/containers-and-functions-leveraging-ephemeral-infrastructure-effectively/
 categories:
   - cncf

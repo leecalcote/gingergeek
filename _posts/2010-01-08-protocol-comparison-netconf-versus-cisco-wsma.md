@@ -5,7 +5,7 @@ date: 2010-01-08T14:45:47+00:00
 author: Lee
 excerpt: "Herein lies a comparison of two similar, embedded network configuration management protocols: Cisco's Web Services Management Agent (WSMA) and NETCONF. This comparative analysis is broken down into different functional categories, each containing a category winner (based on my own opinion). This analysis is taken from a Cisco device-centric perspective."
 layout: post
-guid: http://blog.gingergeek.com/?p=787
+guid: http://gingergeek.com/?p=787
 permalink: /2010/01/protocol-comparison-netconf-versus-cisco-wsma/
 dsq_thread_id:
   - "4747852120"
@@ -87,11 +87,11 @@ WSMA supports the following transport protocols for transmission of it’s SOAP 
       </td>
       
       <td align="center">
-        <img class="size-full wp-image-736 aligncenter" src="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2009/11/check.gif?resize=24%2C24" alt="" data-recalc-dims="1" />
+        <img class="size-full wp-image-736 aligncenter" src="https://i0.wp.com/gingergeek.com/wp-content/uploads/2009/11/check.gif?resize=24%2C24" alt="" data-recalc-dims="1" />
       </td>
       
       <td align="center">
-        <img class="aligncenter size-full wp-image-736" src="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2009/11/check.gif?resize=24%2C24" alt="" data-recalc-dims="1" />
+        <img class="aligncenter size-full wp-image-736" src="https://i0.wp.com/gingergeek.com/wp-content/uploads/2009/11/check.gif?resize=24%2C24" alt="" data-recalc-dims="1" />
       </td>
     </tr>
     
@@ -101,11 +101,11 @@ WSMA supports the following transport protocols for transmission of it’s SOAP 
       </td>
       
       <td align="center">
-        <img class="aligncenter size-full wp-image-736" src="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2009/11/check.gif?resize=24%2C24" alt="" data-recalc-dims="1" />
+        <img class="aligncenter size-full wp-image-736" src="https://i0.wp.com/gingergeek.com/wp-content/uploads/2009/11/check.gif?resize=24%2C24" alt="" data-recalc-dims="1" />
       </td>
       
       <td align="center">
-        <img class="aligncenter size-full wp-image-736" src="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2009/11/check.gif?resize=24%2C24" alt="" data-recalc-dims="1" />
+        <img class="aligncenter size-full wp-image-736" src="https://i0.wp.com/gingergeek.com/wp-content/uploads/2009/11/check.gif?resize=24%2C24" alt="" data-recalc-dims="1" />
       </td>
     </tr>
     
@@ -115,11 +115,11 @@ WSMA supports the following transport protocols for transmission of it’s SOAP 
       </td>
       
       <td align="center">
-        <img class="aligncenter size-full wp-image-737" title="error" src="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2009/11/check.gif?resize=24%2C24" alt="error" data-recalc-dims="1" />
+        <img class="aligncenter size-full wp-image-737" title="error" src="https://i0.wp.com/gingergeek.com/wp-content/uploads/2009/11/check.gif?resize=24%2C24" alt="error" data-recalc-dims="1" />
       </td>
       
       <td align="center">
-        <img class="aligncenter size-full wp-image-736" src="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2009/11/check.gif?resize=24%2C24" alt="" data-recalc-dims="1" />
+        <img class="aligncenter size-full wp-image-736" src="https://i0.wp.com/gingergeek.com/wp-content/uploads/2009/11/check.gif?resize=24%2C24" alt="" data-recalc-dims="1" />
       </td>
     </tr>
     
@@ -129,11 +129,11 @@ WSMA supports the following transport protocols for transmission of it’s SOAP 
       </td>
       
       <td align="center">
-        <img class="aligncenter size-full wp-image-737" title="error" src="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2009/11/check.gif?resize=24%2C24" alt="error" data-recalc-dims="1" />
+        <img class="aligncenter size-full wp-image-737" title="error" src="https://i0.wp.com/gingergeek.com/wp-content/uploads/2009/11/check.gif?resize=24%2C24" alt="error" data-recalc-dims="1" />
       </td>
       
       <td align="center">
-        <img class="aligncenter size-full wp-image-736" src="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2009/11/check.gif?resize=24%2C24" alt="" data-recalc-dims="1" />
+        <img class="aligncenter size-full wp-image-736" src="https://i0.wp.com/gingergeek.com/wp-content/uploads/2009/11/check.gif?resize=24%2C24" alt="" data-recalc-dims="1" />
       </td>
     </tr>
     
@@ -143,11 +143,11 @@ WSMA supports the following transport protocols for transmission of it’s SOAP 
       </td>
       
       <td align="center">
-        <img class="aligncenter size-full wp-image-736" src="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2009/11/check.gif?resize=24%2C24" alt="" data-recalc-dims="1" />
+        <img class="aligncenter size-full wp-image-736" src="https://i0.wp.com/gingergeek.com/wp-content/uploads/2009/11/check.gif?resize=24%2C24" alt="" data-recalc-dims="1" />
       </td>
       
       <td align="center">
-        <img class="aligncenter size-full wp-image-736" src="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2009/11/check.gif?resize=24%2C24" alt="" data-recalc-dims="1" />
+        <img class="aligncenter size-full wp-image-736" src="https://i0.wp.com/gingergeek.com/wp-content/uploads/2009/11/check.gif?resize=24%2C24" alt="" data-recalc-dims="1" />
       </td>
     </tr>
     
@@ -157,11 +157,11 @@ WSMA supports the following transport protocols for transmission of it’s SOAP 
       </td>
       
       <td align="center">
-        <img class="aligncenter size-full wp-image-736" src="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2009/11/check.gif?resize=24%2C24" alt="" data-recalc-dims="1" />
+        <img class="aligncenter size-full wp-image-736" src="https://i0.wp.com/gingergeek.com/wp-content/uploads/2009/11/check.gif?resize=24%2C24" alt="" data-recalc-dims="1" />
       </td>
       
       <td align="center">
-        <img class="aligncenter size-full wp-image-737" title="error" src="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2009/11/error.gif?resize=24%2C23" alt="error" data-recalc-dims="1" />
+        <img class="aligncenter size-full wp-image-737" title="error" src="https://i0.wp.com/gingergeek.com/wp-content/uploads/2009/11/error.gif?resize=24%2C23" alt="error" data-recalc-dims="1" />
       </td>
     </tr>
     
@@ -171,11 +171,11 @@ WSMA supports the following transport protocols for transmission of it’s SOAP 
       </td>
       
       <td align="center">
-        <img class="aligncenter size-full wp-image-737" title="error" src="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2009/11/error.gif?resize=24%2C23" alt="error" data-recalc-dims="1" />
+        <img class="aligncenter size-full wp-image-737" title="error" src="https://i0.wp.com/gingergeek.com/wp-content/uploads/2009/11/error.gif?resize=24%2C23" alt="error" data-recalc-dims="1" />
       </td>
       
       <td>
-        <img class="aligncenter size-full wp-image-737" title="error" src="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2009/11/error.gif?resize=24%2C23" alt="error" data-recalc-dims="1" />
+        <img class="aligncenter size-full wp-image-737" title="error" src="https://i0.wp.com/gingergeek.com/wp-content/uploads/2009/11/error.gif?resize=24%2C23" alt="error" data-recalc-dims="1" />
       </td>
     </tr>
   </table>

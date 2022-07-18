@@ -5,7 +5,7 @@ date: 2018-12-18T012:41:15+00:00
 author: Lee
 excerpt: 
 layout: post
-guid: http://blog.gingergeek.com/?p=1025
+guid: http://gingergeek.com/?p=1025
 permalink: /2018/12/how-to-establish-an-open-source-program-office
 dsq_thread_id:
   - "4792268348"

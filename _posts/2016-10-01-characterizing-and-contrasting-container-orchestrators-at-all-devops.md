@@ -5,7 +5,7 @@ date: 2016-04-26T15:31:34+00:00
 author: Lee
 excerpt: Presented at All Day DevOps 2016
 layout: post
-guid: http://blog.gingergeek.com/?p=1099
+guid: http://gingergeek.com/?p=1099
 permalink: /2016/10/characterizing-and-contrasting-container-orchestrators-at-openstack-summit-container-day/
 dsq_thread_id:
   - "4792268348"
@@ -34,4 +34,4 @@ tags:
 <p><strong>Video:</strong></p>
 
 <p><iframe title="All Day DevOps: Characterizing and Contrasting Container Orchestrators w/ Lee Calcote" width="500" height="281" src="https://www.youtube.com/embed/P-wQaXlgaQg?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
- <a class="post-edit-link" href="https://blog.gingergeek.com/wp-admin/post.php?post=2162&#038;action=edit">Edit</a> </div>
+ <a class="post-edit-link" href="https://gingergeek.com/wp-admin/post.php?post=2162&#038;action=edit">Edit</a> </div>

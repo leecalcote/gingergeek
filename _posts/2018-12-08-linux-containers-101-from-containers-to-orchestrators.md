@@ -5,7 +5,7 @@ date: 2018-12-08T012:20:15+00:00
 author: Lee
 excerpt: 
 layout: post
-guid: http://blog.gingergeek.com/?p=1794
+guid: http://gingergeek.com/?p=1794
 permalink: /2018/12/linux-containers-101-from-containers-to-orchestrators
 categories:
   - cncf

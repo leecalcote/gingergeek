@@ -5,7 +5,7 @@ date: 2016-03-24T13:57:53+00:00
 author: Lee
 excerpt: While a hot topic at various conferences, Kubernetes is the sole technological focus at KubeCon, a conference dedicated to education and community engagement of Kubernauts (Kubernetes enthusiasts).
 layout: post
-guid: http://blog.gingergeek.com/?p=1058
+guid: http://gingergeek.com/?p=1058
 permalink: /2016/03/kubernetes-community-gathers-for-inaugural-european-edition-of-kubecon/
 dsq_thread_id:
   - "4749585553"
@@ -16,7 +16,7 @@ tags:
   - containers
   - kubernetes
 ---
-<img class="size-medium wp-image-1059 align left" title="" src="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2016/03/DSC_0008.jpg?resize=300%2C200" alt="DSC_0008" style="margin-right:.10in;margin-bottom:.05in;" srcset="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2016/03/DSC_0008.jpg?resize=300%2C200 300w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2016/03/DSC_0008.jpg?resize=768%2C511 768w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2016/03/DSC_0008.jpg?w=925 925w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" />
+<img class="size-medium wp-image-1059 align left" title="" src="https://i0.wp.com/gingergeek.com/wp-content/uploads/2016/03/DSC_0008.jpg?resize=300%2C200" alt="DSC_0008" style="margin-right:.10in;margin-bottom:.05in;" srcset="https://i0.wp.com/gingergeek.com/wp-content/uploads/2016/03/DSC_0008.jpg?resize=300%2C200 300w, https://i0.wp.com/gingergeek.com/wp-content/uploads/2016/03/DSC_0008.jpg?resize=768%2C511 768w, https://i0.wp.com/gingergeek.com/wp-content/uploads/2016/03/DSC_0008.jpg?w=925 925w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" />
 
 <small><em>Originally posted on <a href="http://www.networkworld.com/article/3046063/open-source-tools/kubernetes-community-gathers-for-inaugural-european-edition-of-kubecon.html" target="_blank">Network World</a> on March 24th, 2016. </em></small>
 

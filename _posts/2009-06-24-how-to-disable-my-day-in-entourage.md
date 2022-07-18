@@ -6,10 +6,10 @@ author: Lee
 excerpt: |
   When you install Microsoft Office 2008 for Mac, My Day conveniently adds itself to your list of applications to start up at login and pops-up in the upper-right hand corner of your screen each time you log into your Mac. If you'd like to get prevent My Day from starting up at login there are a couple ways to get rid of it.
 layout: post
-guid: http://blog.gingergeek.com/?p=436
+guid: http://gingergeek.com/?p=436
 permalink: /2009/06/how-to-disable-my-day-in-entourage/
 articleimg:
-  - http://blog.gingergeek.com/wp-content/uploads/2009/06/Entourage-My-Day-Logon-Preferences-200.png
+  - http://gingergeek.com/wp-content/uploads/2009/06/Entourage-My-Day-Logon-Preferences-200.png
 dsq_thread_id:
   - "4744291179"
 categories:
@@ -50,7 +50,7 @@ How to _turn off_ Entourage’s My Day:
 </ol>
 
 <div id="attachment_439" style="width: 160px" class="wp-caption alignright">
-  <a rel="attachment wp-att-439" href="http://blog.gingergeek.com/2009/06/how-to-disable-my-day-in-entourage/entourage-my-day-logon-preferences/"><img class="size-thumbnail wp-image-439" title="Entourage My Day - Logon Preferences" src="https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2009/06/Entourage-My-Day-Logon-Preferences.png?resize=150%2C150" alt="System Preferences -- data-recalc-dims="1"> Accounts --> Login Items" width="150" height="150" srcset="https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2009/06/Entourage-My-Day-Logon-Preferences.png?resize=150%2C150 150w, https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2009/06/Entourage-My-Day-Logon-Preferences.png?zoom=2&resize=150%2C150 300w, https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2009/06/Entourage-My-Day-Logon-Preferences.png?zoom=3&resize=150%2C150 450w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+  <a rel="attachment wp-att-439" href="http://gingergeek.com/2009/06/how-to-disable-my-day-in-entourage/entourage-my-day-logon-preferences/"><img class="size-thumbnail wp-image-439" title="Entourage My Day - Logon Preferences" src="https://i1.wp.com/gingergeek.com/wp-content/uploads/2009/06/Entourage-My-Day-Logon-Preferences.png?resize=150%2C150" alt="System Preferences -- data-recalc-dims="1"> Accounts --> Login Items" width="150" height="150" srcset="https://i1.wp.com/gingergeek.com/wp-content/uploads/2009/06/Entourage-My-Day-Logon-Preferences.png?resize=150%2C150 150w, https://i1.wp.com/gingergeek.com/wp-content/uploads/2009/06/Entourage-My-Day-Logon-Preferences.png?zoom=2&resize=150%2C150 300w, https://i1.wp.com/gingergeek.com/wp-content/uploads/2009/06/Entourage-My-Day-Logon-Preferences.png?zoom=3&resize=150%2C150 450w" sizes="(max-width: 150px) 100vw, 150px" /></a>
   
   <p class="wp-caption-text">
     System Preferences --> Accounts --> Login Items

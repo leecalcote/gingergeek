@@ -5,7 +5,7 @@ date: 2009-06-01T14:41:31+00:00
 author: Lee
 excerpt: A few easy steps can get your custom image on gravatar-enabled blogs.
 layout: post
-guid: http://blog.gingergeek.com/?p=3
+guid: http://gingergeek.com/?p=3
 permalink: /2009/06/how-to-create-an-avatargravatar-for-blogs/
 dsq_thread_id:
   - "20590243"

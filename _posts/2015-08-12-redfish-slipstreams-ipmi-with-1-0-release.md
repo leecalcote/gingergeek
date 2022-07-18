@@ -8,10 +8,10 @@ excerpt: |
   
   For those unfamiliar with this newly minted, industry API specification, understand that Redfish is a standard for data center and systems management that delivers improved performance, functionality, scalability and security. Designed to meet the expectations of end users for simple and interoperable management of modern scalable platform hardware, Redfish takes advantage of widely-used technologies to speed implementation and help system administrators be more effective.
 layout: post
-guid: http://blog.gingergeek.com/?p=960
+guid: http://gingergeek.com/?p=960
 permalink: /2015/08/redfish-slipstreams-ipmi-with-1-0-release/
 articleimg:
-  - http://blog.gingergeek.com/wp-content/uploads/2015/08/DMTF-Redfish-Logo.jpg
+  - http://gingergeek.com/wp-content/uploads/2015/08/DMTF-Redfish-Logo.jpg
 dsq_thread_id:
   - "4744833701"
 image: /wp-content/uploads/2015/08/DMTF-Redfish-Logo.jpg
@@ -23,7 +23,7 @@ tags:
 ---
  
 
-[<img class="alignleft size-medium wp-image-969" src="https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2015/08/DMTF-Redfish-Logo.jpg?resize=300%2C211" alt="DMTF Redfish Logo" srcset="https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2015/08/DMTF-Redfish-Logo.jpg?resize=300%2C211 300w, https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2015/08/DMTF-Redfish-Logo.jpg?w=375 375w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" />](https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2015/08/DMTF-Redfish-Logo.jpg)Last week, I was delighted to join in heralding the [announcement the release](http://www.dmtf.org/news/pr/2015/8/dmtf-helps-enable-multi-vendor-data-center-management-new-redfish-10-standard) of the Redfish 1.0 specification and highlight Seagate’s support of this emerging systems management API standard.
+[<img class="alignleft size-medium wp-image-969" src="https://i2.wp.com/gingergeek.com/wp-content/uploads/2015/08/DMTF-Redfish-Logo.jpg?resize=300%2C211" alt="DMTF Redfish Logo" srcset="https://i2.wp.com/gingergeek.com/wp-content/uploads/2015/08/DMTF-Redfish-Logo.jpg?resize=300%2C211 300w, https://i2.wp.com/gingergeek.com/wp-content/uploads/2015/08/DMTF-Redfish-Logo.jpg?w=375 375w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" />](https://i2.wp.com/gingergeek.com/wp-content/uploads/2015/08/DMTF-Redfish-Logo.jpg)Last week, I was delighted to join in heralding the [announcement the release](http://www.dmtf.org/news/pr/2015/8/dmtf-helps-enable-multi-vendor-data-center-management-new-redfish-10-standard) of the Redfish 1.0 specification and highlight Seagate’s support of this emerging systems management API standard.
 
 For those unfamiliar with this newly minted, [industry API specification](http://dmtf.org/standards/redfish), understand that Redfish is a standard for data center and systems management that delivers improved performance, functionality, scalability and security. Designed to meet the expectations of end users for simple and interoperable management of modern scalable platform hardware, Redfish takes advantage of widely-used technologies to speed implementation and help system administrators be more effective.<!--more-->
 

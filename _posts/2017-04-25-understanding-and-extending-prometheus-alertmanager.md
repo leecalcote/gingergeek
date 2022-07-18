@@ -5,7 +5,7 @@ date: 2017-04-25T20:34:08+00:00
 author: Lee
 excerpt: 'Understanding and Extending Prometheus AlertManager - at talk presented at CloudNativeCon + KubeCon EU 2017.'
 layout: post
-guid: http://blog.gingergeek.com/?p=1792
+guid: http://gingergeek.com/?p=1792
 permalink: /2017/04/understanding-and-extending-prometheus-alertmanager/
 dsq_thread_id:
   - "5759927249"

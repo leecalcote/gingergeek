@@ -5,7 +5,7 @@ date: 2009-07-06T22:36:37+00:00
 author: Lee
 excerpt: How to set Microsoft Entourage of Office 2008 for Mac automatically start on login into Mac OS X.
 layout: post
-guid: http://blog.gingergeek.com/?p=562
+guid: http://gingergeek.com/?p=562
 permalink: /2009/07/how-to-start-or-stop-microsoft-entourage-on-login-on-boot/
 dsq_thread_id:
   - "4745755594"
@@ -28,7 +28,7 @@ tags:
 To have Microsoft Entourage automatically load when logging into Mac OS  X, you can check the “Open at Login” option by right-clicking 
 
 <div id="attachment_565" style="width: 160px" class="wp-caption alignright">
-  <a rel="attachment wp-att-565" href="http://blog.gingergeek.com/2009/07/how-to-start-or-stop-microsoft-entourage-on-login-on-boot/entourage-added-to-login-items/"><img class="size-thumbnail wp-image-565" title="Microsoft Entourage added to Login Items to auto start on login" src="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2009/07/Entourage-added-to-Login-Items.png?resize=150%2C150" alt="Entourage added to Login Items" srcset="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2009/07/Entourage-added-to-Login-Items.png?resize=150%2C150 150w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2009/07/Entourage-added-to-Login-Items.png?zoom=2&resize=150%2C150 300w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2009/07/Entourage-added-to-Login-Items.png?zoom=3&resize=150%2C150 450w" sizes="(max-width: 150px) 100vw, 150px" data-recalc-dims="1" /></a>
+  <a rel="attachment wp-att-565" href="http://gingergeek.com/2009/07/how-to-start-or-stop-microsoft-entourage-on-login-on-boot/entourage-added-to-login-items/"><img class="size-thumbnail wp-image-565" title="Microsoft Entourage added to Login Items to auto start on login" src="https://i0.wp.com/gingergeek.com/wp-content/uploads/2009/07/Entourage-added-to-Login-Items.png?resize=150%2C150" alt="Entourage added to Login Items" srcset="https://i0.wp.com/gingergeek.com/wp-content/uploads/2009/07/Entourage-added-to-Login-Items.png?resize=150%2C150 150w, https://i0.wp.com/gingergeek.com/wp-content/uploads/2009/07/Entourage-added-to-Login-Items.png?zoom=2&resize=150%2C150 300w, https://i0.wp.com/gingergeek.com/wp-content/uploads/2009/07/Entourage-added-to-Login-Items.png?zoom=3&resize=150%2C150 450w" sizes="(max-width: 150px) 100vw, 150px" data-recalc-dims="1" /></a>
   
   <p class="wp-caption-text">
     Entourage added to Login Items
@@ -45,7 +45,7 @@ To have Microsoft Entourage automatically load when logging into Mac OS  X, you
 
 Use the same tools listed above to prevent Entourage from auto starting at login (by deselecting “Open at Login” or removing Entourage from the list of applications in Login Items).
   
-<a rel="attachment wp-att-572" href="http://blog.gingergeek.com/2009/07/how-to-start-or-stop-microsoft-entourage-on-login-on-boot/entourage-open-at-login/"><img class="size-thumbnail wp-image-572" title="Microsoft Entourage Open at Login Option" src="https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2009/07/Entourage-Open-at-Login.png?resize=150%2C150" alt="Entourage "Open at Login" Option" data-recalc-dims="1" /></a>
+<a rel="attachment wp-att-572" href="http://gingergeek.com/2009/07/how-to-start-or-stop-microsoft-entourage-on-login-on-boot/entourage-open-at-login/"><img class="size-thumbnail wp-image-572" title="Microsoft Entourage Open at Login Option" src="https://i2.wp.com/gingergeek.com/wp-content/uploads/2009/07/Entourage-Open-at-Login.png?resize=150%2C150" alt="Entourage "Open at Login" Option" data-recalc-dims="1" /></a>
 
 <blockquote style="width: 50%;">
   <p>

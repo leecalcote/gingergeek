@@ -5,7 +5,7 @@ date: 2016-11-10T08:10:58+00:00
 author: Lee
 excerpt: Presented at KubeCon + CloudNativeCon 2016 on Nov. 9th, 2016
 layout: post
-guid: http://blog.gingergeek.com/?p=1604
+guid: http://gingergeek.com/?p=1604
 permalink: /2016/11/growing-a-community-leveraging-meetups-to-educate-grow-and-facilitate/
 dsq_thread_id:
   - "5293491111"
@@ -23,5 +23,5 @@ Presented at KubeCon + CloudNativeCon 2016 on Nov. 9th, 2016 –> [Slides](http:
 
 <p style="text-align: center;">
   <p>
-    See also <a href="http://blog.gingergeek.com/2016/09/cloud-native-ambassadors-and-docker-captains-navigate-users-through-the-container-ecosystem/">Cloud Native Ambassadors and Docker Captains navigate users through the container ecosystem</a>.
+    See also <a href="http://gingergeek.com/2016/09/cloud-native-ambassadors-and-docker-captains-navigate-users-through-the-container-ecosystem/">Cloud Native Ambassadors and Docker Captains navigate users through the container ecosystem</a>.
   </p>

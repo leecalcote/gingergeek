@@ -5,7 +5,7 @@ date: 2009-07-08T23:42:42+00:00
 author: Lee
 excerpt: Despite my love for Firefox, I sorely miss the ability to view PDFs in my web browser. I was pleased to learn of the Firefox-Mac-PDF plugin for Firefox 3, which allows for the same inline PDF viewing found in Safari.
 layout: post
-guid: http://blog.gingergeek.com/?p=583
+guid: http://gingergeek.com/?p=583
 permalink: /2009/07/firefox-pdf-plugin-for-mac-os-x/
 dsq_thread_id:
   - "4833428650"
@@ -31,7 +31,7 @@ The plugin works on OS X 10.4+ both on PowerPC and on Intel Macs. To install Fir
   2. Download it from it’s Google Code [project page](http://code.google.com/p/firefox-mac-pdf/) and just open the Firefox Add-ons panel by going to Tools > Add-ons. Drag the downloaded “.xpi” file to the Add-ons. Once you restart Firefox you’ll be able to view all PDFs right within Firefox and will notice a Quartz PDF Plugin in the Firefox Extensions screen.
 
 <div id="attachment_587" style="width: 160px" class="wp-caption alignright">
-  <a rel="attachment wp-att-587" href="http://blog.gingergeek.com/2009/07/firefox-pdf-plugin-for-mac-os-x/firefox-mac-pdf-plugin-context-menu/"><img class="size-thumbnail wp-image-587" title="Firefox Mac PDF Plugin Context Menu" src="https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2009/07/Firefox-Mac-PDF-Plugin-Context-Menu.png?resize=150%2C150" alt="Firefox-Mac-PDF Plugin Context Menu" data-recalc-dims="1" /></a>
+  <a rel="attachment wp-att-587" href="http://gingergeek.com/2009/07/firefox-pdf-plugin-for-mac-os-x/firefox-mac-pdf-plugin-context-menu/"><img class="size-thumbnail wp-image-587" title="Firefox Mac PDF Plugin Context Menu" src="https://i1.wp.com/gingergeek.com/wp-content/uploads/2009/07/Firefox-Mac-PDF-Plugin-Context-Menu.png?resize=150%2C150" alt="Firefox-Mac-PDF Plugin Context Menu" data-recalc-dims="1" /></a>
   
   <p class="wp-caption-text">
     Firefox-Mac-PDF Plugin Context Menu

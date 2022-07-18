@@ -5,7 +5,7 @@ date: 2016-09-14T12:36:24+00:00
 author: Lee
 excerpt: 'While many gravitate toward network overlays as a popular approach to addressing container networking across hosts, the functions and types of container networking vary greatly and are worth better understanding as you consider the right type for your environment. '
 layout: post
-guid: http://blog.gingergeek.com/?p=1573
+guid: http://gingergeek.com/?p=1573
 permalink: /2016/09/container-networking-a-breakdown-explanation-and-analysis/
 dsq_thread_id:
   - "5244202506"
@@ -21,7 +21,7 @@ tags:
   - networking
   - swarm
 ---
-[<img data-id="1577"  src="https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2016/09/container-rope.jpg?resize=300%2C169" alt="container-rope" class="alignleft size-medium wp-image-1577" srcset="https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2016/09/container-rope.jpg?resize=300%2C169 300w, https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2016/09/container-rope.jpg?resize=768%2C432 768w, https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2016/09/container-rope.jpg?w=960 960w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" />](https://i2.wp.com/blog.gingergeek.com/wp-content/uploads/2016/09/container-rope.jpg)
+[<img data-id="1577"  src="https://i2.wp.com/gingergeek.com/wp-content/uploads/2016/09/container-rope.jpg?resize=300%2C169" alt="container-rope" class="alignleft size-medium wp-image-1577" srcset="https://i2.wp.com/gingergeek.com/wp-content/uploads/2016/09/container-rope.jpg?resize=300%2C169 300w, https://i2.wp.com/gingergeek.com/wp-content/uploads/2016/09/container-rope.jpg?resize=768%2C432 768w, https://i2.wp.com/gingergeek.com/wp-content/uploads/2016/09/container-rope.jpg?w=960 960w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" />](https://i2.wp.com/gingergeek.com/wp-content/uploads/2016/09/container-rope.jpg)
 
 <p style="text-align: right;">
   <em>Originally published on <a href="http://thenewstack.io/container-networking-breakdown-explanation-analysis/">The New Stack</a> on Sept. 4th, 2016.</em>

@@ -5,10 +5,10 @@ date: 2014-11-18T23:44:39+00:00
 author: Lee
 excerpt: Murano is an OpenStack-native application catalog that allows application developers and cloud administrators to publish applications in a categorized catalog to be perused and deployed by application consumers. The selection of applications available within the catalog is intended to be that of released versions (ready-state) of applications (cloud-native or enterprise-architected), not application versions that are mid-development. Ideally, these are applications ready to be consumed and run by application users.
 layout: post
-guid: http://blog.gingergeek.com/?p=899
+guid: http://gingergeek.com/?p=899
 permalink: /2014/11/going-native-with-openstack-centric-applications-murano/
 articleimg:
-  - http://blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano.png
+  - http://gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano.png
 dsq_thread_id:
   - "4744160277"
 image: /wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-tall.png
@@ -23,9 +23,9 @@ tags:
   - openstack
   - solum
 ---
-Following on our previous discussion [surveying the projects supporting applications within OpenStack](http://blog.gingergeek.com/2014/11/going-native-with-openstack-centric-applications-overview/), let’s continue our review with an in-depth look at the OpenStack-native Application Catalog: Murano, currently an incubation status project, having seen its functionality and core services integration advanced over the past few OpenStack releases.
+Following on our previous discussion [surveying the projects supporting applications within OpenStack](http://gingergeek.com/2014/11/going-native-with-openstack-centric-applications-overview/), let’s continue our review with an in-depth look at the OpenStack-native Application Catalog: Murano, currently an incubation status project, having seen its functionality and core services integration advanced over the past few OpenStack releases.
 
-[<img class="alignleft" src="https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano.png?w=150" alt="OpenStack Centric Applications - Murano"  data-recalc-dims="1" />](https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano.png)
+[<img class="alignleft" src="https://i1.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano.png?w=150" alt="OpenStack Centric Applications - Murano"  data-recalc-dims="1" />](https://i1.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano.png)
 
 ### What is it?
 
@@ -34,7 +34,7 @@ An application catalog developed by Mirantis, HP and others (now including Cisco
 ### Functionality Highlights
 
   * <div id="attachment_883" style="width: 310px" class="wp-caption alignright">
-      <a href="https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Catalog-UI.png"><img class="wp-image-883 size-medium" src="https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Catalog-UI.png?resize=300%2C207" alt="OpenStack Centric Applications - Murano Application Catalog UI" srcset="https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Catalog-UI.png?resize=300%2C207 300w, https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Catalog-UI.png?resize=1024%2C708 1024w, https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Catalog-UI.png?w=1196 1196w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a>
+      <a href="https://i1.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Catalog-UI.png"><img class="wp-image-883 size-medium" src="https://i1.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Catalog-UI.png?resize=300%2C207" alt="OpenStack Centric Applications - Murano Application Catalog UI" srcset="https://i1.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Catalog-UI.png?resize=300%2C207 300w, https://i1.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Catalog-UI.png?resize=1024%2C708 1024w, https://i1.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Catalog-UI.png?w=1196 1196w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a>
       
       <p class="wp-caption-text">
         Murano Application Catalog UI
@@ -68,7 +68,7 @@ As an application catalog, Murano, primarily focuses on three user personas, the
 
 #### Application Consumer
 
-[<img class="alignleft size-thumbnail wp-image-889" src="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-User-Persona.png?resize=150%2C150" alt="OpenStack Centric Applications - User Persona" srcset="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-User-Persona.png?resize=150%2C150 150w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-User-Persona.png?resize=300%2C300 300w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-User-Persona.png?w=677 677w" sizes="(max-width: 150px) 100vw, 150px" data-recalc-dims="1" />](https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-User-Persona.png)The _Application Consumer_ selects and deploys instances of applications into environments they define. The _Application Consumer_ also…
+[<img class="alignleft size-thumbnail wp-image-889" src="https://i0.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-User-Persona.png?resize=150%2C150" alt="OpenStack Centric Applications - User Persona" srcset="https://i0.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-User-Persona.png?resize=150%2C150 150w, https://i0.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-User-Persona.png?resize=300%2C300 300w, https://i0.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-User-Persona.png?w=677 677w" sizes="(max-width: 150px) 100vw, 150px" data-recalc-dims="1" />](https://i0.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-User-Persona.png)The _Application Consumer_ selects and deploys instances of applications into environments they define. The _Application Consumer_ also…
 
   * …browses catalog (search, category, tags, etc)
   * …creates new environments
@@ -100,7 +100,7 @@ The _Cloud Administrator_ is responsible for running the application catalog a
 Currently, Murano applications may be packaged using two different formats to describe the application – the
 
 <div id="attachment_884" style="width: 310px" class="wp-caption alignleft">
-  <a href="https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Packaging.png"><img class="wp-image-884 size-medium" src="https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Packaging.png?resize=300%2C155" alt="OpenStack Centric Applications - Murano Application Packaging" srcset="https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Packaging.png?resize=300%2C155 300w, https://i1.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Packaging.png?resize=1024%2C529 1024w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a>
+  <a href="https://i1.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Packaging.png"><img class="wp-image-884 size-medium" src="https://i1.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Packaging.png?resize=300%2C155" alt="OpenStack Centric Applications - Murano Application Packaging" srcset="https://i1.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Packaging.png?resize=300%2C155 300w, https://i1.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Application-Packaging.png?resize=1024%2C529 1024w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a>
   
   <p class="wp-caption-text">
     Murano Application Packaging Process
@@ -112,7 +112,7 @@ Currently, Murano applications may be packaged using two different formats to de
 See the “Murano Architectural Overview” diagram for a visual representation of how Murano is tightly integrated with core OpenStack services. It’s relationship to existing core services breaks down as follows:
 
 <div id="attachment_885" style="width: 310px" class="wp-caption alignright">
-  <a href="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Architectural-Overview.png"><img class="wp-image-885 size-medium" src="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Architectural-Overview.png?resize=300%2C140" alt="OpenStack Centric Applications - Murano Architectural Overview" srcset="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Architectural-Overview.png?resize=300%2C140 300w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Architectural-Overview.png?resize=1024%2C479 1024w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Architectural-Overview.png?w=2000 2000w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a>
+  <a href="https://i0.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Architectural-Overview.png"><img class="wp-image-885 size-medium" src="https://i0.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Architectural-Overview.png?resize=300%2C140" alt="OpenStack Centric Applications - Murano Architectural Overview" srcset="https://i0.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Architectural-Overview.png?resize=300%2C140 300w, https://i0.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Architectural-Overview.png?resize=1024%2C479 1024w, https://i0.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Architectural-Overview.png?w=2000 2000w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a>
   
   <p class="wp-caption-text">
     Murano Architectural Overview
@@ -198,7 +198,7 @@ See the “Murano Architectural Overview” diagram for a visual representation 
 </div>
 
 <div id="attachment_882" style="width: 310px" class="wp-caption alignleft">
-  <a href="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Actions.png"><img class="wp-image-882 size-medium" src="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Actions.png?resize=300%2C202" alt="OpenStack Centric Applications - Murano Actions" srcset="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Actions.png?resize=300%2C202 300w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Actions.png?w=995 995w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a>
+  <a href="https://i0.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Actions.png"><img class="wp-image-882 size-medium" src="https://i0.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Actions.png?resize=300%2C202" alt="OpenStack Centric Applications - Murano Actions" srcset="https://i0.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Actions.png?resize=300%2C202 300w, https://i0.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-Actions.png?w=995 995w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a>
   
   <p class="wp-caption-text">
     Murano Actions – application-specific scaling
@@ -262,7 +262,7 @@ The Murano team is looking to add autoscaling for Docker services, facilitate Do
 
 ### Murano as a Southbound Catalog
 
-[<img class="alignleft wp-image-930" src="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-tall.png?resize=165%2C200" alt="OpenStack Centric Applications - Murano" srcset="https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-tall.png?resize=246%2C300 246w, https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-tall.png?w=445 445w" sizes="(max-width: 165px) 100vw, 165px" data-recalc-dims="1" />](https://i0.wp.com/blog.gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-tall.png)Murano has two different northbound APIs to expose access to applications in the catalog – REST and AMQP (Services Broker). Within the Juno release, the Services Broker has only been prototyped. It’s scheduled to be fully-implemented in Kilo. While other use cases may exist, the primary use case for these northbound API revolves around allowing northbound catalogs to access and expose OpenStack-native applications.
+[<img class="alignleft wp-image-930" src="https://i0.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-tall.png?resize=165%2C200" alt="OpenStack Centric Applications - Murano" srcset="https://i0.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-tall.png?resize=246%2C300 246w, https://i0.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-tall.png?w=445 445w" sizes="(max-width: 165px) 100vw, 165px" data-recalc-dims="1" />](https://i0.wp.com/gingergeek.com/wp-content/uploads/2014/11/OpenStack-Centric-Applications-Murano-tall.png)Murano has two different northbound APIs to expose access to applications in the catalog – REST and AMQP (Services Broker). Within the Juno release, the Services Broker has only been prototyped. It’s scheduled to be fully-implemented in Kilo. While other use cases may exist, the primary use case for these northbound API revolves around allowing northbound catalogs to access and expose OpenStack-native applications.
 
 The _Services Broker_ supports CRUD and binds service with your application. A proof of concept has been completed to integrate Cloud Foundry with Murano via the Service Broker. When CloudFoundry is integrated to Murano, CloudFoundry users see and order Murano applications in CloudFoundry.
 

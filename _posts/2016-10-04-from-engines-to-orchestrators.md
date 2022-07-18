@@ -5,7 +5,7 @@ date: 2016-10-04T21:34:05+00:00
 author: Lee
 excerpt: An introduction to container runtimes (engines) and an understanding of when container orchestrators enter and what role they play. We’ll look at what makes them alike, yet unique.
 layout: post
-guid: http://blog.gingergeek.com/?p=1545
+guid: http://gingergeek.com/?p=1545
 permalink: /2016/10/from-engines-to-orchestrators/
 dsq_thread_id:
   - "5200332054"
