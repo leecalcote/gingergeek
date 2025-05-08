@@ -20,19 +20,20 @@ body {
 // Colors
 // --------------------------------------------------
 $base-color				 : rgba(#222,0.8);
-$header-color			 : rgba(#000,0.8);
+$header-color			 : rgba(#333,0.8);
 $sub-item-color			 : rgba(#000, 0.1);
-$header-margin			 : #F45145;
-$menu-top				 : white;
+$header-margin			 : #dd8338;
+$menu-top				 : #333;
 $menu-height			 : 70px;
 $menu-overflow			 : #2E2E2E;
-$body-color      		 : #e8e8e8;
-$text-color      		 : rgba(#222,0.8);
+$body-color      		 : #484848;
+$page-color 			 : #282828;
+$text-color      		 : rgba(#cecece,0.9);
 $comp-color 	 		 : complement(#222);
 $border-color    		 : lighten(#222,60);
 $white           		 : #fff;
 $black           		 : #000;
-$link-color 		     : #dd8338;
+$link-color 		     : #fff;
 
 $primary			     : #222;
 $success			     : #5cb85c;
