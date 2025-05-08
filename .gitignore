@@ -36,5 +36,7 @@
 ehthumbs.db
 Thumbs.db
 _site
+_site/*
 .sass-cache
 .sass-cache/*
+
