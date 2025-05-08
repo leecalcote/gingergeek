@@ -1,13 +1,13 @@
 ---
 layout: home
-title: "Lee Calcote"
+
 description: "clouds, containers, infrastructure, applications and their management"
 tags: [Jekyll, theme, themes, responsive, blog, modern]
 comments: false
 ---
 
 {% for post in paginator.posts %}
-<article class="hentry">
+<article class="entry">
   <header>
     {% if post.image.feature %}
       <div class="entry-image-index">
@@ -39,8 +39,8 @@ comments: false
               <div markdown="0"><a href="{{ site.url }}{{ post.url }}" class="btn btn-info">Continue Reading ...</a></div>
           </div>
       {% endif %}
-  </div><!-- /.entry-content -->
-</article><!-- /.hentry -->
+  </div>
+</article>
 {% endfor %}
 
 {% include pagination.html %}

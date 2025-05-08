@@ -23,14 +23,14 @@ a {
 	text-decoration: none;
 	color: $link-color; 
 	&:visited { 
-		color: lighten($link-color, 20); 
+		color: $link-color;  
 	}
 	&:hover { 
 		color: darken($link-color, 20); 
 	}
 	&:focus { 
 		outline: thin dotted; 
-		color: darken($link-color, 20);
+		color: darken($link-color, 40);
 	}
 	&:hover, 
 	&:active { 
