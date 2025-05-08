@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-<title type="text">Ginger Geek</title>
+<title type="text">Lee Calcote</title>
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
 <link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2022-07-18T09:29:11-05:00</updated>
+<updated>2025-05-08T15:53:38-05:00</updated>
 <id>http://localhost:4000/</id>
 <author>
   <name>Lee Calcote</name>
@@ -42,7 +42,7 @@
 &lt;/button&gt;
 &lt;!-- /wp:file --&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2019/10/service-meshes-but-at-what-cost/&quot;&gt;Talk - Service Meshes, but at what cost&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on October 04, 2019.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2019/10/service-meshes-but-at-what-cost/&quot;&gt;Talk - Service Meshes, but at what cost&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lee Calcote&lt;/a&gt; on October 04, 2019.&lt;/p&gt;
   </content>
 </entry>
 
@@ -72,7 +72,7 @@
 &lt;p&gt;This talk was presented at InnoTech Austin 2018. Slides below &amp;#8211;&lt;/p&gt;
 &lt;div align=&quot;center&quot;&gt;&lt;iframe src=&quot;https://calcotestudios.com/talks/decks/slides-innotech-austin-2018-establishing-an-open-source-office.html&quot; width=&quot;640&quot; height=&quot;420&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;span data-mce-type=&quot;bookmark&quot; style=&quot;display: inline-block; width: 0px; overflow: hidden; line-height: 0;&quot; class=&quot;mce_SELRES_start&quot;&gt;﻿&lt;/span&gt;&lt;/iframe&gt;&lt;a href=&quot;https://calcotestudios.com/talks/decks/slides-innotech-austin-2018-establishing-an-open-source-office.html&quot;&gt;open slides&lt;/a&gt;&lt;/div&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2018/12/how-to-establish-an-open-source-program-office&quot;&gt;How to establish an open source program office&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on December 18, 2018.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2018/12/how-to-establish-an-open-source-program-office&quot;&gt;How to establish an open source program office&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lee Calcote&lt;/a&gt; on December 18, 2018.&lt;/p&gt;
   </content>
 </entry>
 
@@ -96,7 +96,7 @@
 
 &lt;a href=&quot;https://calcotestudios.com/talks/decks/slides-developerweek-austin-2018-linux-containers-101&quot;&gt;open slides&lt;/a&gt;&lt;/div&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2018/12/linux-containers-101-from-containers-to-orchestrators&quot;&gt;Talk - Linux Containers 101 – from engines to orchestrators&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on December 08, 2018.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2018/12/linux-containers-101-from-containers-to-orchestrators&quot;&gt;Talk - Linux Containers 101 – from engines to orchestrators&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lee Calcote&lt;/a&gt; on December 08, 2018.&lt;/p&gt;
   </content>
 </entry>
 
@@ -123,7 +123,7 @@
 &lt;p&gt;&lt;strong&gt;Slides:&lt;/strong&gt;&lt;/p&gt;
 &lt;div align=&quot;center&quot;&gt;&lt;iframe src=&quot;https://calcotestudios.com/talks/decks/slides-innotech-san-antonio-2018-what-it-means-to-be-cloud-native.html&quot; width=&quot;640&quot; height=&quot;420&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;span data-mce-type=&quot;bookmark&quot; style=&quot;display: inline-block; width: 0px; overflow: hidden; line-height: 0;&quot; class=&quot;mce_SELRES_start&quot;&gt;﻿&lt;/span&gt;&lt;/iframe&gt;&lt;/div&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2018/04/what-it-means-to-be-cloud-native/&quot;&gt;What it means to be Cloud Native&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on December 08, 2018.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2018/04/what-it-means-to-be-cloud-native/&quot;&gt;What it means to be Cloud Native&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lee Calcote&lt;/a&gt; on December 08, 2018.&lt;/p&gt;
   </content>
 </entry>
 
@@ -146,7 +146,7 @@
 &lt;p&gt;&lt;strong&gt;Video:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;iframe title=&quot;The Serverless Landscape &amp;amp; the CNCF - Innovate Summit 2017&quot; width=&quot;500&quot; height=&quot;281&quot; src=&quot;https://www.youtube.com/embed/iEdltQgfNLU?feature=oembed&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2017/12/innovate-summit-2017-state-of-serverless-the-cncf/&quot;&gt;Innovate Summit 2017 - State of Serverless &amp; the CNCF&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on December 08, 2018.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2017/12/innovate-summit-2017-state-of-serverless-the-cncf/&quot;&gt;Innovate Summit 2017 - State of Serverless &amp; the CNCF&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lee Calcote&lt;/a&gt; on December 08, 2018.&lt;/p&gt;
   </content>
 </entry>
 
@@ -215,7 +215,7 @@ Conclusion&lt;/p&gt;
 
 &lt;p&gt;As containers, microservices and functions become even more integrated into hybrid and cloud environments, you must remain diligent to ensure you’re navigating these aspects of the modern application development landscape successfully. Implementing several universal best practices including prioritizing observability, adopting modern DevOps monitoring tools, application design and knowing specific use cases can all help you succeed in the world of containers, microservices and functions.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2018/04/containers-and-functions-leveraging-ephemeral-infrastructure-effectively/&quot;&gt;Containers and Functions - Leveraging Ephemeral Infrastructure Effectively&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on December 03, 2018.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2018/04/containers-and-functions-leveraging-ephemeral-infrastructure-effectively/&quot;&gt;Containers and Functions - Leveraging Ephemeral Infrastructure Effectively&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lee Calcote&lt;/a&gt; on December 03, 2018.&lt;/p&gt;
   </content>
 </entry>
 
@@ -260,7 +260,7 @@ Conclusion&lt;/p&gt;
 &lt;p&gt;Implementing automation tooling and orchestration can enhance strategies and tactics to enable smooth container use and adoption, and several additional best practices can help ensure successful implementation and deployment. Beyond automation and orchestration, technology professionals without a background in software engineering should also look to learn scripting, as it will serve them well as deployments scale. Practice building efficient container images, using multi-stage builds, and sorting multi-line arguments alphanumerically is also key. Docker even offers &lt;u&gt;&lt;a href=&quot;https://docs.docker.com/develop/develop-images/dockerfile_best-practices/&quot;&gt;best practices and methods&lt;/a&gt;&lt;/u&gt; for building container images.&lt;/p&gt;
 &lt;p&gt;At the end of the day, as emerging technologies with higher-level capabilities such as functions and serverless platforms, service meshes, analytics, and machine learning are poised to augment container technology in the coming years, it’s important for administrators to skill up now more than ever.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2018/09/automation-and-orchestration-in-a-container-world/&quot;&gt;Automation and Orchestration in a Container World&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on September 13, 2018.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2018/09/automation-and-orchestration-in-a-container-world/&quot;&gt;Automation and Orchestration in a Container World&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lee Calcote&lt;/a&gt; on September 13, 2018.&lt;/p&gt;
   </content>
 </entry>
 
@@ -328,7 +328,7 @@ Conclusion&lt;/p&gt;
 
 &lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2018/08/now-available-the-enterprise-path-to-service-mesh-architectures/&quot;&gt;Now Available - The Enterprise Path to Service Mesh Architectures&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on September 08, 2018.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2018/08/now-available-the-enterprise-path-to-service-mesh-architectures/&quot;&gt;Now Available - The Enterprise Path to Service Mesh Architectures&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lee Calcote&lt;/a&gt; on September 08, 2018.&lt;/p&gt;
   </content>
 </entry>
 
@@ -361,7 +361,7 @@ Conclusion&lt;/p&gt;
 &lt;p&gt;Though Envoy is the default service proxy sidecar, you may choose another service proxy for your sidecar. While there are multiple service proxies in the ecosystem, outside of Envoy, only two have currently demonstrated integration with Istio: Linkerd and NGINX. The arrival of choice in service proxies for Istio has generated a lot of excitement. &lt;a href=&quot;https://linkerd.io/getting-started/istio/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener&quot;&gt;Linkerd’s integration&lt;/a&gt; was created early in Istio’s 0.1.6 release. Similarly, the &lt;a href=&quot;https://github.com/nginmesh/nginmesh&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener&quot;&gt;nginMesh&lt;/a&gt; project has drawn much interest in the use of NGINX as Istio’s service proxy, as many organizations have broad and deep operational expertise built around this battle-tested proxy.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Learn more about how to deploy your sidecar (Istio proxy) of choice in the free webcast &amp;#8220;&lt;/em&gt;&lt;a href=&quot;https://www.oreilly.com/pub/e/3926?intcmp=il-data-webcast-lp-webcast_new_site_how-to-customize-an-istio-service-mesh_end_body_link_cta&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener&quot;&gt;&lt;em&gt;Istio &amp;#8211; The extensible service mesh&lt;/em&gt;&lt;/a&gt;&lt;em&gt;&amp;#8220;.&lt;/em&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2018/05/how-to-customize-an-istio-service-mesh/&quot;&gt;How to customize an Istio Service Mesh&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on May 09, 2018.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2018/05/how-to-customize-an-istio-service-mesh/&quot;&gt;How to customize an Istio Service Mesh&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lee Calcote&lt;/a&gt; on May 09, 2018.&lt;/p&gt;
   </content>
 </entry>
 
@@ -400,7 +400,7 @@ Conclusion&lt;/p&gt;
 
 &lt;p&gt;_ &lt;a href=&quot;http://opennetworkingusergroup.com/the-hybrid-evolution-of-it/#_ftnref4&quot; name=&quot;_ftn4&quot;&gt;&lt;sup&gt;[4]&lt;/sup&gt;&lt;/a&gt;&lt;em&gt;IT Trends Report 2016: The Hybrid IT Evolution&lt;/em&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2017/04/the-hybrid-evolution-of-it/&quot;&gt;The Hybrid Evolution of IT&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on April 25, 2017.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2017/04/the-hybrid-evolution-of-it/&quot;&gt;The Hybrid Evolution of IT&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lee Calcote&lt;/a&gt; on April 25, 2017.&lt;/p&gt;
   </content>
 </entry>
 
@@ -428,7 +428,7 @@ Conclusion&lt;/p&gt;
   &lt;li&gt;Talk &lt;a href=&quot;https://youtu.be/jpb6fLQOgn4&quot;&gt;video&lt;/a&gt;{.deck}&lt;/li&gt;
 &lt;/ul&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2017/04/understanding-and-extending-prometheus-alertmanager/&quot;&gt;Understanding and Extending Prometheus AlertManager&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on April 25, 2017.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2017/04/understanding-and-extending-prometheus-alertmanager/&quot;&gt;Understanding and Extending Prometheus AlertManager&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lee Calcote&lt;/a&gt; on April 25, 2017.&lt;/p&gt;
   </content>
 </entry>
 
@@ -449,7 +449,7 @@ Conclusion&lt;/p&gt;
   &lt;br /&gt; Presented at &lt;a href=&quot;https://cloudnativeeu2017.sched.com/event/9Tc3?iframe=no&quot;&gt;CloudNativeCon + KubeCon EU 2017&lt;/a&gt;.
 &lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2017/03/create-great-cncf-user-base-from-lessons-learned-from-other-open-source-communities/&quot;&gt;Create Great CNCF User-Base from Lessons Learned from Other Open Source Communities&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on March 30, 2017.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2017/03/create-great-cncf-user-base-from-lessons-learned-from-other-open-source-communities/&quot;&gt;Create Great CNCF User-Base from Lessons Learned from Other Open Source Communities&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lee Calcote&lt;/a&gt; on March 30, 2017.&lt;/p&gt;
   </content>
 </entry>
 
@@ -484,7 +484,7 @@ Conclusion&lt;/p&gt;
 
 &lt;p&gt;Read the full article on &lt;a href=&quot;https://www.oreilly.com/learning/developer-defined-application-delivery&quot;&gt;O’Reilly&lt;/a&gt;.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2017/03/developer-defined-application-delivery/&quot;&gt;Developer-defined application delivery&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on March 11, 2017.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/2017/03/developer-defined-application-delivery/&quot;&gt;Developer-defined application delivery&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lee Calcote&lt;/a&gt; on March 11, 2017.&lt;/p&gt;
   </content>
 </entry>
 
@@ -613,7 +613,7 @@ Conclusion&lt;/p&gt;
 &lt;p&gt;Non Pygments code example&lt;/p&gt;
 
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;div id=&quot;awesome&quot;&amp;gt;
-    &amp;lt;p&amp;gt;This is great isn't it?&amp;lt;/p&amp;gt;
+    &amp;lt;p&amp;gt;This is great isn&apos;t it?&amp;lt;/p&amp;gt;
 &amp;lt;/div&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
@@ -640,7 +640,7 @@ Conclusion&lt;/p&gt;
 
 &lt;p&gt;The image must be in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/images&lt;/code&gt; folder.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/intro/sample-post/&quot;&gt;Sample Post&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on December 02, 2016.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/intro/sample-post/&quot;&gt;Sample Post&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lee Calcote&lt;/a&gt; on December 02, 2016.&lt;/p&gt;
   </content>
 </entry>
 
@@ -658,7 +658,7 @@ Conclusion&lt;/p&gt;
     <email>lee@calcotestudios.com</email>
   </author>
   <content type="html">
-    &lt;p&gt;Syntax highlighting is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. Highlighting does not affect the meaning of the text itself; it is intended only for human readers.&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+    &lt;p&gt;Syntax highlighting is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. Highlighting does not affect the meaning of the text itself; it is intended only for human readers.&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot; role=&quot;doc-noteref&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;rouge-code-blocks&quot;&gt;Rouge Code Blocks&lt;/h3&gt;
 
@@ -685,14 +685,14 @@ Conclusion&lt;/p&gt;
       &lt;span class=&quot;vi&quot;&gt;@site&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;
       &lt;span class=&quot;vi&quot;&gt;@base&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;base&lt;/span&gt;
       &lt;span class=&quot;vi&quot;&gt;@dir&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dir&lt;/span&gt;
-      &lt;span class=&quot;vi&quot;&gt;@name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'index.html'&lt;/span&gt;
+      &lt;span class=&quot;vi&quot;&gt;@name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;index.html&apos;&lt;/span&gt;
       &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;process&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;read_yaml&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;File&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;base&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'_layouts'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'tag_index.html'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'tag'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;tag_title_prefix&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'tag_title_prefix'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Tagged: '&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;tag_title_suffix&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'tag_title_suffix'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'&amp;amp;#8211;'&lt;/span&gt;
-      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'title'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tag_title_prefix&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'description'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;An archive of posts tagged &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.&quot;&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;read_yaml&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;File&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;base&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;_layouts&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;tag_index.html&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;tag&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;tag_title_prefix&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;tag_title_prefix&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;Tagged: &apos;&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;tag_title_suffix&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;tag_title_suffix&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;&amp;amp;#8211;&apos;&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;title&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tag_title_prefix&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;description&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;An archive of posts tagged &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.&quot;&lt;/span&gt;
     &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
   &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
@@ -711,13 +711,13 @@ Conclusion&lt;/p&gt;
 
 &lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
   &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
       &lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Syntax_highlighting&quot;&gt;http://en.wikipedia.org/wiki/Syntax_highlighting&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/intro/code-highlighting-post/&quot;&gt;Syntax Highlighting Post&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on December 01, 2016.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/intro/code-highlighting-post/&quot;&gt;Syntax Highlighting Post&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lee Calcote&lt;/a&gt; on December 01, 2016.&lt;/p&gt;
   </content>
 </entry>
 
@@ -740,7 +740,7 @@ Conclusion&lt;/p&gt;
 
 &lt;p&gt;on your post. This theme adds a dark background with a white panel to show your content.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/dark-post/&quot;&gt;Dark Post&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on November 30, 2016.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/dark-post/&quot;&gt;Dark Post&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lee Calcote&lt;/a&gt; on November 30, 2016.&lt;/p&gt;
   </content>
 </entry>
 
@@ -768,7 +768,7 @@ Conclusion&lt;/p&gt;
 
 &lt;div xmlns:cc=&quot;http://creativecommons.org/ns#&quot; xmlns:dct=&quot;http://purl.org/dc/terms/&quot; about=&quot;http://subtlepatterns.com&quot; class=&quot;notice&quot;&gt;Background images from &lt;span property=&quot;dct:title&quot;&gt;Subtle Patterns&lt;/span&gt; (&lt;a rel=&quot;cc:attributionURL&quot; property=&quot;cc:attributionName&quot; href=&quot;http://subtlepatterns.com&quot;&gt;Subtle Patterns&lt;/a&gt;) / &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/3.0/&quot;&gt;CC BY-SA 3.0&lt;/a&gt;&lt;/div&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/image/background-image/&quot;&gt;Post with a Background Image&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on November 29, 2016.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/image/background-image/&quot;&gt;Post with a Background Image&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lee Calcote&lt;/a&gt; on November 29, 2016.&lt;/p&gt;
   </content>
 </entry>
 
@@ -787,7 +787,7 @@ Conclusion&lt;/p&gt;
   <content type="html">
     &lt;p&gt;This theme supports &lt;strong&gt;link posts&lt;/strong&gt;, made famous by John Gruber. To use, just add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;link: http://url-you-want-linked&lt;/code&gt; to the post’s YAML front matter and you’re done.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/intro/sample-link-post/&quot;&gt;Sample Link Post&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on November 28, 2016.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/intro/sample-link-post/&quot;&gt;Sample Link Post&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lee Calcote&lt;/a&gt; on November 28, 2016.&lt;/p&gt;
   </content>
 </entry>
 
@@ -815,7 +815,7 @@ Conclusion&lt;/p&gt;
 {:/nomarkdown}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/intro/video-post/&quot;&gt;A Post with a Video&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on November 27, 2016.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/intro/video-post/&quot;&gt;A Post with a Video&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lee Calcote&lt;/a&gt; on November 27, 2016.&lt;/p&gt;
   </content>
 </entry>
 
@@ -930,7 +930,7 @@ Available values: [1..3].&lt;/li&gt;
 &lt;/figure&gt;
 
 
-    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/sample/intro/sample-post-images/&quot;&gt;A Post with Images&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Ginger Geek&lt;/a&gt; on November 26, 2016.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/sample/intro/sample-post-images/&quot;&gt;A Post with Images&lt;/a&gt; was originally published by Lee Calcote at &lt;a href=&quot;http://localhost:4000&quot;&gt;Lee Calcote&lt;/a&gt; on November 26, 2016.&lt;/p&gt;
   </content>
 </entry>
 
